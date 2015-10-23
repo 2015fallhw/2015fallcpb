@@ -10,11 +10,11 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
+<v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
+<v t="amd.20150919102739.1"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20151007224830.1"><vh>Jupyter 安裝與執行</vh></v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
@@ -22,9 +22,9 @@
 <v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
 <v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
-<v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
+<v t="amd.20150919114010.1"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
-<v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
+<v t="amd.20151006113136.1"><vh>@path content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
@@ -33,10 +33,10 @@
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
 <v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
-<v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
-<v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
-<v t="amd.20150915211351.5" a="E"><vh>div class="reveal"</vh>
-<v t="amd.20150915211351.6" a="E"><vh>div class="slides"</vh>
+<v t="amd.20150915211351.1"><vh>html 標註</vh>
+<v t="amd.20150915211351.4"><vh>body 標註</vh>
+<v t="amd.20150915211351.5"><vh>div class="reveal"</vh>
+<v t="amd.20150915211351.6"><vh>div class="slides"</vh>
 <v t="amd.20150915211351.7"><vh>有關我的作業</vh></v>
 <v t="amd.20150915211351.9"><vh>作業任務一</vh></v>
 <v t="amd.20150915211351.12"><vh>第3張投影片</vh></v>
@@ -47,28 +47,46 @@
 </v>
 </v>
 </v>
-<v t="amd.20151021113722.1"><vh>@path plugin</vh>
-<v t="amd.20151021113731.1" a="E"><vh>@path liquid_tags</vh>
+<v t="amd.20151021113722.1" a="E"><vh>@path plugin</vh>
+<v t="amd.20151021113731.1"><vh>@path liquid_tags</vh>
 <v t="amd.20151021113745.1"><vh>@edit notebook.py</vh></v>
 </v>
 </v>
 <v t="amd.20151021114454.1" a="E"><vh>@path user</vh>
 <v t="amd.20151021114529.1"><vh>各組員必須自行建立 以下節點</vh></v>
-<v t="amd.20151021114504.1" a="E"><vh>@path 9999</vh>
+<v t="amd.20151021114504.1"><vh>@path 9999</vh>
 <v t="amd.20151021213523.1"><vh>以下為投影片 ------------</vh></v>
 <v t="amd.20151021114639.1"><vh>@edit 9999_cp_w1_p.html</vh></v>
 <v t="amd.20151021114516.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151021213548.1"><vh>以下為設定檔 ------------</vh></v>
 <v t="amd.20151021114727.1"><vh>@edit publishconf.py</vh></v>
-<v t="amd.20151021114712.1" a="E"><vh>@path content</vh>
+<v t="amd.20151021114712.1"><vh>@path content</vh>
 <v t="amd.20151021213558.1"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="amd.20151021114905.1"><vh>@edit 9999_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
+<v t="233.20151023151531.1" a="E"><vh>@path 40423212</vh>
+<v t="233.20151023151531.2"><vh>以下為投影片 ------------</vh></v>
+<v t="233.20151023151531.3"><vh>@edit 40423212_cp_w1_p.html</vh></v>
+<v t="233.20151023151531.4" a="E"><vh>@path pelican</vh>
+<v t="233.20151023151531.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="233.20151023151531.6"><vh>@edit publishconf.py</vh></v>
+<v t="233.20151023151531.7" a="E"><vh>@path content</vh>
+<v t="233.20151023151531.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="233.20151023151531.9"><vh>@edit 40423212_cp_w1.md</vh></v>
 </v>
 </v>
 </v>
 </v>
 </vnodes>
 <tnodes>
+<t tx="233.20151023151531.1"></t>
+<t tx="233.20151023151531.2"></t>
+<t tx="233.20151023151531.4"></t>
+<t tx="233.20151023151531.5"></t>
+<t tx="233.20151023151531.7"></t>
+<t tx="233.20151023151531.8"></t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

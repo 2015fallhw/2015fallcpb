@@ -102,6 +102,18 @@
 </v>
 </v>
 </v>
+<v t="leo.20151023155633.1" a="E"><vh>@path 40123210</vh>
+<v t="leo.20151023155633.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151023155633.3"><vh>@edit 40123210_cp_w1_p.html</vh></v>
+<v t="leo.20151023155633.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023155633.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151023155633.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151023155633.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023155633.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151023155633.9"><vh>@edit 40123210_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
 </v>
 </vnodes>
 <tnodes>
@@ -317,7 +329,13 @@ g.es("admin pelican 執行完畢")</t>
 <t tx="leo.20151023141050.8"></t>
 <t tx="leo.20151023152335.1"></t>
 <t tx="leo.20151023152335.2"></t>
-<t tx="leo.20151023152335.3">@language html
+<t tx="leo.20151023152335.4"></t>
+<t tx="leo.20151023152335.5"></t>
+<t tx="leo.20151023152335.7"></t>
+<t tx="leo.20151023152335.8"></t>
+<t tx="leo.20151023155633.1"></t>
+<t tx="leo.20151023155633.2"></t>
+<t tx="leo.20151023155633.3">@language html
 &lt;!--
 這個檔案展示了 reveal.js 投影片資料的基本架構
 其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
@@ -374,9 +392,9 @@ g.es("admin pelican 執行完畢")</t>
 &lt;/body&gt;
 
 </t>
-<t tx="leo.20151023152335.4"></t>
-<t tx="leo.20151023152335.5"></t>
-<t tx="leo.20151023152335.6">@language python
+<t tx="leo.20151023155633.4"></t>
+<t tx="leo.20151023155633.5"></t>
+<t tx="leo.20151023155633.6">@language python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
@@ -386,8 +404,8 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = '40423243'
-SITENAME = '2015FALL 40423243 CPB 作業'
+AUTHOR = '40123210'
+SITENAME = '2015FALL 40123210 CPB 作業'
 SITEURL = ''
 
 PATH = 'content'
@@ -435,9 +453,9 @@ NOTEBOOK_DIR = 'notebook'
 
 
 </t>
-<t tx="leo.20151023152335.7"></t>
-<t tx="leo.20151023152335.8"></t>
-<t tx="leo.20151023152335.9">@language md
+<t tx="leo.20151023155633.7"></t>
+<t tx="leo.20151023155633.8"></t>
+<t tx="leo.20151023155633.9">@language md
 Title: 2015 計算機程式 作業一
 Date: 2015-09-19 11:41
 Category: Python
@@ -450,9 +468,9 @@ Summary: 作業一摘要
 
 利用 iframe 嵌入投影片:
 
-&lt;iframe src="40423243_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40123210_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-[作業一投影片](40423243_cp_w1_p.html){:target="_blank"}
+[作業一投影片](40123210_cp_w1_p.html){:target="_blank"}
 
 使用 H1 標題
 ============

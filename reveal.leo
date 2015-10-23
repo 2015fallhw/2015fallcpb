@@ -19,7 +19,7 @@
 <v t="amd.20151007224830.1"><vh>Jupyter 安裝與執行</vh></v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1"><vh>@path pelican</vh>
@@ -30,7 +30,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
+<v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh>
 <v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1"><vh>html 標註</vh>
@@ -40,29 +40,26 @@
 <v t="amd.20150915211351.7"><vh>有關我的作業</vh></v>
 <v t="amd.20150915211351.9"><vh>作業任務一</vh></v>
 <v t="amd.20150915211351.12"><vh>第3張投影片</vh></v>
-</v>
-</v>
 <v t="amd.20150915211351.15"><vh>script</vh></v>
 </v>
 </v>
 </v>
 </v>
-<v t="amd.20151021113722.1" a="E"><vh>@path plugin</vh>
-<v t="amd.20151021113731.1"><vh>@path liquid_tags</vh>
-<v t="amd.20151021113745.1"><vh>@edit notebook.py</vh></v>
 </v>
 </v>
+<v t="amd.20151021113722.1"><vh>@path plugin</vh></v>
 <v t="amd.20151021114454.1" a="E"><vh>@path user</vh>
 <v t="amd.20151021114529.1"><vh>各組員必須自行建立 以下節點</vh></v>
 <v t="amd.20151021114504.1"><vh>@path 9999</vh>
 <v t="amd.20151021213523.1"><vh>以下為投影片 ------------</vh></v>
 <v t="amd.20151021114639.1"><vh>@edit 9999_cp_w1_p.html</vh></v>
-<v t="amd.20151021114516.1" a="E"><vh>@path pelican</vh>
+<v t="amd.20151021114516.1"><vh>@path pelican</vh>
 <v t="amd.20151021213548.1"><vh>以下為設定檔 ------------</vh></v>
 <v t="amd.20151021114727.1"><vh>@edit publishconf.py</vh></v>
 <v t="amd.20151021114712.1"><vh>@path content</vh>
 <v t="amd.20151021213558.1"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="amd.20151021114905.1"><vh>@edit 9999_cp_w1.md</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -75,8 +72,81 @@
 <v t="233.20151023151531.7" a="E"><vh>@path content</vh>
 <v t="233.20151023151531.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="233.20151023151531.9"><vh>@edit 40423212_cp_w1.md</vh></v>
+<v t="leo.20151023140937.1" a="E"><vh>@path 40423216</vh>
+<v t="leo.20151023140937.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151023140937.3"><vh>@edit 40423216_cp_w1_p.html</vh></v>
+<v t="leo.20151023140937.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023140937.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151023140937.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151023140937.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023140937.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151023140937.9"><vh>@edit 40423216_cp_w1.md</vh></v>
 </v>
 </v>
+</v>
+</v>
+</v>
+</v>
+<v t="leo.20151023140934.1"><vh>@path 6666</vh>
+<v t="leo.20151023140934.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151023140934.3"><vh>@edit 6666_cp_w1_p.html</vh></v>
+<v t="leo.20151023140934.4"><vh>@path pelican</vh>
+<v t="leo.20151023140934.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151023140934.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151023140934.7"><vh>@path content</vh>
+<v t="leo.20151023140934.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151023140934.9"><vh>@edit 6666_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151023152335.1" a="E"><vh>@path 40423243</vh>
+<v t="leo.20151023152335.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151023152335.3"><vh>@edit 40423243_cp_w1_p.html</vh></v>
+<v t="leo.20151023152335.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023152335.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151023152335.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151023152335.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023152335.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151023152335.9"><vh>@edit 40423243_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151023141050.1"><vh>@path 40123157</vh>
+<v t="leo.20151023141050.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151023141050.3"><vh>@edit 40123157_cp_w1_p.html</vh></v>
+<v t="leo.20151023141050.4"><vh>@path pelican</vh>
+<v t="leo.20151023141050.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151023141050.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151023141050.7"><vh>@path content</vh>
+<v t="leo.20151023141050.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151023141050.9"><vh>@edit 40123157_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151023155633.1" a="E"><vh>@path 40123210</vh>
+<v t="leo.20151023155633.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151023155633.3"><vh>@edit 40123210_cp_w1_p.html</vh></v>
+<v t="leo.20151023155633.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023155633.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151023155633.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151023155633.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023155633.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151023155633.9"><vh>@edit 40123210_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
+<v t="233.20151023162747.2" a="E"><vh>Recovered Nodes</vh>
+<v t="233.20151023162747.3"><vh>Recovered node "div class="reveal"" from @clean simplest.html</vh>
+<v t="233.20151023162747.4"><vh>old:div class="reveal"</vh></v>
+<v t="233.20151023162747.5"><vh>new:div class="reveal"</vh></v>
+</v>
+<v t="233.20151023162747.6"><vh>Recovered node "div class="slides"" from @clean simplest.html</vh>
+<v t="233.20151023162747.7"><vh>old:div class="slides"</vh></v>
+<v t="233.20151023162747.8"><vh>new:div class="slides"</vh></v>
+</v>
+<v t="233.20151023162747.9"><vh>Recovered node "第3張投影片" from @clean simplest.html</vh>
+<v t="233.20151023162747.10"><vh>old:第3張投影片</vh></v>
+<v t="233.20151023162747.11"><vh>new:第3張投影片</vh></v>
 </v>
 </v>
 </vnodes>
@@ -87,6 +157,66 @@
 <t tx="233.20151023151531.5"></t>
 <t tx="233.20151023151531.7"></t>
 <t tx="233.20151023151531.8"></t>
+<t tx="233.20151023162747.10">&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="233.20151023162747.11">&lt;section&gt;
+    &lt;h1&gt;第3張投影片&lt;/h1&gt;
+    &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+&lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="233.20151023162747.2"></t>
+<t tx="233.20151023162747.3">(uncached) amd.20150915211351.5
+Diff...
+  &lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+  &lt;div class="reveal"&gt;
+  @others
++ &lt;/div&gt;
+</t>
+<t tx="233.20151023162747.4">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="233.20151023162747.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+</t>
+<t tx="233.20151023162747.6">(uncached) amd.20150915211351.6
+Diff...
+  &lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+  &lt;div class="slides"&gt;
+  @others
++ &lt;/div&gt;
+</t>
+<t tx="233.20151023162747.7">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="233.20151023162747.8">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+</t>
+<t tx="233.20151023162747.9">(uncached) amd.20150915211351.12
+Diff...
+  &lt;section&gt;
+      &lt;h1&gt;第3張投影片&lt;/h1&gt;
+      &lt;p&gt;成績自評分數的量化依據?&lt;/p&gt;
+      &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+  &lt;/section&gt;
+  				
+- &lt;/div&gt;
+- &lt;/div&gt;
+</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -188,6 +318,8 @@ vertical: body pane on the botton</t>
     &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
 &lt;/section&gt;
 				
+&lt;/div&gt;
+&lt;/div&gt;
 </t>
 <t tx="amd.20150915211351.15">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
@@ -205,12 +337,10 @@ vertical: body pane on the botton</t>
 <t tx="amd.20150915211351.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
 &lt;div class="reveal"&gt;
 @others
-&lt;/div&gt;
 </t>
 <t tx="amd.20150915211351.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
 &lt;div class="slides"&gt;
 @others
-&lt;/div&gt;
 </t>
 <t tx="amd.20150915211351.7">&lt;!-- 以下為投影片 --&gt;
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
@@ -272,7 +402,6 @@ sudo pip3 install jupyter
 jupyter notebook
 </t>
 <t tx="amd.20151021113722.1"></t>
-<t tx="amd.20151021113731.1"></t>
 <t tx="amd.20151021114454.1"></t>
 <t tx="amd.20151021114504.1"></t>
 <t tx="amd.20151021114516.1"></t>
@@ -285,5 +414,35 @@ g.es("admin pelican 執行完畢")</t>
 <t tx="amd.20151021213523.1"></t>
 <t tx="amd.20151021213548.1"></t>
 <t tx="amd.20151021213558.1"></t>
+<t tx="leo.20151023140934.1"></t>
+<t tx="leo.20151023140934.2"></t>
+<t tx="leo.20151023140934.4"></t>
+<t tx="leo.20151023140934.5"></t>
+<t tx="leo.20151023140934.7"></t>
+<t tx="leo.20151023140934.8"></t>
+<t tx="leo.20151023140937.1"></t>
+<t tx="leo.20151023140937.2"></t>
+<t tx="leo.20151023140937.4"></t>
+<t tx="leo.20151023140937.5"></t>
+<t tx="leo.20151023140937.7"></t>
+<t tx="leo.20151023140937.8"></t>
+<t tx="leo.20151023141050.1"></t>
+<t tx="leo.20151023141050.2"></t>
+<t tx="leo.20151023141050.4"></t>
+<t tx="leo.20151023141050.5"></t>
+<t tx="leo.20151023141050.7"></t>
+<t tx="leo.20151023141050.8"></t>
+<t tx="leo.20151023152335.1"></t>
+<t tx="leo.20151023152335.2"></t>
+<t tx="leo.20151023152335.4"></t>
+<t tx="leo.20151023152335.5"></t>
+<t tx="leo.20151023152335.7"></t>
+<t tx="leo.20151023152335.8"></t>
+<t tx="leo.20151023155633.1"></t>
+<t tx="leo.20151023155633.2"></t>
+<t tx="leo.20151023155633.4"></t>
+<t tx="leo.20151023155633.5"></t>
+<t tx="leo.20151023155633.7"></t>
+<t tx="leo.20151023155633.8"></t>
 </tnodes>
 </leo_file>

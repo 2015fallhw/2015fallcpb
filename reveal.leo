@@ -61,10 +61,28 @@
 </v>
 </v>
 </v>
+<<<<<<< HEAD
+<v t="leo.20151026203836.1" a="E"><vh>@path 40423245</vh>
+<v t="leo.20151026203836.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151026203836.3"><vh>@edit 9999_cp_w1_p.html</vh></v>
+<v t="leo.20151026203836.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151026203836.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151026203836.6" a="E"><vh>@edit publishconf.py</vh>
+<v t="leo.20151026203836.7"><vh>@path content</vh>
+<v t="leo.20151026203836.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151026203836.9"><vh>@edit 9999_cp_w1.md</vh></v>
+</v>
+<v t="leo.20151026204111.1"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151026204146.1"><vh>@edit 40423245_cp_w1.md</vh></v>
+</v>
+</v>
+=======
+>>>>>>> f6c95b86a876b732f6b6158b666e7cf41a44a50a
+</v>
 <v t="leo.20151023171317.1"><vh>@path 40423254</vh>
 <v t="leo.20151023171317.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023171317.3"><vh>@edit 40423254_cp_w1_p.html</vh></v>
-<v t="leo.20151023171317.4"><vh>@path pelican</vh>
+<v t="leo.20151023171317.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151023171317.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023171317.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151023171317.7"><vh>@path content</vh>
@@ -73,13 +91,13 @@
 </v>
 </v>
 </v>
-<v t="leo.20151023140938.1"><vh>@path 40423248</vh>
+<v t="leo.20151023140938.1" a="E"><vh>@path 40423248</vh>
 <v t="leo.20151023140938.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023140938.3"><vh>@edit 40423248_cp_w1_p.html</vh></v>
-<v t="leo.20151023140938.4"><vh>@path pelican</vh>
+<v t="leo.20151023140938.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151023140938.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023140938.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151023140938.7"><vh>@path content</vh>
+<v t="leo.20151023140938.7" a="E"><vh>@path content</vh>
 <v t="leo.20151023140938.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023140938.9"><vh>@edit 40423248_cp_w1.md</vh></v>
 </v>
@@ -226,7 +244,6 @@
 <v t="leo.20151023155633.7"><vh>@path content</vh>
 <v t="leo.20151023155633.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023155633.9"><vh>@edit 40123210_cp_w1.md</vh></v>
-</v>
 </v>
 </v>
 </v>
@@ -512,5 +529,71 @@ g.es("admin pelican 執行完畢")</t>
 <t tx="leo.20151025223141.5"></t>
 <t tx="leo.20151025223141.7"></t>
 <t tx="leo.20151025223141.8"></t>
+<t tx="leo.20151026203836.1"></t>
+<t tx="leo.20151026203836.2"></t>
+<t tx="leo.20151026203836.4"></t>
+<t tx="leo.20151026203836.5"></t>
+<t tx="leo.20151026203836.6">@language python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+from __future__ import unicode_literals
+
+# This file is only used if you use `make publish` or
+# explicitly specify it as your config file.
+
+import os
+
+AUTHOR = '40423245'
+SITENAME = '2015FALL 40323245 CADPA 作業'
+SITEURL = ''
+
+PATH = 'content'
+
+TIMEZONE = 'Asia/Taipei'
+
+DEFAULT_LANG = 'en'
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+
+# Blogroll
+LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
+         ('Python', 'http://python.org/'),('2015作業主頁', '../../'))
+
+# Social widget
+SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
+          ('github', 'http://github.com/ametaireau'),)
+          
+DEFAULT_PAGINATION = 10
+
+SITEURL = 'http://coursemdetw.github.io/reveal'
+RELATIVE_URLS = True
+
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+
+DELETE_OUTPUT_DIRECTORY = True
+
+# Following items are often useful when publishing
+
+#DISQUS_SITENAME = ""
+DISQUS_SITENAME = "2015fall"
+#GOOGLE_ANALYTICS = ""
+
+# 必須絕對目錄或相對於設定檔案所在目錄
+PLUGIN_PATHS = ['./../../../plugin']
+PLUGINS = ['liquid_tags.notebook']
+# 目錄設定相對於 reveal 下的 content 目錄
+NOTEBOOK_DIR = 'notebook'
+
+
+</t>
+<t tx="leo.20151026203836.7"></t>
+<t tx="leo.20151026203836.8"></t>
+<t tx="leo.20151026204111.1"></t>
 </tnodes>
 </leo_file>

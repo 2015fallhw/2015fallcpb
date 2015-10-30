@@ -28,7 +28,8 @@
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20151029234658.1"><vh>@edit 2015cphww7.md</vh></v>
-<v t="amd.20150920000911.1"><vh>@edit 2015cpnote1.md</vh></v>
+<v t="amd.20150920000911.1"><vh>@edit 2015cpnote7.md</vh></v>
+<v t="leo.20151030150951.1"><vh>@edit 2015cpnote1.md</vh></v>
 </v>
 </v>
 </v>

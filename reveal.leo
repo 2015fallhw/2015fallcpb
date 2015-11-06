@@ -20,7 +20,7 @@
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
 <v t="amd.20151029234738.1"><vh>Leo 範例程式</vh></v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1"><vh>@path pelican</vh>
@@ -76,14 +76,6 @@
 </v>
 </v>
 </v>
-<v t="leo.20151029231605.4"><vh>@path pelican</vh>
-<v t="leo.20151029231605.5"><vh>以下為設定檔 ------------</vh></v>
-<v t="leo.20151029231605.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151029231605.7"><vh>@path content</vh>
-<v t="leo.20151029231605.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
-<v t="leo.20151029231605.9"><vh>@edit 40423252_cp_w1.md</vh></v>
-</v>
-</v>
 <v t="leo.20151102200728.1"><vh>@path 40423226</vh>
 <v t="leo.20151102200728.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151102200728.3"><vh>@edit 40423226_cp_w1_p.html</vh></v>
@@ -102,31 +94,47 @@
 <v t="amd.20151021114516.1"><vh>@path pelican</vh>
 <v t="amd.20151021213548.1"><vh>以下為設定檔 ------------</vh></v>
 <v t="amd.20151021114727.1"><vh>@edit publishconf.py</vh></v>
-<v t="amd.20151021114712.1" a="E"><vh>@path content</vh>
+<v t="amd.20151021114712.1"><vh>@path content</vh>
 <v t="amd.20151021213558.1"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="amd.20151021114905.1"><vh>@edit 9999_cp_w1.md</vh></v>
 </v>
 </v>
 </v>
-<v t="leo.20151030142816.1" a="E"><vh>@path 40423228</vh>
+<v t="leo.20151106154013.1"><vh>@path 40423202</vh>
+<v t="leo.20151106154013.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151106154013.3"><vh>@edit 40423202_cp_w1_p.html</vh></v>
+<v t="leo.20151106154013.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151106154013.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151106154013.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151106154013.7" a="E"><vh>@path content</vh>
+<v t="leo.20151106154013.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151106154013.9"><vh>@edit 40423202_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151030142816.1"><vh>@path 40423228</vh>
 <v t="leo.20151030142816.2"><vh>以下為投影片 ------------</vh></v>
-<v t="leo.20151106160307.1"><vh>@edit 40423228_cp_w1_p.html</vh></v>
-<v t="leo.20151030142816.3"><vh>@edit 40423228_cp_w2_p.html</vh></v>
-<v t="leo.20151106160213.1"><vh>@edit 40423228_cp_w3_p.html</vh></v>
-<v t="leo.20151030142816.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151030142816.3"><vh>@edit 40423228_cp_w1_p.html</vh></v>
+<v t="leo.20151030142816.4"><vh>@path pelican</vh>
 <v t="leo.20151030142816.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151030142816.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151030142816.7" a="E"><vh>@path content</vh>
+<v t="leo.20151030142816.7"><vh>@path content</vh>
 <v t="leo.20151030142816.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151030142816.9"><vh>@edit 40423228_cp_w1.md</vh></v>
-<v t="leo.20151106155812.1"><vh>@edit 40423228_cp_w2.md</vh></v>
-<v t="leo.20151106155814.1"><vh>@edit 40423228_cp_w3.md</vh></v>
 </v>
 </v>
 </v>
 <v t="leo.20151029231605.1"><vh>@path 40423252</vh>
 <v t="leo.20151029231605.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151029231605.3"><vh>@edit 40423252_cp_w7_p.html</vh></v>
+<v t="leo.20151029231605.4"><vh>@path pelican</vh>
+<v t="leo.20151029231605.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151029231605.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151029231605.7"><vh>@path content</vh>
+<v t="leo.20151029231605.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151029231605.9"><vh>@edit 40423252_cp_w1.md</vh></v>
+</v>
+</v>
 </v>
 <v t="leo.20151028211353.1"><vh>@path 40423241</vh>
 <v t="leo.20151028211353.2"><vh>以下為投影片 ------------</vh></v>
@@ -176,7 +184,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151023140938.1" a="E"><vh>@path 40423248</vh>
+<v t="leo.20151023140938.1"><vh>@path 40423248</vh>
 <v t="leo.20151023140938.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023140938.3"><vh>@edit 40423248_cp_w1_p.html</vh></v>
 <v t="leo.20151105162011.1"><vh>@edit 40423248_cp_w2_p.html</vh></v>
@@ -184,10 +192,10 @@
 <v t="leo.20151105163745.1"><vh>@edit 40423248_cp_w4_p.html</vh></v>
 <v t="leo.20151105163815.1"><vh>@edit 40423248_cp_w5_p.html</vh></v>
 <v t="leo.20151105163829.1"><vh>@edit 40423248_cp_w6_p.html</vh></v>
-<v t="leo.20151023140938.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023140938.4"><vh>@path pelican</vh>
 <v t="leo.20151023140938.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023140938.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151023140938.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023140938.7"><vh>@path content</vh>
 <v t="leo.20151023140938.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023140938.9"><vh>@edit 40423248_cp_w1.md</vh></v>
 <v t="leo.20151105194327.1"><vh>@edit 40423248_cp_w2.md</vh></v>
@@ -340,6 +348,18 @@
 <v t="leo.20151106130411.7" a="E"><vh>@path content</vh>
 <v t="leo.20151106130411.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151106130411.9"><vh>@edit 40423247_cp_w1.md</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151106160005.1" a="E"><vh>@path 40423221</vh>
+<v t="leo.20151106160005.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20151106160005.3"><vh>@edit 40423221_cp_w1_p.html</vh></v>
+<v t="leo.20151106160005.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151106160005.5"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20151106160005.6"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20151106160005.7" a="E"><vh>@path content</vh>
+<v t="leo.20151106160005.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20151106160005.9"><vh>@edit 40423221_cp_w1.md</vh></v>
 </v>
 </v>
 </v>
@@ -731,191 +751,8 @@ cpa.txt 檔案內容
 <t tx="leo.20151029231605.2"></t>
 <t tx="leo.20151029231605.4"></t>
 <t tx="leo.20151029231605.5"></t>
-<t tx="leo.20151029231605.6">@language python
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
-
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
-
-import os
-
-AUTHOR = '40423252'
-SITENAME = '2015FALL 40423252 CPB 作業'
-SITEURL = ''
-
-PATH = 'content'
-
-TIMEZONE = 'Asia/Taipei'
-
-DEFAULT_LANG = 'en'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),('2015作業主頁', '../../'))
-
-# Social widget
-SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
-          ('github', 'http://github.com/ametaireau'),)
-          
-DEFAULT_PAGINATION = 10
-
-SITEURL = 'http://coursemdetw.github.io/reveal'
-RELATIVE_URLS = True
-
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
-
-DELETE_OUTPUT_DIRECTORY = True
-
-# Following items are often useful when publishing
-
-#DISQUS_SITENAME = ""
-DISQUS_SITENAME = "2015fall"
-#GOOGLE_ANALYTICS = ""
-
-# 必須絕對目錄或相對於設定檔案所在目錄
-PLUGIN_PATHS = ['./../../../plugin']
-PLUGINS = ['liquid_tags.notebook']
-# 目錄設定相對於 reveal 下的 content 目錄
-NOTEBOOK_DIR = 'notebook'
-
-
-</t>
 <t tx="leo.20151029231605.7"></t>
 <t tx="leo.20151029231605.8"></t>
-<t tx="leo.20151029231605.9">@language md
-Title: 2015 計算機程式 作業一
-Date: 2015-09-19 11:41
-Category: Python
-Tags: pelican, publishing
-Slug: 2015cp_hw_w1
-Authors: coursemdetw
-Summary: 作業一摘要
-
-以下為作業一內容
-
-利用 iframe 嵌入投影片:
-
-&lt;iframe src="40423252_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
-
-[作業一投影片](40423252_cp_w1_p.html){:target="_blank"}
-
-使用 H1 標題
-============
-
-文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料
-
-使用. *斜體文字*, **黑體文字**, 以及 `單線文字`. 表列資料可以寫為:
-
-  * 第1項說明
-  * 第2項說明
-  * 第3項說明
-
-特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.
-
-&gt; 引用的內容寫在這裡
-&gt; 主要是以大於的符號開頭.
-&gt;
-&gt; 其中也可以利用空白行隔開,
-&gt; 整區都是引用內容的範圍.
-
-em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺
-
-H2 標題
-------------
-
-有數字的表列資料:
-
- 1. 第1項
- 2. 第2項
- 3. 第3項
-
-跟前面一樣, 文字從第四個欄位開始.
-
-程式碼的表達:
-
-    # for 重複迴圈 ...
-    for i in 1 .. 10 { 呼叫特定函式(i) }
-
-這裡也是要空4個 space 鍵. 
-
-除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:
-
-~~~
-define foobar() {
-    print("歡迎進入程式的世界!")
-}
-~~~
-
-(這樣的表達比較容易用來複製程式碼內容).
-
-python 的程式碼, 可以寫成下列格式
-
-~~~python
-import time
-# 以下會從 0 數到 9
-for i in range(10):
-    # 稍微暫停一下
-    time.sleep(0.5)
-    print(i)
-~~~
-
-以下為另外一種嵌入程式碼的方法:
-
-    #!python
-    import time
-    # 以下會從 0 數到 9
-    for i in range(10):
-        # 稍微暫停一下
-        time.sleep(0.5)
-        print(i)
-
-### H3 標題 ###
-
-以下則為內嵌式的表列法t:
-
- 1. 首先, 將完成下列元件的設計:
-
-      * 轉向機構
-      * 煞車系統
-      * 踩踏機構
-
- 2. 接著連繫工業設計部門.
-
- 3. 確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:
-
-        各元件材質
-        車蓋顏色
-        機構調校流程
-        需要熱處理的元件列表
-
-    完成上述查驗後, 請通知品保部門, 以便接續處理.
-
-特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.
-
-Markdown 的超文件連結寫法 [連到 Google](http://www.google.com){:target="_blank"}, 也可以連到同目錄下的檔案 [cadpbw1.html](cadpbw1.html){:target="_blank"}, 也能使用註腳 [^1].
-
-[^1]: 註腳會連結到這裡.
-
-放入圖檔, 可以直接利用 html 的 img 標註:
-
-&lt;img src="images/spur.png" width="500" alt="正齒輪繪圖"&gt;&lt;/img&gt;
-
-Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
-
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-</t>
 <t tx="leo.20151030142816.1"></t>
 <t tx="leo.20151030142816.2"></t>
 <t tx="leo.20151030142816.4"></t>
@@ -958,5 +795,17 @@ Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):
 <t tx="leo.20151106130601.5"></t>
 <t tx="leo.20151106130601.7"></t>
 <t tx="leo.20151106130601.8"></t>
+<t tx="leo.20151106154013.1"></t>
+<t tx="leo.20151106154013.2"></t>
+<t tx="leo.20151106154013.4"></t>
+<t tx="leo.20151106154013.5"></t>
+<t tx="leo.20151106154013.7"></t>
+<t tx="leo.20151106154013.8"></t>
+<t tx="leo.20151106160005.1"></t>
+<t tx="leo.20151106160005.2"></t>
+<t tx="leo.20151106160005.4"></t>
+<t tx="leo.20151106160005.5"></t>
+<t tx="leo.20151106160005.7"></t>
+<t tx="leo.20151106160005.8"></t>
 </tnodes>
 </leo_file>

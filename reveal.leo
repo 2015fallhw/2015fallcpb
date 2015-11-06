@@ -33,7 +33,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh>
+<v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
 <v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1"><vh>html 標註</vh>
@@ -55,10 +55,10 @@
 <v t="leo.20151030155224.1"><vh>@path 40423251</vh>
 <v t="leo.20151030155224.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151030155224.3"><vh>@edit 40423251_cp_w1_p.html</vh></v>
-<v t="leo.20151030155224.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151030155224.4"><vh>@path pelican</vh>
 <v t="leo.20151030155224.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151030155224.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151030155224.7" a="E"><vh>@path content</vh>
+<v t="leo.20151030155224.7"><vh>@path content</vh>
 <v t="leo.20151030155224.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151030155224.9"><vh>@edit 40423251_cp_w1.md</vh></v>
 </v>
@@ -67,10 +67,10 @@
 <v t="leo.20151102194046.1"><vh>@path 40423229</vh>
 <v t="leo.20151102194046.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151102194046.3"><vh>@edit 40423229_cp_w1_p.html</vh></v>
-<v t="leo.20151102194046.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151102194046.4"><vh>@path pelican</vh>
 <v t="leo.20151102194046.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151102194046.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151102194046.7" a="E"><vh>@path content</vh>
+<v t="leo.20151102194046.7"><vh>@path content</vh>
 <v t="leo.20151102194046.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151102194046.9"><vh>@edit 40423229_cp_w1.md</vh></v>
 </v>
@@ -103,10 +103,10 @@
 <v t="leo.20151030142816.1"><vh>@path 40423228</vh>
 <v t="leo.20151030142816.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151030142816.3"><vh>@edit 40423228_cp_w1_p.html</vh></v>
-<v t="leo.20151030142816.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151030142816.4"><vh>@path pelican</vh>
 <v t="leo.20151030142816.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151030142816.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151030142816.7" a="E"><vh>@path content</vh>
+<v t="leo.20151030142816.7"><vh>@path content</vh>
 <v t="leo.20151030142816.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151030142816.9"><vh>@edit 40423228_cp_w1.md</vh></v>
 </v>
@@ -139,10 +139,10 @@
 <v t="leo.20151030142853.1"><vh>@path 40423246</vh>
 <v t="leo.20151030142853.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151030142853.3"><vh>@edit 40423246_cp_w1_p.html</vh></v>
-<v t="leo.20151030142853.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151030142853.4"><vh>@path pelican</vh>
 <v t="leo.20151030142853.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151030142853.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151030142853.7" a="E"><vh>@path content</vh>
+<v t="leo.20151030142853.7"><vh>@path content</vh>
 <v t="leo.20151030142853.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151030142853.9"><vh>@edit 40423246_cp_w1.md</vh></v>
 </v>
@@ -203,7 +203,7 @@
 <v t="233.20151023151531.4"><vh>@path pelican</vh>
 <v t="233.20151023151531.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="233.20151023151531.6"><vh>@edit publishconf.py</vh></v>
-<v t="233.20151023151531.7" a="E"><vh>@path content</vh>
+<v t="233.20151023151531.7"><vh>@path content</vh>
 <v t="233.20151023151531.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="233.20151023151531.9"><vh>@edit 40423212_cp_w0.md</vh></v>
 <v t="leo.20151105230349.1"><vh>@edit 40423212_cp_w1.md</vh></v>
@@ -217,7 +217,7 @@
 <v t="leo.20151023140937.1"><vh>@path 40423216</vh>
 <v t="leo.20151023140937.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023140937.3"><vh>@edit 40423216_cp_w1_p.html</vh></v>
-<v t="leo.20151023140937.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023140937.4"><vh>@path pelican</vh>
 <v t="leo.20151023140937.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023140937.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151023140937.7"><vh>@path content</vh>
@@ -241,7 +241,7 @@
 <v t="leo.20151023140934.1"><vh>@path 6666</vh>
 <v t="leo.20151023140934.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023140934.3"><vh>@edit 6666_cp_w1_p.html</vh></v>
-<v t="leo.20151023140934.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023140934.4"><vh>@path pelican</vh>
 <v t="leo.20151023140934.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023140934.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151023140934.7"><vh>@path content</vh>
@@ -253,10 +253,10 @@
 <v t="leo.20151023170026.1"><vh>@path 40123210</vh>
 <v t="leo.20151023170026.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023170026.3"><vh>@edit 40123210_cp_w1_p.html</vh></v>
-<v t="leo.20151023170026.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023170026.4"><vh>@path pelican</vh>
 <v t="leo.20151023170026.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023170026.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151023170026.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023170026.7"><vh>@path content</vh>
 <v t="leo.20151023170026.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023170026.9"><vh>@edit 40123210_cp_w1.md</vh></v>
 </v>
@@ -280,16 +280,16 @@
 <v t="leo.20151025223141.4"><vh>@path pelican</vh>
 <v t="leo.20151025223141.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151025223141.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151025223141.7" a="E"><vh>@path content</vh>
+<v t="leo.20151025223141.7"><vh>@path content</vh>
 <v t="leo.20151025223141.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151025223141.9"><vh>@edit 40423244_cp_w1.md</vh></v>
 </v>
 </v>
 </v>
-<v t="leo.20151025162821.1"><vh>@path 40423243</vh>
+<v t="leo.20151025162821.1" a="E"><vh>@path 40423243</vh>
 <v t="leo.20151025162821.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151025162821.3"><vh>@edit 40423243_cp_w1_p.html</vh></v>
-<v t="leo.20151025162821.4"><vh>@path pelican</vh>
+<v t="leo.20151025162821.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151025162821.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151025162821.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151025162821.7"><vh>@path content</vh>
@@ -310,7 +310,7 @@
 </v>
 </v>
 </v>
-<v t="abc.20151026194225.1" a="E"><vh>@path 40423249</vh>
+<v t="abc.20151026194225.1"><vh>@path 40423249</vh>
 <v t="abc.20151026194225.2"><vh>以下為投影片 ------------</vh></v>
 <v t="abc.20151026194225.3"><vh>@edit 40423249_cp_w7_p.html</vh></v>
 <v t="abc.20151026194225.4"><vh>@path pelican</vh>
@@ -337,10 +337,10 @@
 <v t="leo.20151023155633.1"><vh>@path 40123210</vh>
 <v t="leo.20151023155633.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023155633.3"><vh>@edit 40123210_cp_w1_p.html</vh></v>
-<v t="leo.20151023155633.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151023155633.4"><vh>@path pelican</vh>
 <v t="leo.20151023155633.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023155633.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151023155633.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023155633.7"><vh>@path content</vh>
 <v t="leo.20151023155633.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023155633.9"><vh>@edit 40123210_cp_w1.md</vh></v>
 </v>

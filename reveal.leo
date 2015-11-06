@@ -96,7 +96,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20151021114504.1" a="E"><vh>@path 9999</vh>
+<v t="amd.20151021114504.1"><vh>@path 9999</vh>
 <v t="amd.20151021213523.1"><vh>以下為投影片 ------------</vh></v>
 <v t="amd.20151021114639.1"><vh>@edit 9999_cp_w1_p.html</vh></v>
 <v t="amd.20151021114516.1"><vh>@path pelican</vh>
@@ -110,13 +110,17 @@
 </v>
 <v t="leo.20151030142816.1" a="E"><vh>@path 40423228</vh>
 <v t="leo.20151030142816.2"><vh>以下為投影片 ------------</vh></v>
-<v t="leo.20151030142816.3"><vh>@edit 40423228_cp_w1_p.html</vh></v>
+<v t="leo.20151106160307.1"><vh>@edit 40423228_cp_w1_p.html</vh></v>
+<v t="leo.20151030142816.3"><vh>@edit 40423228_cp_w2_p.html</vh></v>
+<v t="leo.20151106160213.1"><vh>@edit 40423228_cp_w3_p.html</vh></v>
 <v t="leo.20151030142816.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151030142816.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151030142816.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151030142816.7" a="E"><vh>@path content</vh>
 <v t="leo.20151030142816.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151030142816.9"><vh>@edit 40423228_cp_w1.md</vh></v>
+<v t="leo.20151106155812.1"><vh>@edit 40423228_cp_w2.md</vh></v>
+<v t="leo.20151106155814.1"><vh>@edit 40423228_cp_w3.md</vh></v>
 </v>
 </v>
 </v>
@@ -180,10 +184,10 @@
 <v t="leo.20151105163745.1"><vh>@edit 40423248_cp_w4_p.html</vh></v>
 <v t="leo.20151105163815.1"><vh>@edit 40423248_cp_w5_p.html</vh></v>
 <v t="leo.20151105163829.1"><vh>@edit 40423248_cp_w6_p.html</vh></v>
-<v t="leo.20151023140938.4"><vh>@path pelican</vh>
+<v t="leo.20151023140938.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151023140938.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023140938.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151023140938.7"><vh>@path content</vh>
+<v t="leo.20151023140938.7" a="E"><vh>@path content</vh>
 <v t="leo.20151023140938.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023140938.9"><vh>@edit 40423248_cp_w1.md</vh></v>
 <v t="leo.20151105194327.1"><vh>@edit 40423248_cp_w2.md</vh></v>

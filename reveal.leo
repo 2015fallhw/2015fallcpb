@@ -20,12 +20,12 @@
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
 <v t="amd.20151029234738.1"><vh>Leo 範例程式</vh></v>
-<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
 <v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
-<v t="amd.20150919114010.1"><vh>@path pelican</vh>
+<v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
-<v t="amd.20151006113136.1"><vh>@path content</vh>
+<v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20151029234658.1"><vh>@edit 2015cphww7.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote7.md</vh></v>
@@ -124,10 +124,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20151028211353.1"><vh>@path 40423241</vh>
+<v t="leo.20151028211353.1" a="E"><vh>@path 40423241</vh>
 <v t="leo.20151028211353.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151028211353.3"><vh>@edit 40423241_cp_w1_p.html</vh></v>
-<v t="leo.20151028211353.4"><vh>@path pelican</vh>
+<v t="leo.20151028211353.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151028211353.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151028211353.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151028211353.7"><vh>@path content</vh>

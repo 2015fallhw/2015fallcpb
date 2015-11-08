@@ -1,0 +1,78 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423254作業三</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>zero to hero python教學3 </h1>
+    <p>四設計一乙 40423254 蘇柏丞</p>		
+</section>
+	
+<section id="hw-task-three">
+    <h1>指令input</h1>
+    <p>輸入input可和python語言做互動。例如我們要使python問數學問題，我們可以輸入:input("1+1=") print("2")。之後系統會問你1+1=，這時不管輸入甚麼，答案都會是4。</p>
+</section>
+
+<section>
+    <h1>指令input2</h1>
+利用input指令也可以創造一個二元一次方程式。例如:
+<br/>x=input("請輸入一個數字帶入x")
+<br/>y=input("請輸入一個數字帶入y")
+<br/>print("sqrt(x^2+y^2)")
+<br/>這時輸入x=3、y=4則可得到sqrt(3^2+4^2)=5
+</section>
+
+<section>
+<h1>指令input3</h1>
+input指令有些限制，例如:
+</br>
+開頭不能是數字
+</br>
+開頭不能有空白鍵
+</br>
+大小寫會視為不同代數
+</br>
+</section>
+
+<section>
+<h1>心得</h1>
+<p>input指令可以用來和python作互動，或是創造一些公式，並將未知數帶入求得答案。這個指令可以使我們運算數學更為快速。</p>
+</section>
+<section>
+    <h1>自評</h1>
+    <p>學得還不錯，自評70分</p>
+</section>
+				
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

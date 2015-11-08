@@ -1,0 +1,129 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423254作業四</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>zero to hero python教學4</h1>
+    <p>四設計一乙 40423254 蘇柏丞</p>		
+</section>
+	
+<section id="hw-task-four">
+    <h1>storing numbers</h1>
+  <br/>store:儲存
+  <br/>number:數字
+  <br/>storing numbers可將變數儲存起來，留到後面做數字間的運算，可以做出一個簡單的函數式子，以便我們帶入數字時得到答案。
+</section>
+  
+<section>
+距離=速率*時間，我們要讓程式知道速率和時間，可以輸入:
+速率=5 #公尺/秒
+<br />
+時間=20 #秒
+<br />
+距離=速率*時間
+<br />
+print(距離)
+<br />
+接著就會顯示算出來的距離。
+</section>
+
+<section>
+print裡面的字串不能同時存在文字及代數，所以要把代數轉換為文字。它有幾個規則:
+    <br />
+print("經過的距離為%f" % 距離)>>經過的距離為100.000000 
+    <br />
+print("經過的距離為%.2f" % 距離)>>經過的距離為100.00 
+    <br />
+print("經過的距離為%d" % 100)>>經過的距離為100
+    <br />
+print("經過的距離為%3d" % 100)>>經過的距離為(三個空格)100
+    <br />
+print("經過的距離為%03f" %100)>>經過的距離為100   
+</section>
+  
+<section>
+1.%d不能用於代數
+    <br />
+2.%f會讓答案默認為6個小數位
+    <br />
+3.%.n會讓小數位變n位
+    <br />
+4.%0n會用0把答案填到第n位
+    <br />
+5.%n可以讓答案距離前面的文字n個空格
+</section>
+  
+<section>
+還有另外一種表示方法,規則如下:   
+print("經過的距離為{0:d}".format(100))>>經過的距離為100   
+    <br />
+print("經過的距離為{0:3d}".format(100))>>經過的距離為   100   
+    <br />
+print("經過的距離為{0:f}".format(100))>>經過的距離為100.000000   
+    <br />
+    "0:"後面的代碼與前面規則相同   
+同樣地，d不能用在代數上   
+</section>
+  
+<section>
+如果要讓答案顯示多個數字,我們可以:
+ <br/>print("速率為{0:d},時間為{1:3d},距離為{2:d}".format(5,20,100)),   
+    <br />
+ 可以得到:速率為5、時間為20、距離為100
+</section>
+  
+<section>
+也可以把這個代數弄成互動式的，運行之後輸入你要的數字，最後得到答案:   
+    <br />
+速率=input("速率是多少")
+    <br />
+時間=input("時間是多少")
+     <br />
+距離=速率*時間
+    <br />
+print(距離)
+</section>
+
+<section>
+<h1>心得</h1>
+這個方法可以先預定好一個式子，之後將變數輸入進去即可完成演練。可以縮短人工運算的時間，對工程問題上也有相當的幫助。
+</section>
+  
+<section>
+<h1>自評</h1>
+學得不錯，自評70分
+</section>
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

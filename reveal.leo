@@ -164,11 +164,8 @@
 <v t="leo.20151108043221.1"><vh>@edit 40423201_cp_w4.md</vh></v>
 <v t="leo.20151108043225.1"><vh>@edit 40423201_cp_w5.md</vh></v>
 <v t="leo.20151108050840.1"><vh>@edit 40423201_cp_w6.md</vh></v>
-<<<<<<< HEAD
 <v t="leo.20151108043238.1"><vh>@edit 40423201_cp_w7.md</vh></v>
 <v t="leo.20151108155549.1"><vh>@edit 40423212_cp_w4.md</vh></v>
-=======
->>>>>>> a21c8ceee6b042d5c72f69aafcb996fa4a73c0d6
 <v t="leo.20151108043236.1"><vh>@edit 40423201_cp_w8.md</vh></v>
 <v t="leo.20151108043232.1"><vh>@edit 40423201_cp_w9.md</vh></v>
 </v>

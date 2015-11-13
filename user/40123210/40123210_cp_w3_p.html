@@ -1,0 +1,66 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40123210_w3</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>Git，Github 與 Github Pages</h1>
+    <p>四設四乙 40123210</p>
+    <p>2015-11-03</p>			
+</section>
+	
+<section id="hw-task-one">
+    <h1>Git</h1>
+    <p>Git 是一組可以讓使用者在近端電腦上執行，且主要目的是用來進行文本資料的分散式版次管理之用。Git 系統包含近端的 Git 指令工具與遠端的 Git 伺服器。</p>
+</section>
+				
+<section>
+    <h1>Github</h1>
+    <p>Github 是一套提供分散式版次管理的知名 Git 伺服器，使用者可以透過 https://github.com/ 網站，自行登記使用帳號。</p>
+    <p>請參考 <a href="https://github.com/">Github</a>
+</section>
+
+<section>
+    <h1>Github Pages</h1>
+    <p>Github Pages 則是 Github 伺服器上所提供的一種服務，可以讓使用者將超文件格式的資料，利用特定分支名稱的設定，將最新版的超文件內容呈現在 github.io 網站上。</p>
+</section>
+
+<section>
+    <h1>心得結論</h1>
+    <p></p>
+</section>
+
+				
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

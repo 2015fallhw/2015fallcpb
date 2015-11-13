@@ -556,7 +556,7 @@
 <v t="leo.20151106211446.1"><vh>@edit 40423243_cp_w7_p.html</vh></v>
 <v t="leo.20151106211447.1"><vh>@edit 40423243_cp_w8_p.html</vh></v>
 <v t="leo.20151106211448.1"><vh>@edit 40423243_cp_w9_p.html</vh></v>
-<v t="leo.20151025162821.4"><vh>@path pelican</vh>
+<v t="leo.20151025162821.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151025162821.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151025162821.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151025162821.7"><vh>@path content</vh>

@@ -20,7 +20,7 @@
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
 <v t="amd.20151029234738.1"><vh>Leo 範例程式</vh></v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
@@ -101,7 +101,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151112234241.1" a="E"><vh>@path 40423220</vh>
+<v t="leo.20151112234241.1"><vh>@path 40423220</vh>
 <v t="leo.20151112234241.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151112234241.3"><vh>@edit 40423220_cp_w1_p.html</vh></v>
 <v t="leo.20151112234241.4" a="E"><vh>@path pelican</vh>
@@ -462,12 +462,22 @@
 <v t="leo.20151023141050.1"><vh>@path 40123157</vh>
 <v t="leo.20151023141050.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023141050.3"><vh>@edit 40123157_cp_w1_p.html</vh></v>
-<v t="leo.20151023141050.4"><vh>@path pelican</vh>
+<v t="leo.20151113053349.1"><vh>@edit 40123157_cp_w2_p.html</vh></v>
+<v t="leo.20151113055613.1"><vh>@edit 40123157_cp_w3_p.html</vh></v>
+<v t="leo.20151113055833.1"><vh>@edit 40123157_cp_w5_p.html</vh></v>
+<v t="leo.20151113060143.1"><vh>@edit 40123157_cp_w6_p.html</vh></v>
+<v t="leo.20151113060404.1"><vh>@edit 40123157_cp_w7_p.html</vh></v>
+<v t="leo.20151023141050.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151023141050.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023141050.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151023141050.7"><vh>@path content</vh>
+<v t="leo.20151023141050.7" a="E"><vh>@path content</vh>
 <v t="leo.20151023141050.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023141050.9"><vh>@edit 40123157_cp_w1.md</vh></v>
+<v t="leo.20151113053421.1"><vh>@edit 40123157_cp_w2.md</vh></v>
+<v t="leo.20151113054834.1"><vh>@edit 40123157_cp_w3.md</vh></v>
+<v t="leo.20151113055039.1"><vh>@edit 40123157_cp_w5.md</vh></v>
+<v t="leo.20151113055225.1"><vh>@edit 40123157_cp_w6.md</vh></v>
+<v t="leo.20151113055405.1"><vh>@edit 40123157_cp_w7.md</vh></v>
 </v>
 </v>
 </v>

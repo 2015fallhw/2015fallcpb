@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>2015 計算機程式 作業一 &mdash; 2015FALL 40123157 CPB 作業</title>
+  <title>2015 計算機程式 作業一 &mdash; 2015FALL 40123157 CPB 作業 (期中報告)</title>
   <meta name="author" content="40123157">
 
 
@@ -31,7 +31,7 @@
 
 <body>
   <header role="banner"><hgroup>
-  <h1><a href="./">2015FALL 40123157 CPB 作業</a></h1>
+  <h1><a href="./">2015FALL 40123157 CPB 作業 (期中報告)</a></h1>
 </hgroup></header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
 </ul>
@@ -49,130 +49,126 @@
 <header>
       <h1 class="entry-title">2015 計算機程式 作業一</h1>
     <p class="meta">
-<time datetime="2015-09-19T11:41:00+08:00" pubdate>週六 19 九月 2015</time>    </p>
+<time datetime="2015-09-18T16:00:00+08:00" pubdate>週五 18 九月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>以下為作業一內容</p>
-<p>利用 iframe 嵌入投影片:</p>
-<iframe src="40123157_cp_w1_p.html" width="500" height="300"></iframe>
+  <div class="entry-content"><iframe src="40123157_cp_w1_p.html" width="500" height="300"></iframe>
 
 <p><a href="40123157_cp_w1_p.html" target="_blank">作業一投影片</a></p>
-<h1>使用 H1 標題</h1>
-<p>文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料</p>
-<p>使用. <em>斜體文字</em>, <strong>黑體文字</strong>, 以及 <code>單線文字</code>. 表列資料可以寫為:</p>
 <ul>
-<li>第1項說明</li>
-<li>第2項說明</li>
-<li>第3項說明</li>
+<li>basic python program:</li>
 </ul>
-<p>特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.</p>
-<blockquote>
-<p>引用的內容寫在這裡
-主要是以大於的符號開頭.</p>
-<p>其中也可以利用空白行隔開,
-整區都是引用內容的範圍.</p>
-</blockquote>
-<p>em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺</p>
-<h2>H2 標題</h2>
-<p>有數字的表列資料:</p>
-<ol>
-<li>第1項</li>
-<li>第2項</li>
-<li>第3項</li>
-</ol>
-<p>跟前面一樣, 文字從第四個欄位開始.</p>
-<p>程式碼的表達:</p>
-<div class="highlight"><pre># for 重複迴圈 ...
-for i in 1 .. 10 { 呼叫特定函式(i) }
+<div class="highlight"><pre><span class="c">#first:</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&quot;hello&quot;</span><span class="p">)</span>
+
+<span class="c">#second:</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="s">&quot;hello&quot;</span><span class="p">)</span>
+
+<span class="c">#third: example program</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">i</span><span class="o">*</span><span class="s">&quot;hello&quot;</span><span class="p">)</span>
 </pre></div>
 
 
-<p>這裡也是要空4個 space 鍵. </p>
-<p>除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:</p>
-<div class="highlight"><pre>define foobar() {
-    print(&quot;歡迎進入程式的世界!&quot;)
-}
-</pre></div>
-
-
-<p>(這樣的表達比較容易用來複製程式碼內容).</p>
-<p>python 的程式碼, 可以寫成下列格式</p>
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">time</span>
-<span class="c"># 以下會從 0 數到 9</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-    <span class="c"># 稍微暫停一下</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-
-
-<p>以下為另外一種嵌入程式碼的方法:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5
-6</pre></div></td><td class="code"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">time</span>
-<span class="c"># 以下會從 0 數到 9</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-    <span class="c"># 稍微暫停一下</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</td></tr></table>
-
-<h3>H3 標題</h3>
-<p>以下則為內嵌式的表列法t:</p>
-<ol>
-<li>
-<p>首先, 將完成下列元件的設計:</p>
 <ul>
-<li>轉向機構</li>
-<li>煞車系統</li>
-<li>踩踏機構</li>
+<li>
+<p><strong>Jupyter</strong>: run and save to <code>Y:\notebook\print1.ipynb</code></p>
+<ol>
+<li>run: example program</li>
+<li>save as: <code>File &gt;&gt; Rename... &gt;&gt; save as "print1"</code></li>
+</ol>
+</li>
+<li>
+<p><strong>SciTE</strong>: run and save to <code>Y:\tmp\print1.py</code></p>
+<ol>
+<li>run: example program</li>
+<li>save as: <code>File &gt;&gt; Save As... &gt;&gt; rename "print1.py"</code></li>
+</ol>
+</li>
+<li>
+<p><strong>cmd.exe</strong>: test run "print1.py" <code>Y:\tmp&gt;python print1.py</code></p>
+</li>
+<li>
+<p><strong>github</strong>: 4 step <code>git clone &gt;&gt; add &gt;&gt; commit &gt;&gt; push</code></p>
+<ul>
+<li>step 1: copy cpbw1 HTTPS clone URL <code>"https://github.com/學號/cpbw1.git"</code></li>
+<li>step 2: cmd <code>Y:\tmp&gt;git clone https://github.com/學號/cpbw1.git</code></li>
+<li>step 3: copy 2 file to <code>Y:\tmp\cpbw1</code> paste<ul>
+<li>2 file: <code>"print1.ipynb" &amp; "print1.py"</code></li>
 </ul>
 </li>
-<li>
-<p>接著連繫工業設計部門.</p>
+<li>step 4: git</li>
+</ul>
 </li>
-<li>
-<p>確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:</p>
-<div class="highlight"><pre>各元件材質
-車蓋顏色
-機構調校流程
-需要熱處理的元件列表
+</ul>
+<div class="highlight"><pre>    <span class="c">#[step 4.1] go to cpbw1</span>
+    <span class="n">Y</span><span class="p">:</span>\<span class="n">tmp</span><span class="o">&gt;</span><span class="n">cd</span> <span class="n">cpbw1</span>
+
+    <span class="c">#[step 4.2] submit update</span>
+    <span class="n">Y</span><span class="p">:</span>\<span class="n">tmp</span>\<span class="n">cpbw1</span><span class="o">&gt;</span><span class="n">git</span> <span class="n">add</span> <span class="o">-</span><span class="n">A</span>
+
+    <span class="c">#[step 4.3] submit message</span>
+    <span class="n">Y</span><span class="p">:</span>\<span class="n">tmp</span>\<span class="n">cpbw1</span><span class="o">&gt;</span><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s">&quot;add two files&quot;</span>
+
+    <span class="c">#cmd.exe: Please tell me who you are.</span>
+    <span class="n">Run</span>
+      <span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">email</span> <span class="s">&quot;you@example.com&quot;</span>
+      <span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">name</span> <span class="s">&quot;Your Name&quot;</span>
+
+    <span class="c">#[step 4.4] user.email</span>
+    <span class="n">Y</span><span class="p">:</span>\<span class="n">tmp</span>\<span class="n">cpbw1</span><span class="o">&gt;</span><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">email</span> <span class="s">&quot;學號@nfu.edu.tw&quot;</span>
+
+    <span class="c">#[step 4.5] user.name</span>
+    <span class="n">Y</span><span class="p">:</span>\<span class="n">tmp</span>\<span class="n">cpbw1</span><span class="o">&gt;</span><span class="n">git</span> <span class="n">config</span> <span class="o">--</span><span class="k">global</span> <span class="n">user</span><span class="o">.</span><span class="n">name</span> <span class="s">&quot;學號&quot;</span>
+
+    <span class="c">#check user email &amp; name Y:\home\.gitconfig open</span>
+    <span class="p">[</span><span class="n">user</span><span class="p">]</span>
+        <span class="n">email</span> <span class="o">=</span> <span class="err">學號</span><span class="nd">@gm.nfu.edu.tw</span>
+        <span class="n">name</span> <span class="o">=</span> <span class="err">學號</span>
+
+    <span class="c">#[step 4.6] submit message again</span>
+    <span class="n">Y</span><span class="p">:</span>\<span class="n">tmp</span>\<span class="n">cpbw1</span><span class="o">&gt;</span><span class="n">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s">&quot;add two files&quot;</span>
+
+    <span class="c">#cmd.exe:</span>
+    <span class="p">[</span><span class="n">master</span> <span class="err">版次編號</span><span class="p">]</span> <span class="n">add</span> <span class="n">two</span> <span class="n">files</span>
+     <span class="mi">2</span> <span class="n">files</span> <span class="n">changed</span><span class="p">,</span> <span class="mi">115</span> <span class="n">insertions</span><span class="p">(</span><span class="o">+</span><span class="p">)</span>
+     <span class="n">create</span> <span class="n">mode</span> <span class="mi">100644</span> <span class="n">print1</span><span class="o">.</span><span class="n">ipynb</span>
+     <span class="n">create</span> <span class="n">mode</span> <span class="mi">100644</span> <span class="n">print1</span><span class="o">.</span><span class="n">py</span>
+
+    <span class="c">#[step 4.7] push to github</span>
+    <span class="n">Y</span><span class="p">:</span>\<span class="n">tmp</span>\<span class="n">cpbw1</span><span class="o">&gt;</span><span class="n">git</span> <span class="n">push</span>
+
+    <span class="c">#[step 4.8] cmd.exe: 輸入帳密</span>
+    <span class="n">Username</span><span class="p">:</span> <span class="err">學校信箱</span>
+    <span class="n">Password</span><span class="p">:</span> <span class="n">github密碼</span>
+
+    <span class="c">#update github\學號\cpbw1 success</span>
 </pre></div>
 
 
-<p>完成上述查驗後, 請通知品保部門, 以便接續處理.</p>
+<ul>
+<li>note: cmd.exe 指令:<ul>
+<li>查詢指令: dir</li>
+<li>更換目錄: cd</li>
+<li>回上一層: cd ..</li>
+<li>跳上一個: 上鍵</li>
+<li>跳下一個: 下鍵</li>
+</ul>
 </li>
-</ol>
-<p>特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.</p>
-<p>Markdown 的超文件連結寫法 <a href="http://www.google.com" target="_blank">連到 Google</a>, 也可以連到同目錄下的檔案 <a href="cadpbw1.html" target="_blank">cadpbw1.html</a>, 也能使用註腳 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.</p>
-<p>放入圖檔, 可以直接利用 html 的 img 標註:</p>
-<p><img src="images/spur.png" width="500" alt="正齒輪繪圖"></img></p>
-<p>Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
-<iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</ul>
+<p><strong>※播放須知</strong>: 由於網頁嵌入式影片畫質較低, 建議直接點案影片視窗右下角前往Vimeo瀏覽!</p>
+<iframe src="https://player.vimeo.com/video/145547331" width="500" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<p><p><a href="https://vimeo.com/137724068">Welcome Speech</a> from <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程系 KMOL</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>註腳會連結到這裡.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div></div>
+<p><p><a href="https://vimeo.com/145547331">40123157_2015cpbw1</a> from <a href="https://vimeo.com/user25757242">盧毅民</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
     Posted by <span class="fn">
-        coursemdetw
+        40123157
     </span>
   </span>
-<time datetime="2015-09-19T11:41:00+08:00" pubdate>週六 19 九月 2015</time>  <span class="categories">
+<time datetime="2015-09-18T16:00:00+08:00" pubdate>週五 18 九月 2015</time>  <span class="categories">
     <a class='category' href='./category/python.html'>Python</a>
   </span>
   <span class="categories">
@@ -191,10 +187,19 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="./2015cp_note1.html">2015 計算機程式 Jupyter</a>
+          <a href="./2015cp_hw_w8.html">2015 計算機程式 作業八 (自我評量)</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w1.html">2015 計算機程式 作業一</a>
+          <a href="./2015cp_hw_w7.html">2015 計算機程式 作業七</a>
+      </li>
+      <li class="post">
+          <a href="./2015cp_hw_w6.html">2015 計算機程式 作業六</a>
+      </li>
+      <li class="post">
+          <a href="./2015cp_hw_w5.html">2015 計算機程式 作業五</a>
+      </li>
+      <li class="post">
+          <a href="./2015cp_hw_w3.html">2015 計算機程式 作業三</a>
       </li>
     </ul>
   </section>
@@ -209,7 +214,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/jupyter.html">Jupyter</a>  </section>
+    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
 
 
     <section>
@@ -225,6 +230,10 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
             <li><a href="http://wordpress-2015course.rhcloud.com/" target="_blank">2015課程網頁</a></li>
             <li><a href="http://python.org/" target="_blank">Python</a></li>
             <li><a href="../../" target="_blank">2015作業主頁</a></li>
+            <li><a href="https://github.com/2015fallhw/2015fallcpb/tree/gh-pages" target="_blank">[github] 2015fallhw/2015fallcpb</a></li>
+            <li><a href="https://github.com/40123157" target="_blank">[github] 40123157</a></li>
+            <li><a href="https://vimeo.com/user25757242" target="_blank">[vimeo] 40123157</a></li>
+            <li><a href="http://40123157.github.io/cpbw8/" target="_blank">[github.io] 40123157/cpbw8</a></li>
         </ul>
     </section>
 

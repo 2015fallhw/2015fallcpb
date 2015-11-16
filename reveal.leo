@@ -164,10 +164,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20151113145411.1"><vh>@path 40423204</vh>
+<v t="leo.20151113145411.1" a="E"><vh>@path 40423204</vh>
 <v t="leo.20151113145411.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151113145411.3"><vh>@edit 40423204_cp_w1_p.html</vh></v>
-<v t="leo.20151113145411.4"><vh>@path pelican</vh>
+<v t="leo.20151113145411.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151113145411.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151113145411.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151113145411.7"><vh>@path content</vh>

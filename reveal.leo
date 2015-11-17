@@ -52,10 +52,10 @@
 </v>
 <v t="amd.20151021113722.1"><vh>@path plugin</vh></v>
 <v t="amd.20151021114454.1" a="E"><vh>@path user</vh>
-<v t="leo.20151030155224.1"><vh>@path 40423251</vh>
+<v t="leo.20151030155224.1" a="E"><vh>@path 40423251</vh>
 <v t="leo.20151030155224.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151030155224.3"><vh>@edit 40423251_cp_w1_p.html</vh></v>
-<v t="leo.20151030155224.4"><vh>@path pelican</vh>
+<v t="leo.20151030155224.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151030155224.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151030155224.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151030155224.7"><vh>@path content</vh>
@@ -763,10 +763,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20151108165121.1"><vh>@path 40423250</vh>
+<v t="leo.20151108165121.1" a="E"><vh>@path 40423250</vh>
 <v t="leo.20151108165121.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151108165121.3"><vh>@edit 40423250_cp_w1_p.html</vh></v>
-<v t="leo.20151108165121.4"><vh>@path pelican</vh>
+<v t="leo.20151108165121.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151108165121.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151108165121.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151108165121.7"><vh>@path content</vh>

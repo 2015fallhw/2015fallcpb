@@ -105,10 +105,10 @@
 <v t="leo.20151115173104.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151115173104.3"><vh>@edit 40423218_cp_w1_p.html</vh></v>
 <v t="leo.20151115174102.1"><vh>@edit 40423218_cp_w2_p.html</vh></v>
-<v t="leo.20151115174105.1" a="M"><vh>@edit 40423218_cp_w3_p.html</vh></v>
+<v t="leo.20151115174105.1"><vh>@edit 40423218_cp_w3_p.html</vh></v>
 <v t="leo.20151115174107.1"><vh>@edit 40423218_cp_w4_p.html</vh></v>
-<v t="leo.20151115174109.1" a="M"><vh>@edit 40423218_cp_w5_p.html</vh></v>
-<v t="leo.20151115174110.1" a="M"><vh>@edit 40423218_cp_w6_p.html</vh></v>
+<v t="leo.20151115174109.1"><vh>@edit 40423218_cp_w5_p.html</vh></v>
+<v t="leo.20151115174110.1"><vh>@edit 40423218_cp_w6_p.html</vh></v>
 <v t="leo.20151115174111.1"><vh>@edit 40423218_cp_w7_p.html</vh></v>
 <v t="leo.20151115174113.1"><vh>@edit 40423218_cp_w8_p.html</vh></v>
 <v t="leo.20151115174119.1"><vh>@edit 40423218_cp_w9_p.html</vh></v>

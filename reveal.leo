@@ -357,15 +357,29 @@
 </v>
 </v>
 </v>
-<v t="leo.20151029231605.1"><vh>@path 40423252</vh>
+<v t="leo.20151029231605.1" a="E"><vh>@path 40423252</vh>
 <v t="leo.20151029231605.2"><vh>以下為投影片 ------------</vh></v>
-<v t="leo.20151029231605.3"><vh>@edit 40423252_cp_w7_p.html</vh></v>
-<v t="leo.20151029231605.4"><vh>@path pelican</vh>
+<v t="leo.20151029231605.3"><vh>@edit 40423252_cp_w1_p.html</vh></v>
+<v t="leo.20151117190629.1"><vh>@edit 40423252_cp_w2_p.html</vh></v>
+<v t="leo.20151117190630.1"><vh>@edit 40423252_cp_w3_p.html</vh></v>
+<v t="leo.20151117190632.1"><vh>@edit 40423252_cp_w4_p.html</vh></v>
+<v t="leo.20151117190634.1"><vh>@edit 40423252_cp_w5_p.html</vh></v>
+<v t="leo.20151117190635.1"><vh>@edit 40423252_cp_w6_p.html</vh></v>
+<v t="leo.20151117190636.1"><vh>@edit 40423252_cp_w7_p.html</vh></v>
+<v t="leo.20151117190637.1"><vh>@edit 40423252_cp_w8_p.html</vh></v>
+<v t="leo.20151029231605.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151029231605.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151029231605.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151029231605.7"><vh>@path content</vh>
+<v t="leo.20151029231605.7" a="E"><vh>@path content</vh>
 <v t="leo.20151029231605.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151029231605.9"><vh>@edit 40423252_cp_w1.md</vh></v>
+<v t="leo.20151117190714.1"><vh>@edit 40423252_cp_w2.md</vh></v>
+<v t="leo.20151117190717.1"><vh>@edit 40423252_cp_w3.md</vh></v>
+<v t="leo.20151117190719.1"><vh>@edit 40423252_cp_w4.md</vh></v>
+<v t="leo.20151117190720.1"><vh>@edit 40423252_cp_w5.md</vh></v>
+<v t="leo.20151117190721.1"><vh>@edit 40423252_cp_w6.md</vh></v>
+<v t="leo.20151117190723.1"><vh>@edit 40423252_cp_w7.md</vh></v>
+<v t="leo.20151117190724.1"><vh>@edit 40423252_cp_w8.md</vh></v>
 </v>
 </v>
 </v>
@@ -619,7 +633,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151025223141.1"><vh>@path 40423244</vh>
+<v t="leo.20151025223141.1" a="E"><vh>@path 40423244</vh>
 <v t="leo.20151025223141.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151025223141.3"><vh>@edit 40423244_cp_w1_p.html</vh></v>
 <v t="leo.20151106200020.1"><vh>@edit 40423244_cp_w2_p.html</vh></v>

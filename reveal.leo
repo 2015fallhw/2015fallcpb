@@ -52,7 +52,7 @@
 </v>
 <v t="amd.20151021113722.1"><vh>@path plugin</vh></v>
 <v t="amd.20151021114454.1" a="E"><vh>@path user</vh>
-<v t="leo.20151117195537.1"><vh>@path 40423236</vh>
+<v t="leo.20151117195537.1" a="E"><vh>@path 40423236</vh>
 <v t="leo.20151117195537.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151117195537.3"><vh>@edit 40423236_cp_w1_p.html</vh></v>
 <v t="leo.20151117195537.4" a="E"><vh>@path pelican</vh>

@@ -1,0 +1,68 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40123254_w6</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>隨身可攜程式系統</h1>
+    <p>四設四乙 40123254</p>
+    <p>2015-11-10</p>		
+</section>
+	
+<section id="hw-task-one">
+    <h1>隨身可攜程式系統的功能</h1>
+    <p>1. 隨身碟或隨身硬碟帶著系統設定好了，到任何電腦都可不必安裝，隨插隨用，除了方便快速省時之外，每個人的環境都一樣，在協同時可以共同使用。</p>
+</section>
+				
+<section>
+    <p>2. Anaconda 3 的 Python 免費發佈版本，提供各種工程與科學運算模組套件。<p>
+    <p>3. Jupyter 在協同時可以多人共用工程運算平台，可以寫筆記甚至可以做成網誌文章。提供 Jupyter，啟動後即可自動辨識電腦所在的 IP 位址設定，自動開啟 IPython Notebook 功能。<p>
+        
+</section>
+
+<section>
+    <p>4. 提供 SciTE 文字編輯器，經由 python.properties 設定，可以直接在編輯器中執行簡單的 Python 3 程式。<p>
+    <p>5. 文字檔不易把多媒體資料整合一起，就網誌來說會比較簡單。使用 Leo Editor 寫比較簡單的內容。<p>
+    <p>6. 提供 Git client 端工具<p>
+    <p>7. 提供 Solvespace 3D 參數繪圖程式<p>
+</section>
+
+<section>
+    <h1>心得結論</h1>
+    <p></p>
+</section>
+
+				
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

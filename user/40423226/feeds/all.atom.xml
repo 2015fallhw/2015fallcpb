@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423226 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-11-14T00:00:00+08:00</updated><entry><title>2015 計算機程式 作業九</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w9.html" rel="alternate"></link><updated>2015-11-14T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-11-14:reveal/2015cp_hw_w9.html</id><summary type="html">&lt;p&gt;以下為作業八內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w9_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w9_p.html" target="_blank"&gt;作業9投影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業八</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w8.html" rel="alternate"></link><updated>2015-11-07T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-11-07:reveal/2015cp_hw_w8.html</id><summary type="html">&lt;p&gt;以下為作業八內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w8_p.html" target="_blank"&gt;作業8投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;將網路IP只開放IPv6&lt;/h1&gt;
+&lt;h1&gt;卻還能顯示IPv4的網頁&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1.先去控制台→網路和網際網路→網路和共用中心→介面卡設定&lt;/p&gt;
+&lt;p&gt;2.在區域連線上面點右鍵→內容，取消掉IPv4的打勾&lt;/p&gt;
+&lt;p&gt;3.然後把滑鼠停在IPv6→內容，把自動取得DNS伺服器為址改為，使用下列的DNS伺服器為址&lt;/p&gt;
+&lt;p&gt;4.在慣用DNS伺服器打上自己的IP:port號 &lt;code&gt;這樣只有開放是用IPv6架設的網頁&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;5.再去&lt;ahref="https://www.google.com/chrome/browser/desktop/index.html"&gt;Google Chrome&lt;/a&gt; 的設定，打開進階設定，點開變更Proxy設定，在連線底下，點&lt;strong&gt;區域網路設定&lt;/strong&gt;，把Proxy伺服器下的唯一選項打勾，輸入IP和Port&lt;/p&gt;
+&lt;p&gt;6.完成囉！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業七</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w7.html" rel="alternate"></link><updated>2015-10-31T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-10-31:reveal/2015cp_hw_w7.html</id><summary type="html">&lt;p&gt;以下為作業七內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w7_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w7_p.html" target="_blank"&gt;作業7投影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業六</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-10-24T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-10-24:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為作業六內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w6_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w6_p.html" target="_blank"&gt;作業6投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;strong&gt;倉儲的優缺點&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;1.多人在github模式下來工作，並請清楚地記錄下，每個版本之間的差異&lt;/p&gt;
+&lt;p&gt;2.但是要學會如何解決&lt;strong&gt;版本之間的衝突&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;strong&gt;改版倉儲&lt;/strong&gt;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;1.cd tmp &lt;code&gt;切換到倉儲下載下來的目錄&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;2.git clone 倉儲網址 &lt;code&gt;從遠端下載倉儲下來&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;3.cd 2015fallcpb &lt;code&gt;切換到倉儲的2015fallcpb&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;4.git checkout gh-pages &lt;code&gt;切換倉儲的分支到gh-pages&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;5.用Leo開啟reveal.leo的檔案 &lt;code&gt;才更改裡面的設定&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;6.複製path 9999的節點，用上方Otline中的Copy Node複製9999的節點，再用Otline中的Paste Node貼上節點&lt;/p&gt;
+&lt;p&gt;7.把複製的9999節點，改成自己的學號，打開自己的節點，並且把.html檔和.md檔都改成自己的學號，還要把兩個檔案中有9999的地方改成自己的學號&lt;/p&gt;
+&lt;p&gt;8.進入到Y:\tmp\2015fallcpb\user，複製貼上9999目錄並改成自己的學號，把自己學號目錄中的9999_cp_w1_p.html的檔案刪掉&lt;/p&gt;
+&lt;p&gt;9.進入Y:\tmp\2015fallcpb\user\學號\pelican\content中，把9999_cp_w1.md刪除，把9999_cp_w2.md的9999改成自己的學號&lt;/p&gt;
+&lt;p&gt;10.回到Leo案Ctrl+S存檔，點選Yes To All，接著把滑鼠停在自己的path 學號上，然後按上面的user-pelican&lt;/p&gt;
+&lt;p&gt;11.git add -A &lt;code&gt;近端改版後完，開始推回遠端&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;12.git commit -m"學號"&lt;/p&gt;
+&lt;p&gt;13.git push origin gh-pages &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業五</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w5.html" rel="alternate"></link><updated>2015-10-17T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-10-17:reveal/2015cp_hw_w5.html</id><summary type="html">&lt;p&gt;以下為作業五內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w5_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w5_p.html" target="_blank"&gt;作業5投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;strong&gt;Git的基本操作&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;1.設定&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git config user.email"信箱"&lt;/p&gt;
+&lt;p&gt;git config user.name"名稱"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;2.改版認證；提交；推送&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git add -A&lt;/p&gt;
+&lt;p&gt;git commit -m"名稱"&lt;/p&gt;
+&lt;p&gt;git push&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;3.分支&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git branch &lt;code&gt;檢查分支&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;git checkout 分支名稱 &lt;code&gt;切換到指定分支&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;git push origin 分支名稱 &lt;code&gt;推送到指定分支&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;&lt;strong&gt;Github的基本操作&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;1.倉儲&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git clone 倉儲網址 &lt;code&gt;下載遠端倉儲&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業四</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w4.html" rel="alternate"></link><updated>2015-10-10T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-10-10:reveal/2015cp_hw_w4.html</id><summary type="html">&lt;p&gt;以下為作業四內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w4_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w4_p.html" target="_blank"&gt;作業4投影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業三</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w3.html" rel="alternate"></link><updated>2015-10-03T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-10-03:reveal/2015cp_hw_w3.html</id><summary type="html">&lt;p&gt;以下為作業三內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w3_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w3_p.html" target="_blank"&gt;作業3投影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業二</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w2.html" rel="alternate"></link><updated>2015-09-26T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-09-26:reveal/2015cp_hw_w2.html</id><summary type="html">&lt;p&gt;以下為作業二內容&lt;/p&gt;
+&lt;iframe src="40423226_cp_w2_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w2_p.html" target="_blank"&gt;作業2投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;strong&gt;如何用區域網路分享檔案&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;1.開啟start在有python的環境下操作&lt;/p&gt;
+&lt;p&gt;2.因為檔案的位置不在Y槽，所以輸入C:把現在的目錄換到C槽&lt;/p&gt;
+&lt;p&gt;3.雖然換到C槽，這還不是我們想要的目錄，就可以輸入cd空格..換到上一層的目錄，但是還是位於C槽&lt;/p&gt;
+&lt;p&gt;4.輸入cd 打需要指定的目錄名稱&lt;/p&gt;
+&lt;p&gt;5.可以輸入dir看看目前目錄中有哪些檔案&lt;/p&gt;
+&lt;p&gt;6.輸入python -m http.server，意思是執行python中的一個http.server模組&lt;/p&gt;
+&lt;p&gt;7.但是沒有輸入IP所以無法執行http.server的模組&lt;/p&gt;
+&lt;p&gt;8.用ipconfig /all找到自己IPv4的網路IP&lt;/p&gt;
+&lt;p&gt;9.再輸入python -m http.server&lt;/p&gt;
+&lt;p&gt;10.執行完畢後再網頁輸入自己的IP:自己的port號&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業一</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w1.html" rel="alternate"></link><updated>2015-09-19T00:00:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_hw_w1.html</id><summary type="html">&lt;p&gt;以下為作業一內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="40423226_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423226_cp_w1_p.html" target="_blank"&gt;作業1投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;使用 H1 標題&lt;/h1&gt;
+&lt;p&gt;文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料&lt;/p&gt;
+&lt;p&gt;使用. &lt;em&gt;斜體文字&lt;/em&gt;, &lt;strong&gt;黑體文字&lt;/strong&gt;, 以及 &lt;code&gt;單線文字&lt;/code&gt;. 表列資料可以寫為:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第1項說明&lt;/li&gt;
+&lt;li&gt;第2項說明&lt;/li&gt;
+&lt;li&gt;第3項說明&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;引用的內容寫在這裡
+主要是以大於的符號開頭.&lt;/p&gt;
+&lt;p&gt;其中也可以利用空白行隔開,
+整區都是引用內容的範圍.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
+pelican 可以支援 unicode. ☺&lt;/p&gt;
+&lt;h2&gt;H2 標題&lt;/h2&gt;
+&lt;p&gt;有數字的表列資料:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;第1項&lt;/li&gt;
+&lt;li&gt;第2項&lt;/li&gt;
+&lt;li&gt;第3項&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;跟前面一樣, 文字從第四個欄位開始.&lt;/p&gt;
+&lt;p&gt;程式碼的表達:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;# for 重複迴圈 ...
+for i in 1 .. 10 { 呼叫特定函式(i) }
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;這裡也是要空4個 space 鍵. &lt;/p&gt;
+&lt;p&gt;除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;define foobar() {
+    print(&amp;quot;歡迎進入程式的世界!&amp;quot;)
+}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;(這樣的表達比較容易用來複製程式碼內容).&lt;/p&gt;
+&lt;p&gt;python 的程式碼, 可以寫成下列格式&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;time&lt;/span&gt;
+&lt;span class="c"&gt;# 以下會從 0 數到 9&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="c"&gt;# 稍微暫停一下&lt;/span&gt;
+    &lt;span class="n"&gt;time&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sleep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;以下為另外一種嵌入程式碼的方法:&lt;/p&gt;
+&lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;time&lt;/span&gt;
+&lt;span class="c"&gt;# 以下會從 0 數到 9&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="c"&gt;# 稍微暫停一下&lt;/span&gt;
+    &lt;span class="n"&gt;time&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sleep&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h3&gt;H3 標題&lt;/h3&gt;
+&lt;p&gt;以下則為內嵌式的表列法t:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;首先, 將完成下列元件的設計:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;轉向機構&lt;/li&gt;
+&lt;li&gt;煞車系統&lt;/li&gt;
+&lt;li&gt;踩踏機構&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接著連繫工業設計部門.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;確定上述元件的各項設計與用料都符合原始設計規格的要求
+    查驗表:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;各元件材質
+車蓋顏色
+機構調校流程
+需要熱處理的元件列表
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;完成上述查驗後, 請通知品保部門, 以便接續處理.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.&lt;/p&gt;
+&lt;p&gt;Markdown 的超文件連結寫法 &lt;a href="http://www.google.com" target="_blank"&gt;連到 Google&lt;/a&gt;, 也可以連到同目錄下的檔案 &lt;a href="cadpbw1.html" target="_blank"&gt;cadpbw1.html&lt;/a&gt;, 也能使用註腳 &lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;放入圖檔, 可以直接利用 html 的 img 標註:&lt;/p&gt;
+&lt;p&gt;&lt;img src="images/spur.png" width="500" alt="正齒輪繪圖"&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;註腳會連結到這裡.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>

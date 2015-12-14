@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423212-6</title>
+<title>40423212-8</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -25,75 +25,92 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>期中報告心得</h1>
+    <h1>zero to hero python教學</h1>
     <p>40423212 四設一乙 吳秉駿</p>		
 </section>
 	
-<section id="hw-task-five">
-<section>
-</section>
-    <h1>學到的一些東西</h1>
-這兩個月的課程我們學會......交作業,當然交這個作業要稍微理解一些地方的程序,才不會打開筆記之後無從起步.
+<section id="hw-task-eight">
+    <h1>python也會畫畫?</h1>
+在python除了可以導入random，我們也可以導入一個叫turtle的指令，可以命令這隻"烏龜"來幫我們走出路徑。
+<br />
+要導入這條烏龜，輸入:
+<br />
+import turtle
 </section>
   
 <section>
-<h2>如何把倉儲的東西抓下來</h2>
-<br />
-先打開start弄出y槽,leo editor(要自行下載),jupyter,SciTE及cmd等,弄出一個做作業的環境
-<br />
-cmd會預設y槽的路徑,即Y:\>,使用cd 來選擇自己要放作業的位置,例如我要放在tmp,就輸入cd tmp,就會進到tmp
+<h2>我們可以命令這條烏龜:</h2>
 
+<br />
+前進:turtle.forward(100)
+<br />
+讓烏龜前進100個單位，前進默認為向右走
+<br />
+轉彎:turtle.right(90)
+<br />
+讓烏龜向右轉90度，相對left就是向左轉
+<br />
+上色:turtle.color(顏色名，例如red)
+<br />
+就是幫線條上色
 </section>
 				
 <section>
-之後複製在gh-pages的github clone URL,輸入:
-    <br />
-git clone https...........
+有上面這些指令就能做出一個多邊形了，但要做出很多邊了話可能會很麻煩，這個時候我們可以用一個重複指令
 <br />
-就能把倉儲的東西複製進y槽的tmp
+for i in range(次數)
 <br />
-但打開來之後發現,只有3個檔案,這是因為我們還沒把電腦拉下來的倉儲資料切至gh-pages,欲要切換,輸入:
+這個指令可以讓後續的指令重複次數次，其中"i"可以帶入任何數字外的字眼來作代數
 <br />
-git checkout gh-pages
+for i in range(4)
 <br />
-就會換成github gh-pages的檔案了
+    print("hello")
+<br />
+就能輸出
+<br />
+hello
+<br />
+hello
+<br />
+hello
+<br />
+hello
 </section>
 <section>
-我們可以在裡面找到reveal.leo,這是我們要做作業用的檔案
+實際運用在烏龜上了話，我們可以這麼來:
+<br />
+for i in range(4):
+<br />
+　　turtle.forward(300)
+<br />
+　　turtle.right(90)
+<br />
+烏龜就會前進300單位之後右轉90度重複4次，即畫出一個正方形
 </section>
 <section>
-    <section>
-    下拉製作投影片,右拉上傳
-    </section>
-    <section>
-    每個指令碼都需要放在大於小於之間
-    <br />
-  section /section之間:個投影片
-  <br/>
-  br /:換行
+甚至也能在for i in range裡面再加一個for i in range，可以重複運行重複指令，做出乘法的效果。
 <br />
-  h數字:標題,數字為標題大小,內部建議用2
-,標題建議用1
+for i in range(4):
 <br />
-會這些就能做一個基本的投影片了
-    </section>
+　　turtle.forward(100)
+<br />
+　　turtle.right(90)
+<br />
+　　　　for i in range(4)
+<br />
+　　　　　　turtle.forward(50)
+<br />
+　　　　　　turtle.right(90)
+<br/>
+猜猜看這樣的語法會有怎麼樣的效果呢?
 </section>
 
 <section>
-git add -A>>打包(A=全部)
-<br />
-git commit -m"隨意取">>幫你打的包取個名字,方便於日後查看更新過程
-<br />
-如果第一次上傳或電腦有還原卡,會要求輸入信箱及使用者名稱
-<br />
-git push>>上傳
-<br />
-輸入完用戶名稱及密碼後,如果尚未更新,那可能是發生衝突,我們要先輸入git pull後
-進行除錯(刪除7個一行的大小等於,vr跟v的對應)後再上傳
+第一個迴圈指示了前進100之後轉90度，進入第二個迴圈進行四次的前進50右轉90度的迴圈重複四次，即4x(1+4)=20步，路徑會變成一個田字型
 </section>
 <section>
 <h2>心得與自評</h2>
-自己在做這一系列的檔案時,也碰過不少壁,雖然感覺相當糗,甚至搞壞了整個倉儲,但最後事情都是解決的,也在解決過程中稍微熟悉了這一系列的操作,之後的操作只會越來越難,也希望自己能夠一一克服
+雖然說的是烏龜畫線，但其中for i in range的指令也相當好用也順便一起說明，也可以增加自己對這個指令的認識與熟悉。
 <br />
 個人給自己75分
 </section>

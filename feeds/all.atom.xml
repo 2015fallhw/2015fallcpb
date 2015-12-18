@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423226 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-19T14:18:00+08:00</updated><entry><title>G6_w14_1</title><link href="http://coursemdetw.github.io/reveal/G6_w14_1.html" rel="alternate"></link><updated>2015-12-19T14:18:00+08:00</updated><author><name>40423226</name></author><id>tag:coursemdetw.github.io,2015-12-19:reveal/G6_w14_1.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
+=======
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 作業主頁</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-19T14:51:00+08:00</updated><entry><title>g9_w14_1</title><link href="http://coursemdetw.github.io/reveal/g9_w14_1.html" rel="alternate"></link><updated>2015-12-19T14:51:00+08:00</updated><author><name>40423243</name></author><id>tag:coursemdetw.github.io,2015-12-19:reveal/g9_w14_1.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
+>>>>>>> c867764dd720c83f31320161e2866029755d101c
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;

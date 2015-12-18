@@ -14,7 +14,16 @@
 <v t="leo.20151215210141.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151215210141.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
+<v t="leo.20151218145025.1"><vh>@button admin pelican</vh></v>
 <v t="leo.20151215210536.1"><vh>@button user pelican</vh></v>
+<v t="leo.20151218145201.1" a="E"><vh>@path ./../../</vh>
+<v t="leo.20151218145201.2"><vh>@button admin pelican</vh></v>
+<v t="leo.20151218145201.3" a="E"><vh>@path pelican</vh>
+<v t="leo.20151218145201.4" a="E"><vh>@path content</vh>
+<v t="leo.20151218145201.5"><vh>@edit G6_w14_1.md</vh></v>
+</v>
+</v>
+</v>
 <v t="leo.20151215210153.1" a="E"><vh>@path ./</vh>
 <v t="leo.20151215210153.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151215210153.3"><vh>@edit 40423226_cp_w1_p.html</vh></v>
@@ -46,6 +55,7 @@
 <v t="leo.20151215210153.28"><vh>@edit 40423226_cp_w10.md</vh></v>
 <v t="leo.20151215210153.29"><vh>@edit 40423226_cp_w11.md</vh></v>
 <v t="leo.20151215211450.1"><vh>@edit 40423226_cp_w12.md</vh></v>
+<v t="leo.20151218143245.1"><vh>@edit 40423226_cp_w14.md</vh></v>
 </v>
 </v>
 </v>
@@ -137,5 +147,16 @@ vertical: body pane on the botton</t>
 import os
 os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t ../../theme/pelican-octopress")
 g.es("user pelican 執行完畢")</t>
+<t tx="leo.20151218145025.1">@language python
+import os
+os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
+g.es("admin pelican 執行完畢")</t>
+<t tx="leo.20151218145201.1"></t>
+<t tx="leo.20151218145201.2">@language python
+import os
+os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
+g.es("admin pelican 執行完畢")</t>
+<t tx="leo.20151218145201.3"></t>
+<t tx="leo.20151218145201.4"></t>
 </tnodes>
 </leo_file>

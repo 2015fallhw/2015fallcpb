@@ -45,5 +45,37 @@ x = 100
 y = 100
 
 # 利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print
-console.log("x 值為"+str(x)+", y 值為"+str(y))
+#console.log("x 值為"+str(x)+", y 值為"+str(y))
+
+# 定義一個畫圓的函式
+def circle(ctx, x, y, radius, color='black'):
+    ctx.beginPath()
+    ctx.arc(x, y, radius, 0, 2 * math.pi, False)
+    ctx.fillStyle = color
+    ctx.fill()
+    ctx.lineWidth = 1
+    ctx.strokeStyle = '#003300'
+    ctx.stroke()
+
+# 點資料數列, [ ] 為數列(list), ( ) 為元組(tuple)
+points = [(10, 10), (20, 50), (20, 100), (30, 160), (70, 25), (100, 180)]
+
+# 呼叫 circle() 函式, 畫出曲線的控制點
+for i in range(len(points)):
+    circle(ctx, points[i][0], points[i][1], 5)
+    # 利用 console.log 列出控制點座標
+    console.log("第"+str(i+1)+"點座標為: ("+str(points[i][0])+", "+str(points[i ][1])+")")
+
+# 開始根據控制點, 畫出對應曲線
+ctx.beginPath()
+ctx.moveTo(points[0][0], points[0][1])
+
+for i in range(1, len(points)-1):
+    xc = (points[i][0] + points[i + 1][0]) / 2
+    yc = (points[i][1] + points[i + 1][1]) / 2
+    ctx.quadraticCurveTo(points[i][0], points[i][1], xc, yc)
+
+#curve through the last two points
+ctx.quadraticCurveTo(points[i][0], points[i][1], points[i+1][0],points[i+1][1])
+ctx.stroke()
 &lt;/script&gt;</summary><category term="w14"></category><category term="brython"></category></entry></feed>

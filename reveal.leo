@@ -191,6 +191,7 @@
 <v t="leo.20151218153058.1"><vh>@edit g4_w14_3.md</vh></v>
 </v>
 </v>
+<v t="leo.20151218155828.1"><vh>@button user pelican</vh></v>
 </v>
 <v t="leo.20151112234241.1"><vh>@path 40423220</vh>
 <v t="leo.20151112234241.2"><vh>以下為投影片 ------------</vh></v>
@@ -419,7 +420,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151023171317.1" a="E"><vh>@path 40423254</vh>
+<v t="leo.20151023171317.1"><vh>@path 40423254</vh>
 <v t="leo.20151023171317.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151023171317.3"><vh>@edit 40423254_cp_w1_p.html</vh></v>
 <v t="leo.20151211174407.1"><vh>@edit 40423254_cp_w7_p.html</vh></v>
@@ -429,11 +430,10 @@
 <v t="leo.20151211175410.1"><vh>@edit 40423254_cp_w11_p.html</vh></v>
 <v t="leo.20151211180853.1"><vh>@edit 40423254_cp_w12_p.html</vh></v>
 <v t="leo.20151211181224.1"><vh>@edit 40423254_cp_w13_p.html</vh></v>
-<v t="leo.20151218150822.1"><vh>@edit 40423254_cp_w14_p.html</vh></v>
 <v t="leo.20151023171317.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151023171317.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151023171317.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151023171317.7" a="E"><vh>@path content</vh>
+<v t="leo.20151023171317.7"><vh>@path content</vh>
 <v t="leo.20151023171317.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151023171317.9"><vh>@edit 40423254_cp_w1.md</vh></v>
 <v t="leo.20151211174815.1"><vh>@edit 40423254_cp_w7.md</vh></v>
@@ -443,7 +443,6 @@
 <v t="leo.20151211175507.1"><vh>@edit 40423254_cp_w11.md</vh></v>
 <v t="leo.20151211180911.1"><vh>@edit 40423254_cp_w12.md</vh></v>
 <v t="leo.20151211181202.1"><vh>@edit 40423254_cp_w13.md</vh></v>
-<v t="leo.20151218150836.1"><vh>@edit 40423254_cp_w14.md</vh></v>
 </v>
 </v>
 </v>
@@ -501,7 +500,7 @@
 </v>
 </v>
 </v>
-<v t="233.20151023151531.1"><vh>@path 40423212</vh>
+<v t="233.20151023151531.1" a="E"><vh>@path 40423212</vh>
 <v t="233.20151023151531.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151101175333.1"><vh>@edit 40423212_cp_w0_p.html</vh></v>
 <v t="leo.20151105232821.1"><vh>@edit 40423212_cp_w1_p.html</vh></v>
@@ -1459,5 +1458,9 @@ cpa.txt 檔案內容
 <t tx="leo.20151215010647.2"></t>
 <t tx="leo.20151215010647.4"></t>
 <t tx="leo.20151215010647.5"></t>
+<t tx="leo.20151218155828.1">@language python
+import os
+os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t ../../theme/pelican-octopress")
+g.es("user pelican 執行完畢")</t>
 </tnodes>
 </leo_file>

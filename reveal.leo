@@ -14,18 +14,18 @@
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20150919102739.1"><vh>專案架構</vh>
+<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20151007224830.1"><vh>Jupyter 安裝與執行</vh></v>
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
 <v t="amd.20151029234738.1"><vh>Leo 範例程式</vh></v>
-<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
 <v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
-<v t="amd.20150919114010.1"><vh>@path pelican</vh>
+<v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>@edit publishconf.py</vh></v>
-<v t="amd.20151006113136.1"><vh>@path content</vh>
+<v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
 <v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
 <v t="amd.20151029234658.1"><vh>@edit 2015cphww7.md</vh></v>
 <v t="amd.20150920000911.1"><vh>@edit 2015cpnote7.md</vh></v>
@@ -33,7 +33,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh>
+<v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
 <v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1"><vh>html 標註</vh>
@@ -507,7 +507,6 @@
 </v>
 </v>
 </v>
-
 <v t="233.20151023151531.1" a="E"><vh>@path 40423212</vh>
 <v t="233.20151023151531.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151101175333.1"><vh>@edit 40423212_cp_w0_p.html</vh></v>
@@ -538,7 +537,6 @@
 </v>
 </v>
 </v>
-
 <v t="leo.20151117020939.1"><vh>@path 40423213</vh>
 <v t="leo.20151117020939.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151117020939.3"><vh>@edit 40423213_cp_w0_p.html</vh></v>
@@ -930,6 +928,12 @@
 <t tx="123.20151026204139.5"></t>
 <t tx="123.20151026204139.7"></t>
 <t tx="123.20151026204139.8"></t>
+<t tx="233.20151023151531.1"></t>
+<t tx="233.20151023151531.2"></t>
+<t tx="233.20151023151531.4"></t>
+<t tx="233.20151023151531.5"></t>
+<t tx="233.20151023151531.7"></t>
+<t tx="233.20151023151531.8"></t>
 <t tx="abc.20151026194225.1"></t>
 <t tx="abc.20151026194225.2"></t>
 <t tx="abc.20151026194225.4"></t>

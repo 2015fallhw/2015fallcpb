@@ -10,7 +10,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20151214231352.1" a="E"><vh>@settings</vh>
+<v t="leo.20151214231352.1"><vh>@settings</vh>
 <v t="leo.20151214231352.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151214231352.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -39,6 +39,7 @@
 <v t="leo.20151214224704.26"><vh>@edit 40423212_cp_w12.md</vh></v>
 <v t="leo.20151214224704.27"><vh>@edit 40423212_cp_w13.md</vh></v>
 <v t="leo.20151218161549.1"><vh>@edit 40423212_cp_w14.md</vh></v>
+<v t="leo.20151226004706.1"><vh>@edit 40423212_cp_w15.md</vh></v>
 </v>
 </v>
 <v t="leo.20151218152605.1" a="E"><vh>投影片</vh>
@@ -53,6 +54,7 @@
 <v t="leo.20151214224704.11"><vh>@edit 40423212_cp_w12_p.html</vh></v>
 <v t="leo.20151214224704.12"><vh>@edit 40423212_cp_w13_p.html</vh></v>
 <v t="leo.20151220011738.1"><vh>@edit 40423212_cp_w14_p.html</vh></v>
+<v t="leo.20151226004701.1"><vh>@edit 40423212_cp_w15_p.html</vh></v>
 </v>
 </vnodes>
 <tnodes>

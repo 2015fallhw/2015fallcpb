@@ -50,7 +50,7 @@
 &lt;li&gt;啟動後, 各組員要如何編寫?&lt;/li&gt;
 &lt;li&gt;各組員在正確的位置建立 ipython notebook 後, 組長又該如何將這些資料引入報告中?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;首先看一下 start.bat 中, 我們如何啟動 Jupyter:&lt;/p&gt;
+&lt;p&gt;首先看一下 start.bat 中, 我們如何啟動 Jupyter :&lt;/p&gt;
 &lt;table class="highlighttable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
 2
 3&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;cd&lt;/span&gt; tmp

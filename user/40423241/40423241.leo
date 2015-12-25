@@ -20,9 +20,8 @@
 <v t="leo.20151218152716.2"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151218152716.3" a="E"><vh>@path content</vh>
 <v t="leo.20151218152716.4"><vh>@edit g8 w14_1.md</vh></v>
-<v t="leo.20151218152716.5"><vh>@edit 2015cphww7.md</vh></v>
-<v t="leo.20151218152716.6"><vh>@edit 2015cpnote7.md</vh></v>
 <v t="leo.20151218152716.7"><vh>@edit g8 w14_2.md</vh></v>
+<v t="leo.20151225144401.1"><vh>@edit g8 w15_1.md</vh></v>
 </v>
 </v>
 </v>
@@ -37,7 +36,7 @@
 <v t="leo.20151218151840.8"><vh>@edit 40423241_cp_w6_p.html</vh></v>
 <v t="leo.20151218151840.9"><vh>@edit 40423241_cp_w7_p.html</vh></v>
 <v t="leo.20151218151840.10"><vh>@edit 40423241_cp_w8_p.html</vh></v>
-<v t="leo.20151218151840.11"><vh>@path pelican</vh>
+<v t="leo.20151218151840.11" a="E"><vh>@path pelican</vh>
 <v t="leo.20151218151840.12"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151218151840.13"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151218151840.14"><vh>@path content</vh>

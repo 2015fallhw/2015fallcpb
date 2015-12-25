@@ -141,17 +141,113 @@ notebook --ip<span class="o">=</span><span class="nv">%thisip%</span> --certfile
 <p>以下導入位於組長電腦 y:\tmp\2015fallcpa\content\notebook\g66 目錄下的 6601_w15.ipynb 檔案:</p>
 <p>%%%%%  這裡是學號 6601 組員針對 W15 所寫的分組報告內容 %%%%%
 
-可以請組長在 .md 檔案中引入這個檔案的內容</p>
+可以請組長在 .md 檔案中引入這個檔案的內容
+
+######################################################
+目前已經熟悉的 Python3 指令及語法有哪些? 請舉例說明.
+
+此地, 將直接利用 Jupyter 的 Python3 Notebook cell 說明
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># print() 的用法</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;hello world!&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>hello world!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># print() 的用法, 可以設定分隔符號</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;hello&quot;</span><span class="p">,</span> <span class="s">&quot;world&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&quot;---&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>hello---world
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c"># print() 的用法, 可以設定分隔符號</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;hello&quot;</span><span class="p">,</span> <span class="s">&quot;world&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>hello world
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></p>
 <p>當然是測試看看, 能否正確導入 6601 組員所編寫的 6601_w15 ipython notebook 內容.</p>
 <h1>經過測試無誤後, 再次提交推送</h1>
 <p>提交推送過程, 有發現遠端有新的版本 ,所以又執行 git pull, 拉回遠端的新資料後, 再 @button admin pelican 後, 檢查近端資料, 正確無誤後再行提交推送.</p>
 <h1>接下來由 6602 組員利用 notebook 貢獻一張圖</h1>
-<p>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <!-- 導入 brython_dist.js -->
 
 <script type="text/javascript" src="http://brython.info/src/brython_dist.js"></script>
@@ -221,9 +317,7 @@ ctx.closePath()
 ctx.fillStyle = '#fff'
 ctx.fill()
 </script>
-</div>
-</div>
-</div></p>
+
 <p>測試看看, 上面有沒有顯示一面國旗???</p>
 <h1>答案是有, 那麼各組員就可以利用相同的架構, 把耶誕卡繪圖整合進分組報告了</h1>
 <p>接下來要整合 6603 的報告內容:</p>
@@ -319,7 +413,7 @@ for i in range(5):
         star(200+65*i, 200+65*j, 30, 0, False, "#000")
         
 </script></p>
-<h1>在推送 9903 資料時, 又碰到必須 pull, regenerage pelican</h1></div>
+<h1>在推送 6603 資料時, 又碰到必須 pull, regenerage pelican</h1></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -349,16 +443,16 @@ for i in range(5):
           <a href="./g66_w15.html">第十五週報告示範</a>
       </li>
       <li class="post">
+          <a href="./g9_w15.html">g9_w15</a>
+      </li>
+      <li class="post">
           <a href="./g4_w14_3.html">g4_w14_3</a>
       </li>
       <li class="post">
           <a href="./g9_w14_1.html">g9_w14_1</a>
       </li>
       <li class="post">
-          <a href="./G6_w14_1.html">G6_w14_1</a>
-      </li>
-      <li class="post">
-          <a href="./g66_w14_1.html">g66_w14_1</a>
+          <a href="./g9_w14_2.html">g9_w14_2</a>
       </li>
     </ul>
   </section>
@@ -379,7 +473,7 @@ for i in range(5):
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/brython.html">brython</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
+    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/brython.html">brython</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/w14.html">w14</a>  </section>
 
 
     <section>

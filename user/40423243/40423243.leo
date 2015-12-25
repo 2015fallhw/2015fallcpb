@@ -18,7 +18,9 @@
 <v t="leo.20151218143952.1"><vh>@button admin pelican</vh></v>
 <v t="leo.20151218144006.1" a="E"><vh>@path pelican</vh>
 <v t="leo.20151218144006.3" a="E"><vh>@path content</vh>
-<v t="leo.20151218144006.4"><vh>@edit g9_w14_1.md</vh></v>
+<v t="leo.20151225134613.1"><vh>@edit g9_w14_1.md</vh></v>
+<v t="leo.20151218144006.4"><vh>@edit g9_w14_2.md</vh></v>
+<v t="leo.20151225134700.1"><vh>@edit g9_w15.md</vh></v>
 </v>
 </v>
 </v>

@@ -25,55 +25,69 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>zero to hero python教學 </h1>
+    <h1>zero to hero python教學</h1>
     <p>40423245 四設一乙</p>		
 </section>
-	
-<section id="hw-task-one">
-    <h1>python?</h1>
-    <p>python是一種電腦語言,相較於其他電腦語言更為簡單,可以做計算,做簡報,做統計,甚至是管理倉儲,都可以用python語法來完成,可以使用python語法的地方也不少,例如leo editor及matlab都是用python語法來運作,最重要的,大部分的python軟體都是免費的!</p>
-</section>
-
 <section>
-<h1>怎麼樣的人適合學習python</h1>
-對程式設計陌生的人
-<br />
-學生
-<br />
-找工作的人
-<br />
-IT PROS(從事資訊科技
-的專業人員,information technology professionals)
-<br />
-對程式語法有興趣的人
+<h2>列表</h2>
+我們可以用python整理一串數列，可以是姓名、學號等等，來做增減、搜尋等用途
 </section>
+  
 <section>
-<h1>一些簡單的語法:</h1>
-
-print:輸出
+我們首先當然需要一串數列：
 <br />
-在後面加一個小括弧跟引號,可以輸出引號內的內容:
-<br />
-print("hello world")
-<br />
-然後就可以得到:hello world!
-</section>
-<section>
-#:不作為語法
-<br />
-不會把#後面的字串當作是程式語言,方便作為標註
-<br />
-例如:#這是zero to hero第一回的介紹
-</section>
-<section>
-<h1>心得</h1>
-雖然說是較簡單的程式語言,但只要是程式語言都有很多種語法要去學,希望能夠善加利用這個語法來讓自己以後的工作更加便利
-</section>
-<section>
-    <h1>自評</h1>
-    <p>雖然照著老師做是免強可以,但是要懂裡面的細節還要在下不少功夫,個人對這周學習到的給65分</p>
+id=['a','b','c','d']
 </section>
 				
+<section>
+<h2>數列的規則</h2>
+<br />
+前面多少提過關於python的數列，有個跟正常的數學不一樣的規則，從前面到後面各是：
+<br />
+0，1，2，3......
+<br />
+也可以用負數：
+<br />
+......-4，-3，-2，-1(最後算-1)
+<br />
+利用這些數字來做指定的動作，像a就要用0或-4來指定
+
+</section>
+<section>
+<h2>編輯數列</h2>
+我們會用到.append，.remove，del等指令，以id為我們的數列
+<br />
+id.append('名字')：增加字串到最後一項
+<br />
+id.remove ('名字')：移除字串
+<br />
+del id(自取)[數字]：移除某個數字
+</section>
+
+<section>
+我們利用上面的規則可以整理出這串簡單的字串：
+<br />
+id=['1','2','3','4']
+<br />
+id.remove('4')
+<br />
+del id[0]
+<br />
+print (id[0])
+<br />
+print (id[-1])
+</section>
+
+<section>
+移除了id"4"跟第0個id"1"，我們少了1、4，剩下2、3，print出來的第0個id就是2，第-1個就會是3
+</section>
+
+<section>
+<h2>心得與自評</h2>
+更新字串往往需要費不少神來一個一個找資料，如果我們用字串直接把這些資料輸入進去，會更加方便
+<br />
+個人給自己70分
+</section>
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>

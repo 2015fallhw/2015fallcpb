@@ -25,55 +25,61 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>zero to hero python教學 </h1>
+    <h1>zero to hero python教學</h1>
     <p>40423245 四設一乙</p>		
 </section>
-	
-<section id="hw-task-one">
-    <h1>python?</h1>
-    <p>python是一種電腦語言,相較於其他電腦語言更為簡單,可以做計算,做簡報,做統計,甚至是管理倉儲,都可以用python語法來完成,可以使用python語法的地方也不少,例如leo editor及matlab都是用python語法來運作,最重要的,大部分的python軟體都是免費的!</p>
-</section>
-
 <section>
-<h1>怎麼樣的人適合學習python</h1>
-對程式設計陌生的人
-<br />
-學生
-<br />
-找工作的人
-<br />
-IT PROS(從事資訊科技
-的專業人員,information technology professionals)
-<br />
-對程式語法有興趣的人
+<h2>間接編輯檔案?</h2>
+python也可以用來編輯文字檔,甚至連excel(.csv檔)的表格都能填上去!
 </section>
+  
 <section>
-<h1>一些簡單的語法:</h1>
-
-print:輸出
+首先當然是建立檔案,為了最大化利用python,我們也能拿python來建立檔案
 <br />
-在後面加一個小括弧跟引號,可以輸出引號內的內容:
+fileName='fd.txt'
 <br />
-print("hello world")
+write='w'
 <br />
-然後就可以得到:hello world!
-</section>
-<section>
-#:不作為語法
+file = open(fileName,mode=write)
 <br />
-不會把#後面的字串當作是程式語言,方便作為標註
-<br />
-例如:#這是zero to hero第一回的介紹
-</section>
-<section>
-<h1>心得</h1>
-雖然說是較簡單的程式語言,但只要是程式語言都有很多種語法要去學,希望能夠善加利用這個語法來讓自己以後的工作更加便利
-</section>
-<section>
-    <h1>自評</h1>
-    <p>雖然照著老師做是免強可以,但是要懂裡面的細節還要在下不少功夫,個人對這周學習到的給65分</p>
+就能產生一個叫fd的txt檔(就是大家熟悉的筆記本)
 </section>
 				
+<section>
+<h2>編輯內容</h2>
+延續前面建立的內容繼續寫下:
+<br />
+file.write('ch11,done')
+<br />
+file.write('ch12,undo\n')
+<br />
+file.close
+<br />
+print('file written successful')
+<br />
+重開筆記本就會在裡面輸入文字內容
+
+</section>
+<section>
+甚至能搭配input指令
+<br />
+data=input('輸入字句')
+<br />
+file = open(fileName,mode=write)
+<br />
+file.write(data)
+<br />
+file.close()
+<br />
+就可以自由輸入來編輯了
+</section>
+
+<section>
+<h2>心得與自評</h2>
+單純看這個指令非常多此一舉,但感覺如果搭配上其他語法一起使用,就可以變成一個實用的編輯器,語法往往都需要互相做配合才能體現出其效果
+<br />
+個人給自己65分
+</section>
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>

@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>最簡單的 reveal 超文件</title>
+<title>40423212-6</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -25,70 +25,78 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>肉圓's作業</h1>
-    <p>40423241 黃鈺灃</p>		
+    <h1>期中報告心得</h1>
+    <p>40423212 四設一乙 吳秉駿</p>		
 </section>
 	
 <section id="hw-task-five">
 <section>
-  
 </section>
-    <h1>日期計算</h1>
- python互動的進階模式,可以直接取電腦上的時間來進行計算
+    <h1>學到的一些東西</h1>
+這兩個月的課程我們學會......交作業,當然交這個作業要稍微理解一些地方的程序,才不會打開筆記之後無從起步.
 </section>
   
 <section>
-我們先導入電腦時間,指令為:
+<h2>如何把倉儲的東西抓下來</h2>
 <br />
-import dateline
+先打開start弄出y槽,leo editor(要自行下載),jupyter,SciTE及cmd等,弄出一個做作業的環境
 <br />
-之後我們輸入現在時間,指令為:
-<br />
-currentDate = datetime.date.today()
-<br />
-最後還是用print來做輸出
-<br />
-print(currentDate)
-<br />
-就可以讓電腦用python認出電腦時間
+cmd會預設y槽的路徑,即Y:\>,使用cd 來選擇自己要放作業的位置,例如我要放在tmp,就輸入cd tmp,就會進到tmp
+
 </section>
 				
 <section>
-python也能認得年,月,:
+之後複製在gh-pages的github clone URL,輸入:
     <br />
-print(currentDate.month)
+git clone https...........
 <br />
-可以得到月
+就能把倉儲的東西複製進y槽的tmp
 <br />
-print(currentDate.year)
+但打開來之後發現,只有3個檔案,這是因為我們還沒把電腦拉下來的倉儲資料切至gh-pages,欲要切換,輸入:
 <br />
-可以得到年
+git checkout gh-pages
+<br />
+就會換成github gh-pages的檔案了
 </section>
 <section>
-<h1>使用strftime指令</h1>
-strftime可以把後續的代數指令變簡單一些,但非常難以記憶,通常是以書本或網路來記載:
-    <br />
- print(currentDate.strftime('%d %b, %Y'))
-    <br />
-%d=日
-    <br />
-%b=月
-    <br />
-%Y=年
-    <br />
-可以查詢'http://strftime.org/'來找更多關於strftime語法的使用
+我們可以在裡面找到reveal.leo,這是我們要做作業用的檔案
 </section>
-  
 <section>
-<h1>對python課程的一些感想</h1>
-在python的語法下,兩種不同的語法也有可能會產生一樣的結果,而在部份情況下,strftime這個指令或許可以讓工作處理得更效率
+    <section>
+    下拉製作投影片,右拉上傳
+    </section>
+    <section>
+    每個指令碼都需要放在大於小於之間
+    <br />
+  section /section之間:個投影片
+  <br/>
+  br /:換行
+<br />
+  h數字:標題,數字為標題大小,內部建議用2
+,標題建議用1
+<br />
+會這些就能做一個基本的投影片了
+    </section>
 </section>
 
 <section>
-<h1>心得與自評</h1>
-<p>解決衝突看似簡單,親自解決時就亂了手腳,還好班上同學給了我很多練習機會,現在看到衝突都不會害怕。自評分數 : 65分</p>
+git add -A>>打包(A=全部)
+<br />
+git commit -m"隨意取">>幫你打的包取個名字,方便於日後查看更新過程
+<br />
+如果第一次上傳或電腦有還原卡,會要求輸入信箱及使用者名稱
+<br />
+git push>>上傳
+<br />
+輸入完用戶名稱及密碼後,如果尚未更新,那可能是發生衝突,我們要先輸入git pull後
+進行除錯(刪除7個一行的大小等於,vr跟v的對應)後再上傳
 </section>
-				
+<section>
+<h2>心得與自評</h2>
+自己在做這一系列的檔案時,也碰過不少壁,雖然感覺相當糗,甚至搞壞了整個倉儲,但最後事情都是解決的,也在解決過程中稍微熟悉了這一系列的操作,之後的操作只會越來越難,也希望自己能夠一一克服
+<br />
+個人給自己75分
+</section>
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>

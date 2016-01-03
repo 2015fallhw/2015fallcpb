@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423212-5</title>
+<title>40423212-6</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -28,65 +28,53 @@
     <h1>zero to hero python教學</h1>
     <p>40423212 四設一乙 吳秉駿</p>		
 </section>
-	
-<section id="hw-task-five">
 <section>
-  
-</section>
-    <h1>日期計算</h1>
- python互動的進階模式,可以直接取電腦上的時間來進行計算
+<h2>循環指令</h2>
+這個指令並不是特別的字串,而是利用加減法的方式得到循環的效果
 </section>
   
 <section>
-我們先導入電腦時間,指令為:
-<br />
-import dateline
-<br />
-之後我們輸入現在時間,指令為:
-<br />
-currentDate = datetime.date.today()
-<br />
-最後還是用print來做輸出
-<br />
-print(currentDate)
-<br />
-就可以讓電腦用python認出電腦時間
+<h2>次數=次數+1?</h2>
+在正常的算術中這個式子看起來相當不合理，那麼在這個次數+1到底能做怎麼樣的事情呢?
 </section>
 				
 <section>
-python也能認得年,月,:
-    <br />
-print(currentDate.month)
+我們可以先設定"次數"的初始次數，例如:
 <br />
-可以得到月
+次數=0
 <br />
-print(currentDate.year)
+再來設定"次數"的上限:
 <br />
-可以得到年
+while=次數<4(while是如果指令)
+<br />
+再來在下面設定:
+<br />
+次數=次數+1(也可以寫作次數+=1)
+<br />
+最後在中間加入想要循環的內容，就可以達到迴圈的效果了。
 </section>
 <section>
-<h1>使用strftime指令</h1>
-strftime可以把後續的代數指令變簡單一些,但非常難以記憶,通常是以書本或網路來記載:
-    <br />
- print(currentDate.strftime('%d %b, %Y'))
-    <br />
-%d=日
-    <br />
-%b=月
-    <br />
-%Y=年
-    <br />
-可以查詢'http://strftime.org/'來找更多關於strftime語法的使用
+<h2>這個跟for i in range又有什麼不同呢?</h2>
+for i in range的好處:
+<br />
+字串短
+<br />
+適合直接成形的短字串
+<br />
++=迴圈的好處:
+<br />
+較有條理
+<br />
+編輯方便,適合長時間需要修改/寫入的字串
+<br />
+各有利弊，甚至也可以兩者並用
 </section>
-  
+
 <section>
-<h1>對課程的一些感想</h1>
-python語法下,兩種不同的語法也可能產生一樣的結果,雖然strftime指令又是另一種完全不一樣的指令,但在部份情況下,這個指令或許可以讓工作處理得更效率
-</section>
-  
-<section>
-<h1>自評</h1>
-這篇相較於之前比較難看懂,個人也很難解讀出太多,個人給自己63分
+<h2>心得與自評</h2>
+字串學得比較多的時候，一個問題往往可以用一種以上的字串來解決他，至於使用哪一種對自己最有利就考驗工程師的技巧了
+<br />
+個人給自己70分
 </section>
 </div>
 </div>

@@ -10,56 +10,65 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20151225133831.1"><vh>@settings</vh>
-<v t="leo.20151225133831.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="leo.20151225133831.3"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="leo.20160103115825.1"><vh>@settings</vh>
+<v t="leo.20160103115825.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="leo.20160103115825.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20151225133752.2" a="E"><vh>@path ./../../</vh>
-<v t="leo.20151225134527.1"><vh>@button admin pelican</vh></v>
-<v t="leo.20151225141900.1"><vh>@path pelican</vh>
-<v t="leo.20151225141900.2"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151225141900.3" a="E"><vh>@path content</vh>
-<v t="leo.20151225141900.4"><vh>@edit g1 w14_1.md</vh></v>
-<v t="leo.20151225141900.5"><vh>@edit 2015cphww7.md</vh></v>
-<v t="leo.20151225141900.6"><vh>@edit 2015cpnote7.md</vh></v>
-<v t="leo.20151225141900.7"><vh>@edit g1 w14_2.md</vh></v>
+<v t="leo.20160103120326.1" a="E"><vh>@path ./../../</vh>
+<v t="leo.20160103120235.1"><vh>@button admin pelican</vh></v>
+<v t="leo.20160103120506.1" a="E"><vh>@path pelican</vh>
+<v t="leo.20160103120506.2"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20160103120506.3" a="E"><vh>@path content</vh>
+<v t="leo.20160103120506.4"><vh>@edit g1_w14_1.md</vh></v>
+<v t="leo.20160103120506.5"><vh>@edit 2015cphww7.md</vh></v>
+<v t="leo.20160103120506.6"><vh>@edit 2015cpnote7.md</vh></v>
+<v t="leo.20160103120506.7"><vh>@edit g1_w14_2.md</vh></v>
 </v>
 </v>
 </v>
-<v t="leo.20151225134422.1"><vh>@button user pelican</vh></v>
-<v t="leo.20151225134139.1"><vh>@path ./</vh>
-<v t="leo.20151225134139.2"><vh>以下為投影片 ------------</vh></v>
-<v t="leo.20151225134139.3"><vh>@edit 40423203_cp_w1_p.html</vh></v>
-<v t="leo.20151225134139.4"><vh>@edit 40423203_cp_w2_p.html</vh></v>
-<v t="leo.20151225134139.5"><vh>@edit 40423203_cp_w3_p.html</vh></v>
-<v t="leo.20151225134139.6"><vh>@edit 40423203_cp_w4_p.html</vh></v>
-<v t="leo.20151225134139.7"><vh>@edit 40423203_cp_w5_p.html</vh></v>
-<v t="leo.20151225134139.8"><vh>@edit 40423203_cp_w6_p.html</vh></v>
-<v t="leo.20151225134139.9"><vh>@edit 40423203_cp_w7_p.html</vh></v>
-<v t="leo.20151225134139.10"><vh>@edit 40423203_cp_w8_p.html</vh></v>
-<v t="leo.20151225134139.11"><vh>@edit 40423203_cp_w9_p.html</vh></v>
-<v t="leo.20151225134139.12" a="E"><vh>@path pelican</vh>
-<v t="leo.20151225134139.13"><vh>以下為設定檔 ------------</vh></v>
-<v t="leo.20151225134139.14"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151225134139.15" a="E"><vh>@path content</vh>
-<v t="leo.20151225134139.16"><vh>以下為網誌 md 檔案 ------------</vh></v>
-<v t="leo.20151225134139.17"><vh>@edit 40423203_cp_w1.md</vh></v>
-<v t="leo.20151225134139.18"><vh>@edit 40423203_cp_w2.md</vh></v>
-<v t="leo.20151225134139.19"><vh>@edit 40423203_cp_w3.md</vh></v>
-<v t="leo.20151225134139.20"><vh>@edit 40423203_cp_w4.md</vh></v>
-<v t="leo.20151225134139.21"><vh>@edit 40423203_cp_w5.md</vh></v>
-<v t="leo.20151225134139.22"><vh>@edit 40423203_cp_w6.md</vh></v>
-<v t="leo.20151225134139.23"><vh>@edit 40423203_cp_w7.md</vh></v>
-<v t="leo.20151225134139.24"><vh>@edit 40423203_cp_w8.md</vh></v>
-<v t="leo.20151225134139.25"><vh>@edit 40423203_cp_w9.md</vh></v>
+<v t="leo.20160103120158.1"><vh>@button user pelican</vh></v>
+<v t="leo.20160103115701.1" a="E"><vh>@path ./</vh>
+<v t="leo.20160103115701.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20160103115701.3"><vh>@edit 40423203_cp_w1_p.html</vh></v>
+<v t="leo.20160103115701.4"><vh>@edit 40423203_cp_w2_p.html</vh></v>
+<v t="leo.20160103115701.5"><vh>@edit 40423203_cp_w3_p.html</vh></v>
+<v t="leo.20160103115701.6"><vh>@edit 40423203_cp_w4_p.html</vh></v>
+<v t="leo.20160103115701.7"><vh>@edit 40423203_cp_w5_p.html</vh></v>
+<v t="leo.20160103115701.8"><vh>@edit 40423203_cp_w6_p.html</vh></v>
+<v t="leo.20160103115701.9"><vh>@edit 40423203_cp_w7_p.html</vh></v>
+<v t="leo.20160103115701.10"><vh>@edit 40423203_cp_w8_p.html</vh></v>
+<v t="leo.20160103115701.11"><vh>@edit 40423203_cp_w9_p.html</vh></v>
+<v t="leo.20160103124140.1"><vh>@edit 40423203_cp_w11_p.html</vh></v>
+<v t="leo.20160103124150.1"><vh>@edit 40423203_cp_w12_p.html</vh></v>
+<v t="leo.20160103115701.12" a="E"><vh>@path pelican</vh>
+<v t="leo.20160103115701.13"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20160103115701.14"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20160103115701.15" a="E"><vh>@path content</vh>
+<v t="leo.20160103115701.16"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20160103115701.17"><vh>@edit 40423203_cp_w1.md</vh></v>
+<v t="leo.20160103115701.18"><vh>@edit 40423203_cp_w2.md</vh></v>
+<v t="leo.20160103115701.19"><vh>@edit 40423203_cp_w3.md</vh></v>
+<v t="leo.20160103115701.20"><vh>@edit 40423203_cp_w4.md</vh></v>
+<v t="leo.20160103115701.21"><vh>@edit 40423203_cp_w5.md</vh></v>
+<v t="leo.20160103115701.22"><vh>@edit 40423203_cp_w6.md</vh></v>
+<v t="leo.20160103115701.23"><vh>@edit 40423203_cp_w7.md</vh></v>
+<v t="leo.20160103115701.24"><vh>@edit 40423203_cp_w8.md</vh></v>
+<v t="leo.20160103115701.25"><vh>@edit 40423203_cp_w9.md</vh></v>
+<v t="leo.20160103124202.1"><vh>@edit 40423203_cp_w11.md</vh></v>
+<v t="leo.20160103124212.1"><vh>@edit 40423203_cp_w12.md</vh></v>
 </v>
 </v>
 </v>
 </vnodes>
 <tnodes>
-<t tx="leo.20151225133752.2"></t>
-<t tx="leo.20151225133831.1"></t>
-<t tx="leo.20151225133831.2">QTreeWidget {
+<t tx="leo.20160103115701.1"></t>
+<t tx="leo.20160103115701.12"></t>
+<t tx="leo.20160103115701.13"></t>
+<t tx="leo.20160103115701.15"></t>
+<t tx="leo.20160103115701.16"></t>
+<t tx="leo.20160103115701.2"></t>
+<t tx="leo.20160103115825.1"></t>
+<t tx="leo.20160103115825.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
     background-color: #ffffec; /* Leo's traditional tree color */
     selection-color: black; /* was white */
@@ -132,23 +141,18 @@ QLineEdit#editorLabel {
     border: 2px;
     margin: 2px;
 }</t>
-<t tx="leo.20151225133831.3">horizontal: body pane to the left
+<t tx="leo.20160103115825.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20151225134139.1"></t>
-<t tx="leo.20151225134139.12"></t>
-<t tx="leo.20151225134139.13"></t>
-<t tx="leo.20151225134139.15"></t>
-<t tx="leo.20151225134139.16"></t>
-<t tx="leo.20151225134139.2"></t>
-<t tx="leo.20151225134422.1">@language python
+<t tx="leo.20160103120158.1">@language python
 import os
 os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t ../../theme/pelican-octopress")
 g.es("user pelican 執行完畢")</t>
-<t tx="leo.20151225134527.1">@language python
+<t tx="leo.20160103120235.1">@language python
 import os
 os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
 g.es("admin pelican 執行完畢")</t>
-<t tx="leo.20151225141900.1"></t>
-<t tx="leo.20151225141900.3"></t>
+<t tx="leo.20160103120326.1"></t>
+<t tx="leo.20160103120506.1"></t>
+<t tx="leo.20160103120506.3"></t>
 </tnodes>
 </leo_file>

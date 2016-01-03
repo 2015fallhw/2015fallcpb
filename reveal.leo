@@ -20,7 +20,7 @@
 <v t="amd.20150919103357.1"><vh>pelican 設定</vh></v>
 </v>
 <v t="amd.20151029234738.1"><vh>Leo 範例程式</vh></v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20151021120245.1"><vh>@button admin pelican</vh></v>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1"><vh>@path pelican</vh>
@@ -33,7 +33,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
+<v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh>
 <v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1"><vh>html 標註</vh>
@@ -238,7 +238,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151107155322.1" a="E"><vh>@path 40423203</vh>
+<v t="leo.20151107155322.1"><vh>@path 40423203</vh>
 <v t="leo.20151107155322.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151107155322.3"><vh>@edit 40423203_cp_w1_p.html</vh></v>
 <v t="leo.20151107162423.1"><vh>@edit 40423203_cp_w2_p.html</vh></v>
@@ -357,7 +357,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151106195921.1" a="E"><vh>@path 40423253</vh>
+<v t="leo.20151106195921.1"><vh>@path 40423253</vh>
 <v t="leo.20151106195921.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151106195921.3"><vh>@edit 40423253_cp_w1_p.html</vh></v>
 <v t="leo.20151225142333.1"><vh>@edit 40423253_cp_w2_p.html</vh></v>
@@ -531,7 +531,7 @@
 </v>
 </v>
 </v>
-<v t="233.20151023151531.1" a="E"><vh>@path 40423212</vh>
+<v t="233.20151023151531.1"><vh>@path 40423212</vh>
 <v t="233.20151023151531.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151101175333.1"><vh>@edit 40423212_cp_w0_p.html</vh></v>
 <v t="leo.20151105232821.1"><vh>@edit 40423212_cp_w1_p.html</vh></v>
@@ -940,6 +940,32 @@
 <v t="leo.20151118004159.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151118004159.9"><vh>@edit 40423210_cp_w1.md</vh></v>
 <v t="leo.20151118004159.10"><vh>@edit 40423210_cp_w2.md</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20160104032725.1" a="E"><vh>@path 40423245</vh>
+<v t="leo.20160104032725.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20160104032725.3"><vh>@edit 40423245_cp_w1_p.html</vh></v>
+<v t="leo.20160104032725.4"><vh>@edit 40423245_cp_w2_p.html</vh></v>
+<v t="leo.20160104032725.5"><vh>@edit 40423245_cp_w3_p.html</vh></v>
+<v t="leo.20160104032725.6"><vh>@edit 40423245_cp_w4_p.html</vh></v>
+<v t="leo.20160104032725.7"><vh>@edit 40423245_cp_w5_p.html</vh></v>
+<v t="leo.20160104032725.8"><vh>@edit 40423245_cp_w6_p.html</vh></v>
+<v t="leo.20160104032725.9"><vh>@edit 40423245_cp_w7_p.html</vh></v>
+<v t="leo.20160104032725.10"><vh>@edit 40423245_cp_w8_p.html</vh></v>
+<v t="leo.20160104032725.11" a="E"><vh>@path pelican</vh>
+<v t="leo.20160104032725.12"><vh>以下為設定檔 ------------</vh></v>
+<v t="leo.20160104032725.13"><vh>@edit publishconf.py</vh></v>
+<v t="leo.20160104032725.14" a="E"><vh>@path content</vh>
+<v t="leo.20160104032725.15"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="leo.20160104032725.16"><vh>@edit 40423245_cp_w1.md</vh></v>
+<v t="leo.20160104032725.17"><vh>@edit 40423245_cp_w2.md</vh></v>
+<v t="leo.20160104032725.18"><vh>@edit 40423245_cp_w3.md</vh></v>
+<v t="leo.20160104032725.19"><vh>@edit 40423245_cp_w4.md</vh></v>
+<v t="leo.20160104032725.20"><vh>@edit 40423245_cp_w5.md</vh></v>
+<v t="leo.20160104032725.21"><vh>@edit 40423245_cp_w6.md</vh></v>
+<v t="leo.20160104032725.22"><vh>@edit 40423245_cp_w7.md</vh></v>
+<v t="leo.20160104032725.23"><vh>@edit 40423245_cp_w8.md</vh></v>
 </v>
 </v>
 </v>
@@ -1496,5 +1522,11 @@ os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/peli
 g.es("admin pelican 執行完畢")</t>
 <t tx="leo.20151218160355.3"></t>
 <t tx="leo.20151218160355.4"></t>
+<t tx="leo.20160104032725.1"></t>
+<t tx="leo.20160104032725.11"></t>
+<t tx="leo.20160104032725.12"></t>
+<t tx="leo.20160104032725.14"></t>
+<t tx="leo.20160104032725.15"></t>
+<t tx="leo.20160104032725.2"></t>
 </tnodes>
 </leo_file>

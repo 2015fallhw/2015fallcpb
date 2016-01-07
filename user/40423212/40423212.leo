@@ -22,12 +22,13 @@
 <v t="leo.20151218141540.1" a="E"><vh>@path content</vh>
 <v t="leo.20151218141556.1"><vh>@edit g1_w14.md</vh></v>
 <v t="leo.20151225170420.1"><vh>@edit g1_w15.md</vh></v>
+<v t="leo.20160106220001.1"><vh>@edit g1_w16.md</vh></v>
 </v>
 </v>
 </v>
 <v t="leo.20151214224704.13" a="E"><vh>@path pelican</vh>
 <v t="leo.20151218155858.1"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151214224704.16" a="E"><vh>@path content</vh>
+<v t="leo.20151214224704.16"><vh>@path content</vh>
 <v t="leo.20151214224704.18"><vh>@edit 40423212_cp_w0.md</vh></v>
 <v t="leo.20151214224704.19"><vh>@edit 40423212_cp_w1.md</vh></v>
 <v t="leo.20151214224704.20"><vh>@edit 40423212_cp_w2.md</vh></v>
@@ -55,6 +56,7 @@
 <v t="leo.20151214224704.12"><vh>@edit 40423212_cp_w13_p.html</vh></v>
 <v t="leo.20151220011738.1"><vh>@edit 40423212_cp_w14_p.html</vh></v>
 <v t="leo.20151226004701.1"><vh>@edit 40423212_cp_w15_p.html</vh></v>
+<v t="leo.20160106220434.1"><vh>@edit g1w16_p.html</vh></v>
 </v>
 </vnodes>
 <tnodes>

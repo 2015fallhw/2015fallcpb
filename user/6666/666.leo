@@ -21,6 +21,7 @@
 <v t="leo.20151218140831.1" a="E"><vh>@path content</vh>
 <v t="leo.20151218140851.1"><vh>@edit g66_w14_1.md</vh></v>
 <v t="leo.20151225134015.1"><vh>@edit g66_w15.md</vh></v>
+<v t="amd.20160103213014.1"><vh>@edit g66_w17.md</vh></v>
 </v>
 </v>
 </v>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423212 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-16T16:16:00+08:00</updated><entry><title>在網際頁面上, 用 Python 執行動態模擬!</title><link href="http://coursemdetw.github.io/reveal/g66_w17.html" rel="alternate"></link><updated>2016-01-16T16:16:00+08:00</updated><author><name>6666</name></author><id>tag:coursemdetw.github.io,2016-01-16:reveal/g66_w17.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁中進行具彈性的 20 個小球彈跳模擬！
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-16T16:16:00+08:00</updated><entry><title>在網際頁面上, 用 Python 執行動態模擬!</title><link href="http://coursemdetw.github.io/reveal/g66_w17.html" rel="alternate"></link><updated>2016-01-16T16:16:00+08:00</updated><author><name>6666</name></author><id>tag:coursemdetw.github.io,2016-01-16:reveal/g66_w17.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁中進行具彈性的 20 個小球彈跳模擬！
 換言之, 若採用相同的程式技巧與流程, 耶誕卡上的所有繪圖物件, 都可以製作成動畫!!!&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
@@ -974,7 +974,21 @@ ctx.lineTo(200, 500)
 ctx.strokeStyle = "#006000" 
 ctx.stroke() 
 
-&lt;/script&gt;&lt;/div&gt;</summary><category term="w15"></category><category term="brython"></category></entry><entry><title>2015 計算機程式 分組作業二</title><link href="http://coursemdetw.github.io/reveal/g1_w15.md.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423212 40423211</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w15.md.html</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#輸出&lt;/span&gt;
+&lt;/script&gt;&lt;/div&gt;</summary><category term="w15"></category><category term="brython"></category></entry><entry><title>2015 計算機程式 分組作業二</title><link href="http://coursemdetw.github.io/reveal/g1_w15.md.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423212 40423211 40423210 40423201 40423202 40423203</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w15.md.html</id><summary type="html">&lt;p&gt;我們平常用的Ana_3裡面的東西有:
+&lt;br /&gt;
+Anaconda 3 的 Python 免費發佈版本, 提供各種工程與科學運算模組套件。
+Jupyter, 啟動後即可自動辨識電腦所在的 IP 位址設定, 自動開啟 IPython Notebook 功能。
+&lt;br /&gt;
+SciTE 文字編輯器, 經由 python.properties 設定, 可以直接在編輯器中執行簡單的 Python 3 程式。
+&lt;br /&gt;
+Leo Editor 大綱管理系統。
+&lt;br /&gt;
+Git client 端工具。
+&lt;br /&gt;
+Solvespace 3D 參數繪圖程式。
+&lt;br /&gt;
+利用(修改過的)start,可以一次啟動上述多套程式,就成為我們用的"環境",stop則相反。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#輸出&lt;/span&gt;
 &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;hello world&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -1027,6 +1041,10 @@ ctx.stroke()
 &lt;span class="c"&gt;#coding utf-8&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
+
+&lt;script src="https://www.gliffy.com/diagramEmbed.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;gliffy_did="9745287";embedGliffy();&lt;/script&gt;
 
 &lt;!-- 導入 brython.js --&gt;
 
@@ -1190,7 +1208,7 @@ ctx.stroke()
 
 &lt;/script&gt;</summary><category term="brython"></category></entry><entry><title>2015 計算機程式 期末作業</title><link href="http://coursemdetw.github.io/reveal/g1_w16.md.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>g1</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w16.md.html</id><summary type="html">&lt;iframe src="user/40423212/g1w16_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423212_cp_w16_p.html" target="_blank"&gt;作業十投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="brython"></category></entry><entry><title>g4_w14_3</title><link href="http://coursemdetw.github.io/reveal/g4_w14_3.html" rel="alternate"></link><updated>2015-12-19T15:43:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-19:reveal/g4_w14_3.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
+&lt;p&gt;&lt;a href="g1w16_p.html" target="_blank"&gt;期末報告投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="brython"></category></entry><entry><title>g4_w14_3</title><link href="http://coursemdetw.github.io/reveal/g4_w14_3.html" rel="alternate"></link><updated>2015-12-19T15:43:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-19:reveal/g4_w14_3.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;

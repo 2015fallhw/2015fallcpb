@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423212 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/g1.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T14:41:00+08:00</updated><entry><title>g1_w14_1</title><link href="http://coursemdetw.github.io/reveal/g1_w14_1.html" rel="alternate"></link><updated>2015-12-25T14:41:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w14_1.html</id><summary type="html">&lt;p&gt;以下為g1_w14_1內容&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/g1.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T14:41:00+08:00</updated><entry><title>g1_w14_1</title><link href="http://coursemdetw.github.io/reveal/g1_w14_1.html" rel="alternate"></link><updated>2015-12-25T14:41:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w14_1.html</id><summary type="html">&lt;p&gt;以下為g1_w14_1內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="simplest.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
@@ -223,7 +223,21 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;p&gt;註腳會連結到這裡.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="w14"></category></entry><entry><title>g1 w14-2</title><link href="http://coursemdetw.github.io/reveal/g1%20w14_2.html" rel="alternate"></link><updated>2015-12-25T14:20:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1 w14_2.html</id><summary type="html">&lt;p&gt;g1 w14-2摘要&lt;/p&gt;</summary><category term="w14"></category></entry><entry><title>2015 計算機程式 分組作業二</title><link href="http://coursemdetw.github.io/reveal/g1_w15.md.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423212 40423211</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w15.md.html</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#輸出&lt;/span&gt;
+&lt;/div&gt;</summary><category term="w14"></category></entry><entry><title>g1 w14-2</title><link href="http://coursemdetw.github.io/reveal/g1%20w14_2.html" rel="alternate"></link><updated>2015-12-25T14:20:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1 w14_2.html</id><summary type="html">&lt;p&gt;g1 w14-2摘要&lt;/p&gt;</summary><category term="w14"></category></entry><entry><title>2015 計算機程式 分組作業二</title><link href="http://coursemdetw.github.io/reveal/g1_w15.md.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423212 40423211 40423210 40423201 40423202 40423203</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w15.md.html</id><summary type="html">&lt;p&gt;我們平常用的Ana_3裡面的東西有:
+&lt;br /&gt;
+Anaconda 3 的 Python 免費發佈版本, 提供各種工程與科學運算模組套件。
+Jupyter, 啟動後即可自動辨識電腦所在的 IP 位址設定, 自動開啟 IPython Notebook 功能。
+&lt;br /&gt;
+SciTE 文字編輯器, 經由 python.properties 設定, 可以直接在編輯器中執行簡單的 Python 3 程式。
+&lt;br /&gt;
+Leo Editor 大綱管理系統。
+&lt;br /&gt;
+Git client 端工具。
+&lt;br /&gt;
+Solvespace 3D 參數繪圖程式。
+&lt;br /&gt;
+利用(修改過的)start,可以一次啟動上述多套程式,就成為我們用的"環境",stop則相反。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#輸出&lt;/span&gt;
 &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;hello world&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -276,6 +290,10 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;span class="c"&gt;#coding utf-8&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
+
+&lt;script src="https://www.gliffy.com/diagramEmbed.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;gliffy_did="9745287";embedGliffy();&lt;/script&gt;
 
 &lt;!-- 導入 brython.js --&gt;
 
@@ -439,7 +457,7 @@ ctx.stroke()
 
 &lt;/script&gt;</summary><category term="brython"></category></entry><entry><title>2015 計算機程式 期末作業</title><link href="http://coursemdetw.github.io/reveal/g1_w16.md.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>g1</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g1_w16.md.html</id><summary type="html">&lt;iframe src="user/40423212/g1w16_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423212_cp_w16_p.html" target="_blank"&gt;作業十投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="brython"></category></entry><entry><title>2015 計算機程式 分組作業一</title><link href="http://coursemdetw.github.io/reveal/g1_w14.md.html" rel="alternate"></link><updated>2015-12-18T11:41:00+08:00</updated><author><name>40423212</name></author><id>tag:coursemdetw.github.io,2015-12-18:reveal/g1_w14.md.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
+&lt;p&gt;&lt;a href="g1w16_p.html" target="_blank"&gt;期末報告投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="brython"></category></entry><entry><title>2015 計算機程式 分組作業一</title><link href="http://coursemdetw.github.io/reveal/g1_w14.md.html" rel="alternate"></link><updated>2015-12-18T11:41:00+08:00</updated><author><name>40423212</name></author><id>tag:coursemdetw.github.io,2015-12-18:reveal/g1_w14.md.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;

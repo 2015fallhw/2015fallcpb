@@ -79,23 +79,147 @@
 <time datetime="2015-12-25T16:00:00+08:00" pubdate>週五 25 十二月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>先抄一下題目:</p>
-<p>CP W15 分組報告:</p>
-<p>請以組為單位, 利用 <a href="http://2015fallhw.github.io/2015fallcpb/">http://2015fallhw.github.io/2015fallcpb/</a> 上的 pelican 文章, 回答下列問題:</p>
+  <div class="entry-content"><p>修課班級: 四設一乙</p>
 <ul>
-<li>
-<p>Python3 的近端程式開發系統如何建立? 如何啟動?</p>
-</li>
-<li>
-<p>目前已經熟悉的 Python3 指令及語法有哪些? 請舉例說明.</p>
-</li>
-<li>
-<p>請利用流程圖, 簡要說明近端猜數字遊戲與猜顏色遊戲程式碼如何設計與運作.</p>
-</li>
-<li>
-<p>請各組員利用 Brython, 分別在各分組的 pelican 網頁文章中, 繪製一個歡慶耶誕的 2D 圖形.</p>
+<li><strong>g10</strong>: CP W15 分組報告<ul>
+<li>四設四甲 40123157 盧毅民</li>
+<li>四設四乙 40123210 蔡依靜</li>
+<li>四設四乙 40123254 鍾文榮</li>
+</ul>
 </li>
 </ul>
+<p>請以組為單位, 利用 <a href="http://2015fallhw.github.io/2015fallcpb/">http://2015fallhw.github.io/2015fallcpb/</a> 上的 pelican 文章, 回答下列問題:</p>
+<ul>
+<li><strong>[第1題]</strong>: Python3 的近端程式開發系統如何建立? 如何啟動?<ul>
+<li>請參閱組員之 <a href="http://2015fallhw.github.io/2015fallcpb/user/40123157/2015cp_hw_w2.html" target="_blank">課程筆記</a> 內含註解與影片說明</li>
+</ul>
+</li>
+<li><strong>[第2題]</strong>: 目前已經熟悉的 Python3 指令及語法有哪些? 請舉例說明.<ul>
+<li>coding: 編碼</li>
+<li>import: 導入</li>
+<li>random: 亂數</li>
+<li>print: 列印內容</li>
+<li>input: 取得使用者輸入</li>
+<li>int(integer): 整數</li>
+<li>len: 算 list 長度</li>
+<li>str(string): 字串</li>
+<li>range: ?值序列</li>
+<li>float: 浮點數</li>
+<li>for: 迴圈</li>
+<li>while: 迴圈 當</li>
+<li>if: 判斷式 假如</li>
+<li>'#' 單行註解</li>
+<li>''' 多行註解</li>
+<li>'&lt;' 小於</li>
+<li>'&lt;=' 小於或等於</li>
+<li>'&gt;' 大於</li>
+<li>'==' 等於</li>
+<li>'!=' 不等於</li>
+</ul>
+</li>
+<li><strong>[第3題]</strong>: 請利用流程圖, 簡要說明近端猜數字遊戲與猜顏色遊戲程式碼如何設計與運作.<ul>
+<li><strong>猜數字</strong>遊戲程式流程圖:</li>
+<li><strong>猜顏色</strong>遊戲程式流程圖:</li>
+</ul>
+</li>
+<li><strong>[第4題]</strong>: 請各組員利用 Brython, 分別在各分組的 pelican 網頁文章中, 繪製一個歡慶耶誕的 2D 圖形.<ul>
+<li>以下利用 Brython 在網頁寫 Python 繪圖</li>
+</ul>
+</li>
+</ul>
+<!-- 導入 brython.js -->
+
+<script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"></script>
+
+<!-- 啟動 brython() -->
+
+<script>
+window.onload=function(){
+brython(1);
+}
+</script>
+
+<!-- 以下利用 Brython 程式執行繪圖 -->
+
+<canvas id="plotarea" width="500" height="500"></canvas>
+
+<script type="text/python3">
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 進行座標轉換, x 軸不變, y 軸反向且移動 500 光點
+ctx.setTransform(1, 0, 0, -1, 0, 500)
+
+# 大禮物(方形)
+ctx.beginPath()
+ctx.lineWidth = 5
+ctx.moveTo(94, 30)
+ctx.lineTo(86, 180)
+ctx.lineTo(293, 180)
+ctx.lineTo(279, 30)
+ctx.lineTo(94, 30)
+# 大禮物(緞帶)
+ctx.lineTo(91, 92)
+ctx.lineTo(285, 86)
+ctx.lineTo(286, 105)
+ctx.lineTo(90, 117)
+ctx.lineTo(86, 180)
+ctx.lineTo(174, 180)
+ctx.lineTo(179, 30)
+ctx.lineTo(199, 30)
+ctx.lineTo(199, 180)
+# 大禮物(蝴蝶結)
+ctx.lineTo(186, 180)
+ctx.lineTo(237, 206)
+ctx.lineTo(228, 256)
+ctx.lineTo(190, 230)
+ctx.lineTo(186, 180)
+ctx.lineTo(178, 241)
+ctx.lineTo(144, 279)
+ctx.lineTo(138, 223)
+ctx.lineTo(186, 180)
+ctx.strokeStyle = "rgb(255, 0, 0)"
+ctx.stroke()
+
+# 小禮物(方形)
+ctx.beginPath()
+ctx.lineWidth = 3
+ctx.moveTo(316, 30)
+ctx.lineTo(312, 105)
+ctx.lineTo(416, 105)
+ctx.lineTo(409, 30)
+ctx.lineTo(316, 30)
+# 小禮物(緞帶)
+ctx.lineTo(315, 61)
+ctx.lineTo(412, 58)
+ctx.lineTo(413, 76)
+ctx.lineTo(314, 73)
+ctx.lineTo(312, 105)
+ctx.lineTo(356, 105)
+ctx.lineTo(353, 30)
+ctx.lineTo(365, 30)
+ctx.lineTo(369, 105)
+# 小禮物(蝴蝶結)
+ctx.lineTo(362, 105)
+ctx.lineTo(388, 115)
+ctx.lineTo(390, 143)
+ctx.lineTo(368, 127)
+ctx.lineTo(362, 105)
+ctx.lineTo(355, 131)
+ctx.lineTo(328, 140)
+ctx.lineTo(332, 119)
+ctx.lineTo(362, 105)
+ctx.strokeStyle = "rgb(0, 255, 0)"
+ctx.stroke()
+
+</script>
+
 <p>要提交推送之前, 先檢查 md 檔案有無唯一性, 因為若無唯一性, 怕會與其他組的 md 檔案彼此覆蓋.</p>
 <ul>
 <li>
@@ -221,7 +345,7 @@ notebook --ip<span class="o">=</span><span class="nv">%thisip%</span> --certfile
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/w14.html">w14</a>  </section>
+    <a href="./tag/w17.html">w17</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
 
 
     <section>

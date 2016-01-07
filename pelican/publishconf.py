@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = '四設一乙'
-SITENAME = '2015 Fall CP B 作業'
+AUTHOR = '40423212'
+SITENAME = '2015FALL 40423212 CPB 作業'
 SITEURL = ''
 
 PATH = 'content'
@@ -26,7 +26,9 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('40423226作業倉儲', 'http://40423226.github.io/CPB_40423226/'))
+         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),
+         ('倉儲','http://40423212.github.io/cpbtest2/'))
+
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
           ('github', 'http://github.com/ametaireau'),)
@@ -48,7 +50,7 @@ DISQUS_SITENAME = "2015fall"
 #GOOGLE_ANALYTICS = ""
 
 # 必須絕對目錄或相對於設定檔案所在目錄
-PLUGIN_PATHS = ['./../plugin']
+PLUGIN_PATHS = ['./../../../plugin']
 PLUGINS = ['liquid_tags.notebook']
 # 目錄設定相對於 reveal 下的 content 目錄
 NOTEBOOK_DIR = 'notebook'

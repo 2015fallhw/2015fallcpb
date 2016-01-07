@@ -20,7 +20,6 @@
 <v t="leo.20160103120506.2"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20160103120506.3" a="E"><vh>@path content</vh>
 <v t="leo.20160103120506.4"><vh>@edit g1_w14_1.md</vh></v>
-<v t="leo.20160108003927.1"><vh>@edit g1_w14_1.md</vh></v>
 <v t="leo.20160103120506.5"><vh>@edit 2015cphww7.md</vh></v>
 <v t="leo.20160103120506.6"><vh>@edit 2015cpnote7.md</vh></v>
 <v t="leo.20160103120506.7"><vh>@edit g1_w14_2.md</vh></v>

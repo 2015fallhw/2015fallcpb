@@ -14,7 +14,7 @@
 <v t="leo.20151225151011.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151225151011.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20151225151005.2" a="E"><vh>@path ./../../</vh>
+<v t="leo.20151225151005.2"><vh>@path ./../../</vh>
 <v t="leo.20151225151237.1"><vh>@button admin pelican</vh></v>
 <v t="leo.20151225151310.1" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225151310.2"><vh>@edit publishconf.py</vh></v>
@@ -37,6 +37,10 @@
 <v t="leo.20160108165807.1"><vh>@edit 40423228_cp_w8_p.html</vh></v>
 <v t="leo.20160108165826.1"><vh>@edit 40423228_cp_w9_p.html</vh></v>
 <v t="leo.20160108170015.1"><vh>@edit 40423228_cp_w11_p.html</vh></v>
+<v t="leo.20160108213151.1"><vh>@edit 40423248_cp_w12_p.html</vh></v>
+<v t="leo.20160108213157.1"><vh>@edit 40423248_cp_w13_p.html</vh></v>
+<v t="leo.20160108213209.1"><vh>@edit 40423248_cp_w14_p.html</vh></v>
+<v t="leo.20160108213215.1"><vh>@edit 40423248_cp_w15_p.html</vh></v>
 <v t="leo.20151225151047.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225151047.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151225151047.6"><vh>@edit publishconf.py</vh></v>
@@ -45,7 +49,6 @@
 <v t="leo.20151225151047.9"><vh>@edit 40423228_cp_w1.md</vh></v>
 <v t="leo.20160108170002.1"><vh>@edit 40423228_cp_w2.md</vh></v>
 <v t="leo.20160108170034.1"><vh>@edit 40423228_cp_w3.md</vh></v>
-<v t="leo.20160108170036.1"><vh>@edit 40423228_cp_w3.md</vh></v>
 <v t="leo.20160108170041.1"><vh>@edit 40423228_cp_w4.md</vh></v>
 <v t="leo.20160108170032.1"><vh>@edit 40423228_cp_w5.md</vh></v>
 <v t="leo.20160108170042.1"><vh>@edit 40423228_cp_w6.md</vh></v>
@@ -53,6 +56,10 @@
 <v t="leo.20160108170045.1"><vh>@edit 40423228_cp_w8.md</vh></v>
 <v t="leo.20160108170044.1"><vh>@edit 40423228_cp_w9.md</vh></v>
 <v t="leo.20160108170122.1"><vh>@edit 40423228_cp_w11.md</vh></v>
+<v t="leo.20160108212927.1"><vh>@edit 40423228_cp_w12.md</vh></v>
+<v t="leo.20160108212929.1"><vh>@edit 40423228_cp_w13.md</vh></v>
+<v t="leo.20160108212930.1"><vh>@edit 40423228_cp_w14.md</vh></v>
+<v t="leo.20160108212931.1"><vh>@edit 40423228_cp_w15.md</vh></v>
 </v>
 </v>
 </v>

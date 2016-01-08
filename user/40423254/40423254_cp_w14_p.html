@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>最簡單的 reveal 超文件</title>
+<title>40423254作業十四</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -25,22 +25,69 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>有關我的作業</h1>
-    <p>學號姓名與日期</p>		
+    <h1>zero to hero python教學14</h1>
+    <p>四設計一乙 40423254 蘇柏丞</p>		
 </section>
-	
-<section id="hw-task-one">
-    <h1>作業任務一</h1>
-    <p>有關作業任務一的說明</p>
-    <p>請參考 <a href="http://www.google.com">Google</a>
+<section>
+<h2>列表</h2>
+我們可以用python整理一串數列，可以是姓名、學號等等，來做增減、搜尋等用途
+</section>
+  
+<section>
+我們首先當然需要一串數列：
+<br />
+id=['a','b','c','d']
 </section>
 				
 <section>
-    <h1>第3張投影片</h1>
-    <p>成績自評分數的量化依據?</p>
-    <p>可以連結到內部投影片<a href="#/hw-task-one">作業任務一</a>
+<h2>數列的規則</h2>
+<br />
+前面多少提過關於python的數列，有個跟正常的數學不一樣的規則，從前面到後面各是：
+<br />
+0，1，2，3......
+<br />
+也可以用負數：
+<br />
+......-4，-3，-2，-1(最後算-1)
+<br />
+利用這些數字來做指定的動作，像a就要用0或-4來指定
+
 </section>
-				
+<section>
+<h2>編輯數列</h2>
+我們會用到.append，.remove，del等指令，以id為我們的數列
+<br />
+id.append('名字')：增加字串到最後一項
+<br />
+id.remove ('名字')：移除字串
+<br />
+del id(自取)[數字]：移除某個數字
+</section>
+
+<section>
+我們利用上面的規則可以整理出這串簡單的字串：
+<br />
+id=['1','2','3','4']
+<br />
+id.remove('4')
+<br />
+del id[0]
+<br />
+print (id[0])
+<br />
+print (id[-1])
+</section>
+
+<section>
+移除了id"4"跟第0個id"1"，我們少了1、4，剩下2、3，print出來的第0個id就是2，第-1個就會是3
+</section>
+
+<section>
+<h2>心得與自評</h2>
+更新字串往往需要費不少神來一個一個找資料，如果我們用字串直接把這些資料輸入進去，會更加方便
+<br />
+個人給自己70分
+</section>
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>
@@ -52,4 +99,5 @@
 </script>
 	
 </body>
+
 

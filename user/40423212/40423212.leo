@@ -28,7 +28,7 @@
 </v>
 <v t="leo.20151214224704.13" a="E"><vh>@path pelican</vh>
 <v t="leo.20151218155858.1"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151214224704.16"><vh>@path content</vh>
+<v t="leo.20151214224704.16" a="E"><vh>@path content</vh>
 <v t="leo.20151214224704.18"><vh>@edit 40423212_cp_w0.md</vh></v>
 <v t="leo.20151214224704.19"><vh>@edit 40423212_cp_w1.md</vh></v>
 <v t="leo.20151214224704.20"><vh>@edit 40423212_cp_w2.md</vh></v>

@@ -451,7 +451,7 @@ canvas.bind('click', on_canvas_click, False)
 &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="nx"&gt;只要使用者點擊在畫布上任何地方&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;即執行&lt;/span&gt; &lt;span class="nx"&gt;on_canvas_click&lt;/span&gt; &lt;span class="nx"&gt;函式&lt;/span&gt;
 &lt;span class="nx"&gt;canvas&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;bind&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;click&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;on_canvas_click&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;False&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</summary><category term="w17"></category><category term="Brython"></category></entry><entry><title>g10_w15</title><link href="http://coursemdetw.github.io/reveal/g10_w15.html" rel="alternate"></link><updated>2015-12-25T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g10_w15.html</id><summary type="html">&lt;p&gt;修課班級: 四設一乙&lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="w17"></category><category term="Brython"></category></entry><entry><title>g10_w15(分組報告)</title><link href="http://coursemdetw.github.io/reveal/g10_w15.html" rel="alternate"></link><updated>2015-12-25T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g10_w15.html</id><summary type="html">&lt;p&gt;修課班級: 四設一乙&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;g10&lt;/strong&gt;: CP W15 分組報告&lt;ul&gt;
 &lt;li&gt;四設四甲 40123157 盧毅民&lt;/li&gt;
@@ -463,10 +463,11 @@ canvas.bind('click', on_canvas_click, False)
 &lt;p&gt;請以組為單位, 利用 &lt;a href="http://2015fallhw.github.io/2015fallcpb/"&gt;http://2015fallhw.github.io/2015fallcpb/&lt;/a&gt; 上的 pelican 文章, 回答下列問題:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;[第1題]&lt;/strong&gt;: Python3 的近端程式開發系統如何建立? 如何啟動?&lt;ul&gt;
-&lt;li&gt;請參閱組員之 &lt;a href="http://2015fallhw.github.io/2015fallcpb/user/40123157/2015cp_hw_w2.html" target="_blank"&gt;課程筆記&lt;/a&gt; 內含註解與影片說明&lt;/li&gt;
+&lt;li&gt;請參閱組員之 &lt;a href="http://2015fallhw.github.io/2015fallcpb/user/40123157/2015cp_hw_w2.html" target="_blank"&gt;課程筆記(w2)&lt;/a&gt; 內含註解與影片說明&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[第2題]&lt;/strong&gt;: 目前已經熟悉的 Python3 指令及語法有哪些? 請舉例說明.&lt;ul&gt;
+&lt;li&gt;請參閱組員之 &lt;a href="http://2015fallhw.github.io/2015fallcpb/user/40123157/2015cp_hw_w7.html" target="_blank"&gt;課程筆記(w7)&lt;/a&gt; 內含註解與影片說明&lt;/li&gt;
 &lt;li&gt;coding: 編碼&lt;/li&gt;
 &lt;li&gt;import: 導入&lt;/li&gt;
 &lt;li&gt;random: 亂數&lt;/li&gt;
@@ -490,7 +491,8 @@ canvas.bind('click', on_canvas_click, False)
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;[第3題]&lt;/strong&gt;: 請利用流程圖, 簡要說明近端猜數字遊戲與猜顏色遊戲程式碼如何設計與運作.&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;猜數字&lt;/strong&gt;遊戲程式流程圖:&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;猜數字&lt;/strong&gt;遊戲程式流程圖:
+ &lt;img src="https://copy.com/ILM0PrNuEYNhGIE8"&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;猜顏色&lt;/strong&gt;遊戲程式流程圖:&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;

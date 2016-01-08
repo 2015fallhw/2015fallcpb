@@ -307,6 +307,11 @@ import math
 canvas = doc["plotarea"]
 ctx = canvas.getContext("2d")
 
+#寫字
+ctx.font="30px Arial";
+ctx.fillText("★Merry Christmas",100,100); 
+ctx.fillText("&amp;Happy New Year",250,150); 
+
 # 進行座標轉換, x 軸不變, y 軸反向且移動 500 光點
 ctx.setTransform(1, 0, 0, -1, 0, 500)
 
@@ -374,7 +379,7 @@ ctx.stroke()
 
 &lt;/script&gt;
 
-&lt;p&gt;-------------------------------------------------我是分隔線------------------------------------------------&lt;/p&gt;
+&lt;p&gt;----------------------------------- 我是分隔線 -----------------------------------&lt;/p&gt;
 &lt;p&gt;要提交推送之前, 先檢查 md 檔案有無唯一性, 因為若無唯一性, 怕會與其他組的 md 檔案彼此覆蓋.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;

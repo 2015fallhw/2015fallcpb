@@ -161,6 +161,11 @@ import math
 canvas = doc["plotarea"]
 ctx = canvas.getContext("2d")
 
+#寫字
+ctx.font="30px Arial";
+ctx.fillText("★Merry Christmas",100,100); 
+ctx.fillText("&Happy New Year",250,150); 
+
 # 進行座標轉換, x 軸不變, y 軸反向且移動 500 光點
 ctx.setTransform(1, 0, 0, -1, 0, 500)
 
@@ -228,7 +233,7 @@ ctx.stroke()
 
 </script>
 
-<p>-------------------------------------------------我是分隔線------------------------------------------------</p>
+<p>----------------------------------- 我是分隔線 -----------------------------------</p>
 <p>要提交推送之前, 先檢查 md 檔案有無唯一性, 因為若無唯一性, 怕會與其他組的 md 檔案彼此覆蓋.</p>
 <ul>
 <li>
@@ -354,7 +359,7 @@ notebook --ip<span class="o">=</span><span class="nv">%thisip%</span> --certfile
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/ipython.html">IPython</a>  </section>
+    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
 
 
     <section>

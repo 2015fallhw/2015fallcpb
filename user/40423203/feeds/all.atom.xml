@@ -234,9 +234,10 @@ canvas.bind('click', on_canvas_click, False)
 &lt;iframe src="40423203_cp_w15_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423203_cp_w15_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;div class="entry-content"&gt;&lt;h3&gt;Merry X'mas  &amp;amp; amp;  Happy new year&lt;/h3&gt;
-&lt;!-- 導入 brython.js --&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="js/40423203_cp_w15.js"&gt;&lt;/script&gt;
+&lt;p&gt;###Merry Christmas  &amp;amp;  Happy new year###&lt;/p&gt;
+&lt;!-- 導入 brython.js --&gt;
+
+&lt;script type="text/javascript" src="js/40423203-w15.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 brython() --&gt;
 
@@ -282,8 +283,8 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,400,0,0)
-grd.addColorStop(1,"#00FF00")
-grd.addColorStop(0,"#FFFF00")
+grd.addColorStop(1,"#FFFF00")
+grd.addColorStop(0,"#00FF00")
 ctx.strokeStyle = grd
 ctx.moveTo(400,0)
 ctx.lineTo(400,400)
@@ -291,7 +292,7 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,0,400,0)
-grd.addColorStop(0,"#FF0000")
+grd.addColorStop(0,"#00FF00")
 grd.addColorStop(1,"#FFFF00")
 ctx.strokeStyle = grd
 ctx.moveTo(0,410)
@@ -408,7 +409,7 @@ ctx.fillStyle = "#66CCFF"
 ctx.font = "23px Dutch801 XBd BT"
 ctx.fillText("Merry ",13,28)
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("X'mas",13,48)
+ctx.fillText("Christmas",13,48)
 ctx.font = "23px Dutch801 XBd BT"
 ctx.fillText("&amp;",13,68)
 ctx.font = "23px Dutch801 XBd BT"
@@ -482,6 +483,12 @@ ctx.font = "10px ScriptS"
 ctx.fillText("40423203 ",325,398)
 ctx.stroke()
 
+&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
 &lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週 作業十三</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w14.html" rel="alternate"></link><updated>2015-12-18T14:40:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2015-12-18:reveal/40423203_cp_w14.html</id><summary type="html">&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423203_cp_w14_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 

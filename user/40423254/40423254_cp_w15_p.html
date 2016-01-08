@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423254作業十四</title>
+<title>40423254作業十五</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -25,68 +25,60 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>zero to hero python教學14</h1>
+    <h1>zero to hero python教學15</h1>
     <p>四設計一乙 40423254 蘇柏丞</p>		
 </section>
 <section>
-<h2>列表</h2>
-我們可以用python整理一串數列，可以是姓名、學號等等，來做增減、搜尋等用途
+<h2>間接編輯檔案?</h2>
+python也可以用來編輯文字檔,甚至連excel(.csv檔)的表格都能填上去!
 </section>
   
 <section>
-我們首先當然需要一串數列：
+首先當然是建立檔案,為了最大化利用python,我們也能拿python來建立檔案
 <br />
-id=['a','b','c','d']
+fileName='fd.txt'
+<br />
+write='w'
+<br />
+file = open(fileName,mode=write)
+<br />
+就能產生一個叫fd的txt檔(就是大家熟悉的筆記本)
 </section>
 				
 <section>
-<h2>數列的規則</h2>
+<h2>編輯內容</h2>
+延續前面建立的內容繼續寫下:
 <br />
-前面多少提過關於python的數列，有個跟正常的數學不一樣的規則，從前面到後面各是：
+file.write('ch11,done')
 <br />
-0，1，2，3......
+file.write('ch12,undo\n')
 <br />
-也可以用負數：
+file.close
 <br />
-......-4，-3，-2，-1(最後算-1)
+print('file written successful')
 <br />
-利用這些數字來做指定的動作，像a就要用0或-4來指定
+重開筆記本就會在裡面輸入文字內容
 
 </section>
 <section>
-<h2>編輯數列</h2>
-我們會用到.append，.remove，del等指令，以id為我們的數列
+甚至能搭配input指令
 <br />
-id.append('名字')：增加字串到最後一項
+data=input('輸入字句')
 <br />
-id.remove ('名字')：移除字串
+file = open(fileName,mode=write)
 <br />
-del id(自取)[數字]：移除某個數字
-</section>
-
-<section>
-我們利用上面的規則可以整理出這串簡單的字串：
+file.write(data)
 <br />
-id=['1','2','3','4']
+file.close()
 <br />
-id.remove('4')
-<br />
-del id[0]
-<br />
-print (id[0])
-<br />
-print (id[-1])
-</section>
-
-<section>
-移除了id"4"跟第0個id"1"，我們少了1、4，剩下2、3，print出來的第0個id就是2，第-1個就會是3
+就可以自由輸入來編輯了
 </section>
 
 <section>
 <h2>心得與自評</h2>
-更新字串往往需要費不少神來一個一個找資料，如果我們用字串直接把這些資料輸入進去，會更加方便
+單純看這個指令非常多此一舉,但感覺如果搭配上其他語法一起使用,就可以變成一個實用的編輯器,語法往往都需要互相做配合才能體現出其效果
 <br />
-個人給自己70分
+個人給自己65分
 </section>
 </div>
 </div>

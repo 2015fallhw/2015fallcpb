@@ -83,7 +83,7 @@
 </header>
 
   <div class="entry-content"><p>g8 w17-1</p>
-<p>以下利用 Brython 在網頁中進行具彈性的 25 個小球彈跳模擬！
+<p>以下利用 Brython 在網頁中進行具彈性的 20 個小球彈跳模擬！
 換言之, 若採用相同的程式技巧與流程, 耶誕卡上的所有繪圖物件, 都可以製作成動畫!!!</p>
 <!-- 導入 brython.js -->
 
@@ -119,7 +119,7 @@ ctx = canvas.getContext("2d")
 width = canvas.width
 height = canvas.height
 
-n = 25
+n = 20
 # 已知數列內容個數, 先分別與 None 對應
 x = [None]*n
 y = [None]*n
@@ -128,11 +128,11 @@ vx = [None]*n
 # 重力加速度, Y 方向向下為正
 g = 0.05
 # 空氣的黏滯阻尼係數
-cor = 0.3 
+cor = 0.7 
 # 球的彈力係數
-fr = 1.1
+fr = 0.95
 # 球的半徑
-r = 7
+r = 5
 
 for i in range(n):
     x[i] = 300
@@ -232,7 +232,7 @@ ctx = canvas.getContext("2d")
 width = canvas.width
 height = canvas.height
 
-n = 25
+n = 20
 # 已知數列內容個數, 先分別與 None 對應
 x = [None]*n
 y = [None]*n
@@ -241,11 +241,11 @@ vx = [None]*n
 # 重力加速度, Y 方向向下為正
 g = 0.05
 # 空氣的黏滯阻尼係數
-cor = 0.3 
+cor = 0.7 
 # 球的彈力係數
-fr = 1.1
+fr = 0.95
 # 球的半徑
-r = 7
+r = 5
 
 for i in range(n):
     x[i] = 300
@@ -372,11 +372,7 @@ canvas.bind('click', on_canvas_click, False)
 
   <section>
   <h1>Tags</h1>
-<<<<<<< HEAD
-    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
-=======
-    <a href="./tag/w17.html">w17</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/jupyter.html">Jupyter</a>  </section>
->>>>>>> 2bf3c8f0f239b8a397514e441147a98d2710f283
+    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/ipython.html">IPython</a>  </section>
 
 
     <section>

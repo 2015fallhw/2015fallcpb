@@ -120,7 +120,131 @@
 <h1>2. 目前已經熟悉的 Python3 指令及語法有哪些? 請舉例說明</h1>
 <p><a href="http://imgur.com/FxIA2DT"><img src="http://i.imgur.com/FxIA2DT.jpg" title="source: imgur.com" /></a></p>
 <h1>3.請利用流程圖, 簡要說明近端猜數字遊戲與猜顏色遊戲程式碼如何設計與運作</h1>
-<p><a href="http://imgur.com/Vb0uBlB"><img src="http://i.imgur.com/Vb0uBlB.jpg" title="source: imgur.com" /></a></p></div>
+<p><a href="http://imgur.com/Vb0uBlB"><img src="http://i.imgur.com/Vb0uBlB.jpg" title="source: imgur.com" /></a></p>
+<!-- 以下利用 Brython 程式執行繪圖 -->
+
+<canvas id="plotarea" width="300" height="400"></canvas>
+
+<script type="text/python3">
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 開始畫直線
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(50, 0)
+ctx.lineTo(30, 30)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(50, 0)
+ctx.lineTo(70, 30)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(30,30)
+ctx.lineTo(45, 30)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke() 
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(70,30)
+ctx.lineTo(55, 30)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(45,30)
+ctx.lineTo(20, 65)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke() 
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(55,30)
+ctx.lineTo(80, 65)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke() 
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(20,65)
+ctx.lineTo(40, 65)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke() 
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(80,65)
+ctx.lineTo(60, 65)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(40,65)
+ctx.lineTo(10, 105)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke() 
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(60,65)
+ctx.lineTo(90, 105)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(10,105)
+ctx.lineTo(40, 105)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke() 
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(90,105)
+ctx.lineTo(60, 105)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(40,105)
+ctx.lineTo(40, 135)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke() 
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(60,105)
+ctx.lineTo(60, 135)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 2
+ctx.moveTo(60,135)
+ctx.lineTo(40, 135)
+ctx.strokeStyle = "#000000"
+ctx.stroke()
+
+x = 100
+y = 100
+
+</script></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -153,13 +277,13 @@
           <a href="./g10_w17.html">g10_w17</a>
       </li>
       <li class="post">
+          <a href="./g8_w17-1.html">g8 w17-1</a>
+      </li>
+      <li class="post">
           <a href="./g10_w15.html">g10_w15_期末分組報告</a>
       </li>
       <li class="post">
           <a href="./g3_w14_1.html">g3 w14-1</a>
-      </li>
-      <li class="post">
-          <a href="./g3_w14_2.html">g3 w14-2</a>
       </li>
     </ul>
   </section>
@@ -183,7 +307,11 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
+<<<<<<< HEAD
+    <a href="./tag/w17.html">w17</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/w15.html">w15</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/jupyter.html">Jupyter</a>  </section>
+=======
+    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/w15.html">w15</a>  </section>
+>>>>>>> 42c37e974b827e6db7ebb77e2633a71db77f875e
 
 
     <section>

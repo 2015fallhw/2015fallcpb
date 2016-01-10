@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>2015 計算機程式 hw14 &mdash; 2015FALL 40423219 CPB 作業</title>
+  <title>2015 計算機程式 第十四週 &mdash; 2015FALL 40423219 CPB 作業</title>
   <meta name="author" content="40423219">
 
 
@@ -47,61 +47,12 @@
 <div>
   <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">2015 計算機程式 hw14</h1>
+      <h1 class="entry-title">2015 計算機程式 第十四週</h1>
     <p class="meta">
 <time datetime="2015-12-24T19:41:00+08:00" pubdate>週四 24 十二月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><!-- 導入 brython.js -->
-
-<script type="text/javascript" src="js/40423219-w14.js"></script>
-
-<!-- 啟動 brython() -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下利用 Brython 程式執行繪圖 -->
-
-<canvas id="plotarea" width="200" height="200"></canvas>
-
-<script type="text/python3">
-# 導入 doc
-from browser import document as doc
-from browser import console
-import math
-
-# 準備繪圖畫布
-canvas = doc["plotarea"]
-ctx = canvas.getContext("2d")
-
-# 開始畫直線
-for i in range(11):
-    ctx.beginPath()
-    ctx.lineWidth = 5
-    ctx.moveTo(0,0+i*20 )
-    ctx.lineTo(200,0+i*20 )
-    ctx.strokeStyle = "#0000ff"
-    ctx.stroke()
-for i in range(11):
-    ctx.beginPath()
-    ctx.lineWidth = 5
-    ctx.moveTo(0+i*20, 0)
-    ctx.lineTo(0+i*20, 200)
-    ctx.strokeStyle = "#FF0000"
-    ctx.stroke()
-
-
-</script>
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script></div>
+  <div class="entry-content"></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -128,19 +79,19 @@ brython(1);
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="./2015cpa_hw_w15.html">2015 計算機程式 hw15</a>
+          <a href="./2015cpb_hw_w15.html">2015 計算機程式 hw15</a>
       </li>
       <li class="post">
-          <a href="./2015cpb_hw_w14.html">2015 計算機程式 hw14</a>
+          <a href="./2015cpb_hw_w14.html">2015 計算機程式 第十四週</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w2.html">2015 計算機程式 hw1</a>
+          <a href="./2015cp_hw_w1.html">2015 計算機程式 hw1</a>
       </li>
       <li class="post">
           <a href="./2015cp_hw_w2.html">2015 計算機程式 作業二</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w1.html">2015 計算機程式 作業範本</a>
+          <a href="./2015cp_.html">2015 計算機程式 作業範本</a>
       </li>
     </ul>
   </section>
@@ -155,7 +106,7 @@ brython(1);
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
+    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
 
 
     <section>
@@ -188,7 +139,7 @@ brython(1);
     var disqus_shortname = '2015fall';
     var disqus_identifier = '/2015cpb_hw_w14.html';
     var disqus_url = './2015cpb_hw_w14.html';
-    var disqus_title = '2015 計算機程式 hw14';
+    var disqus_title = '2015 計算機程式 第十四週';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

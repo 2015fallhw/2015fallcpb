@@ -29,9 +29,9 @@ ctx = canvas.getContext("2d")
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,0,0,400)
-grd.addColorStop(1,"#FF0000")
-grd.addColorStop(0,"#FFFF00")
-ctx.lineWidth = 20
+grd.addColorStop(1,"#FF0033")
+grd.addColorStop(0,"#FFFF33")
+ctx.lineWidth = 15
 ctx.strokeStyle = grd
 ctx.moveTo(0,0)
 ctx.lineTo(0,400)
@@ -39,8 +39,8 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(400,0,0,0)
-grd.addColorStop(1,"#FFFF00")
-grd.addColorStop(0,"#00FF00")
+grd.addColorStop(1,"#FFFF66")
+grd.addColorStop(0,"#00FF77")
 ctx.strokeStyle = grd
 ctx.moveTo(0,0)
 ctx.lineTo(400,0)
@@ -48,7 +48,7 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,400,0,0)
-grd.addColorStop(1,"#00FF00")
+grd.addColorStop(1,"#00FF77")
 grd.addColorStop(0,"#FFFF00")
 ctx.strokeStyle = grd
 ctx.moveTo(400,0)
@@ -57,8 +57,8 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,0,400,0)
-grd.addColorStop(0,"#FF0000")
-grd.addColorStop(1,"#FFFF00")
+grd.addColorStop(0,"#FF0320")
+grd.addColorStop(1,"#FFFF01")
 ctx.strokeStyle = grd
 ctx.moveTo(0,410)
 ctx.lineTo(400,410)
@@ -94,7 +94,7 @@ ctx.quadraticCurveTo(320, 250, 380, 270)
 ctx.moveTo(20, 270)
 ctx.lineTo(380, 270)
 
-ctx.lineWidth = 5
+ctx.lineWidth = 8
 ctx.strokeStyle = "#008800"
 ctx.stroke()
 
@@ -104,7 +104,7 @@ ctx.fillRect(180,271.5,40,129)
 
 
 ctx.beginPath()
-ctx.fillStyle = "#9900FF"
+ctx.fillStyle = "#FFCC00"
 ctx.fillRect(260,340,60,60)
 ctx.stroke()
 
@@ -133,7 +133,7 @@ ctx.moveTo(298,300)
 ctx.lineTo(322,320)
 
 ctx.lineWidth = 5
-ctx.strokeStyle = "#FFCC00"
+ctx.strokeStyle = "#9900FF"
 ctx.stroke()
 
 
@@ -165,20 +165,20 @@ ctx.lineTo(120,310)
 ctx.moveTo(141.5,330)
 ctx.lineTo(118.5,310)
 
-ctx.lineWidth = 5
-ctx.strokeStyle = "#CC0000"
+ctx.lineWidth = 7
+ctx.strokeStyle = "#FF370A"
 ctx.stroke()
 
 
-ctx.fillStyle = "#66CCFF"
+ctx.fillStyle = "#FF0000"
 ctx.font = "23px Dutch801 XBd BT"
 ctx.fillText("Merry ",13,28)
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Christmas",13,48)
+ctx.fillText("X'MAS",13,48)
 ctx.font = "23px Dutch801 XBd BT"
 ctx.fillText("&amp;",13,68)
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Happy New ",13,88)
+ctx.fillText("HAPPY New ",13,88)
 ctx.font = "23px Dutch801 XBd BT"
 ctx.fillText("Year ",13,108)
 ctx.stroke()
@@ -199,7 +199,7 @@ ctx.moveTo(280, 210)
 ctx.quadraticCurveTo(220, 240, 70, 270)
 
 ctx.lineWidth = 3
-ctx.strokeStyle = "#CC0000"
+ctx.strokeStyle = "#9900FF"
 ctx.stroke()
 
 
@@ -217,7 +217,7 @@ ctx.quadraticCurveTo(180, 180, 300, 190)
 ctx.moveTo(320, 240)
 ctx.quadraticCurveTo(300, 260, 210, 270)
 
-ctx.lineWidth = 3
+ctx.lineWidth = 6
 ctx.strokeStyle = "#FFFF33"
 ctx.stroke()
 
@@ -243,9 +243,9 @@ ctx.stroke()
 
 
 ctx.beginPath()
-ctx.fillStyle = "#FF359A"
-ctx.font = "10px ScriptS"
-ctx.fillText("40423103 ",325,398)
+ctx.fillStyle = "#FF370A"
+ctx.font = "12px ScriptS"
+ctx.fillText("40423219 ",325,398)
 ctx.stroke()
 
 &lt;/script&gt;
@@ -254,98 +254,50 @@ ctx.stroke()
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html"></summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw1</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w1.html" rel="alternate"></link><updated>2015-10-02T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-02:reveal/2015cp_hw_w1.html</id><summary type="html">&lt;iframe src="40423219_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="40423219_cp_w2_p.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;安裝及啟動Anaconda&lt;/h1&gt;
-&lt;p&gt;使用. &lt;em&gt;斜體文字&lt;/em&gt;, &lt;strong&gt;黑體文字&lt;/strong&gt;, 以及 &lt;code&gt;單線文字&lt;/code&gt;. 表列資料可以寫為:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;先從教學網站下載"Ana3_lite2.7"及"fix"&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;將兩個檔案進行解壓縮&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;先開啟"fix"料夾&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;點選啟動"fix.bat"，畫面只會閃一下&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;再開啟"Anaconday"資料夾&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;點選"start.bat"&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;環境架設完成&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;影片解說&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151285831" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151285831"&gt;安裝及啟動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業二</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w2.html" rel="alternate"></link><updated>2015-10-02T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-02:reveal/2015cp_hw_w2.html</id><summary type="html">&lt;iframe src="40423219_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="40423219_cp_w2_p.html" target="_blank"&gt;作業二投影片&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;安裝及啟動Anaconda&lt;/h1&gt;
-&lt;p&gt;使用. &lt;em&gt;斜體文字&lt;/em&gt;, &lt;strong&gt;黑體文字&lt;/strong&gt;, 以及 &lt;code&gt;單線文字&lt;/code&gt;. 表列資料可以寫為:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;先從教學網站下載"Ana3_lite2.7"及"fix"&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;將兩個檔案進行解壓縮&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;先開啟"fix"料夾&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;點選啟動"fix.bat"，畫面只會閃一下&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;再開啟"Anaconday"資料夾&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;點選"start.bat"&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;環境架設完成&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;影片解說&lt;/h2&gt;
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業範本</title><link href="http://coursemdetw.github.io/reveal/2015cp_.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_.html</id><summary type="html">&lt;iframe src="40423219_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw1</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w1.html" rel="alternate"></link><updated>2015-10-02T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-02:reveal/2015cpb_hw_w1.html</id><summary type="html">&lt;iframe src="40423219_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423219_cp_w1_p.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;使用 H1 標題&lt;/h1&gt;
+&lt;h1&gt;安裝及啟動Anaconda&lt;/h1&gt;
+&lt;p&gt;使用. &lt;em&gt;斜體文字&lt;/em&gt;, &lt;strong&gt;黑體文字&lt;/strong&gt;, 以及 &lt;code&gt;單線文字&lt;/code&gt;. 表列資料可以寫為:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;先從教學網站下載"Ana3_lite2.7"及"fix"&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;將兩個檔案進行解壓縮&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;先開啟"fix"料夾&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;點選啟動"fix.bat"，畫面只會閃一下&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;再開啟"Anaconday"資料夾&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;點選"start.bat"&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;ol&gt;
+&lt;li&gt;環境架設完成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;影片解說&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151285831" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151285831"&gt;安裝及啟動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業範本</title><link href="http://coursemdetw.github.io/reveal/2015cp_.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_.html</id><summary type="html">&lt;h1&gt;使用 H1 標題&lt;/h1&gt;
 &lt;p&gt;文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料&lt;/p&gt;
 &lt;p&gt;使用. &lt;em&gt;斜體文字&lt;/em&gt;, &lt;strong&gt;黑體文字&lt;/strong&gt;, 以及 &lt;code&gt;單線文字&lt;/code&gt;. 表列資料可以寫為:&lt;/p&gt;
 &lt;ul&gt;
@@ -452,4 +404,28 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;p&gt;註腳會連結到這裡.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
+&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw2</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w2.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cpb_hw_w2.html</id><summary type="html">&lt;iframe src="40423103_cp_w2_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423103_cp_w2_p.html" target="_blank"&gt;建立與刪除倉儲_投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;建立與刪除倉儲&lt;/h1&gt;
+&lt;h2&gt;建立倉儲&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;點選右上角的"+"&lt;/li&gt;
+&lt;li&gt;點選"NEW REPOSITORY"&lt;/li&gt;
+&lt;li&gt;輸入欲建立之倉儲名稱&lt;/li&gt;
+&lt;li&gt;勾選"INITIALIZE THIS REPOSITORY WITH A READ ME"&lt;/li&gt;
+&lt;li&gt;點選 "CREATE REPOSITORY"&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;影片解說&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/144982387" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/144982387"&gt;建立倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;刪除倉儲&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;點選你要刪除的倉儲&lt;/li&gt;
+&lt;li&gt;點選右邊的"SETTING"&lt;/li&gt;
+&lt;li&gt;往下滑&lt;/li&gt;
+&lt;li&gt;點選最後一個"DELETE THIS REPOSITORY"&lt;/li&gt;
+&lt;li&gt;輸入你要刪除的倉儲名稱&lt;/li&gt;
+&lt;li&gt;按下"I UNDERSTAND THE CONSEQUENCES, DELETE THIS REPOSITORY"&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;影片解說&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/144982406" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/144982406"&gt;刪除倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>

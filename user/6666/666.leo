@@ -22,6 +22,7 @@
 <v t="leo.20151218140851.1"><vh>@edit g66_w14_1.md</vh></v>
 <v t="leo.20151225134015.1"><vh>@edit g66_w15.md</vh></v>
 <v t="amd.20160103213014.1"><vh>@edit g66_w17.md</vh></v>
+<v t="amd.20160110163808.1"><vh>@edit 6666_final.md</vh></v>
 </v>
 </v>
 </v>

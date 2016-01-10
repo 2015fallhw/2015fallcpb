@@ -6,6 +6,8 @@ Slug: 6666_final
 Authors: 6666
 Summary: 在此篇文章中, 將說明本課程的評分流程
 
+評分時程規劃請參考: <http://chiamingyen.github.io/kmolab/blog/posts/2016/01/10/2015-fall-final-schedule/>
+
 2015 Fall CP 課程影片整理:
 
 <http://chiamingyen.github.io/kmolab/blog/posts/2016/01/10/2015-fall-cp-part-1/>

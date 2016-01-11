@@ -7,7 +7,7 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = '40423227'
+AUTHORS = '40423227'
 SITENAME = '2015Fall 40423227 CPB 作業'
 SITEURL = ''
 

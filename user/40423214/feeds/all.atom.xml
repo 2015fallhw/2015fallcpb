@@ -48,7 +48,7 @@ for i in range(11):
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 期中報告</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-11-13T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-11-13:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為期中報告內容&lt;/p&gt;
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業六</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-11-13T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-11-13:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為期中報告內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423214_cp_w6_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 

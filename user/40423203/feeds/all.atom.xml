@@ -237,7 +237,7 @@ canvas.bind('click', on_canvas_click, False)
 &lt;p&gt;###Merry Christmas  &amp;amp;  Happy new year###&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
-&lt;script type="text/javascript" src="js/40423203-w15.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="./../../js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 brython() --&gt;
 
@@ -452,7 +452,7 @@ ctx.quadraticCurveTo(180, 180, 300, 190)
 ctx.moveTo(320, 240)
 ctx.quadraticCurveTo(300, 260, 210, 270)
 
-ctx.lineWidth = 3
+ctx.lineWidth = 3.5
 ctx.strokeStyle = "#FFFF33"
 ctx.stroke()
 
@@ -472,7 +472,7 @@ ctx.quadraticCurveTo(180, 180, 100, 190)
 ctx.moveTo(92, 230)
 ctx.quadraticCurveTo(250, 260, 330, 270)
 
-ctx.lineWidth = 3
+ctx.lineWidth = 3.5
 ctx.strokeStyle = "#0099FF"
 ctx.stroke()
 
@@ -489,7 +489,11 @@ ctx.stroke()
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週 作業十三</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w14.html" rel="alternate"></link><updated>2015-12-18T14:40:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2015-12-18:reveal/40423203_cp_w14.html</id><summary type="html">&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;iframe src="https://player.vimeo.com/video/151213450" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/151213450"&gt;4&lt;/a&gt; from &lt;a href="https://vimeo.com/user46241007"&gt;40423203&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週 作業十三</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w14.html" rel="alternate"></link><updated>2015-12-18T14:40:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2015-12-18:reveal/40423203_cp_w14.html</id><summary type="html">&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423203_cp_w14_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423203_cp_w14_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;

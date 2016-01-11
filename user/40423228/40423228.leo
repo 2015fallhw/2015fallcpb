@@ -39,6 +39,7 @@
 <v t="leo.20160108170015.1"><vh>@edit 40423228_cp_w11_p.html</vh></v>
 <v t="leo.20160108213157.1"><vh>@edit 40423228_cp_w13_p.html</vh></v>
 <v t="leo.20160108213215.1"><vh>@edit 40423228_cp_w14_p.html</vh></v>
+<v t="leo.20160111214033.1"><vh>@edit 40423228_cp_w17_p.html</vh></v>
 <v t="leo.20151225151047.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225151047.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151225151047.6"><vh>@edit publishconf.py</vh></v>

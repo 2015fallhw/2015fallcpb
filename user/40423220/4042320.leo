@@ -14,11 +14,11 @@
 <v t="leo.20160110000029.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20160110000029.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20160109235824.2" a="E"><vh>@path ./../../</vh>
+<v t="leo.20160109235824.2"><vh>@path ./../../</vh>
 <v t="leo.20160110010215.1"><vh>@button admin pelican</vh></v>
 <v t="leo.20160110010646.1" a="E"><vh>@path pelican</vh>
 <v t="leo.20160110010646.2"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20160110010646.3" a="E"><vh>@path content</vh>
+<v t="leo.20160110010646.3"><vh>@path content</vh>
 <v t="leo.20160110010646.4"><vh>@edit g4_w14_1.md</vh></v>
 <v t="leo.20160110010646.5"><vh>@edit 2015cphww7.md</vh></v>
 <v t="leo.20160110010646.6"><vh>@edit 2015cpnote7.md</vh></v>
@@ -30,12 +30,14 @@
 <v t="leo.20160110000444.1" a="E"><vh>@path ./</vh>
 <v t="leo.20160110000444.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20160110000444.3"><vh>@edit 40423220_cp_w1_p.html</vh></v>
+<v t="leo.20160111235355.1"><vh>@edit 40423220_cp_w14_p.html</vh></v>
 <v t="leo.20160110000444.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20160110000444.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20160110000444.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20160110000444.7" a="E"><vh>@path content</vh>
 <v t="leo.20160110000444.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20160110000444.9"><vh>@edit 40423220_cp_w1.md</vh></v>
+<v t="leo.20160111235253.1"><vh>@edit 40423220_cp_w14.md</vh></v>
 </v>
 </v>
 </v>

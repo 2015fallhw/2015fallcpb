@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423243-9</title>
+<title>40423243-15</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -26,26 +26,59 @@
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
     <h1>zero to hero python教學</h1>
-    <p>40423243 四設一乙 </p>		
+    <p>40423243 四設一乙 楊錦鑫</p>		
 </section>
-	
-<section id="hw-task-five">
-    <h1>作業九-任務說明</h1>
-    <p></p>   
+<section>
+<h2>間接編輯檔案?</h2>
+python也可以用來編輯文字檔,甚至連excel(.csv檔)的表格都能填上去!
+</section>
+  
+<section>
+首先當然是建立檔案,為了最大化利用python,我們也能拿python來建立檔案
+<br />
+fileName='fd.txt'
+<br />
+write='w'
+<br />
+file = open(fileName,mode=write)
+<br />
+就能產生一個叫fd的txt檔(就是大家熟悉的筆記本)
+</section>
+				
+<section>
+<h2>編輯內容</h2>
+延續前面建立的內容繼續寫下:
+<br />
+file.write('ch11,done')
+<br />
+file.write('ch12,undo\n')
+<br />
+file.close
+<br />
+print('file written successful')
+<br />
+重開筆記本就會在裡面輸入文字內容
+
+</section>
+<section>
+甚至能搭配input指令
+<br />
+data=input('輸入字句')
+<br />
+file = open(fileName,mode=write)
+<br />
+file.write(data)
+<br />
+file.close()
+<br />
+就可以自由輸入來編輯了
 </section>
 
 <section>
-<h1>期中報告心得</h1>
-雖然學了那麼久但是對github也不算了解透徹,不過現在就很清楚的知道老師告訴我們的未來的趨勢是什麼,所以我們只要朝著未來的趨勢努力一定會比別人厲害很多,我覺的這堂課讓我很充實
-</section>
-
-<section>
-雖然花了很多時間摸索,但是只要做出來就會特別感動而且充滿成就感,而且倉儲可以一點一滴累積每天的努力,到最後回頭看就會非常的開心
-</section>
-
-<section>
-<h1>自評</h1>
-學期過了一半,我從這門課學到很多,不過還是有很多東西是似懂非懂的,但是我認為自己有努力過,所以給自己 63 分。
+<h2>心得與自評</h2>
+單只有指令看起來不但麻煩又不實用,但是如果搭配上其他語法一起使用,就可以變成編輯器,所以學東西絕對不能只學皮毛,因為你只學到麻煩又不實用的東西,一定要學得很深入,這樣才能發現這個東西真正的用途
+<br />
+個人給自己62分
 </section>
 </div>
 </div>

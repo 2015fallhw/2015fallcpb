@@ -409,7 +409,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151106232158.1" a="E"><vh>@path 40423230</vh>
+<v t="leo.20151106232158.1"><vh>@path 40423230</vh>
 <v t="leo.20151106232158.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151106232158.3"><vh>@edit 40423230_cp_w1_p.html</vh></v>
 <v t="leo.20160112012545.1"><vh>@edit 40423230_cp_w2_p.html</vh></v>
@@ -514,7 +514,7 @@
 <v t="leo.20151028211353.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151028211353.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151028211353.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151028211353.7" a="E"><vh>@path content</vh>
+<v t="leo.20151028211353.7"><vh>@path content</vh>
 <v t="leo.20151028211353.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151028211353.9"><vh>@edit 40423241_cp_w1.md</vh></v>
 <v t="leo.20151117231137.1"><vh>@edit 40423241_cp_w2.md</vh></v>
@@ -997,10 +997,10 @@
 <v t="leo.20151106211446.1"><vh>@edit 40423243_cp_w7_p.html</vh></v>
 <v t="leo.20151106211447.1"><vh>@edit 40423243_cp_w8_p.html</vh></v>
 <v t="leo.20151106211448.1"><vh>@edit 40423243_cp_w9_p.html</vh></v>
-<v t="leo.20151025162821.4"><vh>@path pelican</vh>
+<v t="leo.20151025162821.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151025162821.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151025162821.6"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151025162821.7"><vh>@path content</vh>
+<v t="leo.20151025162821.7" a="E"><vh>@path content</vh>
 <v t="leo.20151025162821.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20151106212032.1"><vh>@edit 40423243_cp_w1.md</vh></v>
 <v t="leo.20151108215255.1"><vh>@edit 40423243_cp_w2.md</vh></v>
@@ -1050,10 +1050,10 @@
 </v>
 </v>
 </v>
-<v t="leo.20151106130411.1"><vh>@path 40423247</vh>
+<v t="leo.20151106130411.1" a="E"><vh>@path 40423247</vh>
 <v t="leo.20151106130411.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151106130411.3"><vh>@edit 40423247_cp_w7_p.html</vh></v>
-<v t="leo.20151106130411.4"><vh>@path pelican</vh>
+<v t="leo.20151106130411.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151106130411.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151106130411.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151106130411.7"><vh>@path content</vh>

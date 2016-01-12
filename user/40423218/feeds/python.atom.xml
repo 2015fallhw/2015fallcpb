@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423212 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-11-05T09:41:00+08:00</updated><entry><title>2015 計算機程式 作業</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w0.html" rel="alternate"></link><updated>2015-11-05T09:41:00+08:00</updated><author><name>40423212</name></author><id>tag:coursemdetw.github.io,2015-11-05:reveal/2015cp_hw_w0.html</id><summary type="html">&lt;p&gt;以下為作業內容
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423212 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-11-05T09:41:00+08:00</updated><entry><title>2015 計算機程式 作業</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w0.html" rel="alternate"></link><updated>2015-11-05T09:41:00+08:00</updated><author><name>40423218</name></author><id>tag:coursemdetw.github.io,2015-11-05:reveal/2015cp_hw_w0.html</id><summary type="html">&lt;p&gt;以下為作業內容
 &lt;iframe src="40423212_cp_w0_p.html" width="500" height="300"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/144744342" width="500" height="237" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -149,11 +149,4 @@ Commit and push your changes to trigger another build on the server.&lt;/p&gt;</
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423218_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423218_cp_w8_p.html" target="_blank"&gt;作業八投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業九</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w9.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>coursemdetw</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_hw_w9.html</id><summary type="html">&lt;p&gt;以下為作業九內容&lt;/p&gt;
-&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423218_cp_w9_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="40423218_cp_w9_p.html" target="_blank"&gt;作業九投影片&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/145895542" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/145895542"&gt;bandicam 2015-11-17 01-56-10-288&lt;/a&gt; from &lt;a href="https://vimeo.com/user45902690"&gt;Raisin&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
+&lt;p&gt;&lt;a href="40423218_cp_w8_p.html" target="_blank"&gt;作業八投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>

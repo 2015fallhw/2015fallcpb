@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423212-5</title>
+<title>40423212-15</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -28,65 +28,57 @@
     <h1>zero to hero python教學</h1>
     <p>40423212 四設一乙 吳秉駿</p>		
 </section>
-	
-<section id="hw-task-five">
 <section>
-  
-</section>
-    <h1>日期計算</h1>
- python互動的進階模式,可以直接取電腦上的時間來進行計算
+<h2>間接編輯檔案?</h2>
+python也可以用來編輯文字檔,甚至連excel(.csv檔)的表格都能填上去!
 </section>
   
 <section>
-我們先導入電腦時間,指令為:
+首先當然是建立檔案,為了最大化利用python,我們也能拿python來建立檔案
 <br />
-import dateline
+fileName='fd.txt'
 <br />
-之後我們輸入現在時間,指令為:
+write='w'
 <br />
-currentDate = datetime.date.today()
+file = open(fileName,mode=write)
 <br />
-最後還是用print來做輸出
-<br />
-print(currentDate)
-<br />
-就可以讓電腦用python認出電腦時間
+就能產生一個叫fd的txt檔(就是大家熟悉的筆記本)
 </section>
 				
 <section>
-python也能認得年,月,:
-    <br />
-print(currentDate.month)
+<h2>編輯內容</h2>
+延續前面建立的內容繼續寫下:
 <br />
-可以得到月
+file.write('ch11,done')
 <br />
-print(currentDate.year)
+file.write('ch12,undo\n')
 <br />
-可以得到年
+file.close
+<br />
+print('file written successful')
+<br />
+重開筆記本就會在裡面輸入文字內容
+
 </section>
 <section>
-<h1>使用strftime指令</h1>
-strftime可以把後續的代數指令變簡單一些,但非常難以記憶,通常是以書本或網路來記載:
-    <br />
- print(currentDate.strftime('%d %b, %Y'))
-    <br />
-%d=日
-    <br />
-%b=月
-    <br />
-%Y=年
-    <br />
-可以查詢'http://strftime.org/'來找更多關於strftime語法的使用
+甚至能搭配input指令
+<br />
+data=input('輸入字句')
+<br />
+file = open(fileName,mode=write)
+<br />
+file.write(data)
+<br />
+file.close()
+<br />
+就可以自由輸入來編輯了
 </section>
-  
+
 <section>
-<h1>對課程的一些感想</h1>
-python語法下,兩種不同的語法也可能產生一樣的結果,雖然strftime指令又是另一種完全不一樣的指令,但在部份情況下,這個指令或許可以讓工作處理得更效率
-</section>
-  
-<section>
-<h1>自評</h1>
-這篇相較於之前比較難看懂,個人也很難解讀出太多,個人給自己63分
+<h2>心得與自評</h2>
+單純看這個指令非常多此一舉,但感覺如果搭配上其他語法一起使用,就可以變成一個實用的編輯器,語法往往都需要互相做配合才能體現出其效果
+<br />
+個人給自己65分
 </section>
 </div>
 </div>

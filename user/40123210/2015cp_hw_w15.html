@@ -53,6 +53,9 @@
 </header>
 
   <div class="entry-content"><p>以下為作業15內容</p>
+<iframe src="40123210_cp_w15_p.html" width="500" height="300"></iframe>
+
+<p><a href="40123210_cp_w15_p.html" target="_blank">作業11投影片</a></p>
 <!-- 導入 brython.js -->
 
 <script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"></script>
@@ -80,16 +83,16 @@ canvas = doc["plotarea"]
 ctx = canvas.getContext("2d")
 
 #寫字
-ctx.font="30px Arial";
-ctx.fillText("★Merry Christmas",100,100); 
-ctx.fillText("&Happy New Year",250,150); 
+ctx.font="30px Matura MT Script Capitals";
+ctx.fillText("★Merry Christmas",60,100); 
+ctx.fillText("&Happy New Year",140,150); 
 
 # 進行座標轉換, x 軸不變, y 軸反向且移動 500 光點
 ctx.setTransform(1, 0, 0, -1, 0, 500)
 
 # 大禮物(方形)
 ctx.beginPath()
-ctx.lineWidth = 5
+ctx.lineWidth = 8
 ctx.moveTo(94, 30)
 ctx.lineTo(86, 180)
 ctx.lineTo(293, 180)
@@ -115,12 +118,12 @@ ctx.lineTo(178, 241)
 ctx.lineTo(144, 279)
 ctx.lineTo(138, 223)
 ctx.lineTo(186, 180)
-ctx.strokeStyle = "rgb(255, 0, 0)"
+ctx.strokeStyle = "rgb(128, 128, 192)"
 ctx.stroke()
 
 # 小禮物(方形)
 ctx.beginPath()
-ctx.lineWidth = 3
+ctx.lineWidth = 6
 ctx.moveTo(316, 30)
 ctx.lineTo(312, 105)
 ctx.lineTo(416, 105)
@@ -146,7 +149,7 @@ ctx.lineTo(355, 131)
 ctx.lineTo(328, 140)
 ctx.lineTo(332, 119)
 ctx.lineTo(362, 105)
-ctx.strokeStyle = "rgb(0, 255, 0)"
+ctx.strokeStyle = "rgb(255, 128, 255)"
 ctx.stroke()
 
 </script></div>
@@ -203,7 +206,7 @@ ctx.stroke()
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
+    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
 
 
     <section>

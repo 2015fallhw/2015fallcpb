@@ -4,9 +4,137 @@
 &lt;iframe src="40123210_cp_w17_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40123210_cp_w17_p.html" target="_blank"&gt;作業17投影片&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/144952509" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Jupyter notebook 檔案內容:&lt;/p&gt;
+&lt;p&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="n"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/144952509"&gt;w8_2015_11_07&lt;/a&gt; from &lt;a href="https://vimeo.com/user40881402"&gt;40123210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業15</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w15.html" rel="alternate"></link><updated>2015-12-28T00:00:00+08:00</updated><author><name>40123210</name></author><id>tag:coursemdetw.github.io,2015-12-28:reveal/2015cp_hw_w15.html</id><summary type="html">&lt;p&gt;以下為作業15內容&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;15 120
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[2]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;
+
+&lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;z&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;z&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;15 120
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[3]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;
+
+&lt;span class="n"&gt;y&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;z&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sum10&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;z&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="output_subarea output_stream output_stdout output_text"&gt;
+&lt;pre&gt;55 465
+0.136607961848912
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[&amp;nbsp;]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt; 
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/151601647" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/151601647"&gt;w17_2015_01_08&lt;/a&gt; from &lt;a href="https://vimeo.com/user40881402"&gt;40123210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業15</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w15.html" rel="alternate"></link><updated>2015-12-28T00:00:00+08:00</updated><author><name>40123210</name></author><id>tag:coursemdetw.github.io,2015-12-28:reveal/2015cp_hw_w15.html</id><summary type="html">&lt;p&gt;以下為作業15內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="40123210_cp_w15_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40123210_cp_w15_p.html" target="_blank"&gt;作業15投影片&lt;/a&gt;&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;
@@ -34,16 +162,16 @@ canvas = doc["plotarea"]
 ctx = canvas.getContext("2d")
 
 #寫字
-ctx.font="30px Arial";
-ctx.fillText("★Merry Christmas",100,100); 
-ctx.fillText("&amp;Happy New Year",250,150); 
+ctx.font="30px Matura MT Script Capitals";
+ctx.fillText("★Merry Christmas",60,100); 
+ctx.fillText("&amp;Happy New Year",140,150); 
 
 # 進行座標轉換, x 軸不變, y 軸反向且移動 500 光點
 ctx.setTransform(1, 0, 0, -1, 0, 500)
 
 # 大禮物(方形)
 ctx.beginPath()
-ctx.lineWidth = 5
+ctx.lineWidth = 8
 ctx.moveTo(94, 30)
 ctx.lineTo(86, 180)
 ctx.lineTo(293, 180)
@@ -69,12 +197,12 @@ ctx.lineTo(178, 241)
 ctx.lineTo(144, 279)
 ctx.lineTo(138, 223)
 ctx.lineTo(186, 180)
-ctx.strokeStyle = "rgb(255, 0, 0)"
+ctx.strokeStyle = "rgb(128, 128, 192)"
 ctx.stroke()
 
 # 小禮物(方形)
 ctx.beginPath()
-ctx.lineWidth = 3
+ctx.lineWidth = 6
 ctx.moveTo(316, 30)
 ctx.lineTo(312, 105)
 ctx.lineTo(416, 105)
@@ -100,17 +228,60 @@ ctx.lineTo(355, 131)
 ctx.lineTo(328, 140)
 ctx.lineTo(332, 119)
 ctx.lineTo(362, 105)
-ctx.strokeStyle = "rgb(0, 255, 0)"
+ctx.strokeStyle = "rgb(255, 128, 255)"
 ctx.stroke()
 
 &lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業14</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w14.html" rel="alternate"></link><updated>2015-12-18T00:00:00+08:00</updated><author><name>40123210</name></author><id>tag:coursemdetw.github.io,2015-12-18:reveal/2015cp_hw_w14.html</id><summary type="html">&lt;p&gt;以下為作業14內容&lt;/p&gt;
-&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40123210_cp_w14_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;!-- 導入 brython.js --&gt;
 
-&lt;p&gt;&lt;a href="40123210_cp_w14_p.html" target="_blank"&gt;作業14投影片&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/144952509" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/144952509"&gt;w8_2015_11_07&lt;/a&gt; from &lt;a href="https://vimeo.com/user40881402"&gt;40123210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業13</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w13.html" rel="alternate"></link><updated>2015-12-11T00:00:00+08:00</updated><author><name>40123210</name></author><id>tag:coursemdetw.github.io,2015-12-11:reveal/2015cp_hw_w13.html</id><summary type="html">&lt;p&gt;以下為作業13內容&lt;/p&gt;
+&lt;!-- 啟動 brython() --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+
+&lt;canvas id="plotarea" width="300" height="300"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 開始畫直線
+for i in range(11):
+    ctx.beginPath()
+    ctx.lineWidth = 3
+    ctx.moveTo(0,0+i*25 )
+    ctx.lineTo(200,0+i*25 )
+    ctx.strokeStyle = "#7700FF"
+    ctx.stroke()
+for i in range(11):
+    ctx.beginPath()
+    ctx.lineWidth = 5
+    ctx.moveTo(0+i*20, 0)
+    ctx.lineTo(0+i*20, 250)
+    ctx.strokeStyle = "#FF0066"
+    ctx.stroke()
+
+
+&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業13</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w13.html" rel="alternate"></link><updated>2015-12-11T00:00:00+08:00</updated><author><name>40123210</name></author><id>tag:coursemdetw.github.io,2015-12-11:reveal/2015cp_hw_w13.html</id><summary type="html">&lt;p&gt;以下為作業13內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40123210_cp_w13_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 

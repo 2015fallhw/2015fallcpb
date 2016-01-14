@@ -30,7 +30,7 @@
 <v t="leo.20160110000444.1" a="E"><vh>@path ./</vh>
 <v t="leo.20160110000444.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20160110000444.3"><vh>@edit 40423220_cp_w1_p.html</vh></v>
-<v t="leo.20160111235355.1"><vh>@edit 40423220_cp_w14_p.html</vh></v>
+<v t="leo.20160111235355.1"><vh>@edit 40423220_cp_w13_p.html</vh></v>
 <v t="leo.20160110000444.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20160110000444.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20160110000444.6"><vh>@edit publishconf.py</vh></v>

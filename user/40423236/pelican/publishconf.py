@@ -24,13 +24,16 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('40423236個人倉儲', 'http://40423236.github.io/CPB_40423236/'))
-
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
           ('github', 'http://github.com/ametaireau'),)
+          
+# Blogroll
+LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
+         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('40423236-gh-pages','http://40423236.github.io/CPB_40423236/'))
+
+
+
           
 DEFAULT_PAGINATION = 10
 

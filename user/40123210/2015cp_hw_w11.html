@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>2015 計算機程式 作業九 &mdash; 2015FALL 40123210 CPB 作業</title>
+  <title>2015 計算機程式 作業11 &mdash; 2015FALL 40123210 CPB 作業</title>
   <meta name="author" content="40123210">
 
 
@@ -47,16 +47,161 @@
 <div>
   <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">2015 計算機程式 作業九</h1>
+      <h1 class="entry-title">2015 計算機程式 作業11</h1>
     <p class="meta">
-<time datetime="2015-11-07T00:00:00+08:00" pubdate>週六 07 十一月 2015</time>    </p>
+<time datetime="2015-11-27T00:00:00+08:00" pubdate>週五 27 十一月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>以下為作業九內容</p>
+  <div class="entry-content"><p>以下為作業11內容</p>
 <p>利用 iframe 嵌入投影片:</p>
 <iframe src="40123210_cp_w11_p.html" width="500" height="300"></iframe>
 
-<p><a href="40123210_cp_w11_p.html" target="_blank">作業九投影片</a></p>
+<p><a href="40123210_cp_w11_p.html" target="_blank">作業11投影片</a></p>
+<p>Jupyter notebook 檔案內容:</p>
+<p>猜數字遊戲
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c">#coding: utf-8</span>
+<span class="c"># 猜數字遊戲</span>
+<span class="kn">import</span> <span class="nn">random</span>
+   
+<span class="n">標準答案</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="c">#print(標準答案)</span>
+<span class="n">你猜的數字</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">&quot;請輸入您所猜的整數:&quot;</span><span class="p">))</span>
+<span class="n">猜測次數</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">標準答案</span> <span class="o">!=</span> <span class="n">你猜的數字</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">標準答案</span> <span class="o">&lt;</span> <span class="n">你猜的數字</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;太大了，再猜一次 :)加油&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;太小了，再猜一次 :)加油&quot;</span><span class="p">)</span>
+    <span class="n">你猜的數字</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">&quot;請輸入您所猜的整數:&quot;</span><span class="p">))</span>
+    <span class="n">猜測次數</span> <span class="o">+=</span> <span class="mi">1</span>
+   
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;猜對了！總共猜了&quot;</span><span class="p">,</span> <span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>請輸入您所猜的整數:50
+太大了，再猜一次 :)加油
+請輸入您所猜的整數:25
+太大了，再猜一次 :)加油
+請輸入您所猜的整數:15
+太小了，再猜一次 :)加油
+請輸入您所猜的整數:20
+太大了，再猜一次 :)加油
+請輸入您所猜的整數:18
+太大了，再猜一次 :)加油
+請輸入您所猜的整數:17
+太大了，再猜一次 :)加油
+請輸入您所猜的整數:16
+猜對了！總共猜了 7 次
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+PC平均猜測次數
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="c">#coding: utf-8</span>
+<span class="c"># 猜數字遊戲</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="n">執行次數</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">總猜測次數</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">執行次數</span><span class="p">):</span>
+    <span class="n">下限</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">上限</span> <span class="o">=</span> <span class="mi">100</span>
+    <span class="n">標準答案</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">下限</span><span class="p">,</span> <span class="n">上限</span><span class="p">)</span>
+    <span class="n">PC猜的數字</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">下限</span><span class="p">,</span> <span class="n">上限</span><span class="p">)</span>
+    <span class="n">猜測次數</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="n">標準答案</span> <span class="o">!=</span> <span class="n">PC猜的數字</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">標準答案</span> <span class="o">&lt;</span> <span class="n">PC猜的數字</span><span class="p">:</span>
+            <span class="n">上限</span> <span class="o">=</span> <span class="n">PC猜的數字</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">下限</span> <span class="o">=</span> <span class="n">PC猜的數字</span>
+        <span class="n">PC猜的數字</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="n">下限</span><span class="p">,</span> <span class="n">上限</span><span class="p">)</span>
+        <span class="n">猜測次數</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s">&quot;猜對了！總共猜了&quot;</span><span class="p">,</span> <span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次&quot;</span><span class="p">)</span>
+    <span class="n">總猜測次數</span> <span class="o">+=</span> <span class="n">猜測次數</span>
+<span class="n">平均猜測次數</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">總猜測次數</span><span class="o">/</span><span class="n">執行次數</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;平均次數&quot;</span><span class="p">,</span><span class="n">平均猜測次數</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>猜對了！總共猜了 9 次
+猜對了！總共猜了 7 次
+猜對了！總共猜了 5 次
+猜對了！總共猜了 6 次
+猜對了！總共猜了 5 次
+猜對了！總共猜了 6 次
+猜對了！總共猜了 12 次
+猜對了！總共猜了 5 次
+猜對了！總共猜了 10 次
+猜對了！總共猜了 11 次
+平均次數 7
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></p>
 <iframe src="https://player.vimeo.com/video/147079414" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p><p><a href="https://vimeo.com/147079414">w11-1_2015_11_27</a> from <a href="https://vimeo.com/user40881402">40123210</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
@@ -73,7 +218,7 @@
         40123210
     </span>
   </span>
-<time datetime="2015-11-07T00:00:00+08:00" pubdate>週六 07 十一月 2015</time>  <span class="categories">
+<time datetime="2015-11-27T00:00:00+08:00" pubdate>週五 27 十一月 2015</time>  <span class="categories">
     <a class='category' href='./category/python.html'>Python</a>
   </span>
   <span class="categories">
@@ -92,19 +237,19 @@
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="./2015cp_hw_w6.html">2015 計算機程式 作業六</a>
+          <a href="./2015cp_hw_w17.html">2015 計算機程式 作業17</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w7.html">2015 計算機程式 作業七</a>
+          <a href="./2015cp_hw_w15.html">2015 計算機程式 作業15</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w4.html">2015 計算機程式 作業四</a>
+          <a href="./2015cp_hw_w14.html">2015 計算機程式 作業14</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w1.html">2015 計算機程式 作業一</a>
+          <a href="./2015cp_hw_w13.html">2015 計算機程式 作業13</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w11.html">2015 計算機程式 作業九</a>
+          <a href="./2015cp_hw_w12.html">2015 計算機程式 作業12</a>
       </li>
     </ul>
   </section>
@@ -142,7 +287,7 @@
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-    Copyright &copy;  2015  40123210 &mdash;
+    Copyright &copy;  2015&ndash;2016  40123210 &mdash;
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   <script src="./theme/js/modernizr-2.0.js"></script>
@@ -152,7 +297,7 @@
     var disqus_shortname = '2015fall';
     var disqus_identifier = '/2015cp_hw_w11.html';
     var disqus_url = './2015cp_hw_w11.html';
-    var disqus_title = '2015 計算機程式 作業九';
+    var disqus_title = '2015 計算機程式 作業11';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

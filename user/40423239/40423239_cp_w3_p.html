@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423239-3</title>
+<title>40423212-3</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -26,64 +26,66 @@
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
     <h1>zero to hero python教學 </h1>
-    <p>40423239游智文</p>		
+    <p>40423212 四設一乙</p>		
 </section>
 	
-<section id="hw-task-one">
-    <h1>引號的使用規則</h1>
-    <p>在前面我們學會了最簡單的輸出手段"print('___')",之後我們提到的是關於引號的使用,單引號跟雙引號其實都能把裡面的字做輸出,但不能任意的切換這兩個引號,這點在輸出英文字串的時候尤其需要注意</p>
+<section id="hw-task-3">
+    <h1>與python互動</h1>
+    <p>除了輸入字串讓python解讀之外,也可以輸入字串讓python進行簡單的互動劇情,核心指令為:input</p>
 </section>
 
 <section>
-如前面所說,我們輸入這兩個字串讓他運行,結果是一樣的:
+我們要讓python進入一個"問數學題目"的情境,可以輸入:
 </br>
-print("第二份作業")
+x=input('2+2=')
 </br>
-print('第二份作業')
+print(4)
 </br>
-都可以得到"第二份作業"
+系統就會問你:
+</br>
+2+2=
+</br>
+之後不論你輸入什麼,他都會告訴你"4"
 </section>
 <section>
-但我們絕對不允許混著用,例如:
+不只是數學,甚至可以加入日常生活的對話,例如:
 </br>
-print("第二份作業')
+x=input("what's your name?")
+print("Hi"+x)
 </br>
-也盡量要避免在引號內使用引號,例如:
+就會先問你的名字,如果我打入"40423212"他就會顯示:
 </br>
-print('I'm a student')
-</br>
-這樣他會把框框指向I這個字上
-</br>
-所以我們這個時候使用雙引號就可以避免這個衝突
-</br>
-print("I'm a student")
+Hi 40423212
 </section>
 
 <section>
-我們可以把兩個字串"相加"
+輸入多個代數也不是事,可以大膽地輸入
 <br />
-print("我正在"+"使用leo editor寫作業")
-之後很明顯是得到:我正在使用leo editor寫作業
-<br />
-也可以在引號間附上反斜線來達成空行的效果,例如:
+x=input('給我一個數字代入x')
+y=input('給我一個數字代入y')
+print(3*x+2*y)
+我們輸入x=2,y=1
 </br>
-print("我的CAMSTUDIO/老是出狀況")
-</br>
-得到:我的CAMSTUDIO
-</br>
-老是出狀況
-</br>
-還有個很特別的方法做空行:3個引號
-</br>
-print("""我的CAMSTUDIO
-</br>
-老是出狀況""")
-得到的結果跟反斜線是一樣的
+就能得到數字3x2+2x1=8
 </section>
-
 <section>
-    <h1>心得與自評</h1>
-    <p>去網路上下載fix修改ana3就可以開啟leo,就能開始編輯revel,就不用powerpoint這麼大東西。 自評分數 : 65</p>
+當然,我們的開頭也有一些限制:
+</br>
+1.最開頭不能是數字
+</br>
+2.開頭不能有空白鍵
+</br>
+3.大小寫的不同會視為兩個代數
+</br>
+
+</section>
+<section>
+<h1>心得</h1>
+原本看計算機可以從我們打出來的按鍵找到答案感到神奇,但現在,我們可以利用python來製作簡易的函數計算,有了這個,運算大量代數的時候就可以用python語法做更高效更準確的運算
+</section>
+<section>
+    <h1>自評</h1>
+    <p>這個課程在計算機運動學也有很像的語法,個人對這個課程也有更深刻的印象,個人給自己70分</p>
 </section>
 				
 </div>

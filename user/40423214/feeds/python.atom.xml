@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423214 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T11:41:00+08:00</updated><entry><title>2015 計算機程式 hw15</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;Merry Christmas  &amp;amp;  Happy new year&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423214 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T11:41:00+08:00</updated><entry><title>2015 計算機程式 作業15</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;Winter Vacation  &amp;amp;  Happy All Pass Day&lt;/h3&gt;
 &lt;!-- 導入 brython.js --&gt;
 
-&lt;script type="text/javascript" src="js/40423219-w15.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/40423214-w15.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 brython() --&gt;
 
@@ -94,7 +94,7 @@ ctx.quadraticCurveTo(320, 250, 380, 270)
 ctx.moveTo(20, 270)
 ctx.lineTo(380, 270)
 
-ctx.lineWidth = 8
+ctx.lineWidth = 7
 ctx.strokeStyle = "#008800"
 ctx.stroke()
 
@@ -132,7 +132,7 @@ ctx.lineTo(320,320)
 ctx.moveTo(298,300)
 ctx.lineTo(322,320)
 
-ctx.lineWidth = 5
+ctx.lineWidth = 4
 ctx.strokeStyle = "#9900FF"
 ctx.stroke()
 
@@ -172,15 +172,15 @@ ctx.stroke()
 
 ctx.fillStyle = "#FF0000"
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Merry ",13,28)
+ctx.fillText("Winter ",13,28)
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("X'MAS",13,48)
+ctx.fillText("Vacation",13,48)
 ctx.font = "23px Dutch801 XBd BT"
 ctx.fillText("&amp;",13,68)
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("HAPPY FATHER DAY ",13,88)
+ctx.fillText("ALL PASS ",13,88)
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Year ",13,108)
+ctx.fillText("Day ",13,108)
 ctx.stroke()
 
 
@@ -198,7 +198,7 @@ ctx.quadraticCurveTo(250, 180, 200, 190)
 ctx.moveTo(280, 210)
 ctx.quadraticCurveTo(220, 240, 70, 270)
 
-ctx.lineWidth = 3
+ctx.lineWidth = 5
 ctx.strokeStyle = "#9900FF"
 ctx.stroke()
 
@@ -245,7 +245,7 @@ ctx.stroke()
 ctx.beginPath()
 ctx.fillStyle = "#FF370A"
 ctx.font = "12px ScriptS"
-ctx.fillText("40423219 ",325,398)
+ctx.fillText("40423214 ",325,398)
 ctx.stroke()
 
 &lt;/script&gt;

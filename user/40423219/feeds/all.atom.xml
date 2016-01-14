@@ -329,7 +329,7 @@ brython(1);
 &lt;li&gt;找到一張自己喜歡的圖&lt;/li&gt;
 &lt;li&gt;下載圖片後將圖片上傳到http://imgur.com/ (需辦帳號)&lt;/li&gt;
 &lt;li&gt;取得圖片網址代號&lt;/li&gt;
-&lt;li&gt;使用程式碼嵌入，程式碼為: &lt;img src="圖片網址.gif" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;使用程式碼嵌入，程式碼為: ＜img src="http://i.imgur.com/zpowGsg.gif" title="source: imgur.com" /＞＜/a＞ ps:左右大小於括號＜＞需改成半形&lt;/li&gt;
 &lt;li&gt;git push &lt;/li&gt;
 &lt;li&gt;完成&lt;/li&gt;
 &lt;/ol&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw10</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w10.html" rel="alternate"></link><updated>2015-10-15T20:45:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-15:reveal/2015cpb_hw_w10.html</id><summary type="html">&lt;iframe src="40423219_cp_w10_p.html" width="800" height="500"&gt;&lt;/iframe&gt;

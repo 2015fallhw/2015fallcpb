@@ -30,7 +30,7 @@ SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
           
 # Blogroll
 LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('40423236-gh-pages','http://40423237.github.io/cpbtest2/'))
+         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('40423236 github','http://40423236.github.io/CPB_40423236/'))
 
 
 

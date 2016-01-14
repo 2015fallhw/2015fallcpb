@@ -255,6 +255,9 @@ window.onload=function(){
 brython(1);
 }
 &lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十五週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;Merry Christmas  &amp;amp;  Happy new year&lt;/h3&gt;
+&lt;iframe src="40423216_cp_w15_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423216_cp_w15_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/40423216-w15.js"&gt;&lt;/script&gt;

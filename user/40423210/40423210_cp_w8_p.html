@@ -1,0 +1,128 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423210</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>zero to hero python教學</h1>
+    <p>40423210 四設一乙 </p>		
+</section>
+	
+<section id="hw-task-eight">
+    <h1>python也會畫畫?</h1>
+在python除了可以導入random，我們也可以導入一個叫turtle的指令，可以命令這隻"烏龜"來幫我們走出路徑。
+<br />
+要導入這條烏龜，輸入:
+<br />
+import turtle
+</section>
+  
+<section>
+<h2>我們可以命令這條烏龜:</h2>
+
+<br />
+前進:turtle.forward(100)
+<br />
+讓烏龜前進100個單位，前進默認為向右走
+<br />
+轉彎:turtle.right(90)
+<br />
+讓烏龜向右轉90度，相對left就是向左轉
+<br />
+上色:turtle.color(顏色名，例如red)
+<br />
+就是幫線條上色
+</section>
+				
+<section>
+有上面這些指令就能做出一個多邊形了，但要做出很多邊了話可能會很麻煩，這個時候我們可以用一個重複指令
+<br />
+for i in range(次數)
+<br />
+這個指令可以讓後續的指令重複次數次，其中"i"可以帶入任何數字外的字眼來作代數
+<br />
+for i in range(4)
+<br />
+    print("hello")
+<br />
+就能輸出
+<br />
+hello
+<br />
+hello
+<br />
+hello
+<br />
+hello
+</section>
+<section>
+實際運用在烏龜上了話，我們可以這麼來:
+<br />
+for i in range(4):
+<br />
+　　turtle.forward(300)
+<br />
+　　turtle.right(90)
+<br />
+烏龜就會前進300單位之後右轉90度重複4次，即畫出一個正方形
+</section>
+<section>
+甚至也能在for i in range裡面再加一個for i in range，可以重複運行重複指令，做出乘法的效果。
+<br />
+for i in range(4):
+<br />
+　　turtle.forward(100)
+<br />
+　　turtle.right(90)
+<br />
+　　　　for i in range(4)
+<br />
+　　　　　　turtle.forward(50)
+<br />
+　　　　　　turtle.right(90)
+<br/>
+猜猜看這樣的語法會有怎麼樣的效果呢?
+</section>
+
+<section>
+第一個迴圈指示了前進100之後轉90度，進入第二個迴圈進行四次的前進50右轉90度的迴圈重複四次，即4x(1+4)=20步，路徑會變成一個田字型
+</section>
+<section>
+<h2>心得</h2>
+雖然是烏龜畫線，但其中for i in range的指令也相當好用也順便一起說明，也可以增加自己對這個指令的認識與熟悉。
+<br />
+給自己60分
+</section>
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

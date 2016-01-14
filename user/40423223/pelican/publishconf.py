@@ -22,11 +22,11 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = Nonehttp://40423223.github.io/cpw2b/
+AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
-         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('40423241作業倉儲', 'http://40423223.github.io/cpw2b/'))
+         ('Python', 'http://python.org/'),('2015作業主頁', '../../'), ('40423223倉儲', 'http://40423223.github.io/cpw2b/'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),

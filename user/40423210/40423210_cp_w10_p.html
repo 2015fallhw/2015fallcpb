@@ -1,0 +1,101 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423210</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <p>40423210 四設一乙 </p>		
+</section>
+<section>
+<h2>列表</h2>
+我們可以用python整理一串數列，可以是姓名、學號等等，來做增減、搜尋等用途
+</section>
+  
+<section>
+我們首先當然需要一串數列：
+<br />
+id=['a','b','c','d']
+</section>
+				
+<section>
+<h2>數列的規則</h2>
+<br />
+前面多少提過關於python的數列，有個跟正常的數學不一樣的規則，從前面到後面各是：
+<br />
+0，1，2，3......
+<br />
+也可以用負數：
+<br />
+......-4，-3，-2，-1(最後算-1)
+<br />
+利用這些數字來做指定的動作，像a就要用0或-4來指定
+
+</section>
+<section>
+<h2>編輯數列</h2>
+我們會用到.append，.remove，del等指令，以id為我們的數列
+<br />
+id.append('名字')：增加字串到最後一項
+<br />
+id.remove('名字')：移除字串
+<br />
+del id(自取)[數字]：移除某個數字
+</section>
+
+<section>
+我們利用上面的規則可以整理出這串簡單的字串：
+<br />
+id=['1','2','3','4']
+<br />
+id.remove('4')
+<br />
+del id[0]
+<br />
+print (id[0])
+<br />
+print (id[-1])
+</section>
+
+<section>
+移除了id"4"跟第0個id"1"，我們少了1、4，剩下2、3，print出來的第0個id就是2，第-1個就會是3
+</section>
+
+<section>
+<h2>心得</h2>
+更新字串往往需要費不少神來一個一個找資料，如果用別的方法應該會更棒
+<br />
+給自己60分
+</section>
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

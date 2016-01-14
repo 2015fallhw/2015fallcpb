@@ -1,0 +1,118 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423212-16</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h2>期末報告-Variables, expressions and statements</h2>
+    <p>40423212 四設一乙 第一組</p>		
+</section>
+<section>
+<h2>字串與數字</h2>
+字串(string)就是一串獨立的字串,通常做為輸出用途,例如print("hello"),看到有被引號框起來的部分,大部分都是字串。</section>
+  
+<section>
+而數字(interger整數/float非整數)不像字串大多作為輸出及標註用,它可以做運算,在輸出數字的時候不需要引號,例如print(3)。
+</section>
+<section>
+<h2>代數</h2>
+在python的代數(Variables)不只可以帶入數字,他甚至能帶入字串!例如:
+<br />
+pi=three point one four
+<br />
+print(pi)
+</section>
+
+<section>
+<h2>代數的一些使用規範</h2>
+數字不能作為代數,像你不能輸入17=歲數。
+</section>
+<section>
+<h2>代數不能使用以下字串</h2>
+and 	as 	assert 	break 	class 	continue
+def 	del 	elif 	else 	except 	exec
+finally 	for 	from 	global 	if 	import
+in 	is 	lambda 	nonlocal 	not 	or
+pass 	raise 	return 	try 	while 	with
+yield 	True 	False 	None
+<br /> 	 
+這些字串是python的內建語法,不能作為代數使用
+</section>
+<section>
+<h2>len</h2>
+len指令可以幫我們看出一個字串內有多少文字,例如:
+<br />
+x=len(hi)
+<br />
+print=x
+<br />
+就能得到2(hi有兩個字)
+</section>
+<section>
+<h2>input</h2>
+利用input我們可以跟電腦做一個簡單的互動，輸入:
+<br />
+name=input("what is your name")
+<br />
+就能被問候姓名了
+</section>
+<section>
+<h2>特殊的*與/(乘除運算)</h2>
+輸入兩個*會變成次方
+<br />
+a=2**3
+<br />
+print('a')
+<br />
+可以得到8
+</section>
+<section>
+兩個'/'可以分開商與餘數,要找餘數必須用%來做為運算符號,例如:
+<br />
+b=2//3
+<br />
+print(b)
+<br />
+可以得到0(2/3=0...2)
+<br />
+而2%3可以得到2
+</section>
+<section>
+<h2>心得自評</h2>
+再複習一遍教基本的東西時,多少又多學到一點自己遺漏的東西,再加上這次是分組作業,也有感覺到合作的效率與重要性。
+<br />
+個人給自己70分
+</section>
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

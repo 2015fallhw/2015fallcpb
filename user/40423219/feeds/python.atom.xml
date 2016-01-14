@@ -320,20 +320,18 @@ brython(1);
 &lt;p&gt;這次的影片做的簡單了點~&lt;/p&gt;
 &lt;p&gt;可是好像背景音樂有點吵XD&lt;/p&gt;
 &lt;p&gt;但是就突然想放&lt;/p&gt;
-&lt;p&gt;不過這次有開場特效XD&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw12</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w12.html" rel="alternate"></link><updated>2015-10-20T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-20:reveal/2015cpb_hw_w12.html</id><summary type="html">&lt;p&gt;&lt;gif src="tumblr_o0ebnm6bnC1tl8u0ko1_500.gif" width="800" height="500"&gt;&lt;gif&gt;&lt;/p&gt;
+&lt;p&gt;不過這次有開場特效XD&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw12</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w12.html" rel="alternate"></link><updated>2015-10-20T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-20:reveal/2015cpb_hw_w12.html</id><summary type="html">&lt;p&gt;&amp;lt; a href="http://imgur.com/zpowGsg"&amp;gt;&lt;img src="http://i.imgur.com/zpowGsg.gif" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;iframe src="40423219_cp_w12_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423219_cp_w12_p.html" target="_blank"&gt;如何在網頁貼圖&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;安裝及啟動Anaconda&lt;/h1&gt;
+&lt;h1&gt;如何在網頁貼圖&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;找到一張自己喜歡的圖&lt;/li&gt;
-&lt;li&gt;將圖片儲存至自己的資料夾內的images
-    路徑為:Y:\tmp\2015fallcpb\user\40423219\theme\images&lt;/li&gt;
-&lt;li&gt;在md檔內崁入，指令為:&lt;/li&gt;
-&lt;li&gt;點選啟動"fix.bat"，畫面只會閃一下&lt;/li&gt;
-&lt;li&gt;再開啟"Anaconday"資料夾&lt;/li&gt;
-&lt;li&gt;點選"start.bat"&lt;/li&gt;
-&lt;li&gt;環境架設完成&lt;/li&gt;
+&lt;li&gt;下載圖片後將圖片上傳到http://imgur.com/ (需辦帳號)&lt;/li&gt;
+&lt;li&gt;取得圖片網址代號&lt;/li&gt;
+&lt;li&gt;使用程式碼嵌入，程式碼為&amp;lt; a href="http://imgur.com/zpowGsg"&amp;gt;&lt;img src="http://i.imgur.com/zpowGsg.gif" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;git push &lt;/li&gt;
+&lt;li&gt;完成&lt;/li&gt;
 &lt;/ol&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw10</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w10.html" rel="alternate"></link><updated>2015-10-15T20:45:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-15:reveal/2015cpb_hw_w10.html</id><summary type="html">&lt;iframe src="40423219_cp_w10_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423219_cp_w10_p.html" target="_blank"&gt;修改fix_leo-editor安裝_投影片&lt;/a&gt;&lt;/p&gt;

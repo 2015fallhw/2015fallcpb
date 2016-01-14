@@ -26,7 +26,12 @@ AUTHOR_FEED_RSS = Nonehttp://40423223.github.io/cpw2b/
 
 # Blogroll
 LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
+<<<<<<< HEAD
+         ('Python', 'http://python.org/'),('2015作業主頁', '../../'),
+         ('40423223倉儲', 'http://40423223.github.io/cpw2b/'))
+=======
          ('Python', 'http://python.org/'),('2015作業主頁', '../../'),('40423241作業倉儲', 'http://40423223.github.io/cpw2b/'))
+>>>>>>> de2f1db961d49cb3c62d301d4c2b29116d5cce40
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),

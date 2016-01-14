@@ -409,7 +409,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151112203933.1" a="E"><vh>@path 40423231</vh>
+<v t="leo.20151112203933.1"><vh>@path 40423231</vh>
 <v t="leo.20151112203933.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20160114224632.1"><vh>@edit 40423231_cp_w1_p.html</vh></v>
 <v t="leo.20160114224141.1"><vh>@edit 40423231_cp_w2_p.html</vh></v>
@@ -425,7 +425,7 @@
 <v t="leo.20160114224531.1"><vh>@edit 40423231_cp_w13_p.html</vh></v>
 <v t="leo.20160114224536.1"><vh>@edit 40423231_cp_w14_p.html</vh></v>
 <v t="leo.20160114224541.1"><vh>@edit 40423231_cp_w15_p.html</vh></v>
-<v t="leo.20151112203933.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151112203933.4"><vh>@path pelican</vh>
 <v t="leo.20151112203933.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151112203933.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151112203933.7" a="E"><vh>@path content</vh>
@@ -528,7 +528,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151029231605.1" a="E"><vh>@path 40423252</vh>
+<v t="leo.20151029231605.1"><vh>@path 40423252</vh>
 <v t="leo.20151029231605.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151029231605.3"><vh>@edit 40423252_cp_w7_p.html</vh></v>
 <v t="leo.20151029231605.4" a="E"><vh>@path pelican</vh>
@@ -965,7 +965,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151025223141.1" a="E"><vh>@path 40423244</vh>
+<v t="leo.20151025223141.1"><vh>@path 40423244</vh>
 <v t="leo.20151025223141.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151025223141.3"><vh>@edit 40423244_cp_w1_p.html</vh></v>
 <v t="leo.20151106200020.1"><vh>@edit 40423244_cp_w2_p.html</vh></v>
@@ -975,7 +975,7 @@
 <v t="leo.20151106200033.1"><vh>@edit 40423244_cp_w6_p.html</vh></v>
 <v t="leo.20151106200109.1"><vh>@edit 40423244_cp_w7_p.html</vh></v>
 <v t="leo.20151106201802.1"><vh>@edit 40423244_cp_w8_p.html</vh></v>
-<v t="leo.20151025223141.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151025223141.4"><vh>@path pelican</vh>
 <v t="leo.20151025223141.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151025223141.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151025223141.7" a="E"><vh>@path content</vh>

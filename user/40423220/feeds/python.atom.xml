@@ -406,7 +406,7 @@ console.log("x 值為"+str(x)+", y 值為"+str(y))
 &lt;p&gt;在解決這些問題的同時也了解更多相關的東西。&lt;/p&gt;
 &lt;h2&gt;自評&lt;/h2&gt;
 &lt;p&gt;自評分數：62&lt;/p&gt;
-&lt;p&gt;這有點難懂,花了好久還是不懂。&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業六</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-11-13T11:41:00+08:00</updated><author><name>40423220</name></author><id>tag:coursemdetw.github.io,2015-11-13:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為期中報告內容&lt;/p&gt;
+&lt;p&gt;這有點難懂,花了好久還是不懂。&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業六</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-11-13T11:41:00+08:00</updated><author><name>40423220</name></author><id>tag:coursemdetw.github.io,2015-11-13:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為作業六內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423220_cp_w6_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 

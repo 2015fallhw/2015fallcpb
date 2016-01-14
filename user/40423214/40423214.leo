@@ -20,7 +20,6 @@
 <v t="leo.20160112030659.1"><vh>@edit 40423214_cp_w7_p.html</vh></v>
 <v t="leo.20160112030656.1"><vh>@edit 40423214_cp_w8_p.html</vh></v>
 <v t="leo.20160112030655.1"><vh>@edit 40423214_cp_w9_p.html</vh></v>
-<v t="leo.20160112024715.1"><vh>@edit 40423214_cp_w15_p.html</vh></v>
 <v t="leo.20160111234644.1"><vh>@edit 40423214_cp_w1_p.html</vh></v>
 <v t="leo.20160111234642.1"><vh>@edit 40423214_cp_w2_p.html</vh></v>
 <v t="leo.20160111234637.1"><vh>@edit 40423214_cp_w3_p.html</vh></v>

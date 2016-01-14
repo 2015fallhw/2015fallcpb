@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/g8.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-08T15:33:00+08:00</updated><entry><title>g8 w17-1</title><link href="http://coursemdetw.github.io/reveal/g8_w17-1.html" rel="alternate"></link><updated>2016-01-08T15:33:00+08:00</updated><author><name>40423241</name></author><id>tag:coursemdetw.github.io,2016-01-08:reveal/g8_w17-1.html</id><summary type="html">&lt;p&gt;g8 w17-1
-&lt;font color=yellow&gt;音浪太強，不晃，會掉到地上!!!&lt;/font&gt;
+&lt;font color=pink&gt;音浪太強，不晃，會掉到地上!!!&lt;/font&gt;
 以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
@@ -162,7 +162,7 @@ console.log("x 值為"+str(x)+", y 值為"+str(y))
 &lt;/script&gt;</summary><category term="w14"></category><category term="brython"></category></entry><entry><title>g8 w14-2</title><link href="http://coursemdetw.github.io/reveal/g8_w14_2.html" rel="alternate"></link><updated>2015-12-18T15:33:00+08:00</updated><author><name>40423241</name></author><id>tag:coursemdetw.github.io,2015-12-18:reveal/g8_w14_2.html</id><summary type="html">&lt;p&gt;g8 w14-2&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
-&lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/G8.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/40423219-w14.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 brython() --&gt;
 
@@ -192,14 +192,14 @@ for i in range(11):
     ctx.lineWidth = 5
     ctx.moveTo(0,0+i*20 )
     ctx.lineTo(200,0+i*20 )
-    ctx.strokeStyle = "#0000ff"
+    ctx.strokeStyle = "#0099FF"
     ctx.stroke()
 for i in range(11):
     ctx.beginPath()
     ctx.lineWidth = 5
     ctx.moveTo(0+i*20, 0)
     ctx.lineTo(0+i*20, 200)
-    ctx.strokeStyle = "#FF0000"
+    ctx.strokeStyle = "#FF0320"
     ctx.stroke()
 
 
@@ -384,7 +384,10 @@ ctx.lineTo(40, 135)
 ctx.strokeStyle = "#000000"
 ctx.stroke()
 
-x = 100
-y = 100
+&lt;/script&gt;
 
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
 &lt;/script&gt;</summary><category term="w15"></category></entry></feed>

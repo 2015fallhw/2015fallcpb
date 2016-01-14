@@ -183,119 +183,125 @@ def on_canvas_click(ev):
 canvas.bind('click', on_canvas_click, False)
 </script>
 
-<p>上列繪圖的程式碼:</p>
-<div class="highlight"><pre><span class="c">&lt;!-- 導入 brython.js --&gt;</span>
+<p>上列繪圖的程式碼:
+    !html
+    <!-- 導入 brython.js --></p>
+<div class="highlight"><pre><span class="o">&lt;</span><span class="n">script</span> <span class="nb">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span> <span class="n">src</span><span class="o">=</span><span class="s">&quot;./../../js/Brython3.2.3-20151122-082712/brython.js&quot;</span><span class="o">&gt;&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
 
-<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span> <span class="na">src=</span><span class="s">&quot;./../../js/Brython3.2.3-20151122-082712/brython.js&quot;</span><span class="nt">&gt;&lt;/script&gt;</span>
+<span class="o">&lt;</span><span class="err">!</span><span class="o">--</span> <span class="err">啟動</span> <span class="n">brython</span><span class="p">()</span> <span class="o">--&gt;</span>
 
-<span class="c">&lt;!-- 啟動 brython() --&gt;</span>
-
-<span class="nt">&lt;script&gt;</span>
-<span class="nb">window</span><span class="p">.</span><span class="nx">onload</span><span class="o">=</span><span class="kd">function</span><span class="p">(){</span>
-<span class="nx">brython</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="o">&lt;</span><span class="n">script</span><span class="o">&gt;</span>
+<span class="n">window</span><span class="o">.</span><span class="n">onload</span><span class="o">=</span><span class="n">function</span><span class="p">(){</span>
+<span class="n">brython</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
 <span class="p">}</span>
-<span class="nt">&lt;/script&gt;</span>
+<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
 
-<span class="c">&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;</span>
+<span class="o">&lt;</span><span class="err">!</span><span class="o">--</span> <span class="err">以下利用</span> <span class="n">Brython</span> <span class="err">程式執行繪圖</span> <span class="o">--&gt;</span>
 
-<span class="nt">&lt;canvas</span> <span class="na">id=</span><span class="s">&quot;plotarea&quot;</span> <span class="na">width=</span><span class="s">&quot;600&quot;</span> <span class="na">height=</span><span class="s">&quot;400&quot;</span><span class="nt">&gt;&lt;/canvas&gt;</span>
+<span class="o">&lt;</span><span class="n">canvas</span> <span class="nb">id</span><span class="o">=</span><span class="s">&quot;plotarea&quot;</span> <span class="n">width</span><span class="o">=</span><span class="s">&quot;600&quot;</span> <span class="n">height</span><span class="o">=</span><span class="s">&quot;400&quot;</span><span class="o">&gt;&lt;/</span><span class="n">canvas</span><span class="o">&gt;</span>
 
-<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/python3&quot;</span><span class="nt">&gt;</span>
-<span class="err">#</span> <span class="nx">導入</span> <span class="nx">browser</span> <span class="nx">模組中的</span> <span class="nb">document</span><span class="p">,</span> <span class="nx">並設為</span> <span class="nx">doc</span> <span class="nx">變數</span>
-<span class="nx">from</span> <span class="nx">browser</span> <span class="kr">import</span> <span class="nb">document</span> <span class="nx">as</span> <span class="nx">doc</span>
-<span class="err">#</span> <span class="nx">導入數學模組</span>
-<span class="kr">import</span> <span class="nx">math</span>
-<span class="err">#</span> <span class="nx">產生各小球的亂數速度用</span>
-<span class="kr">import</span> <span class="nx">random</span>
-<span class="err">#</span> <span class="nx">導入</span> <span class="nx">browser</span> <span class="nx">中的計時器</span><span class="p">,</span> <span class="nx">建立動畫用</span>
-<span class="kr">import</span> <span class="nx">browser</span><span class="p">.</span><span class="nx">timer</span>
+<span class="o">&lt;</span><span class="n">script</span> <span class="nb">type</span><span class="o">=</span><span class="s">&quot;text/python3&quot;</span><span class="o">&gt;</span>
+<span class="c"># 導入 browser 模組中的 document, 並設為 doc 變數</span>
+<span class="kn">from</span> <span class="nn">browser</span> <span class="kn">import</span> <span class="n">document</span> <span class="k">as</span> <span class="n">doc</span>
+<span class="c"># 導入數學模組</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="c"># 產生各小球的亂數速度用</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="c"># 導入 browser 中的計時器, 建立動畫用</span>
+<span class="kn">import</span> <span class="nn">browser.timer</span>
 
-<span class="err">#</span> <span class="nx">準備繪圖畫布</span>
-<span class="nx">canvas</span> <span class="o">=</span> <span class="nx">doc</span><span class="p">[</span><span class="s2">&quot;plotarea&quot;</span><span class="p">]</span>
-<span class="nx">ctx</span> <span class="o">=</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="s2">&quot;2d&quot;</span><span class="p">)</span>
+<span class="c"># 準備繪圖畫布</span>
+<span class="n">canvas</span> <span class="o">=</span> <span class="n">doc</span><span class="p">[</span><span class="s">&quot;plotarea&quot;</span><span class="p">]</span>
+<span class="n">ctx</span> <span class="o">=</span> <span class="n">canvas</span><span class="o">.</span><span class="n">getContext</span><span class="p">(</span><span class="s">&quot;2d&quot;</span><span class="p">)</span>
 
-<span class="err">#</span> <span class="nx">取畫布的寬與高度</span>
-<span class="nx">width</span> <span class="o">=</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">width</span>
-<span class="nx">height</span> <span class="o">=</span> <span class="nx">canvas</span><span class="p">.</span><span class="nx">height</span>
+<span class="c"># 取畫布的寬與高度</span>
+<span class="n">width</span> <span class="o">=</span> <span class="n">canvas</span><span class="o">.</span><span class="n">width</span>
+<span class="n">height</span> <span class="o">=</span> <span class="n">canvas</span><span class="o">.</span><span class="n">height</span>
 
-<span class="nx">n</span> <span class="o">=</span> <span class="mi">100</span>
-<span class="err">#</span> <span class="nx">已知數列內容個數</span><span class="p">,</span> <span class="nx">先分別與</span> <span class="nx">None</span> <span class="nx">對應</span>
-<span class="nx">x</span> <span class="o">=</span> <span class="p">[</span><span class="nx">None</span><span class="p">]</span><span class="o">*</span><span class="nx">n</span>
-<span class="nx">y</span> <span class="o">=</span> <span class="p">[</span><span class="nx">None</span><span class="p">]</span><span class="o">*</span><span class="nx">n</span>
-<span class="nx">vy</span> <span class="o">=</span> <span class="p">[</span><span class="nx">None</span><span class="p">]</span><span class="o">*</span><span class="nx">n</span>
-<span class="nx">vx</span> <span class="o">=</span> <span class="p">[</span><span class="nx">None</span><span class="p">]</span><span class="o">*</span><span class="nx">n</span>
-<span class="err">#</span> <span class="nx">重力加速度</span><span class="p">,</span> <span class="nx">Y</span> <span class="nx">方向向下為正</span>
-<span class="nx">g</span> <span class="o">=</span> <span class="mf">0.05</span>
-<span class="err">#</span> <span class="nx">空氣的黏滯阻尼係數</span>
-<span class="nx">cor</span> <span class="o">=</span> <span class="mf">0.7</span> 
-<span class="err">#</span> <span class="nx">球的彈力係數</span>
-<span class="nx">fr</span> <span class="o">=</span> <span class="mi">1</span>
-<span class="err">#</span> <span class="nx">球的半徑</span>
-<span class="nx">r</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="c"># 已知數列內容個數, 先分別與 None 對應</span>
+<span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span><span class="p">]</span><span class="o">*</span><span class="n">n</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span><span class="p">]</span><span class="o">*</span><span class="n">n</span>
+<span class="n">vy</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span><span class="p">]</span><span class="o">*</span><span class="n">n</span>
+<span class="n">vx</span> <span class="o">=</span> <span class="p">[</span><span class="bp">None</span><span class="p">]</span><span class="o">*</span><span class="n">n</span>
+<span class="c"># 重力加速度, Y 方向向下為正</span>
+<span class="n">g</span> <span class="o">=</span> <span class="mf">0.05</span>
+<span class="c"># 空氣的黏滯阻尼係數</span>
+<span class="n">cor</span> <span class="o">=</span> <span class="mf">0.7</span> 
+<span class="c"># 球的彈力係數</span>
+<span class="n">fr</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="c"># 球的半徑</span>
+<span class="n">r</span> <span class="o">=</span> <span class="mi">5</span>
 
-<span class="k">for</span> <span class="nx">i</span> <span class="k">in</span> <span class="nx">range</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span><span class="o">:</span>
-    <span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">300</span>
-    <span class="nx">y</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">100</span>
-    <span class="err">#</span> <span class="nx">random</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="nx">將會產生介於</span> <span class="mi">0</span> <span class="nx">與</span> <span class="mi">1</span> <span class="nx">的浮點亂數</span>
-    <span class="nx">vx</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="nx">random</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">-</span><span class="p">.</span><span class="mi">5</span><span class="p">)</span>
-    <span class="nx">vy</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="nx">random</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span><span class="o">-</span><span class="p">.</span><span class="mi">5</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">300</span>
+    <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">100</span>
+    <span class="c"># random.random() 將會產生介於 0 與 1 的浮點亂數</span>
+    <span class="n">vx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span><span class="o">-.</span><span class="mi">5</span><span class="p">)</span>
+    <span class="n">vy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span><span class="o">*</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span><span class="o">-.</span><span class="mi">5</span><span class="p">)</span>
 
-<span class="err">#</span> <span class="nx">更新第</span> <span class="nx">i</span> <span class="nx">球</span> <span class="nx">Y</span> <span class="nx">座標的運算邏輯</span>
-<span class="nx">def</span> <span class="nx">updateY</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span><span class="o">:</span>
-    <span class="k">if</span> <span class="p">((</span><span class="nx">y</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">+</span><span class="nx">r</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nx">height</span><span class="p">)</span><span class="o">:</span>
-        <span class="err">#</span><span class="nx">y</span> <span class="o">=</span> <span class="nx">height</span>
-        <span class="nx">vy</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+=</span> <span class="nx">g</span>
-    <span class="k">else</span><span class="o">:</span>
-        <span class="nx">vy</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="nx">vy</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">*</span><span class="nx">cor</span>
-        <span class="nx">vx</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">*=</span> <span class="nx">fr</span>
-    <span class="nx">y</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+=</span> <span class="nx">vy</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span>
-    <span class="k">if</span> <span class="p">((</span><span class="nx">y</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">+</span><span class="nx">r</span><span class="p">)</span> <span class="o">&gt;</span> <span class="nx">height</span><span class="p">)</span><span class="o">:</span>
-        <span class="nx">y</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">height</span><span class="o">-</span><span class="nx">r</span>
+<span class="c"># 更新第 i 球 Y 座標的運算邏輯</span>
+<span class="k">def</span> <span class="nf">updateY</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">r</span><span class="p">)</span> <span class="o">&lt;</span> <span class="n">height</span><span class="p">):</span>
+        <span class="c">#y = height</span>
+        <span class="n">vy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+=</span> <span class="n">g</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">vy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">vy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">cor</span>
+        <span class="n">vx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*=</span> <span class="n">fr</span>
+    <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+=</span> <span class="n">vy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">r</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">height</span><span class="p">):</span>
+        <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">height</span><span class="o">-</span><span class="n">r</span>
 
-<span class="err">#</span> <span class="nx">更新第</span> <span class="nx">i</span> <span class="nx">球</span> <span class="nx">X</span> <span class="nx">座標的運算邏輯</span>
-<span class="nx">def</span> <span class="nx">updateX</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span><span class="o">:</span>
-    <span class="k">if</span> <span class="p">((</span><span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">+</span><span class="nx">r</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="nx">width</span> <span class="nx">or</span> <span class="p">(</span><span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">-</span><span class="nx">r</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">)</span><span class="o">:</span>
-        <span class="nx">vx</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="nx">vx</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">*</span><span class="nx">cor</span>
-    <span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">+=</span> <span class="nx">vx</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span>
-    <span class="k">if</span> <span class="p">((</span><span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">+</span><span class="nx">r</span><span class="p">)</span> <span class="o">&gt;</span> <span class="nx">width</span><span class="p">)</span><span class="o">:</span>
-        <span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">width</span><span class="o">-</span><span class="nx">r</span>
-    <span class="nx">elif</span> <span class="p">((</span><span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span><span class="o">-</span><span class="nx">r</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">)</span><span class="o">:</span>
-        <span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">r</span>
+<span class="c"># 更新第 i 球 X 座標的運算邏輯</span>
+<span class="k">def</span> <span class="nf">updateX</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">r</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="n">width</span> <span class="ow">or</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="n">r</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="n">vx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="n">vx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">cor</span>
+    <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+=</span> <span class="n">vx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="k">if</span> <span class="p">((</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">r</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">width</span><span class="p">):</span>
+        <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">width</span><span class="o">-</span><span class="n">r</span>
+    <span class="k">elif</span> <span class="p">((</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">-</span><span class="n">r</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">):</span>
+        <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">r</span>
 
-<span class="err">#</span> <span class="nx">畫圓函式</span>
-<span class="nx">def</span> <span class="nx">circle</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span><span class="nx">y</span><span class="p">,</span><span class="nx">r</span><span class="p">)</span><span class="o">:</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">beginPath</span><span class="p">()</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">arc</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">,</span> <span class="nx">r</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">math</span><span class="p">.</span><span class="nx">pi</span><span class="o">*</span><span class="mi">2</span><span class="p">,</span> <span class="nx">True</span><span class="p">)</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">fill</span><span class="p">()</span>
+<span class="c"># 畫圓函式</span>
+<span class="k">def</span> <span class="nf">circle</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">r</span><span class="p">):</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">beginPath</span><span class="p">()</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="mi">2</span><span class="p">,</span> <span class="bp">True</span><span class="p">)</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">fill</span><span class="p">()</span>
 
-<span class="err">#</span> <span class="nx">寫字函式</span>
-<span class="nx">def</span> <span class="nx">text</span><span class="p">(</span><span class="nx">s</span><span class="p">)</span><span class="o">:</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="s2">&quot;#ff0000&quot;</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">font</span> <span class="o">=</span> <span class="s2">&quot;30px sans-serif&quot;</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">textBaseline</span> <span class="o">=</span> <span class="s2">&quot;bottom&quot;</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">fillText</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="nx">height</span><span class="p">)</span>
+<span class="c"># 寫字函式</span>
+<span class="k">def</span> <span class="nf">text</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">fillStyle</span> <span class="o">=</span> <span class="s">&quot;#ff0000&quot;</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">font</span> <span class="o">=</span> <span class="s">&quot;30px sans-serif&quot;</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">textBaseline</span> <span class="o">=</span> <span class="s">&quot;bottom&quot;</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">fillText</span><span class="p">(</span><span class="n">s</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">height</span><span class="p">)</span>
 
-<span class="err">#</span> <span class="nx">每隔特定時間</span><span class="p">,</span> <span class="nx">進行動畫繪製</span>
-<span class="nx">def</span> <span class="nx">animate</span><span class="p">()</span><span class="o">:</span>
-    <span class="err">#</span> <span class="nx">刷新畫布</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">clearRect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">height</span><span class="p">)</span>
-    <span class="err">#</span> <span class="nx">逐一重新繪製小球</span>
-    <span class="nx">ctx</span><span class="p">.</span><span class="nx">fillStyle</span> <span class="o">=</span> <span class="s2">&quot;#000000&quot;</span>
-    <span class="k">for</span> <span class="nx">i</span> <span class="k">in</span> <span class="nx">range</span><span class="p">(</span><span class="nx">n</span><span class="p">)</span><span class="o">:</span>
-        <span class="nx">updateY</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-        <span class="nx">updateX</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
-        <span class="nx">circle</span><span class="p">(</span><span class="nx">x</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span><span class="nx">y</span><span class="p">[</span><span class="nx">i</span><span class="p">],</span><span class="nx">r</span><span class="p">)</span>
+<span class="c"># 每隔特定時間, 進行動畫繪製</span>
+<span class="k">def</span> <span class="nf">animate</span><span class="p">():</span>
+    <span class="c"># 刷新畫布</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">clearRect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
+    <span class="c"># 逐一重新繪製小球</span>
+    <span class="n">ctx</span><span class="o">.</span><span class="n">fillStyle</span> <span class="o">=</span> <span class="s">&quot;#000000&quot;</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+        <span class="n">updateY</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="n">updateX</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="n">circle</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">r</span><span class="p">)</span>
 
-<span class="nx">text</span><span class="p">(</span><span class="s2">&quot;Click me!&quot;</span><span class="p">)</span>
+<span class="n">text</span><span class="p">(</span><span class="s">&quot;Click me!&quot;</span><span class="p">)</span>
 
-<span class="err">#</span> <span class="nx">畫布點擊後執行的函式</span>
-<span class="nx">def</span> <span class="nx">on_canvas_click</span><span class="p">(</span><span class="nx">ev</span><span class="p">)</span><span class="o">:</span>
-    <span class="nx">browser</span><span class="p">.</span><span class="nx">timer</span><span class="p">.</span><span class="nx">set_interval</span><span class="p">(</span><span class="nx">animate</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+<span class="c"># 畫布點擊後執行的函式</span>
+<span class="k">def</span> <span class="nf">on_canvas_click</span><span class="p">(</span><span class="n">ev</span><span class="p">):</span>
+    <span class="n">browser</span><span class="o">.</span><span class="n">timer</span><span class="o">.</span><span class="n">set_interval</span><span class="p">(</span><span class="n">animate</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
 
-<span class="err">#</span> <span class="nx">只要使用者點擊在畫布上任何地方</span><span class="p">,</span> <span class="nx">即執行</span> <span class="nx">on_canvas_click</span> <span class="nx">函式</span>
-<span class="nx">canvas</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span> <span class="nx">on_canvas_click</span><span class="p">,</span> <span class="nx">False</span><span class="p">)</span>
-<span class="nt">&lt;/script&gt;</span>
-</pre></div></div>
+<span class="c"># 只要使用者點擊在畫布上任何地方, 即執行 on_canvas_click 函式</span>
+<span class="n">canvas</span><span class="o">.</span><span class="n">bind</span><span class="p">(</span><span class="s">&#39;click&#39;</span><span class="p">,</span> <span class="n">on_canvas_click</span><span class="p">,</span> <span class="bp">False</span><span class="p">)</span>
+<span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+</pre></div>
+
+
+<p>W16</p>
+<iframe src="https://player.vimeo.com/video/151805832" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/151805832">W16</a> from <a href="https://vimeo.com/user47828545">40423226(1)</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">

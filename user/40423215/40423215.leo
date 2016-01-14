@@ -17,12 +17,16 @@
 <v t="leo.20160110015737.1" a="E"><vh>@path ./</vh>
 <v t="leo.20160110015737.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20160110015737.3"><vh>@edit 40423215_cp_w1_p.html</vh></v>
+<v t="leo.20160111234122.1"><vh>@edit 40423215_cp_w6_p.html</vh></v>
+<v t="leo.20160112013654.1"><vh>@edit 40423215_cp_w2_p.html</vh></v>
 <v t="leo.20160110015737.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20160110015737.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20160110015737.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20160110015737.7" a="E"><vh>@path content</vh>
 <v t="leo.20160110015737.8"><vh>以下為網誌 md 檔案 ------------</vh></v>
 <v t="leo.20160110015737.9"><vh>@edit 40423215_cp_w1.md</vh></v>
+<v t="leo.20160111233703.1"><vh>@edit 40423215_cp_w6.md</vh></v>
+<v t="leo.20160112013714.1"><vh>@edit 40423215_cp_w2.md</vh></v>
 </v>
 </v>
 </v>

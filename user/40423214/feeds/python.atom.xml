@@ -1,5 +1,260 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423214 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-24T19:41:00+08:00</updated><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html">&lt;!-- 導入 brython.js --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423214 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T11:41:00+08:00</updated><entry><title>2015 計算機程式 作業15</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;Merry Christmas  &amp;amp;  Happy new year&lt;/h3&gt;
+&lt;!-- 導入 brython.js --&gt;
+
+&lt;script type="text/javascript" src="js/40423214-w15.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 brython() --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+
+&lt;canvas id="plotarea" width="400" height="410"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+
+ctx.beginPath()
+grd=ctx.createLinearGradient(0,0,0,400)
+grd.addColorStop(1,"#FF0033")
+grd.addColorStop(0,"#FFFF33")
+ctx.lineWidth = 15
+ctx.strokeStyle = grd
+ctx.moveTo(0,0)
+ctx.lineTo(0,400)
+ctx.stroke()
+
+ctx.beginPath()
+grd=ctx.createLinearGradient(400,0,0,0)
+grd.addColorStop(1,"#FFFF66")
+grd.addColorStop(0,"#00FF77")
+ctx.strokeStyle = grd
+ctx.moveTo(0,0)
+ctx.lineTo(400,0)
+ctx.stroke()
+
+ctx.beginPath()
+grd=ctx.createLinearGradient(0,400,0,0)
+grd.addColorStop(1,"#00FF77")
+grd.addColorStop(0,"#FFFF00")
+ctx.strokeStyle = grd
+ctx.moveTo(400,0)
+ctx.lineTo(400,400)
+ctx.stroke()
+
+ctx.beginPath()
+grd=ctx.createLinearGradient(0,0,400,0)
+grd.addColorStop(0,"#FF0320")
+grd.addColorStop(1,"#FFFF01")
+ctx.strokeStyle = grd
+ctx.moveTo(0,410)
+ctx.lineTo(400,410)
+ctx.stroke()
+
+
+ctx.beginPath()
+ctx.moveTo(140, 60)
+ctx.quadraticCurveTo(170, 45, 200, 15)
+ctx.moveTo(200, 12)
+ctx.quadraticCurveTo(230, 43, 260, 61)
+ctx.moveTo(260, 60)
+ctx.lineTo(140, 60)
+
+ctx.moveTo(100, 120)
+ctx.quadraticCurveTo(150, 95, 180, 60)
+ctx.moveTo(220, 60)
+ctx.quadraticCurveTo(250, 95, 300, 120)
+ctx.moveTo(100, 120)
+ctx.lineTo(300, 120)
+
+ctx.moveTo(60, 190)
+ctx.quadraticCurveTo(120, 165, 160, 120)
+ctx.moveTo(240, 120)
+ctx.quadraticCurveTo(280, 165, 340, 190)
+ctx.moveTo(60, 190)
+ctx.lineTo(340, 190)
+
+ctx.moveTo(20, 270)
+ctx.quadraticCurveTo(80, 250, 140, 190)
+ctx.moveTo(260, 190)
+ctx.quadraticCurveTo(320, 250, 380, 270)
+ctx.moveTo(20, 270)
+ctx.lineTo(380, 270)
+
+ctx.lineWidth = 7
+ctx.strokeStyle = "#008800"
+ctx.stroke()
+
+
+ctx.fillStyle = "#663300"
+ctx.fillRect(180,271.5,40,129)
+
+
+ctx.beginPath()
+ctx.fillStyle = "#FFCC00"
+ctx.fillRect(260,340,60,60)
+ctx.stroke()
+
+ctx.moveTo(260,370)
+ctx.lineTo(320,370)
+
+ctx.moveTo(290,340)
+ctx.lineTo(290,400)
+
+ctx.moveTo(290,340)
+ctx.lineTo(260,320)
+
+ctx.moveTo(290,340)
+ctx.lineTo(280,300)
+
+ctx.moveTo(258,321)
+ctx.lineTo(282,300)
+
+ctx.moveTo(290,340)
+ctx.lineTo(300,300)
+
+ctx.moveTo(290,340)
+ctx.lineTo(320,320)
+
+ctx.moveTo(298,300)
+ctx.lineTo(322,320)
+
+ctx.lineWidth = 4
+ctx.strokeStyle = "#9900FF"
+ctx.stroke()
+
+
+ctx.beginPath()
+ctx.fillStyle = "#000099"
+ctx.fillRect(60,340,100,60)
+
+ctx.moveTo(60,370)
+ctx.lineTo(160,370)
+
+ctx.moveTo(110,340)
+ctx.lineTo(110,400)
+
+ctx.moveTo(111.5,341.5)
+ctx.lineTo(100,310)
+
+ctx.moveTo(111.5,341.5)
+ctx.lineTo(80,330)
+
+ctx.moveTo(101.5,310)
+ctx.lineTo(78.5,330)
+
+ctx.moveTo(111.5,341.5)
+ctx.lineTo(140,330)
+
+ctx.moveTo(111.5,341.5)
+ctx.lineTo(120,310)
+
+ctx.moveTo(141.5,330)
+ctx.lineTo(118.5,310)
+
+ctx.lineWidth = 7
+ctx.strokeStyle = "#FF370A"
+ctx.stroke()
+
+
+ctx.fillStyle = "#FF0000"
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("Merry ",13,28)
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("X'MAS",13,48)
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("&amp;",13,68)
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("HAPPY FATHER DAY ",13,88)
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("Year ",13,108)
+ctx.stroke()
+
+
+ctx.beginPath()
+
+ctx.moveTo(210, 24)
+ctx.quadraticCurveTo(200, 50, 160, 60)
+
+ctx.moveTo(160,78)
+ctx.quadraticCurveTo(200, 110, 270, 120)
+
+ctx.moveTo(285, 160)
+ctx.quadraticCurveTo(250, 180, 200, 190)
+
+ctx.moveTo(280, 210)
+ctx.quadraticCurveTo(220, 240, 70, 270)
+
+ctx.lineWidth = 5
+ctx.strokeStyle = "#9900FF"
+ctx.stroke()
+
+
+ctx.beginPath()
+
+ctx.moveTo(225, 35)
+ctx.quadraticCurveTo(220, 55, 200, 58)
+
+ctx.moveTo(230, 70)
+ctx.quadraticCurveTo(200, 105, 130, 120)
+
+ctx.moveTo(130, 150)
+ctx.quadraticCurveTo(180, 180, 300, 190)
+
+ctx.moveTo(320, 240)
+ctx.quadraticCurveTo(300, 260, 210, 270)
+
+ctx.lineWidth = 6
+ctx.strokeStyle = "#FFFF33"
+ctx.stroke()
+
+
+ctx.beginPath()
+
+ctx.moveTo(172,38)
+ctx.quadraticCurveTo(200, 50, 240, 60)
+
+
+ctx.moveTo(245, 85)
+ctx.quadraticCurveTo(240, 100, 190, 120)
+
+ctx.moveTo(260, 140)
+ctx.quadraticCurveTo(180, 180, 100, 190)
+
+ctx.moveTo(92, 230)
+ctx.quadraticCurveTo(250, 260, 330, 270)
+
+ctx.lineWidth = 3
+ctx.strokeStyle = "#0099FF"
+ctx.stroke()
+
+
+ctx.beginPath()
+ctx.fillStyle = "#FF370A"
+ctx.font = "12px ScriptS"
+ctx.fillText("40423214 ",325,398)
+ctx.stroke()
+
+&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html">&lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/40423214-w14.js"&gt;&lt;/script&gt;
 
@@ -13,7 +268,7 @@ brython(1);
 
 &lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
 
-&lt;canvas id="plotarea" width="200" height="200"&gt;&lt;/canvas&gt;
+&lt;canvas id="plotarea" width="200" height="150"&gt;&lt;/canvas&gt;
 
 &lt;script type="text/python3"&gt;
 # 導入 doc
@@ -28,17 +283,17 @@ ctx = canvas.getContext("2d")
 # 開始畫直線
 for i in range(11):
     ctx.beginPath()
-    ctx.lineWidth = 5
+    ctx.lineWidth = 6
     ctx.moveTo(0,0+i*20 )
     ctx.lineTo(200,0+i*20 )
-    ctx.strokeStyle = "#0000ff"
+    ctx.strokeStyle = "#FF0000"
     ctx.stroke()
 for i in range(11):
     ctx.beginPath()
-    ctx.lineWidth = 5
+    ctx.lineWidth = 3
     ctx.moveTo(0+i*20, 0)
     ctx.lineTo(0+i*20, 200)
-    ctx.strokeStyle = "#FF0000"
+    ctx.strokeStyle = "#0000ff"
     ctx.stroke()
 
 
@@ -48,52 +303,108 @@ for i in range(11):
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業八</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w8.html" rel="alternate"></link><updated>2015-11-06T00:00:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-11-06:reveal/2015cpb_hw_w8.html</id><summary type="html">&lt;p&gt;以下為作業八內容&lt;/p&gt;
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式作業 第十二週</title><link href="http://coursemdetw.github.io/reveal/2015cpa_hw_w12.html" rel="alternate"></link><updated>2015-12-05T20:45:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-12-05:reveal/2015cpa_hw_w12.html</id><summary type="html">&lt;h1&gt;猜數字遊戲&lt;/h1&gt;
+&lt;h3&gt;解析&lt;/h3&gt;
+&lt;p&gt;~投影片不好做直接上圖~
+&lt;a href="http://imgur.com/FxIA2DT"&gt;&lt;img src="http://i.imgur.com/FxIA2DT.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;影片解析&lt;/h3&gt;
+&lt;p&gt;轉自40423103
+&lt;iframe src="https://player.vimeo.com/video/147890116" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/147890116"&gt;Guess_Number&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;40423103&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h3&gt;流程&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/Vb0uBlB"&gt;&lt;img src="http://i.imgur.com/Vb0uBlB.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;心得&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;看完教學影片後&lt;/p&gt;
+&lt;p&gt;也大概知道比較簡單的像是 if便是使用者猜的答案太大了&lt;/p&gt;
+&lt;p&gt;如果是else就是猜的答案太小了&lt;/p&gt;
+&lt;p&gt;自評&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;自評分數：60&lt;/p&gt;
+&lt;p&gt;只是知道簡單的程式代表什麼&lt;/p&gt;
+&lt;p&gt;像是RANDOM就算是影片有中文解釋&lt;/p&gt;
+&lt;p&gt;還是&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式作業 第十一週</title><link href="http://coursemdetw.github.io/reveal/2015cpa_hw_w11.html" rel="alternate"></link><updated>2015-12-02T20:45:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-12-02:reveal/2015cpa_hw_w11.html</id><summary type="html">&lt;iframe src="w11.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="w11.html" target="_blank"&gt;修正fix_leo-editor安裝_投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;修正fix_leo-editor安裝&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;開啟教學網頁&lt;/li&gt;
+&lt;li&gt;點選2015fall課程&lt;/li&gt;
+&lt;li&gt;點選遠端(copy)下載fix&lt;/li&gt;
+&lt;li&gt;將檔案解壓縮&lt;/li&gt;
+&lt;li&gt;使用瀏覽器搜尋 leo editor github&lt;/li&gt;
+&lt;li&gt;點選進入網頁&lt;/li&gt;
+&lt;li&gt;點選leo-editor&lt;/li&gt;
+&lt;li&gt;點選release&lt;/li&gt;
+&lt;li&gt;點選broke-abbrev&lt;/li&gt;
+&lt;li&gt;點選Source code(zip)&lt;/li&gt;
+&lt;li&gt;將檔案移至fix資料夾&lt;/li&gt;
+&lt;li&gt;到Ana3_lite2\data\SciTE&lt;/li&gt;
+&lt;li&gt;開啟SciTe.exe &lt;/li&gt;
+&lt;li&gt;使用此編輯器開啟fix.bat&lt;/li&gt;
+&lt;li&gt;在最後增加一行指令
+      指令為  copy leo-editor-broke-abbrev.zip C:\Ana3_2015\data\                            &lt;/li&gt;
+&lt;li&gt;儲存檔案&lt;/li&gt;
+&lt;li&gt;使用此編輯器開啟start.bat&lt;/li&gt;
+&lt;li&gt;將原指令 (第35行) pip install http://140.130.17.17/public/leo-editor-master.zip         &lt;br /&gt;
+     更改為 pip install leo-editor-broke-abbrev.zip&lt;/li&gt;
+&lt;li&gt;儲存檔案&lt;/li&gt;
+&lt;li&gt;點選開啟fix.bat&lt;/li&gt;
+&lt;li&gt;點選開啟start.bat&lt;/li&gt;
+&lt;li&gt;成功開啟~~&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;影片解說&lt;/h3&gt;
+&lt;p&gt;轉自40423103
+&lt;iframe src="https://player.vimeo.com/video/147597320" width="1280" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/147597320"&gt;修正fix_leo-editor安裝&lt;/a&gt; from &lt;a href="https://vimeo.com/user45467634"&gt;40423103&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;心得&lt;/h2&gt;
+&lt;p&gt;看過別人拍的影片後大概知道如何修復fix，&lt;/p&gt;
+&lt;p&gt;大概步驟就是在網頁上搜尋leo editer.找到broke-abbrev之後&lt;/p&gt;
+&lt;p&gt;下載下來 將檔案丟進去 拉出程式碼 修改程式&lt;/p&gt;
+&lt;p&gt;leo&lt;/p&gt;
+&lt;h2&gt;自評&lt;/h2&gt;
+&lt;p&gt;自評分數：60&lt;/p&gt;
+&lt;p&gt;自評分數免強60分，是因為上github都模模糊糊 似懂非懂&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業六</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w6.html" rel="alternate"></link><updated>2015-11-13T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-11-13:reveal/2015cp_hw_w6.html</id><summary type="html">&lt;p&gt;以下為期中報告內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w6_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w8_p.html" target="_blank"&gt;作業八投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業八</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w8.html" rel="alternate"></link><updated>2015-11-06T00:00:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-11-06:reveal/2015cpb_hw_w8.html</id><summary type="html">&lt;p&gt;以下為作業八內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="40423214_cp_w6_p.html" target="_blank"&gt;作業六投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業九</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w9.html" rel="alternate"></link><updated>2015-11-13T02:36:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-11-13:reveal/40423203_cp_w9.html</id><summary type="html">&lt;p&gt;以下為作業九內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w9_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w8_p.html" target="_blank"&gt;作業八投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業七</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w7.html" rel="alternate"></link><updated>2015-10-30T00:00:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-10-30:reveal/2015cpb_hw_w7.html</id><summary type="html">&lt;p&gt;以下為作業七內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="40423214_cp_w9_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/145030461" width="500" height="313" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/145030461"&gt;第九週計算機程式操作影片bandicam 2015-11-08 15-48-22-203&lt;/a&gt; from &lt;a href="https://vimeo.com/user45597735"&gt;40423214&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業八</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w8.html" rel="alternate"></link><updated>2015-11-06T03:36:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-11-06:reveal/40423203_cp_w8.html</id><summary type="html">&lt;p&gt;以下為作業八內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w7_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w7_p.html" target="_blank"&gt;作業七投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業六</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w6.html" rel="alternate"></link><updated>2015-10-23T00:00:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-10-23:reveal/2015cpb_hw_w6.html</id><summary type="html">&lt;p&gt;以下為作業六內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="40423214_cp_w8_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業四</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w4.html" rel="alternate"></link><updated>2015-11-04T11:11:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-11-04:reveal/2015cp_hw_w4.html</id><summary type="html">&lt;p&gt;以下為作業四內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w6_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w4_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w6_p.html" target="_blank"&gt;作業六投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業五</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w5.html" rel="alternate"></link><updated>2015-10-16T00:00:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-10-16:reveal/2015cpb_hw_w5.html</id><summary type="html">&lt;p&gt;以下為作業五內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="40423214_cp_w4_p.html" target="_blank"&gt;作業四投影片&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/144977820" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/144977820"&gt;2015cpb-40423214-hw5&lt;/a&gt; from &lt;a href="https://vimeo.com/user45523667"&gt;40423214&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業三</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w3.html" rel="alternate"></link><updated>2015-11-03T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-11-03:reveal/2015cp_hw_w3.html</id><summary type="html">&lt;p&gt;以下為作業三內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w5_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w3_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w5_p.html" target="_blank"&gt;作業五投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業四</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w4.html" rel="alternate"></link><updated>2015-10-09T00:00:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-10-09:reveal/2015cpb_hw_w4.html</id><summary type="html">&lt;p&gt;以下為作業四內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="40423214_cp_w3p.html" target="_blank"&gt;作業三投影片&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/144977819" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/144977819"&gt;2015cpb-40423214-hw4&lt;/a&gt; from &lt;a href="https://vimeo.com/user45523667"&gt;40423214&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業七</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w7.html" rel="alternate"></link><updated>2015-10-30T02:36:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-10-30:reveal/40423203_cp_w7.html</id><summary type="html">&lt;p&gt;以下為作業七內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w4_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w7_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w4_p.html" target="_blank"&gt;作業四投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業一</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w1.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_hw_w1.html</id><summary type="html">&lt;p&gt;以下為作業一內容&lt;/p&gt;
+&lt;p&gt;&lt;a href="40423214_cp_w7_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業一</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w1.html" rel="alternate"></link><updated>2015-10-29T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-10-29:reveal/2015cp_hw_w1.html</id><summary type="html">&lt;p&gt;以下為作業一內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w1_p.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="40423214_cp_w1p.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/144870435" width="500" height="231" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業二</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w2.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_hw_w2.html</id><summary type="html">&lt;p&gt;以下為作業二內容&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/144870435"&gt;2015cpb-40423214-hw2&lt;/a&gt; from &lt;a href="https://vimeo.com/user45523667"&gt;40423214&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業五</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w5.html" rel="alternate"></link><updated>2015-10-29T11:41:00+08:00</updated><author><name>40423214</name></author><id>tag:coursemdetw.github.io,2015-10-29:reveal/2015cp_hw_w5.html</id><summary type="html">&lt;p&gt;以下為作業五內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w2_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40423214_cp_w5_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="40423216_cp_w2_p.html" target="_blank"&gt;作業二投影片&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業三</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w3.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_hw_w3.html</id><summary type="html">&lt;p&gt;以下為作業三內容&lt;/p&gt;
-&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423216_cp_w3_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="40423216_cp_w3_p.html" target="_blank"&gt;作業三投影片&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/137724068"&gt;Welcome Speech&lt;/a&gt; from &lt;a href="https://vimeo.com/user24079973"&gt;虎尾科大機械設計工程系 KMOL&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
+&lt;p&gt;&lt;a href="40423214_cp_w5_p.html" target="_blank"&gt;作業五投影片&lt;/a&gt;
+&lt;iframe src="https://player.vimeo.com/video/144977818" width="500" height="232" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/144977818"&gt;2015cpb-40423214-hw6&lt;/a&gt; from &lt;a href="https://vimeo.com/user45523667"&gt;40423214&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>

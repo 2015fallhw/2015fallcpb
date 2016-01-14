@@ -1,0 +1,75 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423250-11</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>zero to hero python教學</h1>
+    <p>40423250鄭裕倫</p>		
+</section>
+	
+<section id="hw-task-five">
+    <h1>作業十-任務說明</h1>
+    <p></p>   
+</section>
+  
+  <section>
+<h1>心得與自評</h1>
+期中考完了。好開心喔。自評:70分。
+</section> 
+
+  <section>
+像是:
+int(  => integer(整數)
+str(  => string(字串)
+float(  => float(浮點數)
+#  =>註解,用來解釋(不會執行)
+等等,這些都是我們需要學習的。
+</section> 
+
+ <section>
+千萬不能小看這些,有了它,對往後的我們,是十分有幫助的。一個看似簡單的"猜數字遊戲",其實十分的不簡單,我們必須靈活運用這些程式。
+電腦固然快速,但仍不及人類,
+人類雖有智慧,但仍不及電腦。
+若將兩者結合,必能帶來超乎想像的益處。
+</section> 
+
+<section>
+第十一週了,再熟悉程式語法後,以"猜數字遊戲"做了一個測試,且拍了程式語法解析與試玩得影片,並對自己的努力做了個結論。
+</section> 
+
+<section>
+</section> 
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

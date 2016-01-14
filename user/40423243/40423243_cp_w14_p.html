@@ -26,76 +26,67 @@
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
     <h1>zero to hero python教學</h1>
-    <p>40423243 四設一乙 </p>		
+    <p>40423243 四設一乙 楊錦鑫</p>		
 </section>
-	
-<section id="hw-task-five">
-    <h1>作業十四-任務說明</h1>
-    <p></p>   
+<section>
+<h2>列表</h2>
+我們可以用python整理一串數列，可以是姓名、學號等等，來做增減、搜尋等用途
+</section>
+  
+<section>
+我們首先當然需要一串數列：
+<br />
+id=['a','b','c','d']
+</section>
+				
+<section>
+<h2>數列的規則</h2>
+<br />
+前面多少提過關於python的數列，有個跟正常的數學不一樣的規則，從前面到後面各是：
+<br />
+0，1，2，3......
+<br />
+也可以用負數：
+<br />
+......-4，-3，-2，-1(最後算-1)
+<br />
+利用這些數字來做指定的動作，像a就要用0或-4來指定
+
+</section>
+<section>
+<h2>編輯數列</h2>
+我們會用到.append，.remove，del等指令，以id為我們的數列
+<br />
+id.append('名字')：增加字串到最後一項
+<br />
+id.remove('名字')：移除字串
+<br />
+del id(自取)[數字]：移除某個數字
 </section>
 
 <section>
-<h1>期中報告心得</h1>
-雖然學了那麼久但是對github也不算了解透徹,不過現在就很清楚的知道老師告訴我們的未來的趨勢是什麼,所以我們只要朝著未來的趨勢努力一定會比別人厲害很多,我覺的這堂課讓我很充實
+我們利用上面的規則可以整理出這串簡單的字串：
+<br />
+id=['1','2','3','4']
+<br />
+id.remove('4')
+<br />
+del id[0]
+<br />
+print (id[0])
+<br />
+print (id[-1])
 </section>
 
 <section>
-雖然花了很多時間摸索,但是只要做出來就會特別感動而且充滿成就感,而且倉儲可以一點一滴累積每天的努力,到最後回頭看就會非常的開心
+移除了id"4"跟第0個id"1"，我們少了1、4，剩下2、3，print出來的第0個id就是2，第-1個就會是3
 </section>
 
 <section>
-<!-- 導入 brython.js -->
-
-<script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"></script>
-
-<!-- 啟動 brython() -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下利用 Brython 程式執行繪圖 -->
-
-<canvas id="plotarea" width="300" height="200"></canvas>
-
-<script type="text/python3">
-# 導入 doc
-from browser import document as doc
-from browser import console
-import math
-
-# 準備繪圖畫布
-canvas = doc["plotarea"]
-ctx = canvas.getContext("2d")
-
-# 開始畫直線
-ctx.beginPath()
-ctx.lineWidth = 5
-ctx.moveTo(0, 0)
-ctx.lineTo(100, 100)
-ctx.strokeStyle = "#FF0000"
-ctx.stroke()
-
-ctx.beginPath()
-ctx.lineWidth = 1
-ctx.moveTo(100, 0)
-ctx.lineTo(0, 100)
-ctx.strokeStyle = "#0000ff"
-ctx.stroke()
-
-x = 100
-y = 100
-
-# 利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print
-console.log("x 值為"+str(x)+", y 值為"+str(y))
-</script>
-</section>
-
-<section>
-<h1>自評</h1>
-學期過了一半,我從這門課學到很多,不過還是有很多東西是似懂非懂的,但是我認為自己有努力過,所以給自己 63 分。
+<h2>心得與自評</h2>
+更新字串可以用來整理資料，能夠在大量的資料中快速找到自己要的，這如果用在會計上想必會有很大的幫助
+<br />
+個人給自己75分
 </section>
 </div>
 </div>

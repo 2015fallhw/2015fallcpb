@@ -4,34 +4,373 @@
 &lt;iframe src="40423227_cp_w17_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423227_cp_w17_p.html" target="_blank"&gt;段考周投影片&lt;/a&gt;&lt;/p&gt;
-&lt;iframe src="" width= "640" height="385" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;以下利用 Brython 在網頁中進行具彈性的 27 個小球彈跳模擬！&lt;/p&gt;
+&lt;!-- 導入 brython.js --&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;a  href="https://www.youtube.com/"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;iframe
+&lt;script type="text/javascript" src="http://brython.info/src/brython_dist.js"&gt;&lt;/script&gt;
 
-&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業十四</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w14.html" rel="alternate"></link><updated>2016-01-04T14:34:00+08:00</updated><author><name>40423227</name></author><id>tag:coursemdetw.github.io,2016-01-04:reveal/2015cp_hw_w14.html</id><summary type="html">&lt;p&gt;以下為作業十四內容&lt;/p&gt;
-&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
-&lt;iframe src="40423227_cp_w14_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;!-- 啟動 brython() --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+
+&lt;canvas id="plotarea" width="600" height="400"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 browser 模組中的 document, 並設為 doc 變數
+from browser import document as doc
+# 導入數學模組
+import math
+# 產生各小球的亂數速度用
+import random
+# 導入 browser 中的計時器, 建立動畫用
+import browser.timer
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 取畫布的寬與高度
+width = canvas.width
+height = canvas.height
+
+n = 27
+# 已知數列內容個數, 先分別與 None 對應
+x = [None]*n
+y = [None]*n
+vy = [None]*n
+vx = [None]*n
+# 重力加速度, Y 方向向下為正
+g = 0.98
+# 空氣的黏滯阻尼係數
+cor = 0.6
+# 球的彈力係數
+fr = 0.95
+# 球的半徑
+r = 6
+
+for i in range(n):
+    x[i] = 300
+    y[i] = 100
+    # random.random() 將會產生介於 0 與 1 的浮點亂數
+    vx[i] = 2*(random.random()-.5)
+    vy[i] = 2*(random.random()-.5)
+
+# 更新第 i 球 Y 座標的運算邏輯
+def updateY(i):
+    if ((y[i]+r) &lt; height):
+        #y = height
+        vy[i] += g
+    else:
+        vy[i] = -vy[i]*cor
+        vx[i] *= fr
+    y[i] += vy[i]
+    if ((y[i]+r) &gt; height):
+        y[i] = height-r
+
+# 更新第 i 球 X 座標的運算邏輯
+def updateX(i):
+    if ((x[i]+r) &gt;= width or (x[i]-r) &lt;= 0):
+        vx[i] = -vx[i]*cor
+    x[i] += vx[i]
+    if ((x[i]+r) &gt; width):
+        x[i] = width-r
+    elif ((x[i]-r) &lt; 0):
+        x[i] = r
+
+# 畫圓函式
+def circle(x,y,r):
+    ctx.beginPath()
+    ctx.arc(x, y, r, 0, math.pi*2, True)
+    ctx.fill()
+
+# 寫字函式
+def text(s):
+    ctx.fillStyle = "#ff0000"
+    ctx.font = "30px sans-serif"
+    ctx.textBaseline = "bottom"
+    ctx.fillText(s,0,height)
+
+# 每隔特定時間, 進行動畫繪製
+def animate():
+    # 刷新畫布
+    ctx.clearRect(0, 0, width, height)
+    # 逐一重新繪製小球
+    ctx.fillStyle = "#000000"
+    for i in range(n):
+        updateY(i)
+        updateX(i)
+        circle(x[i],y[i],r)
+
+text("Click me!")
+
+# 畫布點擊後執行的函式
+def on_canvas_click(ev):
+    browser.timer.set_interval(animate,0)
+
+# 只要使用者點擊在畫布上任何地方, 即執行 on_canvas_click 函式
+canvas.bind('click', on_canvas_click, False)
+&lt;/script&gt;
+
+&lt;p&gt;上列繪圖的程式碼:&lt;/p&gt;
+&lt;p&gt;!-- 導入 brython.js --&lt;/p&gt;
+&lt;p&gt;script type="text/javascript" src="./../../js/Brython3.2.3-20151122-082712/brython.js"&amp;gt;/script&lt;/p&gt;
+&lt;p&gt;!-- 啟動 brython() --&lt;/p&gt;
+&lt;p&gt;script
+window.onload=function(){
+brython(1);
+}
+ /script&lt;/p&gt;
+&lt;p&gt;!-- 以下利用 Brython 程式執行繪圖 --&lt;/p&gt;
+&lt;p&gt;canvas id="plotarea" width="600" height="400"&amp;gt;/canvas&lt;/p&gt;
+&lt;p&gt;導入 browser 模組中的 document, 並設為 doc 變數
+from browser import document as doc
+導入數學模組
+import math
+產生各小球的亂數速度用
+import random
+導入 browser 中的計時器, 建立動畫用
+import browser.timer&lt;/p&gt;
+&lt;p&gt;準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")&lt;/p&gt;
+&lt;p&gt;取畫布的寬與高度
+width = canvas.width
+height = canvas.height&lt;/p&gt;
+&lt;p&gt;n = 27
+已知數列內容個數, 先分別與 None 對應
+x = [None]&lt;em&gt;n
+y = [None]&lt;/em&gt;n
+vy = [None]&lt;em&gt;n
+vx = [None]&lt;/em&gt;n
+重力加速度, Y 方向向下為正
+g = 0.98
+空氣的黏滯阻尼係數
+cor = 0.6
+球的彈力係數
+fr = 0.95
+球的半徑
+r = 6&lt;/p&gt;
+&lt;p&gt;for i in range(n):
+    x[i] = 300
+    y[i] = 100
+random.random() 將會產生介於 0 與 1 的浮點亂數
+    vx[i] = 2&lt;em&gt;(random.random()-.5)
+    vy[i] = 2&lt;/em&gt;(random.random()-.5)&lt;/p&gt;
+&lt;p&gt;更新第 i 球 Y 座標的運算邏輯
+def updateY(i):
+    if ((y[i]+r) &amp;lt; height):
+        #y = height
+        vy[i] += g
+    else:
+        vy[i] = -vy[i]&lt;em&gt;cor
+        vx[i] &lt;/em&gt;= fr
+    y[i] += vy[i]
+    if ((y[i]+r) &amp;gt; height):
+        y[i] = height-r&lt;/p&gt;
+&lt;p&gt;更新第 i 球 X 座標的運算邏輯
+def updateX(i):
+    if ((x[i]+r) &amp;gt;= width or (x[i]-r) &amp;lt; = 0)
+        vx[i] = -vx[i]*cor
+    x[i] += vx[i]
+    if ((x[i]+r) &amp;gt; width):
+        x[i] = width-r
+    elif ((x[i]-r) &amp;lt; 0):
+        x[i] = r&lt;/p&gt;
+&lt;p&gt;畫圓函式
+def circle(x,y,r):
+    ctx.beginPath()
+    ctx.arc(x, y, r, 0, math.pi*2, True)
+    ctx.fill()&lt;/p&gt;
+&lt;p&gt;寫字函式
+def text(s):
+    ctx.fillStyle = "#ff0000"
+    ctx.font = "30px sans-serif"
+    ctx.textBaseline = "bottom"
+    ctx.fillText(s,0,height)&lt;/p&gt;
+&lt;p&gt;每隔特定時間, 進行動畫繪製
+def animate():
+    刷新畫布
+    ctx.clearRect(0, 0, width, height)
+    逐一重新繪製小球
+    ctx.fillStyle = "#000000"
+    for i in range(n):
+        updateY(i)
+        updateX(i)
+        circle(x[i],y[i],r)&lt;/p&gt;
+&lt;p&gt;text("Click me!")&lt;/p&gt;
+&lt;p&gt;畫布點擊後執行的函式
+def on_canvas_click(ev):
+    browser.timer.set_interval(animate,0)&lt;/p&gt;
+&lt;p&gt;只要使用者點擊在畫布上任何地方, 即執行 on_canvas_click 函式
+canvas.bind('click', on_canvas_click, False)&lt;/p&gt;
+&lt;iframe width="640" height="385" src="https://www.youtube.com/v/MD_MzLUUQNc&amp;autoplay=1" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a  href="https://www.youtube.com/"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業十四</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w14.html" rel="alternate"></link><updated>2016-01-04T14:34:00+08:00</updated><author><name>40423227</name></author><id>tag:coursemdetw.github.io,2016-01-04:reveal/2015cp_hw_w14.html</id><summary type="html">&lt;p&gt;以下為作業十四內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片&lt;/p&gt;
+&lt;iframe src="40423227_cp_w13_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423227_cp_w14_p.html" target="_blank"&gt;作業十四投影片&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="640" height="385" src="https://www.youtube.com/embed/y_hZX0nrL5U" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+
+&lt;canvas id="plotarea" width="300" height="200"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 開始畫直線
+ctx.beginPath()
+ctx.lineWidth = 5
+ctx.moveTo(0, 0)
+ctx.lineTo(100, 100)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 1
+ctx.moveTo(100, 0)
+ctx.lineTo(0, 100)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()
+
+x = 100
+y = 100
+
+# 利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print
+console.log("x 值為"+str(x)+", y 值為"+str(y))
+&lt;/script&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;上列繪圖程式碼&lt;/p&gt;
+&lt;h1&gt;導入 doc&lt;/h1&gt;
+&lt;p&gt;from browser import document as doc
+from browser import console
+import math&lt;/p&gt;
+&lt;h1&gt;準備繪圖畫布&lt;/h1&gt;
+&lt;p&gt;canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")&lt;/p&gt;
+&lt;h1&gt;開始畫直線&lt;/h1&gt;
+&lt;p&gt;ctx.beginPath()
+ctx.lineWidth = 5
+ctx.moveTo(0, 0)
+ctx.lineTo(100, 100)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()&lt;/p&gt;
+&lt;p&gt;ctx.beginPath()
+ctx.lineWidth = 1
+ctx.moveTo(100, 0)
+ctx.lineTo(0, 100)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()&lt;/p&gt;
+&lt;p&gt;x = 100
+y = 100&lt;/p&gt;
+&lt;h1&gt;利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print&lt;/h1&gt;
+&lt;p&gt;console.log("x 值為"+str(x)+", y 值為"+str(y))&lt;/p&gt;
+&lt;iframe width="640" height="385" src="https://www.youtube.com/v/y_hZX0nrL5U&amp;autoplay=1" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;a  href="https://www.youtube.com/"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;iframe
 
-&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業十三</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w13.html" rel="alternate"></link><updated>2015-12-21T14:34:00+08:00</updated><author><name>40423227</name></author><id>tag:coursemdetw.github.io,2015-12-21:reveal/2015cp_hw_w13.html</id><summary type="html">&lt;p&gt;以下為作業十三內容&lt;/p&gt;
+&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業十五</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w15.html" rel="alternate"></link><updated>2016-01-04T14:34:00+08:00</updated><author><name>40423227</name></author><id>tag:coursemdetw.github.io,2016-01-04:reveal/2015cp_hw_w15.html</id><summary type="html">&lt;p&gt;以下為作業十五內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="40423227_cp_w15_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423227_cp_w15_p.html" target="_blank"&gt;作業十五投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業十三</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w13.html" rel="alternate"></link><updated>2015-12-21T14:34:00+08:00</updated><author><name>40423227</name></author><id>tag:coursemdetw.github.io,2015-12-21:reveal/2015cp_hw_w13.html</id><summary type="html">&lt;p&gt;以下為作業十三內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423227_cp_w13_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423227_cp_w13_p.html" target="_blank"&gt;作業十三投影片&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="640" height="385" src="https://www.youtube.com/embed/zRBrg_QSB8w" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="640" height="385" src="https://www.youtube.com/v/zRBrg_QSB8w&amp;autoplay=1" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;a  href="https://www.youtube.com/"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業十一</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w11.html" rel="alternate"></link><updated>2015-12-08T14:34:00+08:00</updated><author><name>40423227</name></author><id>tag:coursemdetw.github.io,2015-12-08:reveal/2015cp_hw_w11.html</id><summary type="html">&lt;p&gt;以下為作業十一內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423227_cp_w11_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423227_cp_w11_p.html" target="_blank"&gt;作業十一投影片&lt;/a&gt;&lt;/p&gt;
-&lt;iframe width="640" height="385" src="https://www.youtube.com/embed/3DGt3XSrAZ4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&amp;lt;script class="brush: python3"&lt;/p&gt;
+&lt;h1&gt;猜數字遊戲&lt;/h1&gt;
+&lt;p&gt;import random&lt;/p&gt;
+&lt;p&gt;標準答案 = random.randint(1, 100)
+你猜的數字 = int(input("請輸入您所猜的整數:"))
+猜測次數 = 1
+while 標準答案 != 你猜的數字:
+    if 標準答案 &amp;lt; 你猜的數字:
+        print("太大了，再猜一次 :)加油")
+    else:
+        print("太小了，再猜一次 :)加油")
+    你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 += 1&lt;/p&gt;
+&lt;p&gt;print("猜對了！總共猜了", 猜測次數, "次")
+&lt;/script&gt;&lt;/p&gt;
+&lt;pre class="brush:python;"&gt;#coding: utf-8
+# 猜數字遊戲
+import random
+
+標準答案 = random.randint(1, 100)
+你猜的數字 = int(input("請輸入您所猜的整數:"))
+猜測次數 = 1
+while 標準答案 != 你猜的數字:
+    if 標準答案 &amp;lt; 你猜的數字:
+        print("太大了，再猜一次 :)加油")
+    else:
+        print("太小了，再猜一次 :)加油")
+    你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 += 1
+
+print("猜對了！總共猜了", 猜測次數, "次")
+&lt;/pre&gt;
+
+&lt;p&gt;利用電腦自動玩猜數字遊戲:&lt;/p&gt;
+
+&lt;pre class="brush:python;"&gt;#coding: utf-8
+# 猜數字遊戲
+import random
+執行次數 = 100
+總猜測次數 = 0
+for i in range(執行次數):
+    下限 = 1
+    上限 = 100
+    標準答案 = random.randint(下限, 上限)
+    pc猜的數字 = random.randint(下限, 上限)
+    #print(標準答案, pc猜的數字)
+    #integer
+    #string
+    #float
+    #你猜的數字 = int(input("請輸入您所猜的整數:"))
+    猜測次數 = 1
+    while 標準答案 != pc猜的數字:
+        if 標準答案 &amp;lt; pc猜的數字:
+            #print("太大了，再猜一次 :)加油")
+            # 因此已經確定"pc猜的數字"不是答案, 因此 - 1
+            上限 = pc猜的數字 - 1
+        else:
+            #print("太小了，再猜一次 :)加油")
+            # 因此已經確定"pc猜的數字"不是答案, 因此 + 1
+            下限 = pc猜的數字 + 1
+        #pc猜的數字 = int(input("請輸入您所猜的整數:"))
+        pc猜的數字 = random.randint(下限, 上限)
+        猜測次數 += 1
+
+    #print("猜對了！總共猜了", 猜測次數, "次")
+    總猜測次數 += 猜測次數
+平均猜測次數 = int(總猜測次數/執行次數)
+print("平均次數", 平均猜測次數)
+&lt;/pre&gt;
+
+&lt;iframe width="640" height="385" src="https://www.youtube.com/v/3DGt3XSrAZ4&amp;autoplay=1" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;a  href="https://www.youtube.com/"&gt;YouTube&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業九</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w9.html" rel="alternate"></link><updated>2015-11-08T14:30:00+08:00</updated><author><name>40423227</name></author><id>tag:coursemdetw.github.io,2015-11-08:reveal/2015cp_hw_w9.html</id><summary type="html">&lt;p&gt;以下為作業九內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;

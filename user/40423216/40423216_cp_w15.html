@@ -4,8 +4,8 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>2016 計算機程式 作業十五 &mdash; 2015FALL 40423243 CPB 作業</title>
-  <meta name="author" content="40423243">
+  <title>2015 計算機程式 第十五週 作業十四 &mdash; 2015FALL 40423216 CPB 作業</title>
+  <meta name="author" content="40423216">
 
 
 
@@ -31,7 +31,7 @@
 
 <body>
   <header role="banner"><hgroup>
-  <h1><a href="./">2015FALL 40423243 CPB 作業</a></h1>
+  <h1><a href="./">2015FALL 40423216 CPB 作業</a></h1>
 </hgroup></header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
 </ul>
@@ -47,22 +47,16 @@
 <div>
   <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">2016 計算機程式 作業十五</h1>
+      <h1 class="entry-title">2015 計算機程式 第十五週 作業十四</h1>
     <p class="meta">
-<time datetime="2016-01-08T15:06:00+08:00" pubdate>週五 08 一月 2016</time>    </p>
+<time datetime="2015-12-25T14:40:00+08:00" pubdate>週五 25 十二月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>以下為作業十五內容</p>
-<p>利用 iframe 嵌入投影片:</p>
-<iframe src="https://player.vimeo.com/video/151775776" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <div class="entry-content"><p>利用 iframe 嵌入投影片:</p>
+<iframe src="40423216_cp_w15_p.html" width="500" height="300"></iframe>
 
-<p><p><a href="https://vimeo.com/151775776">CPW15</a> from <a href="https://vimeo.com/user45620934">40423243</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<iframe src="https://player.vimeo.com/video/151775777" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p><p><a href="https://vimeo.com/151775777">CPW15-2</a> from <a href="https://vimeo.com/user45620934">40423243</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<p><a href="40423243_cp_w15_p.html" target="_blank">作業十五投影片</a></p>
-<p>以下利用 Brython 在網頁寫 Python 繪圖</p>
-<h3>Merry Xmas</h3>
+<p><a href="40423216_cp_w15_p.html" target="_blank">作業投影片</a></p>
+<p>###Merry Christmas  &amp;  Happy new year###</p>
 <!-- 導入 brython.js -->
 
 <script type="text/javascript" src="./../../js/Brython3.2.3-20151122-082712/brython.js"></script>
@@ -92,8 +86,8 @@ ctx = canvas.getContext("2d")
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,0,0,400)
-grd.addColorStop(1,"#00FFFF")
-grd.addColorStop(0,"#FF0080")
+grd.addColorStop(1,"#FFFF00")
+grd.addColorStop(0,"#FF0000")
 ctx.lineWidth = 20
 ctx.strokeStyle = grd
 ctx.moveTo(0,0)
@@ -102,8 +96,8 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(400,0,0,0)
-grd.addColorStop(1,"#00DB00")
-grd.addColorStop(0,"#921AFF")
+grd.addColorStop(1,"#FFFF00")
+grd.addColorStop(0,"#00FF00")
 ctx.strokeStyle = grd
 ctx.moveTo(0,0)
 ctx.lineTo(400,0)
@@ -111,8 +105,8 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,400,0,0)
-grd.addColorStop(1,"#BB5E00")
-grd.addColorStop(0,"#7373B9")
+grd.addColorStop(1,"#FFFF00")
+grd.addColorStop(0,"#00FF00")
 ctx.strokeStyle = grd
 ctx.moveTo(400,0)
 ctx.lineTo(400,400)
@@ -120,8 +114,8 @@ ctx.stroke()
 
 ctx.beginPath()
 grd=ctx.createLinearGradient(0,0,400,0)
-grd.addColorStop(0,"#949449")
-grd.addColorStop(1,"#DDDDFF")
+grd.addColorStop(0,"#FFFF00")
+grd.addColorStop(1,"#00FF00")
 ctx.strokeStyle = grd
 ctx.moveTo(0,410)
 ctx.lineTo(400,410)
@@ -158,16 +152,16 @@ ctx.moveTo(20, 270)
 ctx.lineTo(380, 270)
 
 ctx.lineWidth = 5
-ctx.strokeStyle = "#d3a4ff"
+ctx.strokeStyle = "#008800"
 ctx.stroke()
 
 
-ctx.fillStyle = "#ffaad5"
+ctx.fillStyle = "#663300"
 ctx.fillRect(180,271.5,40,129)
 
 
 ctx.beginPath()
-ctx.fillStyle = "#FFFF37"
+ctx.fillStyle = "#9900FF"
 ctx.fillRect(260,340,60,60)
 ctx.stroke()
 
@@ -196,12 +190,12 @@ ctx.moveTo(298,300)
 ctx.lineTo(322,320)
 
 ctx.lineWidth = 5
-ctx.strokeStyle = "#D7FFEE"
+ctx.strokeStyle = "#FFCC00"
 ctx.stroke()
 
 
 ctx.beginPath()
-ctx.fillStyle = "#FF5809"
+ctx.fillStyle = "#000099"
 ctx.fillRect(60,340,100,60)
 
 ctx.moveTo(60,370)
@@ -229,17 +223,22 @@ ctx.moveTo(141.5,330)
 ctx.lineTo(118.5,310)
 
 ctx.lineWidth = 5
-ctx.strokeStyle = "#AD5A5A"
+ctx.strokeStyle = "#CC0000"
 ctx.stroke()
 
 
-ctx.fillStyle = "#FF0000"
+ctx.fillStyle = "#66CCFF"
 ctx.font = "23px Dutch801 XBd BT"
 ctx.fillText("Merry ",13,28)
-ctx.fillStyle = "#000000"
 ctx.font = "23px Dutch801 XBd BT"
-ctx.fillText("Xmas",13,48)
-
+ctx.fillText("Christmas",13,48)
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("&",13,68)
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("Happy New ",13,88)
+ctx.font = "23px Dutch801 XBd BT"
+ctx.fillText("Year ",13,108)
+ctx.stroke()
 
 
 ctx.beginPath()
@@ -257,7 +256,7 @@ ctx.moveTo(280, 210)
 ctx.quadraticCurveTo(220, 240, 70, 270)
 
 ctx.lineWidth = 3
-ctx.strokeStyle = "#C07AB8"
+ctx.strokeStyle = "#CC0000"
 ctx.stroke()
 
 
@@ -275,8 +274,8 @@ ctx.quadraticCurveTo(180, 180, 300, 190)
 ctx.moveTo(320, 240)
 ctx.quadraticCurveTo(300, 260, 210, 270)
 
-ctx.lineWidth = 3
-ctx.strokeStyle = "#F3FF0A"
+ctx.lineWidth = 5.5
+ctx.strokeStyle = "#FFFF33"
 ctx.stroke()
 
 
@@ -295,15 +294,15 @@ ctx.quadraticCurveTo(180, 180, 100, 190)
 ctx.moveTo(92, 230)
 ctx.quadraticCurveTo(250, 260, 330, 270)
 
-ctx.lineWidth = 3
-ctx.strokeStyle = "#B1F7F7"
+ctx.lineWidth = 3.5
+ctx.strokeStyle = "#0099FF"
 ctx.stroke()
 
 
 ctx.beginPath()
-ctx.fillStyle = "   #2894FF"
+ctx.fillStyle = "#FF359A"
 ctx.font = "10px ScriptS"
-ctx.fillText("40423243 ",325,398)
+ctx.fillText("40423216 ",325,398)
 ctx.stroke()
 
 </script>
@@ -312,15 +311,19 @@ ctx.stroke()
 window.onload=function(){
 brython(1);
 }
-</script></div>
+</script>
+
+<iframe src="https://player.vimeo.com/video/151213450" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><p><a href="https://vimeo.com/151213450">4</a> from <a href="https://vimeo.com/user46241007">40423216</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
     Posted by <span class="fn">
-        40423243
+        40423216
     </span>
   </span>
-<time datetime="2016-01-08T15:06:00+08:00" pubdate>週五 08 一月 2016</time>  <span class="categories">
+<time datetime="2015-12-25T14:40:00+08:00" pubdate>週五 25 十二月 2015</time>  <span class="categories">
     <a class='category' href='./category/python.html'>Python</a>
   </span>
   <span class="categories">
@@ -339,19 +342,19 @@ brython(1);
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="./2015cp_hw_w15.html">2016 計算機程式 作業十五</a>
+          <a href="./40423216_cp_w15.html">2015 計算機程式 第十五週 作業十四</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w17.html">2016 計算機程式 作業十七</a>
+          <a href="./2015cpb_hw_w15.html">2015 計算機程式 第十五週</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w14.html">2015 計算機程式 作業十四</a>
+          <a href="./2015cpb_hw_w14.html">2015 計算機程式 第十四週</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w13.html">2015 計算機程式 作業十三</a>
+          <a href="./2015cpb_hw_w14.html">2015 計算機程式 第十四週</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w12.html">2015 計算機程式 作業十二</a>
+          <a href="./40423216_cp_w13.html">2015 計算機程式 第十三週 作業十二</a>
       </li>
     </ul>
   </section>
@@ -382,14 +385,14 @@ brython(1);
             <li><a href="http://wordpress-2015course.rhcloud.com/" target="_blank">2015課程網頁</a></li>
             <li><a href="http://python.org/" target="_blank">Python</a></li>
             <li><a href="../../" target="_blank">2015作業主頁</a></li>
-            <li><a href="http://40423243.github.io/github/" target="_blank">個人gh-pages</a></li>
+            <li><a href="http://40423216.github.io/jackson/" target="_blank">40423216作業倉儲</a></li>
         </ul>
     </section>
 
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-    Copyright &copy;  2015&ndash;2016  40423243 &mdash;
+    Copyright &copy;  2015  40423216 &mdash;
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   <script src="./theme/js/modernizr-2.0.js"></script>
@@ -397,9 +400,9 @@ brython(1);
   <script src="./theme/js/octopress.js" type="text/javascript"></script>
   <script type="text/javascript">
     var disqus_shortname = '2015fall';
-    var disqus_identifier = '/2015cp_hw_w15.html';
-    var disqus_url = './2015cp_hw_w15.html';
-    var disqus_title = '2016 計算機程式 作業十五';
+    var disqus_identifier = '/40423216_cp_w15.html';
+    var disqus_url = './40423216_cp_w15.html';
+    var disqus_title = '2015 計算機程式 第十五週 作業十四';
     (function() {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
       dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';

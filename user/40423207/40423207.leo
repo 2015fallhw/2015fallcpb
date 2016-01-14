@@ -10,42 +10,28 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20160107155447.1"><vh>@settings</vh>
-<v t="leo.20160107155447.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="leo.20160107155447.3"><vh>@string initial_split_orientation = horizontal</vh></v>
+<v t="123.20151218104909.1"><vh>@settings</vh>
+<v t="123.20151218104909.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
+<v t="123.20151218104909.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20160107155657.1"><vh>@button user pelican</vh></v>
-<v t="leo.20160107155559.1" a="E"><vh>@path ./../../</vh>
-<v t="leo.20160107155634.1" a="E"><vh>@path pelican</vh>
-<v t="leo.20160107155634.2"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20160107155634.3" a="E"><vh>@path content</vh>
-<v t="leo.20160107155634.4"><vh>@edit 40423218_cp_w0.md</vh></v>
-<v t="leo.20160112205600.1"><vh>@edit 40423218_cp_w1.md</vh></v>
-</v>
-</v>
-<v t="leo.20160107155559.2"><vh>@button admin pelican</vh></v>
-</v>
-<v t="leo.20160107155709.1" a="E"><vh>@path pelican</vh>
-<v t="leo.20160107155709.2"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20160107155709.3" a="E"><vh>@path content</vh>
-<v t="leo.20160107155709.4"><vh>@edit 40423218_cp_w0.md</vh></v>
-<v t="leo.20160112212436.1"><vh>@edit 40423218_cp_w9.md</vh></v>
-<v t="leo.20160114235720.1"><vh>@edit 40423218_cp_w14.md</vh></v>
-<v t="leo.20160114235723.1"><vh>@edit 40423218_cp_w15.md</vh></v>
+<v t="123.20151218110216.1"><vh>@button user pelican</vh></v>
+<v t="123.20151218110723.1" a="E"><vh>@path ./</vh>
+<v t="123.20151218110723.2"><vh>以下為投影片 ------------</vh></v>
+<v t="leo.20160115001609.1"><vh>@edit 40423207_cp_w1_p.html</vh></v>
+<v t="123.20151218110723.3"><vh>@edit 40423219_cp_w2_p.html</vh></v>
+<v t="123.20151218110723.6" a="E"><vh>@path pelican</vh>
+<v t="123.20151218110723.7"><vh>以下為設定檔 ------------</vh></v>
+<v t="123.20151218110723.8"><vh>@edit publishconf.py</vh></v>
+<v t="123.20151218110723.9" a="E"><vh>@path content</vh>
+<v t="123.20151218110723.10"><vh>以下為網誌 md 檔案 ------------</vh></v>
+<v t="123.20151218110723.12"><vh>@edit 40423207_cp_w1.md</vh></v>
 </v>
 </v>
-<v t="leo.20160107155720.1" a="E"><vh>投影片</vh>
-<v t="leo.20160107155720.2"><vh>@edit 40423218_cp_w0_p.html</vh></v>
-<v t="leo.20160107155720.14"><vh>@edit g1w16_p.html</vh></v>
-<v t="leo.20160112212228.1"><vh>@edit 40423218_cp_w9_p.html</vh></v>
-<v t="leo.20160114235744.1"><vh>@edit 40423218_cp_w16_p.html</vh></v>
-<v t="leo.20160114235745.1"><vh>@edit 40423218_cp_w15_p.html</vh></v>
-<v t="leo.20160114235747.1"><vh>@edit 40423218_cp_w14_p.html</vh></v>
 </v>
 </vnodes>
 <tnodes>
-<t tx="leo.20160107155447.1"></t>
-<t tx="leo.20160107155447.2">QTreeWidget {
+<t tx="123.20151218104909.1"></t>
+<t tx="123.20151218104909.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
     background-color: #ffffec; /* Leo's traditional tree color */
     selection-color: black; /* was white */
@@ -118,21 +104,17 @@ QLineEdit#editorLabel {
     border: 2px;
     margin: 2px;
 }</t>
-<t tx="leo.20160107155447.3">horizontal: body pane to the left
+<t tx="123.20151218104909.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20160107155559.1"></t>
-<t tx="leo.20160107155559.2">@language python
-import os
-os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
-g.es("admin pelican 執行完畢")</t>
-<t tx="leo.20160107155634.1"></t>
-<t tx="leo.20160107155634.3"></t>
-<t tx="leo.20160107155657.1">@language python
+<t tx="123.20151218110216.1">@language python
 import os
 os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t ../../theme/pelican-octopress")
 g.es("user pelican 執行完畢")</t>
-<t tx="leo.20160107155709.1"></t>
-<t tx="leo.20160107155709.3"></t>
-<t tx="leo.20160107155720.1"></t>
+<t tx="123.20151218110723.1"></t>
+<t tx="123.20151218110723.10"></t>
+<t tx="123.20151218110723.2"></t>
+<t tx="123.20151218110723.6"></t>
+<t tx="123.20151218110723.7"></t>
+<t tx="123.20151218110723.9"></t>
 </tnodes>
 </leo_file>

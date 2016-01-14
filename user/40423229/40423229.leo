@@ -15,7 +15,7 @@
 <v t="leo.20151215210141.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="leo.20151215210536.1"><vh>@button user pelican</vh></v>
-<v t="leo.20160110215623.1" a="E"><vh>@path ./</vh>
+<v t="leo.20160110215623.1"><vh>@path ./</vh>
 <v t="leo.20160110215623.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20160110215623.3"><vh>@edit 40423229_cp_w1_p.html</vh></v>
 <v t="leo.20160110215623.4"><vh>@edit 40423229_cp_w2_p.html</vh></v>

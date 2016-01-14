@@ -566,7 +566,12 @@ for i in range(11):
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html">&lt;!-- 導入 brython.js --&gt;
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html">&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="40423203_cp_w14_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423203_cp_w14_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
+&lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/40423216-w14.js"&gt;&lt;/script&gt;
 
@@ -615,7 +620,12 @@ for i in range(11):
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html">&lt;!-- 導入 brython.js --&gt;
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十四週</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423216</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html">&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="40423203_cp_w14_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423203_cp_w14_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
+&lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/40423216-w14.js"&gt;&lt;/script&gt;
 

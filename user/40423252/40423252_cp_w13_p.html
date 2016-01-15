@@ -1,0 +1,90 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423212-6</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>zero to hero python教學</h1>
+    <p>40423212 四設一乙 吳秉駿</p>		
+</section>
+<section>
+<h2>循環指令</h2>
+這個指令並不是特別的字串,而是利用加減法的方式得到循環的效果
+</section>
+  
+<section>
+<h2>次數=次數+1?</h2>
+在正常的算術中這個式子看起來相當不合理，那麼在這個次數+1到底能做怎麼樣的事情呢?
+</section>
+				
+<section>
+我們可以先設定"次數"的初始次數，例如:
+<br />
+次數=0
+<br />
+再來設定"次數"的上限:
+<br />
+while=次數<4(while是如果指令)
+<br />
+再來在下面設定:
+<br />
+次數=次數+1(也可以寫作次數+=1)
+<br />
+最後在中間加入想要循環的內容，就可以達到迴圈的效果了。
+</section>
+<section>
+<h2>這個跟for i in range又有什麼不同呢?</h2>
+for i in range的好處:
+<br />
+字串短
+<br />
+適合直接成形的短字串
+<br />
++=迴圈的好處:
+<br />
+較有條理
+<br />
+編輯方便,適合長時間需要修改/寫入的字串
+<br />
+各有利弊，甚至也可以兩者並用
+</section>
+
+<section>
+<h2>心得與自評</h2>
+字串學得比較多的時候，一個問題往往可以用一種以上的字串來解決他，至於使用哪一種對自己最有利就考驗工程師的技巧了
+<br />
+個人給自己70分
+</section>
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

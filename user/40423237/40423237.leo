@@ -15,9 +15,9 @@
 <v t="leo.20151214231352.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="leo.20151218162646.1"><vh>@button user pelican</vh></v>
-<v t="leo.20151218141508.1" a="E"><vh>@path ./../../</vh>
+<v t="leo.20151218141508.1"><vh>@path ./../../</vh>
 <v t="leo.20151214225422.1"><vh>@button admin pelican</vh></v>
-<v t="leo.20151218141859.1" a="E"><vh>@path pelican</vh>
+<v t="leo.20151218141859.1"><vh>@path pelican</vh>
 <v t="leo.20151218143122.1"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151218141540.1"><vh>@path content</vh></v>
 </v>
@@ -40,7 +40,7 @@
 <v t="leo.20160108222951.1"><vh>@edit 40423237_cp_w16.md</vh></v>
 </v>
 </v>
-<v t="leo.20151218152605.1" a="E"><vh>投影片</vh>
+<v t="leo.20151218152605.1"><vh>投影片</vh>
 <v t="leo.20151214224704.3"><vh>@edit 40423237_cp_w0_p.html</vh></v>
 <v t="leo.20151214224704.4"><vh>@edit 40423237_cp_w1_p.html</vh></v>
 <v t="leo.20151214224704.5"><vh>@edit 40423237_cp_w2_p.html</vh></v>

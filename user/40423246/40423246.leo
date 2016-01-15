@@ -14,7 +14,7 @@
 <v t="leo.20151225141844.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151225141844.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20151225141809.2"><vh>@path ./../../</vh>
+<v t="leo.20151225141809.2" a="E"><vh>@path ./../../</vh>
 <v t="leo.20151225142309.1"><vh>@button admin pelican</vh></v>
 <v t="leo.20151225143150.1" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225143150.2"><vh>@edit publishconf.py</vh></v>

@@ -1,5 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40123157 CPB 作業 (期中報告)</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-11-06T16:00:00+08:00</updated><entry><title>2015 計算機程式 作業八 (自我評量)</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w8.html" rel="alternate"></link><updated>2015-11-06T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2015-11-06:reveal/2015cp_hw_w8.html</id><summary type="html">&lt;iframe src="40123157_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40123157 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-08T16:00:00+08:00</updated><entry><title>2015 計算機程式 作業九 (期末報告)</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w9.html" rel="alternate"></link><updated>2016-01-08T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2016-01-08:reveal/2015cp_hw_w9.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;fix.zip&lt;/strong&gt;: 系統修復 &lt;a href="http://wordpress-2015course.rhcloud.com/?page_id=3633" target="_blank"&gt;2015Fall 課程: 課程可攜檔案下載&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;從課程網頁下載 fix.zip (copy.com)&lt;/li&gt;
+&lt;li&gt;解壓縮 fix.zip 點 fix.bat 即複製4個檔案到 &lt;code&gt;(C:)/Ana3_2015/start.bat&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;到 github 搜尋 leo-editor 下載最新版本 &lt;a href="https://github.com/leo-editor/leo-editor" target="_blank"&gt;github.com: leo-editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;到 &lt;code&gt;Ana3_2015/data/SciTE/SciTE.exe&lt;/code&gt; 啟動編輯器(尚未啟動start)&lt;/li&gt;
+&lt;li&gt;用 SciTE 開啟 fix.bat 新增 &lt;code&gt;copy leo-editor-master.zip C:\Ana3_2015\data\&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;用 SciTE 開啟 start.bat 修改第37行安裝 &lt;code&gt;pip install leo-editor-master.zip&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Python3語法&lt;/strong&gt;: 以猜數字遊戲為例&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;到課程網頁左側點案以 &lt;a href="http://wordpress-2015course.rhcloud.com/?p=4403" target="_blank"&gt;以猜數字遊戲作為案例&lt;/a&gt; 為例&lt;/li&gt;
+&lt;li&gt;點案內文第一行 &lt;code&gt;"零基礎學 Python"&lt;/code&gt; 複製底下 16行程式碼&lt;/li&gt;
+&lt;li&gt;儲存在 &lt;code&gt;C:\Ana3_2015\data\tmp&lt;/code&gt; 另存檔名 &lt;code&gt;"cpw11_guess1.py"&lt;/code&gt; 並執行猜數字遊戲&lt;/li&gt;
+&lt;li&gt;可在第6行加入 &lt;code&gt;"print(標準答案)"&lt;/code&gt; 即可在執行後直接顯示答案&lt;/li&gt;
+&lt;li&gt;程式編碼 &lt;code&gt;"#coding: utf-8"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;第2行為註解 &lt;code&gt;"# 猜數字遊戲"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;第3行導入 python 亂數模組 &lt;code&gt;"import random"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;第5行訂定變數名稱 &lt;code&gt;"標準答案"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上網搜尋 &lt;a href="http://stackoverflow.com/questions/14595922/list-of-python-keywords" target="_blank"&gt;list of python keywords&lt;/a&gt; python 關鍵字&lt;/li&gt;
+&lt;li&gt;複製底下兩行程式碼 (編輯器: Options/Wrap, 捲回程式頁面; Tool/Clear Output: 清除輸出頁面)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;     &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;keyword&lt;/span&gt;
+     &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;keyword&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;kwlist&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+     &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;keyword&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;kwlist&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;  &lt;span class="c"&gt;#len: 數列共33個關鍵字&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;'''多行註解'''&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;    &lt;span class="sd"&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class="sd"&gt;    [&amp;#39;False&amp;#39;, &amp;#39;None&amp;#39;, &amp;#39;True&amp;#39;, &amp;#39;and&amp;#39;, &amp;#39;as&amp;#39;, &amp;#39;assert&amp;#39;, &amp;#39;break&amp;#39;, &amp;#39;class&amp;#39;, &amp;#39;continue&amp;#39;, &amp;#39;def&amp;#39;,&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;#39;del&amp;#39;, &amp;#39;elif&amp;#39;, &amp;#39;else&amp;#39;, &amp;#39;except&amp;#39;, &amp;#39;finally&amp;#39;, &amp;#39;for&amp;#39;, &amp;#39;from&amp;#39;, &amp;#39;global&amp;#39;, &amp;#39;if&amp;#39;, &amp;#39;import&amp;#39;, &amp;#39;in&amp;#39;, &amp;#39;is&amp;#39;,&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;#39;lambda&amp;#39;, &amp;#39;nonlocal&amp;#39;, &amp;#39;not&amp;#39;, &amp;#39;or&amp;#39;, &amp;#39;pass&amp;#39;, &amp;#39;raise&amp;#39;, &amp;#39;return&amp;#39;, &amp;#39;try&amp;#39;, &amp;#39;while&amp;#39;, &amp;#39;with&amp;#39;,&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;#39;yield&amp;#39;]&lt;/span&gt;
+&lt;span class="sd"&gt;    &amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;選擇變數名稱無法用數字,關鍵字當開頭; 可以用底線當開頭&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;random.randint(1, 100)&lt;/code&gt; #(數字範圍: 1~100; 包含1與100)
+可用 &lt;code&gt;"標準答案 = random.randint(1, 1)"&lt;/code&gt; 測試&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;你猜的數字 = int(input("請輸入您所猜的整數:"))&lt;/code&gt;  #input: 取到字串, int: 轉成整數; 整數: integer, 字串: string, 浮點數: float&lt;/li&gt;
+&lt;li&gt;把1對應到猜測數字 &lt;code&gt;"猜測次數 = 1"&lt;/code&gt;  #對應關係非等於&lt;/li&gt;
+&lt;li&gt;迴圈&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="err"&gt;你猜的數字&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;  &lt;span class="c"&gt;#!= 不等於, : 還沒講完&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="err"&gt;你猜的數字&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;  &lt;span class="c"&gt;#內容內縮4個空格(不成文規定, 慣用)&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;太大了，再猜一次 :)加油&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;太小了，再猜一次 :)加油&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="err"&gt;你猜的數字&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;請輸入您所猜的整數:&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+    &lt;span class="err"&gt;猜測次數&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;  &lt;span class="c"&gt;#簡寫 &amp;quot;猜測次數 = 猜測次數 +1&amp;quot; (記憶體位置推應)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;跳出迴圈, 列印 &lt;code&gt;"print("猜對了！總共猜了", 猜測次數, "次")"&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;猜數字遊戲(電腦自猜)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#coding: utf-8&lt;/span&gt;
+&lt;span class="c"&gt;# 猜數字遊戲(電腦自猜)&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt;
+
+&lt;span class="err"&gt;下限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="err"&gt;上限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;10000&lt;/span&gt;
+&lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;下限&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;上限&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;pc猜的數字&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;下限&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;上限&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="c"&gt;#print(標準答案)&lt;/span&gt;
+&lt;span class="c"&gt;#你猜的數字 = int(input(&amp;quot;請輸入您所猜的整數:&amp;quot;))&lt;/span&gt;
+&lt;span class="err"&gt;猜測次數&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;太大了，再猜一次 :)加油&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="err"&gt;上限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;太小了，再猜一次 :)加油&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="err"&gt;下限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;
+    &lt;span class="n"&gt;pc猜的數字&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;下限&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;上限&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="err"&gt;猜測次數&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;猜對了！總共猜了&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;猜測次數&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;次&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;猜數字遊戲(電腦自猜平均次數)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt;
+&lt;span class="err"&gt;執行次數&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1000&lt;/span&gt;
+&lt;span class="err"&gt;總猜測次數&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;執行次數&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="err"&gt;下限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+    &lt;span class="err"&gt;上限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;
+    &lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;下限&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;上限&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;pc猜的數字&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;下限&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;上限&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="c"&gt;#print(標準答案)&lt;/span&gt;
+    &lt;span class="c"&gt;#你猜的數字 = int(input(&amp;quot;請輸入您所猜的整數:&amp;quot;))&lt;/span&gt;
+    &lt;span class="err"&gt;猜測次數&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="err"&gt;標準答案&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="c"&gt;#print(&amp;quot;太大了，再猜一次 :)加油&amp;quot;)&lt;/span&gt;
+            &lt;span class="err"&gt;上限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="c"&gt;#print(&amp;quot;太小了，再猜一次 :)加油&amp;quot;)&lt;/span&gt;
+            &lt;span class="err"&gt;下限&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pc猜的數字&lt;/span&gt;
+        &lt;span class="n"&gt;pc猜的數字&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;下限&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;上限&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="err"&gt;猜測次數&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;猜對了！總共猜了&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;猜測次數&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;次&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="err"&gt;總猜測次數&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="err"&gt;猜測次數&lt;/span&gt;
+&lt;span class="err"&gt;平均猜測次數&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="err"&gt;總猜測次數&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="err"&gt;執行次數&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;平均次數&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="err"&gt;平均猜測次數&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;猜數字&lt;/strong&gt;遊戲程式流程圖: &lt;a href="http://wordpress-2015course.rhcloud.com/?p=4319" target="_blank"&gt;程式碼&lt;/a&gt;
+     &lt;img src="https://copy.com/DRy4qVbBJCyBkQox"&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;猜顏色&lt;/strong&gt;遊戲程式流程圖: &lt;a href="http://wordpress-2015course.rhcloud.com/?p=4476#more-4476" target="_blank"&gt;程式碼&lt;/a&gt;
+    &lt;img src="https://copy.com/zQH30w4NSap9hTdG"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;G10&lt;/strong&gt;期末分組報告: &lt;a href="http://2015fallhw.github.io/2015fallcpb/category/g10.html" target="_blank"&gt;2015fallcpb/G10&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業八 (自我評量)</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w8.html" rel="alternate"></link><updated>2015-11-06T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2015-11-06:reveal/2015cp_hw_w8.html</id><summary type="html">&lt;iframe src="40123157_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40123157_cp_w8_p.html" target="_blank"&gt;作業八投影片&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;

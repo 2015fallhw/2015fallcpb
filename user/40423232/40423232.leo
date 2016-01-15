@@ -10,59 +10,6 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<<<<<<< HEAD
-<v t="leo.20160114004723.1"><vh>@settings</vh>
-<v t="leo.20160114004723.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
-<v t="leo.20160114004723.3"><vh>@string initial_split_orientation = horizontal</vh></v>
-</v>
-<v t="leo.20160114004732.1"><vh>@button user pelican</vh></v>
-<v t="leo.20160114004737.1" a="E"><vh>@path ./../../</vh>
-<v t="leo.20160114004737.2"><vh>@button admin pelican</vh></v>
-<v t="leo.20160114004737.3" a="E"><vh>@path pelican</vh>
-<v t="leo.20160114004737.4"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20160114004737.5"><vh>@path content</vh></v>
-</v>
-</v>
-<v t="leo.20160114004744.1" a="E"><vh>@path pelican</vh>
-<v t="leo.20160114004744.2"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20160114004744.3" a="E"><vh>@path content</vh>
-<v t="leo.20160114004744.4"><vh>@edit 40423225_cp_w1.md</vh></v>
-<v t="leo.20160114004744.5"><vh>@edit 40423225_cp_w2.md</vh></v>
-<v t="leo.20160114004744.6"><vh>@edit 40423225_cp_w3.md</vh></v>
-<v t="leo.20160114004744.7"><vh>@edit 40423225_cp_w4.md</vh></v>
-<v t="leo.20160114004744.8"><vh>@edit 40423225_cp_w5.md</vh></v>
-<v t="leo.20160114004744.9"><vh>@edit 40423225_cp_w6.md</vh></v>
-<v t="leo.20160114004744.10"><vh>@edit 40423225_cp_w7.md</vh></v>
-<v t="leo.20160114004744.11"><vh>@edit 40423225_cp_w8.md</vh></v>
-<v t="leo.20160114004744.12"><vh>@edit 40423225_cp_w9.md</vh></v>
-<v t="leo.20160114004744.13"><vh>@edit 40423225_cp_w11.md</vh></v>
-<v t="leo.20160114004744.14"><vh>@edit 40423225_cp_w12.md</vh></v>
-<v t="leo.20160114004744.15"><vh>@edit 40423225_cp_w13.md</vh></v>
-<v t="leo.20160114004744.16"><vh>@edit 40423225_cp_w14.md</vh></v>
-<v t="leo.20160114004744.17"><vh>@edit 40423225_cp_w15.md</vh></v>
-</v>
-</v>
-<v t="leo.20160114004751.1" a="E"><vh>投影片</vh>
-<v t="leo.20160114004751.2"><vh>@edit 40423225_cp_w1_p.html</vh></v>
-<v t="leo.20160114004751.3"><vh>@edit 40423225_cp_w2_p.html</vh></v>
-<v t="leo.20160114004751.4"><vh>@edit 40423225_cp_w3_p.html</vh></v>
-<v t="leo.20160114004751.5"><vh>@edit 40423225_cp_w4_p.html</vh></v>
-<v t="leo.20160114004751.6"><vh>@edit 40423225_cp_w5_p.html</vh></v>
-<v t="leo.20160114004751.7"><vh>@edit 40423225_cp_w6_p.html</vh></v>
-<v t="leo.20160114004751.8"><vh>@edit 40423225_cp_w7_p.html</vh></v>
-<v t="leo.20160114004751.9"><vh>@edit 40423225_cp_w8_p.html</vh></v>
-<v t="leo.20160114004751.10"><vh>@edit 40423225_cp_w9_p.html</vh></v>
-<v t="leo.20160114004751.11"><vh>@edit 40423225_cp_w11_p.html</vh></v>
-<v t="leo.20160114004751.12"><vh>@edit 40423225_cp_w12_p.html</vh></v>
-<v t="leo.20160114004751.13"><vh>@edit 40423225_cp_w13_p.html</vh></v>
-<v t="leo.20160114004751.14"><vh>@edit 40423225_cp_w14_p.html</vh></v>
-<v t="leo.20160114004751.15"><vh>@edit 40423225_cp_w15_p.html</vh></v>
-</v>
-</vnodes>
-<tnodes>
-<t tx="leo.20160114004723.1"></t>
-<t tx="leo.20160114004723.2">QTreeWidget {
-=======
 <v t="leo.20151214231352.1"><vh>@settings</vh>
 <v t="leo.20151214231352.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151214231352.3"><vh>@string initial_split_orientation = horizontal</vh></v>
@@ -90,7 +37,7 @@
 <v t="leo.20151214224704.27"><vh>@edit 40423232_cp_w13.md</vh></v>
 <v t="leo.20151218161549.1"><vh>@edit 40423232_cp_w14.md</vh></v>
 <v t="leo.20151226004706.1"><vh>@edit 40423232_cp_w15.md</vh></v>
-<v t="leo.20160108222951.1"><vh>@edit 40423232_cp_w16.md</vh></v>
+<v t="leo.20160108222951.1"><vh>@edit 40423232_cp_w17.md</vh></v>
 </v>
 </v>
 <v t="leo.20151218152605.1" a="E"><vh>投影片</vh>
@@ -106,6 +53,7 @@
 <v t="leo.20151214224704.12"><vh>@edit 40423232_cp_w13_p.html</vh></v>
 <v t="leo.20151220011738.1"><vh>@edit 40423232_cp_w14_p.html</vh></v>
 <v t="leo.20151226004701.1"><vh>@edit 40423232_cp_w15_p.html</vh></v>
+<v t="leo.20160116004054.1"><vh>@edit 40423232_cp_w17_p.html</vh></v>
 </v>
 </vnodes>
 <tnodes>
@@ -117,7 +65,6 @@ os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/peli
 g.es("admin pelican 執行完畢")</t>
 <t tx="leo.20151214231352.1"></t>
 <t tx="leo.20151214231352.2">QTreeWidget {
->>>>>>> 9ccb95411aafb88a27188a4707636bea113c8e0b
     /* These apply to the selected item, but not to editing items.*/
     background-color: #ffffec; /* Leo's traditional tree color */
     selection-color: black; /* was white */
@@ -190,24 +137,6 @@ QLineEdit#editorLabel {
     border: 2px;
     margin: 2px;
 }</t>
-<<<<<<< HEAD
-<t tx="leo.20160114004723.3">horizontal: body pane to the left
-vertical: body pane on the botton</t>
-<t tx="leo.20160114004732.1">@language python
-import os
-os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t ../../theme/pelican-octopress")
-g.es("user pelican 執行完畢")</t>
-<t tx="leo.20160114004737.1"></t>
-<t tx="leo.20160114004737.2">@language python
-import os
-os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t theme/pelican-octopress")
-g.es("admin pelican 執行完畢")</t>
-<t tx="leo.20160114004737.3"></t>
-<t tx="leo.20160114004737.5"></t>
-<t tx="leo.20160114004744.1"></t>
-<t tx="leo.20160114004744.3"></t>
-<t tx="leo.20160114004751.1"></t>
-=======
 <t tx="leo.20151214231352.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
 <t tx="leo.20151218141508.1"></t>
@@ -218,6 +147,5 @@ vertical: body pane on the botton</t>
 import os
 os.system("pelican pelican/content -o ./ -s pelican/publishconf.py -t ../../theme/pelican-octopress")
 g.es("user pelican 執行完畢")</t>
->>>>>>> 9ccb95411aafb88a27188a4707636bea113c8e0b
 </tnodes>
 </leo_file>

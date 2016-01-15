@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423203 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-08T14:40:00+08:00</updated><entry><title>2015 計算機程式 第十七週 作業十五</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w17.html" rel="alternate"></link><updated>2016-01-08T14:40:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2016-01-08:reveal/40423203_cp_w17.html</id><summary type="html">&lt;p&gt;以下為作業十五內容&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423203 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-15T14:00:00+08:00</updated><entry><title>2015 計算機程式 第十八週 作業十六</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w18.html" rel="alternate"></link><updated>2016-01-15T14:00:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2016-01-15:reveal/40423203_cp_w18.html</id><summary type="html">&lt;p&gt;以下為作業十五內容&lt;/p&gt;
+&lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
+&lt;iframe src="40423203_cp_w18_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423203_cp_w18_p.html" target="_blank"&gt;作業投影片&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 第十七週 作業十五</title><link href="http://coursemdetw.github.io/reveal/40423203_cp_w17.html" rel="alternate"></link><updated>2016-01-08T14:40:00+08:00</updated><author><name>40423203</name></author><id>tag:coursemdetw.github.io,2016-01-08:reveal/40423203_cp_w17.html</id><summary type="html">&lt;p&gt;以下為作業十五內容&lt;/p&gt;
 &lt;p&gt;利用 iframe 嵌入投影片:&lt;/p&gt;
 &lt;iframe src="40423203_cp_w17_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 

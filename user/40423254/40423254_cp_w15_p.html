@@ -25,65 +25,38 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>zero to hero python教學15</h1>
+    <h1>Python3的近端程式開發系統如何建立</h1>
     <p>四設計一乙 40423254 蘇柏丞</p>		
 </section>
 <section>
-<h2>間接編輯檔案?</h2>
-python也可以用來編輯文字檔,甚至連excel(.csv檔)的表格都能填上去!
-</section>
-  
-<section>
-首先當然是建立檔案,為了最大化利用python,我們也能拿python來建立檔案
-<br />
-fileName='fd.txt'
-<br />
-write='w'
-<br />
-file = open(fileName,mode=write)
-<br />
-就能產生一個叫fd的txt檔(就是大家熟悉的筆記本)
-</section>
-				
-<section>
-<h2>編輯內容</h2>
-延續前面建立的內容繼續寫下:
-<br />
-file.write('ch11,done')
-<br />
-file.write('ch12,undo\n')
-<br />
-file.close
-<br />
-print('file written successful')
-<br />
-重開筆記本就會在裡面輸入文字內容
+<h2></h2>
+從 http://www.python.org/download/ 下載 Python 3.3.1, Doc 與 test scripts 不安裝, 容量大約 26 MB.
 
-</section>
-<section>
-甚至能搭配input指令
-<br />
-data=input('輸入字句')
-<br />
-file = open(fileName,mode=write)
-<br />
-file.write(data)
-<br />
-file.close()
-<br />
-就可以自由輸入來編輯了
-</section>
+接著從 http://www.lfd.uci.edu/~gohlke/pythonlibs/#distribute 下載 distribute-0.6.36.win32-py3.3.‌exe, 安裝後約佔
 
-<section>
-<h2>心得與自評</h2>
-單純看這個指令非常多此一舉,但感覺如果搭配上其他語法一起使用,就可以變成一個實用的編輯器,語法往往都需要互相做配合才能體現出其效果
-<br />
-個人給自己65分
+30MB.
+
+接著從 http://www.lfd.uci.edu/~gohlke/pythonlibs/#pip 下載 pip-1.3.1.win32-py3.3.‌exe, 安裝後約佔 32MB.
+
+接著從 http://sourceforge.net/projects/pywin32/files/pywin32/Build%20218/ 下載 pywin32-218.win32-py3.3.exe, 安裝
+
+後約佔 58MB.
+
+接著從 http://www.riverbankcomputing.com/software/pyqt/download 下載 PyQt4-4.10-gpl-Py3.3-Qt5.0.1-x32-2.exe, Doc 與 Examples 不安裝, 安裝後約佔 166MB.
+註: 因為安裝 PyQt4/Qt5 必須要從 http://www.microsoft.com/en-us/download/search.aspx?q=directx 更新 directx, 對於沒有更新的電腦就無法讓 Leo Editor 擷取到最新的 directx dll, 因為這不是 Leo 編輯器的問題, 而是 PyQt4 連結 Qt5 dll 所造成的問題
+
+目前還不知道 PyQt5 是否可以在未更新 directx 的情況下讓 2014 年即將退役的 Windows XP 正常使用 Qt5 的 dll
+
+因此依賴 PyQt 的 Leo Editor 根本無法主動修改, 只有兩條路可以走, 就是在 PyQt4 配合 Qt5 的情況下, 更新 Windows 的directx, 或者是回到 PyQt4 與 Qt4 的搭配, 等待 PyQt5 與 Qt5 的版本到來, 然後再看是否能在未更新 dirextx 或更新directx 的操作系統中彼此相容.
+
+這裡我們選擇在 PyQt4/Qt4 的模式下來啟動 Leo 編輯器, 也就從
+
+http://www.riverbankcomputing.com/software/pyqt/download 下載 PyQt4-4.10-gpl-Py3.3-Qt4.8.4-x32.exe, 而非 PyQt4-4.10-gpl-Py3.3-Qt5.0.1-x32-2.exe.
+
+接著從 http://www.lfd.uci.edu/~gohlke/pythonlibs/#docutils 下載 docutils-0.10.win32-py3.3.‌exe, 安裝後約佔 172MB.
+
+接著從 http://www.greygreen.org/leo/ 下載 leo-editor-snapshot-20130408.zip, 解開後將 leo 目錄放到 C: \Python33\Lib\site-packages\, 整個 C:\Python33 約為 190MB.
 </section>
-</div>
-</div>
-<script src="lib/js/head.min.js"></script>
-<script src="js/reveal.min.js"></script>
 <script>
     // 啟動 Reveal.
     Reveal.initialize({

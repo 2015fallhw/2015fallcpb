@@ -25,77 +25,68 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>期中報告心得</h1>
-    <p>40423232 四設一乙 郭金豪</p>		
+    <h1>zero to hero python教學</h1>
+    <p>40423232 郭金豪</p>		
 </section>
 	
 <section id="hw-task-five">
 <section>
+  
 </section>
-    <h1>學到的一些東西</h1>
-這兩個月的課程我們學會......交作業,當然交這個作業要稍微理解一些地方的程序,才不會打開筆記之後無從起步.
+    <h1>日期計算</h1>
+ python互動的進階模式,可以直接取電腦上的時間來進行計算
 </section>
   
 <section>
-<h2>如何把倉儲的東西抓下來</h2>
+我們先導入電腦時間,指令為:
 <br />
-先打開start弄出y槽,leo editor(要自行下載),jupyter,SciTE及cmd等,弄出一個做作業的環境
+import dateline
 <br />
-cmd會預設y槽的路徑,即Y:\>,使用cd 來選擇自己要放作業的位置,例如我要放在tmp,就輸入cd tmp,就會進到tmp
-
+之後我們輸入現在時間,指令為:
+<br />
+currentDate = datetime.date.today()
+<br />
+最後還是用print來做輸出
+<br />
+print(currentDate)
+<br />
+就可以讓電腦用python認出電腦時間
 </section>
 				
 <section>
-之後複製在gh-pages的github clone URL,輸入:
+python也能認得年,月,:
     <br />
-git clone https...........
+print(currentDate.month)
 <br />
-就能把倉儲的東西複製進y槽的tmp
+可以得到月
 <br />
-但打開來之後發現,只有3個檔案,這是因為我們還沒把電腦拉下來的倉儲資料切至gh-pages,欲要切換,輸入:
+print(currentDate.year)
 <br />
-git checkout gh-pages
-<br />
-就會換成github gh-pages的檔案了
+可以得到年
 </section>
 <section>
-我們可以在裡面找到reveal.leo,這是我們要做作業用的檔案
-</section>
-<section>
-    <section>
-    下拉製作投影片,右拉上傳
-    </section>
-    <section>
-    每個指令碼都需要放在大於小於之間
+<h1>使用strftime指令</h1>
+strftime可以把後續的代數指令變簡單一些,但非常難以記憶,通常是以書本或網路來記載:
     <br />
-  section /section之間:個投影片
-  <br/>
-  br /:換行
-<br />
-  h數字:標題,數字為標題大小,內部建議用2
-,標題建議用1
-<br />
-會這些就能做一個基本的投影片了
-    </section>
+ print(currentDate.strftime('%d %b, %Y'))
+    <br />
+%d=日
+    <br />
+%b=月
+    <br />
+%Y=年
+    <br />
+可以查詢'http://strftime.org/'來找更多關於strftime語法的使用
+</section>
+  
+<section>
+<h1>對python課程的一些感想</h1>
+在python的語法下,兩種不同的語法也有可能會產生一樣的結果,而在部份情況下,strftime這個指令或許可以讓工作處理得更效率
 </section>
 
 <section>
-git add -A>>打包(A=全部)
-<br />
-git commit -m"隨意取">>幫你打的包取個名字,方便於日後查看更新過程
-<br />
-如果第一次上傳或電腦有還原卡,會要求輸入信箱及使用者名稱
-<br />
-git push>>上傳
-<br />
-輸入完用戶名稱及密碼後,如果尚未更新,那可能是發生衝突,我們要先輸入git pull後
-進行除錯(刪除7個一行的大小等於,vr跟v的對應)後再上傳
-</section>
-<section>
-<h2>心得與自評</h2>
-自己在做這一系列的檔案時,也碰過不少壁,雖然感覺相當糗,甚至搞壞了整個倉儲,但最後事情都是解決的,也在解決過程中稍微熟悉了這一系列的操作,之後的操作只會越來越難,也希望自己能夠一一克服
-<br />
-個人給自己75分
+<h1>心得與自評</h1>
+<p>第六周了已經有人把作業丟到全班倉儲,但由於到後面有衝突,以至於我無法將自己的檔案上傳至倉儲,系望倉儲的衝突可以盡早解決。自評分數 : 63分</p>
 </section>
 </div>
 </div>

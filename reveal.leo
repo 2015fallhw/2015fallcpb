@@ -949,12 +949,12 @@
 <v t="leo.20151118041924.8"><vh>@edit 40123254_cp_w6_p.html</vh></v>
 <v t="leo.20151118041924.9"><vh>@edit 40123254_cp_w7_p.html</vh></v>
 <v t="leo.20151118041924.10"><vh>@edit 40123254_cp_w8_p.html</vh></v>
-<v t="leo.20160115072439.1"><vh>@edit 40423254_cp_w9_p.html</vh></v>
-<v t="leo.20160115072544.1"><vh>@edit 40423254_cp_w11_p.html</vh></v>
-<v t="leo.20160115072556.1"><vh>@edit 40423254_cp_w12_p.html</vh></v>
-<v t="leo.20160115072608.1"><vh>@edit 40423254_cp_w13_p.html</vh></v>
-<v t="leo.20160115072528.1"><vh>@edit 40423254_cp_w14_p.html</vh></v>
-<v t="leo.20160115072508.1"><vh>@edit 40423254_cp_w15_p.html</vh></v>
+<v t="leo.20160115072439.1"><vh>@edit 40123254_cp_w9_p.html</vh></v>
+<v t="leo.20160115072544.1"><vh>@edit 40123254_cp_w11_p.html</vh></v>
+<v t="leo.20160115072556.1"><vh>@edit 40123254_cp_w12_p.html</vh></v>
+<v t="leo.20160115072608.1"><vh>@edit 40123254_cp_w13_p.html</vh></v>
+<v t="leo.20160115072528.1"><vh>@edit 40123254_cp_w14_p.html</vh></v>
+<v t="leo.20160115072508.1"><vh>@edit 40123254_cp_w15_p.html</vh></v>
 <v t="leo.20151118041924.11" a="E"><vh>@path pelican</vh>
 <v t="leo.20151118041924.12"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151118041924.13"><vh>@edit publishconf.py</vh></v>
@@ -967,12 +967,12 @@
 <v t="leo.20151118041924.21"><vh>@edit 40123254_cp_w6.md</vh></v>
 <v t="leo.20151118041924.22"><vh>@edit 40123254_cp_w7.md</vh></v>
 <v t="leo.20151118041924.23"><vh>@edit 40123254_cp_w8.md</vh></v>
-<v t="leo.20160115073147.1"><vh>@edit 40423254_cp_w9.md</vh></v>
-<v t="leo.20160115073244.1"><vh>@edit 40423254_cp_w11.md</vh></v>
-<v t="leo.20160115073209.1"><vh>@edit 40423254_cp_w12.md</vh></v>
-<v t="leo.20160115073223.1"><vh>@edit 40423254_cp_w13.md</vh></v>
-<v t="leo.20160115073504.1"><vh>@edit 40423254_cp_w14.md</vh></v>
-<v t="leo.20160115073518.1"><vh>@edit 40423254_cp_w15.md</vh></v>
+<v t="leo.20160115073147.1"><vh>@edit 40123254_cp_w9.md</vh></v>
+<v t="leo.20160115073244.1"><vh>@edit 40123254_cp_w11.md</vh></v>
+<v t="leo.20160115073209.1"><vh>@edit 40123254_cp_w12.md</vh></v>
+<v t="leo.20160115073223.1"><vh>@edit 40123254_cp_w13.md</vh></v>
+<v t="leo.20160115073504.1"><vh>@edit 40123254_cp_w14.md</vh></v>
+<v t="leo.20160115073518.1"><vh>@edit 40123254_cp_w15.md</vh></v>
 </v>
 </v>
 </v>
@@ -2376,17 +2376,17 @@ Title: 2015 計算機程式  作業十四
 Date: 2015-12/25 2:36
 Category: Python
 Tags: pelican, publishing
-Slug: 40423254_cp_w15
-Authors: 40423254
+Slug: 40123254_cp_w15
+Authors: 40123254
 Summary: 作業十四摘要
 
 以下為作業內容
 
 利用 iframe 嵌入投影片:
 
-&lt;iframe src="40423254_cp_w15_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;iframe src="40123254_cp_w15_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
-[作業投影片](40423254_cp_w15_p.html){:target="_blank"}
+[作業投影片](40123254_cp_w15_p.html){:target="_blank"}
 
 &lt;!-- 導入 brython.js --&gt;
 

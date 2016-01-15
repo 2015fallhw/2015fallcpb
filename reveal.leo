@@ -34,7 +34,7 @@
 </v>
 </v>
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
-<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1"><vh>html 標註</vh>
 <v t="amd.20150915211351.4"><vh>body 標註</vh>
@@ -525,8 +525,7 @@
 <v t="leo.20151225143229.1"><vh>@edit 40423253_cp_w11_p.html</vh></v>
 <v t="leo.20151225143236.1"><vh>@edit 40423253_cp_w12_p.html</vh></v>
 <v t="leo.20151225143237.1"><vh>@edit 40423253_cp_w13_p.html</vh></v>
-<v t="leo.20160115134529.1"><vh>@edit 40423253_cp_期末考周_p.html</vh></v>
-<v t="leo.20151106195921.4" a="E"><vh>@path pelican</vh>
+<v t="leo.20151106195921.4"><vh>@path pelican</vh>
 <v t="leo.20151106195921.5"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151106195921.6"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151106195921.7" a="E"><vh>@path content</vh>
@@ -542,7 +541,6 @@
 <v t="leo.20151225143116.1"><vh>@edit 40423253_cp_w11.md</vh></v>
 <v t="leo.20151225143118.1"><vh>@edit 40423253_cp_w12.md</vh></v>
 <v t="leo.20151225143120.1"><vh>@edit 40423253_cp_w13.md</vh></v>
-<v t="leo.20160115134639.1"><vh>@edit 40423253_cp_期末考周.md</vh></v>
 </v>
 </v>
 </v>
@@ -690,8 +688,6 @@
 <v t="leo.20151211181224.1"><vh>@edit 40423254_cp_w13_p.html</vh></v>
 <v t="leo.20160115134041.1"><vh>@edit 40423254_cp_w14_p.html</vh></v>
 <v t="leo.20160115135126.1"><vh>@edit 40423254_cp_w15_p.html</vh></v>
-<v t="leo.20160115135155.1"><vh>@edit 40423254_cp_w16_p.html</vh></v>
-<v t="leo.20160115135157.1"><vh>@edit 40423254_cp_w17_p.html</vh></v>
 <v t="leo.20160115135201.1"><vh>@edit 40423254_cp_w18_p.html</vh></v>
 <v t="leo.20151023171317.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151023171317.5"><vh>以下為設定檔 ------------</vh></v>
@@ -713,7 +709,6 @@
 <v t="leo.20151211181202.1"><vh>@edit 40423254_cp_w13.md</vh></v>
 <v t="leo.20160115133956.1"><vh>@edit 40423254_cp_w14.md</vh></v>
 <v t="leo.20160115141353.1"><vh>@edit 40423254_cp_w15.md</vh></v>
-<v t="leo.20160115141356.1"><vh>@edit 40423254_cp_w16.md</vh></v>
 <v t="leo.20160115141357.1"><vh>@edit 40423254_cp_w17.md</vh></v>
 <v t="leo.20160115141359.1"><vh>@edit 40423254_cp_w18.md</vh></v>
 </v>

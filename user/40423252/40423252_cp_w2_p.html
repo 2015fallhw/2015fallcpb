@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423252-2</title>
+<title>40423212-2</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -26,51 +26,69 @@
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
     <h1>zero to hero python教學 </h1>
-    <p>40423252謝孟哲11/17</p>		
+    <p>40423212 四設一乙</p>		
 </section>
 	
 <section id="hw-task-one">
-    <h1>python?</h1>
-    <p>python是一種電腦語言,相較於其他電腦語言更為簡單,可以做計算,簡報,統計,甚至是管理倉儲,都可以用python語法來完成,可以使用python語法的地方也不少,例如leo editor及matlab都是用python語法來運作,最重要的是,大部分的python軟體是免費的!</p>
+    <h1>引號的使用規則</h1>
+    <p>在前面我們學會了最簡單的輸出手段"print('___')",之後我們提到的是關於引號的使用,單引號跟雙引號其實都能把裡面的字做輸出,但不能任意的切換這兩個引號,這點在輸出英文字串的時候尤其需要注意</p>
 </section>
 
 <section>
-<h1>怎麼樣的人適合學習python</h1>
-對程式設計陌生的人
-<br />
-學生
-<br />
-找工作的人
-<br />
-IT PROS(從事資訊科技
-的專業人員,information technology professionals)
-<br />
-對程式語法有興趣的人
+如前面所說,我們輸入這兩個字串讓他運行,結果是一樣的:
+</br>
+print("第二份作業")
+</br>
+print('第二份作業')
+</br>
+都可以得到"第二份作業"
 </section>
 <section>
-<h1>一些簡單的語法:</h1>
-
-print:輸出
-<br />
-在後面加一個小括弧跟引號,可以輸出引號內的內容:
-<br />
-print("hello world")
-<br />
-然後就可以得到:hello world!
-</section>
-<section>
-#:不作為語法
-<br />
-不會把#後面的字串當作是程式語言,方便作為標註
-<br />
-例如:#這是zero to hero第一回的介紹
+但我們絕對不允許混著用,例如:
+</br>
+print("第二份作業')
+</br>
+也盡量要避免在引號內使用引號,例如:
+</br>
+print('I'm a student')
+</br>
+這樣他會把框框指向I這個字上
+</br>
+所以我們這個時候使用雙引號就可以避免這個衝突
+</br>
+print("I'm a student")
 </section>
 
 <section>
-    <h1>心得與自評</h1>
-    <p>了解到clone網址和push上網址的概念,所以本週教的checkout切換目錄比較容易了解。自評分數: 70</p>
+我們可以把兩個字串"相加"
+<br />
+print("我正在"+"使用leo editor寫作業")
+之後很明顯是得到:我正在使用leo editor寫作業
+<br />
+也可以在引號間附上反斜線來達成空行的效果,例如:
+</br>
+print("我的CAMSTUDIO/老是出狀況")
+</br>
+得到:我的CAMSTUDIO
+</br>
+老是出狀況
+</br>
+還有個很特別的方法做空行:3個引號
+</br>
+print("""我的CAMSTUDIO
+</br>
+老是出狀況""")
+得到的結果跟反斜線是一樣的
 </section>
-			
+<section>
+<h1>心得</h1>
+電腦語言的字串不一定太困難,但不可否認的,字非常多,如果中間有了失誤,得到的結果相差甚大,一個工程師必須再三檢查自己的電腦語言是否出現錯誤,否則後果相當尷尬
+</section>
+<section>
+    <h1>自評</h1>
+    <p>多看幾次zero to hero的python教學之後,原本對此很畏懼的我,慢慢開始發現就算他們是全英語的教學,還是能很清楚的知道他們教的東西,希望能藉此越來越熟悉python語法,個人給自己68分</p>
+</section>
+				
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>

@@ -17,11 +17,12 @@
 <v t="leo.20151225144550.1"><vh>@button user pelican</vh></v>
 <v t="leo.20151225142937.2" a="E"><vh>@path ./../../</vh>
 <v t="leo.20151225144801.1"><vh>@button admin pelican</vh></v>
-<v t="leo.20151225150612.1"><vh>@path pelican</vh>
+<v t="leo.20151225150612.1" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225150612.2"><vh>@edit publishconf.py</vh></v>
-<v t="leo.20151225150612.3"><vh>@path content</vh>
+<v t="leo.20151225150612.3" a="E"><vh>@path content</vh>
 <v t="leo.20151225150612.4"><vh>@edit g7_w14_1.md</vh></v>
 <v t="leo.20151225161354.1"><vh>@edit g7_w14_2.md</vh></v>
+<v t="leo.20160115013238.1"><vh>@edit g7_w15.md</vh></v>
 </v>
 </v>
 </v>

@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <title>2015 計算機程式 作業十四 &mdash; 2015Fall 40423227 CPB 作業</title>
-  <meta name="author" content="40423227">
+  <meta name="author" content="">
 
 
 
@@ -53,11 +53,74 @@
 </header>
 
   <div class="entry-content"><p>以下為作業十四內容</p>
-<p>利用 iframe 嵌入投影片:</p>
-<iframe src="40423227_cp_w14_p.html" width="500" height="300"></iframe>
+<p>利用 iframe 嵌入投影片</p>
+<iframe src="40423227_cp_w13_p.html" width="500" height="300"></iframe>
 
 <p><a href="40423227_cp_w14_p.html" target="_blank">作業十四投影片</a></p>
-<iframe width="640" height="385" src="https://www.youtube.com/embed/y_hZX0nrL5U" frameborder="0" allowfullscreen></iframe>
+<!-- 以下利用 Brython 程式執行繪圖 -->
+
+<canvas id="plotarea" width="300" height="200"></canvas>
+
+<script type="text/python3">
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 開始畫直線
+ctx.beginPath()
+ctx.lineWidth = 5
+ctx.moveTo(0, 0)
+ctx.lineTo(100, 100)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 1
+ctx.moveTo(100, 0)
+ctx.lineTo(0, 100)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()
+
+x = 100
+y = 100
+
+# 利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print
+console.log("x 值為"+str(x)+", y 值為"+str(y))
+</script>
+
+</div>
+
+<p>上列繪圖程式碼</p>
+<h1>導入 doc</h1>
+<p>from browser import document as doc
+from browser import console
+import math</p>
+<h1>準備繪圖畫布</h1>
+<p>canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")</p>
+<h1>開始畫直線</h1>
+<p>ctx.beginPath()
+ctx.lineWidth = 5
+ctx.moveTo(0, 0)
+ctx.lineTo(100, 100)
+ctx.strokeStyle = "#FF0000"
+ctx.stroke()</p>
+<p>ctx.beginPath()
+ctx.lineWidth = 1
+ctx.moveTo(100, 0)
+ctx.lineTo(0, 100)
+ctx.strokeStyle = "#0000ff"
+ctx.stroke()</p>
+<p>x = 100
+y = 100</p>
+<h1>利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print</h1>
+<p>console.log("x 值為"+str(x)+", y 值為"+str(y))</p>
+<iframe width="640" height="385" src="https://www.youtube.com/v/y_hZX0nrL5U&autoplay=1" frameborder="0" allowfullscreen></iframe>
 
 <p><p><a  href="https://www.youtube.com/">YouTube</a>.</p></p>
 <p><iframe
@@ -95,13 +158,13 @@
           <a href="./2015cp_hw_w14.html">2015 計算機程式 作業十四</a>
       </li>
       <li class="post">
+          <a href="./2015cp_hw_w15.html">2015 計算機程式 作業十五</a>
+      </li>
+      <li class="post">
           <a href="./2015cp_hw_w13.html">2015 計算機程式 作業十三</a>
       </li>
       <li class="post">
           <a href="./2015cp_hw_w11.html">2015 計算機程式 作業十一</a>
-      </li>
-      <li class="post">
-          <a href="./2015cp_hw_w9.html">2015 計算機程式 作業九</a>
       </li>
     </ul>
   </section>
@@ -116,7 +179,7 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
+    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
 
 
     <section>
@@ -139,7 +202,7 @@
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-    Copyright &copy;  2015&ndash;2016  40423227 &mdash;
+    Copyright &copy;  2015&ndash;2016   &mdash;
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   <script src="./theme/js/modernizr-2.0.js"></script>

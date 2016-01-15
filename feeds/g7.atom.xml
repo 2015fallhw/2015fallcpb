@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/g7.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T15:13:00+08:00</updated><entry><title>g7 w14-1</title><link href="http://coursemdetw.github.io/reveal/g7_w14_1.html" rel="alternate"></link><updated>2015-12-25T15:13:00+08:00</updated><author><name>40423248</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g7_w14_1.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40123157 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/g7.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T15:13:00+08:00</updated><entry><title>g7 w14-1</title><link href="http://coursemdetw.github.io/reveal/g7_w14_1.html" rel="alternate"></link><updated>2015-12-25T15:13:00+08:00</updated><author><name>40423248</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g7_w14_1.html</id><summary type="html">&lt;p&gt;以下利用 Brython 在網頁寫 Python 繪圖&lt;/p&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;
@@ -46,4 +46,236 @@ y = 100
 
 # 利用 browser 模組中的 console.log 將資料列印在 console 區, 可以用來確認程式中各變數的值, 用法等同 print
 console.log("x 值為"+str(x)+", y 值為"+str(y))
-&lt;/script&gt;</summary><category term="w14"></category><category term="brython"></category></entry><entry><title>g7 w14-2</title><link href="http://coursemdetw.github.io/reveal/g7_w14_2.html" rel="alternate"></link><updated>2015-12-25T15:13:00+08:00</updated><author><name>40423248</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g7_w14_2.html</id><summary type="html">&lt;p&gt;g7 w14-2摘要&lt;/p&gt;</summary><category term="w14"></category></entry></feed>
+&lt;/script&gt;</summary><category term="w14"></category><category term="brython"></category></entry><entry><title>g7 w14-2</title><link href="http://coursemdetw.github.io/reveal/g7_w14_2.html" rel="alternate"></link><updated>2015-12-25T15:13:00+08:00</updated><author><name>40423248</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g7_w14_2.html</id><summary type="html">&lt;p&gt;g7 w14-2摘要&lt;/p&gt;</summary><category term="w14"></category></entry><entry><title>2015 計算機程式 分組作業</title><link href="http://coursemdetw.github.io/reveal/g7_w15.md.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423243 40423244 40423245 40423246 40423247 40423248</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/g7_w15.md.html</id><summary type="html">&lt;p&gt;平常使用的Ana_3內容有:
+&lt;br /&gt;
+Anaconda 3 的 Python 免費版本, 提供各種工程與科學運算模組套件。
+Jupyter, 啟動後可以自動辨識電腦所在的 IP 位址設定, 自動開啟 IPython Notebook 功能。
+&lt;br /&gt;
+SciTE 文字編輯器, 經由 python.properties 設定, 可以在編輯器中執行簡單的 Python 3 程式。
+&lt;br /&gt;
+Leo Editor 大綱管理系統。
+&lt;br /&gt;
+Git client 端工具。
+&lt;br /&gt;
+Solvespace 3D 參數繪圖程式。
+&lt;br /&gt;
+利用(修改環境過的)start,可以一次啟動上述多套程式,就成為我們用的"環境",stop則相反。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#輸出&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;hello world&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#重複輸出&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;hello world&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#添加句中間/句尾的記號&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;world&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;sep&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;--&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;end&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;!&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#輸出範圍內隨機整數,int為integer(整數)的縮寫&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;99&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#利用while作條件,break來中斷,continue來迴圈&lt;/span&gt;
+&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;break&lt;/span&gt;
+
+    &lt;span class="k"&gt;while&lt;/span&gt; &lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+            &lt;span class="k"&gt;continue&lt;/span&gt;
+
+        &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;j&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;end&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;quot; &amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+
+    &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+    &lt;span class="n"&gt;j&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#互動&lt;/span&gt;
+&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;輸入一個字&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;你輸入了&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c"&gt;#導入utf-8來讀取中文&lt;/span&gt;
+&lt;span class="c"&gt;#coding utf-8&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;script src="https://www.gliffy.com/diagramEmbed.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;gliffy_did="9745287";embedGliffy();&lt;/script&gt;
+
+&lt;!-- 導入 brython.js --&gt;
+
+&lt;script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 brython() --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+
+&lt;canvas id="plotarea" width="600" height="600"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt; 
+# 導入 doc 
+from browser import document as doc 
+import math
+
+# 準備繪圖畫布 
+canvas = doc["plotarea"] 
+ctx = canvas.getContext("2d") 
+
+# 開始畫直線 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(230, 0)
+ctx.lineTo(130, 80)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(130, 80)
+ctx.lineTo(180, 80)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(180, 80)
+ctx.lineTo(80, 180)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(80, 180)
+ctx.lineTo(180, 180)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(200, 200)
+ctx.lineTo(30, 280)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(30, 280)
+ctx.lineTo(180, 280)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(180, 280)
+ctx.lineTo(0, 380)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(0, 280)
+ctx.lineTo(180, 380)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(180, 380)
+ctx.lineTo(180, 480)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(230, 0)
+ctx.lineTo(330, 80)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(330, 80)
+ctx.lineTo(280, 80)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(280, 80)
+ctx.lineTo(380, 180)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(380, 180)
+ctx.lineTo(280, 180)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(280, 180)
+ctx.lineTo(430, 280)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(430, 280)
+ctx.lineTo(280, 280)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(280, 280)
+ctx.lineTo(480, 380)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(480, 380)
+ctx.lineTo(280, 380)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(280, 380)
+ctx.lineTo(280, 480)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 3
+ctx.moveTo(280, 480)
+ctx.lineTo(180, 480)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+&lt;/script&gt;</summary><category term="brython"></category></entry></feed>

@@ -254,49 +254,109 @@ ctx.stroke()
 window.onload=function(){
 brython(1);
 }
-&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw1</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w1.html" rel="alternate"></link><updated>2015-10-02T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-02:reveal/2015cpb_hw_w1.html</id><summary type="html">&lt;iframe src="40423219_cp_w1_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw14</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w14.html" rel="alternate"></link><updated>2015-12-24T19:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-24:reveal/2015cpb_hw_w14.html</id><summary type="html">&lt;!-- 導入 brython.js --&gt;
 
-&lt;p&gt;&lt;a href="40423219_cp_w1_p.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;安裝及啟動Anaconda&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;
+&lt;script type="text/javascript" src="js/40423219-w14.js"&gt;&lt;/script&gt;
+
+&lt;!-- 啟動 brython() --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
+
+&lt;canvas id="plotarea" width="200" height="200"&gt;&lt;/canvas&gt;
+
+&lt;script type="text/python3"&gt;
+# 導入 doc
+from browser import document as doc
+from browser import console
+import math
+
+# 準備繪圖畫布
+canvas = doc["plotarea"]
+ctx = canvas.getContext("2d")
+
+# 開始畫直線
+for i in range(11):
+    ctx.beginPath()
+    ctx.lineWidth = 5
+    ctx.moveTo(0,0+i*20 )
+    ctx.lineTo(200,0+i*20 )
+    ctx.strokeStyle = "#0099FF"
+    ctx.stroke()
+for i in range(11):
+    ctx.beginPath()
+    ctx.lineWidth = 5
+    ctx.moveTo(0+i*20, 0)
+    ctx.lineTo(0+i*20, 200)
+    ctx.strokeStyle = "#FF0320"
+    ctx.stroke()
+
+
+&lt;/script&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw13</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w13.html" rel="alternate"></link><updated>2015-12-05T20:45:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-05:reveal/2015cpb_hw_w13.html</id><summary type="html">&lt;h1&gt;猜數字遊戲&lt;/h1&gt;
+&lt;h3&gt;解析&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/FxIA2DT"&gt;&lt;img src="http://i.imgur.com/FxIA2DT.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;影片解析&lt;/h3&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151784074" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151784074"&gt;Guess_Number&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/a&gt;download from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;流程&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://imgur.com/Vb0uBlB"&gt;&lt;img src="http://i.imgur.com/Vb0uBlB.jpg" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;心得&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;看這些程式碼自己都大概懂他的意思&lt;/p&gt;
+&lt;p&gt;可是要講解給其他人聽還真的是有點難&lt;/p&gt;
+&lt;p&gt;自評&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;自評分數：70&lt;/p&gt;
+&lt;p&gt;這次的影片做的簡單了點~&lt;/p&gt;
+&lt;p&gt;可是好像背景音樂有點吵XD&lt;/p&gt;
+&lt;p&gt;但是就突然想放&lt;/p&gt;
+&lt;p&gt;不過這次有開場特效XD&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw10</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w10.html" rel="alternate"></link><updated>2015-10-15T20:45:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-10-15:reveal/2015cpb_hw_w10.html</id><summary type="html">&lt;iframe src="40423219_cp_w10_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423219_cp_w10_p.html" target="_blank"&gt;修改fix_leo-editor安裝_投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;修改fix_leo-editor安裝&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;先從教學網站下載"Ana3_lite2.7"及"fix"&lt;/li&gt;
+&lt;li&gt;開啟教學網頁&lt;/li&gt;
+&lt;li&gt;點選2015fall課程&lt;/li&gt;
+&lt;li&gt;點選遠端(copy)下載fix&lt;/li&gt;
+&lt;li&gt;將檔案解壓縮&lt;/li&gt;
+&lt;li&gt;使用瀏覽器搜尋 leo editor github&lt;/li&gt;
+&lt;li&gt;點選進入網頁&lt;/li&gt;
+&lt;li&gt;點選leo-editor&lt;/li&gt;
+&lt;li&gt;點選release&lt;/li&gt;
+&lt;li&gt;點選broke-abbrev&lt;/li&gt;
+&lt;li&gt;點選Source code(zip)&lt;/li&gt;
+&lt;li&gt;將檔案移至fix資料夾&lt;/li&gt;
+&lt;li&gt;到Ana3_lite2\data\SciTE&lt;/li&gt;
+&lt;li&gt;開啟SciTe.exe &lt;/li&gt;
+&lt;li&gt;使用此編輯器開啟fix.bat&lt;/li&gt;
+&lt;li&gt;在最後增加一行指令
+      指令為  copy leo-editor-broke-abbrev.zip C:\Ana3_2015\data\                            &lt;/li&gt;
+&lt;li&gt;儲存檔案&lt;/li&gt;
+&lt;li&gt;使用此編輯器開啟start.bat&lt;/li&gt;
+&lt;li&gt;將原指令 (第35行) pip install http://140.130.17.17/public/leo-editor-master.zip         &lt;br /&gt;
+     更改為 pip install leo-editor-broke-abbrev.zip&lt;/li&gt;
+&lt;li&gt;儲存檔案&lt;/li&gt;
+&lt;li&gt;點選開啟fix.bat&lt;/li&gt;
+&lt;li&gt;點選開啟start.bat&lt;/li&gt;
+&lt;li&gt;成功開啟~~&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;將兩個檔案進行解壓縮&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;開啟"fix"料夾&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;點選啟動"fix.bat"，畫面只會閃一下&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;再開啟"Anaconday"資料夾&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;點選"start.bat"&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;ol&gt;
-&lt;li&gt;環境架設完成&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;影片解說&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151285831" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151285831"&gt;安裝及啟動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業範本</title><link href="http://coursemdetw.github.io/reveal/2015cp_.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_.html</id><summary type="html">&lt;h1&gt;使用 H1 標題&lt;/h1&gt;
+&lt;h3&gt;影片解說&lt;/h3&gt;
+&lt;iframe src="https://player.vimeo.com/video/151778950" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/151778950"&gt;修正fix_leo-editor安裝&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/a&gt;download from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;自評&lt;/h2&gt;
+&lt;p&gt;自評分數：77&lt;/p&gt;
+&lt;p&gt;幸好有跟上否則之後都會很麻煩。&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業格式範本</title><link href="http://coursemdetw.github.io/reveal/2015cp_.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cp_.html</id><summary type="html">&lt;h1&gt;使用 H1 標題&lt;/h1&gt;
 &lt;p&gt;文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料&lt;/p&gt;
 &lt;p&gt;使用. &lt;em&gt;斜體文字&lt;/em&gt;, &lt;strong&gt;黑體文字&lt;/strong&gt;, 以及 &lt;code&gt;單線文字&lt;/code&gt;. 表列資料可以寫為:&lt;/p&gt;
 &lt;ul&gt;
@@ -403,7 +463,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;p&gt;註腳會連結到這裡.&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw2</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w2.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cpb_hw_w2.html</id><summary type="html">&lt;iframe src="40423219_cp_w2_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;/div&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw2</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w2.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cpb_hw_w2.html</id><summary type="html">&lt;iframe src="40423219_cp_w2_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423219_cp_w2_p.html" target="_blank"&gt;建立與刪除倉儲_投影片&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;建立與刪除倉儲&lt;/h1&gt;
@@ -416,7 +476,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;li&gt;點選 "CREATE REPOSITORY"&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;影片解說&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151293099" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151293099"&gt;建立倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151293099" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151293099"&gt;建立倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/a&gt;download from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;刪除倉儲&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;點選你要刪除的倉儲&lt;/li&gt;
@@ -427,7 +487,7 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;li&gt;按下"I UNDERSTAND THE CONSEQUENCES, DELETE THIS REPOSITORY"&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;影片解說&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151293100" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151293100"&gt;刪除倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw3</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w3.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cpb_hw_w3.html</id><summary type="html">&lt;iframe src="40423219_cp_w3_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151293100" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151293100"&gt;刪除倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/a&gt;download from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw3</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w3.html" rel="alternate"></link><updated>2015-09-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-19:reveal/2015cpb_hw_w3.html</id><summary type="html">&lt;iframe src="40423219_cp_w3_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40423219_cp_w3_p.html" target="_blank"&gt;建立分支與推送資料_投影片&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;建立分支與推送資料&lt;/h1&gt;
@@ -461,4 +521,30 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
 &lt;h3&gt;影片解說&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/151294442" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/151294442"&gt;推送影片&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/151294442"&gt;推送影片&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/a&gt;download from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw1</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w1.html" rel="alternate"></link><updated>2015-09-16T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-09-16:reveal/2015cpb_hw_w1.html</id><summary type="html">&lt;iframe src="40423219_cp_w1_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423219_cp_w1_p.html" target="_blank"&gt;作業一投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;安裝及啟動Anaconda&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;先從教學網站下載"Ana3_lite2.7"及"fix"&lt;/li&gt;
+&lt;li&gt;將兩個檔案進行解壓縮&lt;/li&gt;
+&lt;li&gt;開啟"fix"料夾&lt;/li&gt;
+&lt;li&gt;點選啟動"fix.bat"，畫面只會閃一下&lt;/li&gt;
+&lt;li&gt;再開啟"Anaconday"資料夾&lt;/li&gt;
+&lt;li&gt;點選"start.bat"&lt;/li&gt;
+&lt;li&gt;環境架設完成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;影片解說&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151285831" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151285831"&gt;安裝及啟動&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/a&gt;download from &lt;a href="https://vimeo.com/user45467634"&gt;劉怡萱&lt;/a&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 hw12 (original)</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w12.html" rel="alternate"></link><updated>2015-01-15T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-01-15:reveal/2015cpb_hw_w12.html</id><summary type="html">&lt;p&gt;&lt;img src="http://i.imgur.com/zpowGsg.gif" title="source: imgur.com" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;iframe src="40423219_cp_w12_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423219_cp_w12_p.html" target="_blank"&gt;如何在網頁貼圖&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;如何在網頁貼圖&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;找到一張自己喜歡的圖&lt;/li&gt;
+&lt;li&gt;下載圖片後將圖片上傳到http://imgur.com/ (需辦帳號)&lt;/li&gt;
+&lt;li&gt;取得圖片網址代號&lt;/li&gt;
+&lt;li&gt;使用程式碼嵌入，程式碼為: ＜img src="http://i.imgur.com/zpowGsg.gif" title="source: imgur.com" /＞＜/a＞ ps:左右大小於括號＜＞需改成半形&lt;/li&gt;
+&lt;li&gt;git push &lt;/li&gt;
+&lt;li&gt;完成&lt;/li&gt;
+&lt;/ol&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry></feed>

@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423245-12</title>
+<title>40423245-HW-12</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -25,95 +25,64 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>zero to hero python教學</h1>
+    <h1>Python作業</h1>
     <p>40423245 廖洪欽</p>		
 </section>
 	
-<section id="hw-task-eight">
-    <h1>python也會畫畫?</h1>
-在python除了可以導入random，我們也可以導入一個叫turtle的指令，可以命令這隻"烏龜"來幫我們走出路徑。
-<br />
-要導入這條烏龜，輸入:
-<br />
-import turtle
+<section>
+<h2>循環指令</h2>
+這個指令並不是特別的字串,而是利用加減法的方式得到循環的效果
 </section>
   
 <section>
-<h2>我們可以命令這條烏龜:</h2>
-
-<br />
-前進:turtle.forward(100)
-<br />
-讓烏龜前進100個單位，前進默認為向右走
-<br />
-轉彎:turtle.right(90)
-<br />
-讓烏龜向右轉90度，相對left就是向左轉
-<br />
-上色:turtle.color(顏色名，例如red)
-<br />
-就是幫線條上色
+<h2>次數=次數+1?</h2>
+在正常的算術中這個式子看起來相當不合理，那麼在這個次數+1到底能做怎麼樣的事情呢?
 </section>
 				
 <section>
-有上面這些指令就能做出一個多邊形了，但要做出很多邊了話可能會很麻煩，這個時候我們可以用一個重複指令
+我們可以先設定"次數"的初始次數，例如:
 <br />
-for i in range(次數)
+次數=0
 <br />
-這個指令可以讓後續的指令重複次數次，其中"i"可以帶入任何數字外的字眼來作代數
+再來設定"次數"的上限:
 <br />
-for i in range(4)
+while=次數<4(while是如果指令)
 <br />
-    print("hello")
+再來在下面設定:
 <br />
-就能輸出
+次數=次數+1(也可以寫作次數+=1)
 <br />
-hello
-<br />
-hello
-<br />
-hello
-<br />
-hello
+最後在中間加入想要循環的內容，就可以達到迴圈的效果了。
 </section>
 <section>
-實際運用在烏龜上了話，我們可以這麼來:
+<h2>這個跟for i in range又有什麼不同呢?</h2>
+for i in range的好處:
 <br />
-for i in range(4):
+字串短
 <br />
-　　turtle.forward(300)
+適合直接成形的短字串
 <br />
-　　turtle.right(90)
++=迴圈的好處:
 <br />
-烏龜就會前進300單位之後右轉90度重複4次，即畫出一個正方形
-</section>
-<section>
-甚至也能在for i in range裡面再加一個for i in range，可以重複運行重複指令，做出乘法的效果。
+較有條理
 <br />
-for i in range(4):
+編輯方便,適合長時間需要修改/寫入的字串
 <br />
-　　turtle.forward(100)
-<br />
-　　turtle.right(90)
-<br />
-　　　　for i in range(4)
-<br />
-　　　　　　turtle.forward(50)
-<br />
-　　　　　　turtle.right(90)
-<br/>
-猜猜看這樣的語法會有怎麼樣的效果呢?
+各有利弊，甚至也可以兩者並用
 </section>
 
 <section>
-第一個迴圈指示了前進100之後轉90度，進入第二個迴圈進行四次的前進50右轉90度的迴圈重複四次，即4x(1+4)=20步，路徑會變成一個田字型
+<h1>心得</h1>
+這次教的是一連串的語法，搞得我頭昏腦脹﹑看來要搞懂還要再花費不少時間。
 </section>
+
 <section>
-<h2>心得與自評</h2>
-雖然說的是烏龜畫線，但其中for i in range的指令也相當好用也順便一起說明，也可以增加自己對這個指令的認識與熟悉。
-<br />
-個人給自己75分
+<h1>自評</h1>
+    <p>等搞懂了，就有六十了。</p>
+    
+     <p><a href="#/hw-task-one"></a>
 </section>
+				
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>
@@ -125,4 +94,3 @@ for i in range(4):
 </script>
 	
 </body>
-

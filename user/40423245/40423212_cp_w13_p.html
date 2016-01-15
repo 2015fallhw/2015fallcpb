@@ -8,7 +8,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>40423245-13</title>
+<title>40423245-HW-13</title>
 <link rel="stylesheet" href="css/reveal.min.css">
 	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
 	<!--增加對於 IE 早期版本的支援 -->
@@ -25,57 +25,77 @@
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-    <h1>zero to hero python教學</h1>
+    <h1>Python作業</h1>
     <p>40423245 廖洪欽</p>		
 </section>
+	
 <section>
-<h2>循環指令</h2>
-這個指令並不是特別的字串,而是利用加減法的方式得到循環的效果
+<h2>列表</h2>
+我們可以用python整理一串數列，可以是姓名、學號等等，來做增減、搜尋等用途
 </section>
   
 <section>
-<h2>次數=次數+1?</h2>
-在正常的算術中這個式子看起來相當不合理，那麼在這個次數+1到底能做怎麼樣的事情呢?
+我們首先當然需要一串數列：
+<br />
+id=['a','b','c','d']
 </section>
 				
 <section>
-我們可以先設定"次數"的初始次數，例如:
+<h2>數列的規則</h2>
 <br />
-次數=0
+前面多少提過關於python的數列，有個跟正常的數學不一樣的規則，從前面到後面各是：
 <br />
-再來設定"次數"的上限:
+0，1，2，3......
 <br />
-while=次數<4(while是如果指令)
+也可以用負數：
 <br />
-再來在下面設定:
+......-4，-3，-2，-1(最後算-1)
 <br />
-次數=次數+1(也可以寫作次數+=1)
-<br />
-最後在中間加入想要循環的內容，就可以達到迴圈的效果了。
+利用這些數字來做指定的動作，像a就要用0或-4來指定
+
 </section>
 <section>
-<h2>這個跟for i in range又有什麼不同呢?</h2>
-for i in range的好處:
+<h2>編輯數列</h2>
+我們會用到.append，.remove，del等指令，以id為我們的數列
 <br />
-字串短
+id.append('名字')：增加字串到最後一項
 <br />
-適合直接成形的短字串
+id.remove
+('名字')：移除字串
 <br />
-+=迴圈的好處:
-<br />
-較有條理
-<br />
-編輯方便,適合長時間需要修改/寫入的字串
-<br />
-各有利弊，甚至也可以兩者並用
+del id(自取)[數字]：移除某個數字
 </section>
 
 <section>
-<h2>心得與自評</h2>
-字串學得比較多的時候，一個問題往往可以用一種以上的字串來解決他，至於使用哪一種對自己最有利就考驗工程師的技巧了
+我們利用上面的規則可以整理出這串簡單的字串：
 <br />
-個人給自己70分
+id=['1','2','3','4']
+<br />
+id.remove('4')
+<br />
+del id[0]
+<br />
+print (id[0])
+<br />
+print (id[-1])
 </section>
+
+<section>
+移除了id"4"跟第0個id"1"，我們少了1、4，剩下2、3，print出來的第0個id就是2，第-1個就會是3
+</section>
+
+<section>
+<h1>心得</h1>
+這次教了一些更深層的語法，看來Python是一門高深莫測的課程，希望能盡早得心應手。
+</section>
+
+<section>
+<h1>自評</h1>
+    <p>60分</p>
+    
+     <p><a href="#/hw-task-one"></a>
+</section>
+				
 </div>
 </div>
 <script src="lib/js/head.min.js"></script>
@@ -87,4 +107,3 @@ for i in range的好處:
 </script>
 	
 </body>
-

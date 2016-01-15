@@ -25,7 +25,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'), ('Python', 'http://python.org/'),  ('2015作業主頁', '../../'), ('[github] 2015fallhw/2015fallcpb', 'https://github.com/2015fallhw/2015fallcpb/tree/gh-pages')
+LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'), ('Python', 'http://python.org/'),  ('2015作業主頁', '../../'), ('[github] 2015fallhw/2015fallcpb', 'https://github.com/2015fallhw/2015fallcpb/tree/gh-pages'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
@@ -48,7 +48,7 @@ DISQUS_SITENAME = "2015fall"
 #GOOGLE_ANALYTICS = ""
 
 # 必須絕對目錄或相對於設定檔案所在目錄
-PLUGIN_PATHS = ['./../../../plugin']
+PLUGIN_PATHS = ['./../plugin']
 PLUGINS = ['liquid_tags.notebook']
 # 目錄設定相對於 reveal 下的 content 目錄
 NOTEBOOK_DIR = 'notebook'

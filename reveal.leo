@@ -807,7 +807,7 @@
 <v t="leo.20151117020939.7"><vh>@edit 40423213_cp_w4_p.html</vh></v>
 <v t="leo.20151117020939.8"><vh>@edit 40423213_cp_w5_p.html</vh></v>
 <v t="leo.20151117020939.9"><vh>@edit 40423213_cp_w6_p.html</vh></v>
-<v t="leo.20151117020939.10" a="E"><vh>@path pelican</vh>
+<v t="leo.20151117020939.10"><vh>@path pelican</vh>
 <v t="leo.20151117020939.11"><vh>以下為設定檔 ------------</vh></v>
 <v t="leo.20151117020939.12"><vh>@edit publishconf.py</vh></v>
 <v t="leo.20151117020939.13" a="E"><vh>@path content</vh>

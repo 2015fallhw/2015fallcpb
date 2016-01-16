@@ -14,7 +14,7 @@
 <v t="leo.20151225151011.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151225151011.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20151225151005.2"><vh>@path ./../../</vh>
+<v t="leo.20151225151005.2" a="E"><vh>@path ./../../</vh>
 <v t="leo.20151225151237.1"><vh>@button admin pelican</vh></v>
 <v t="leo.20151225151310.1" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225151310.2"><vh>@edit publishconf.py</vh></v>
@@ -39,6 +39,7 @@
 <v t="leo.20160108170015.1"><vh>@edit 40423228_cp_w11_p.html</vh></v>
 <v t="leo.20160108213157.1"><vh>@edit 40423228_cp_w13_p.html</vh></v>
 <v t="leo.20160108213215.1"><vh>@edit 40423228_cp_w14_p.html</vh></v>
+<v t="leo.20160115113830.1"><vh>@edit 40423228_cp_w15_p.html</vh></v>
 <v t="leo.20160111214033.1"><vh>@edit 40423228_cp_w17_p.html</vh></v>
 <v t="leo.20151225151047.4" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225151047.5"><vh>以下為設定檔 ------------</vh></v>
@@ -57,6 +58,7 @@
 <v t="leo.20160108170122.1"><vh>@edit 40423228_cp_w11.md</vh></v>
 <v t="leo.20160108212929.1"><vh>@edit 40423228_cp_w13.md</vh></v>
 <v t="leo.20160108212931.1"><vh>@edit 40423228_cp_w14.md</vh></v>
+<v t="leo.20160115113840.1"><vh>@edit 40423228_cp_w15.md</vh></v>
 <v t="leo.20160111212056.1"><vh>@edit 40423228_cp_w17.md</vh></v>
 </v>
 </v>

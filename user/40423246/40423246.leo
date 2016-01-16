@@ -14,7 +14,7 @@
 <v t="leo.20151225141844.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20151225141844.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20151225141809.2"><vh>@path ./../../</vh>
+<v t="leo.20151225141809.2" a="E"><vh>@path ./../../</vh>
 <v t="leo.20151225142309.1"><vh>@button admin pelican</vh></v>
 <v t="leo.20151225143150.1" a="E"><vh>@path pelican</vh>
 <v t="leo.20151225143150.2"><vh>@edit publishconf.py</vh></v>
@@ -25,7 +25,7 @@
 </v>
 </v>
 <v t="leo.20151225142218.1"><vh>@button user pelican</vh></v>
-<v t="leo.20151225142035.1"><vh>@path ./</vh>
+<v t="leo.20151225142035.1" a="E"><vh>@path ./</vh>
 <v t="leo.20151225142035.2"><vh>以下為投影片 ------------</vh></v>
 <v t="leo.20151225142035.3"><vh>@edit 40423246_cp_w1_p.html</vh></v>
 <v t="leo.20160112221232.1"><vh>@edit 40423246_cp_w2_p.html</vh></v>

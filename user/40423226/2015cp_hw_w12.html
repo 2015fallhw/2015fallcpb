@@ -56,14 +56,153 @@
 <iframe src="40423226_cp_w12_p.html" width="500" height="300"></iframe>
 
 <p><a href="40423226_cp_w12_p.html" target="_blank">作業12投影片</a></p>
-<p>LEO版本更新</p>
-<iframe src="https://player.vimeo.com/video/148886274" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>猜顏色小遊戲</p>
+<iframe src="https://player.vimeo.com/video/151782806" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<p><p><a href="https://vimeo.com/148886274">CPB HW W11 leo editor updata</a> from <a href="https://vimeo.com/user46807821">40423226</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<p>猜數字小遊戲</p>
-<iframe src="https://player.vimeo.com/video/148887313" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/151782806">W_12</a> from <a href="https://vimeo.com/user46807821">40423226</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
-<p><p><a href="https://vimeo.com/148887313">CPB HW W11 Guessing number game</a> from <a href="https://vimeo.com/user46807821">40423226</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p></div>
+<p>猜顏色小遊戲程式碼:</p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70</pre></div></td><td class="code"><div class="highlight"><pre>import random
+顏色=[&quot;R&quot;,&quot;W&quot;,&quot;Y&quot;,&quot;G&quot;,&quot;B&quot;,&quot;P&quot;]
+答案=random.sample(顏色,4)
+print(答案)
+
+顏色字串=&quot;&quot;
+剩餘次數=9
+次數=0
+這回合=True
+
+print(&quot;還剩下&quot;,剩餘次數-次數,&quot;次&quot;)
+
+for i in range(len(顏色)):
+    顏色字串+=顏色[i]
+
+while 這回合:
+    完全正確=&quot;&quot;
+    部分正確=&quot;&quot;
+    輸入 = input(&quot;選四個顏色,&quot;+顏色字串+&quot;:&quot;).upper()
+    次數+=1
+
+    if len(輸入)!=len(答案):
+        print(&quot;\n只能用四種顏色&quot;)
+        print(&quot;\n還剩下&quot;,剩餘次數 - 次數,&quot;次&quot;)
+        continue
+
+    if len(輸入)&gt;len(set(輸入)):
+        print(&quot;\n作者忘了說不能重複&quot;,顏色)
+        print(&quot;\n還剩下&quot;, 剩餘次數 - 次數,&quot;次&quot;)
+        continue
+
+
+    for i in range(4):
+        if 輸入[i] not in 顏色:
+            print(&quot;這啥顏色我不知道&quot;)
+            print(&quot;\n還剩下&quot;,剩餘次數-次數,&quot;次&quot;)
+            continue
+
+if 完全正確!=&quot;YYYY&quot;:
+    for i in range(4):
+        if 輸入[i]==答案[i]:
+            完全正確+=&quot;Y&quot;
+        if 輸入[i]!=答案[i] and 輸入[i] in 答案:
+            部分正確+=&quot;y&quot;
+    print(完全正確+部分正確+&quot;\n&quot;)
+    print(&quot;\n還剩下&quot;,剩餘次數 - 次數,&quot;次&quot;)
+
+
+if 完全正確 ==&quot;YYYY&quot;:
+    if 次數== 1:
+        print(&quot;阿不就好棒棒一次就猜對&quot;)
+    else:
+        print(&quot;你猜了&quot;+str(次數)+&quot;次&quot;)
+    這回合=False
+
+if 次數&gt;=1 and 次數<span class="nt">&lt;剩餘次數</span> <span class="na">and</span> <span class="na">完全正確</span><span class="err">!=&quot;</span><span class="na">YYYY</span><span class="err">&quot;</span><span class="na">:</span>
+    <span class="na">print</span><span class="err">(&quot;\</span><span class="na">n還剩下</span><span class="err">&quot;,</span><span class="na">剩餘次數-次數</span><span class="err">,&quot;</span><span class="na">次</span><span class="err">&quot;)</span>
+<span class="na">elif</span> <span class="na">次數</span><span class="nt">&gt;</span>=剩餘次數:
+    print(&quot;弱爆了,答案是&quot;+str(答案))
+
+while 這回合==False:
+    end=input(&quot;\n敢不敢繼續玩?(Y/N)&quot;).upper()
+    次數=0
+    if end==&quot;Y&quot;:
+        這回合=True
+        答案=random.sample(顏色,4)
+        print(&quot;續盤!&quot;)
+        print(&quot;還剩下&quot;,剩餘次數-次數,&quot;次&quot;)
+    elif end==&quot;N&quot;:
+        print(&quot;非洲人不適合玩&quot;)
+</pre></div>
+</td></tr></table></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -117,7 +256,7 @@
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
+    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
 
 
     <section>
@@ -134,7 +273,7 @@
             <li><a href="http://python.org/" target="_blank">Python</a></li>
             <li><a href="../../" target="_blank">2015作業主頁</a></li>
             <li><a href="http://2015fallhw.github.io/2015fallcpb/user/40423226/" target="_blank">40423226主頁</a></li>
-            <li><a href="http://40423226.github.io/CPB_40423226/" target="_blank">CPB_40423226.io</a></li>
+            <li><a href="http://40423226.github.io/CPB_40423226/" target="_blank">40423226 個人網頁</a></li>
         </ul>
     </section>
 

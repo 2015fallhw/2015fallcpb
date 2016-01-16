@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>2015 計算機程式 作業九 (期末報告) &mdash; 2015FALL 40123157 CPB 作業</title>
+  <meta name="author" content="40123157">
+
+
+
+
+
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link href="./favicon.png" rel="icon">
+
+  <link href="./theme/css/main.css" media="screen, projection"
+        rel="stylesheet" type="text/css">
+
+  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
+        rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header role="banner"><hgroup>
+  <h1><a href="./">2015FALL 40123157 CPB 作業</a></h1>
+</hgroup></header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+</ul>
+
+
+<ul class="main-navigation">
+      <li class="active">
+        <a href="./category/python.html">Python</a>
+      </li>
+</ul></nav>
+  <div id="main">
+    <div id="content">
+<div>
+  <article class="hentry" role="article">
+<header>
+      <h1 class="entry-title">2015 計算機程式 作業九 (期末報告)</h1>
+    <p class="meta">
+<time datetime="2016-01-08T16:00:00+08:00" pubdate>週五 08 一月 2016</time>    </p>
+</header>
+
+  <div class="entry-content"><ul>
+<li>
+<p><strong>fix.zip</strong>: 系統修復 <a href="http://wordpress-2015course.rhcloud.com/?page_id=3633" target="_blank">2015Fall 課程: 課程可攜檔案下載</a></p>
+<ol>
+<li>從課程網頁下載 fix.zip (copy.com)</li>
+<li>解壓縮 fix.zip 點 fix.bat 即複製4個檔案到 <code>(C:)/Ana3_2015/start.bat</code></li>
+<li>到 github 搜尋 leo-editor 下載最新版本 <a href="https://github.com/leo-editor/leo-editor" target="_blank">github.com: leo-editor</a></li>
+<li>到 <code>Ana3_2015/data/SciTE/SciTE.exe</code> 啟動編輯器(尚未啟動start)</li>
+<li>用 SciTE 開啟 fix.bat 新增 <code>copy leo-editor-master.zip C:\Ana3_2015\data\</code></li>
+<li>用 SciTE 開啟 start.bat 修改第37行安裝 <code>pip install leo-editor-master.zip</code></li>
+</ol>
+</li>
+<li>
+<p><strong>Python3語法</strong>: 以猜數字遊戲為例</p>
+<ol>
+<li>到課程網頁左側點案以 <a href="http://wordpress-2015course.rhcloud.com/?p=4403" target="_blank">以猜數字遊戲作為案例</a> 為例</li>
+<li>點案內文第一行 <code>"零基礎學 Python"</code> 複製底下 16行程式碼</li>
+<li>儲存在 <code>C:\Ana3_2015\data\tmp</code> 另存檔名 <code>"cpw11_guess1.py"</code> 並執行猜數字遊戲</li>
+<li>可在第6行加入 <code>"print(標準答案)"</code> 即可在執行後直接顯示答案</li>
+<li>程式編碼 <code>"#coding: utf-8"</code></li>
+<li>第2行為註解 <code>"# 猜數字遊戲"</code></li>
+<li>第3行導入 python 亂數模組 <code>"import random"</code></li>
+<li>第5行訂定變數名稱 <code>"標準答案"</code></li>
+<li>上網搜尋 <a href="http://stackoverflow.com/questions/14595922/list-of-python-keywords" target="_blank">list of python keywords</a> python 關鍵字</li>
+<li>複製底下兩行程式碼 (編輯器: Options/Wrap, 捲回程式頁面; Tool/Clear Output: 清除輸出頁面)</li>
+</ol>
+</li>
+</ul>
+<div class="highlight"><pre>     <span class="kn">import</span> <span class="nn">keyword</span>
+     <span class="k">print</span> <span class="p">(</span><span class="n">keyword</span><span class="o">.</span><span class="n">kwlist</span><span class="p">)</span>
+     <span class="k">print</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">keyword</span><span class="o">.</span><span class="n">kwlist</span><span class="p">))</span>  <span class="c">#len: 數列共33個關鍵字</span>
+</pre></div>
+
+
+<ul>
+<li>'''多行註解'''</li>
+</ul>
+<div class="highlight"><pre>    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    [&#39;False&#39;, &#39;None&#39;, &#39;True&#39;, &#39;and&#39;, &#39;as&#39;, &#39;assert&#39;, &#39;break&#39;, &#39;class&#39;, &#39;continue&#39;, &#39;def&#39;,</span>
+<span class="sd">    &#39;del&#39;, &#39;elif&#39;, &#39;else&#39;, &#39;except&#39;, &#39;finally&#39;, &#39;for&#39;, &#39;from&#39;, &#39;global&#39;, &#39;if&#39;, &#39;import&#39;, &#39;in&#39;, &#39;is&#39;,</span>
+<span class="sd">    &#39;lambda&#39;, &#39;nonlocal&#39;, &#39;not&#39;, &#39;or&#39;, &#39;pass&#39;, &#39;raise&#39;, &#39;return&#39;, &#39;try&#39;, &#39;while&#39;, &#39;with&#39;,</span>
+<span class="sd">    &#39;yield&#39;]</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+</pre></div>
+
+
+<ul>
+<li>選擇變數名稱無法用數字,關鍵字當開頭; 可以用底線當開頭</li>
+<li><code>random.randint(1, 100)</code> #(數字範圍: 1~100; 包含1與100)
+可用 <code>"標準答案 = random.randint(1, 1)"</code> 測試</li>
+<li><code>你猜的數字 = int(input("請輸入您所猜的整數:"))</code>  #input: 取到字串, int: 轉成整數; 整數: integer, 字串: string, 浮點數: float</li>
+<li>把1對應到猜測數字 <code>"猜測次數 = 1"</code>  #對應關係非等於</li>
+<li>迴圈</li>
+</ul>
+<div class="highlight"><pre><span class="k">while</span> <span class="err">標準答案</span> <span class="o">!=</span> <span class="err">你猜的數字</span><span class="p">:</span>  <span class="c">#!= 不等於, : 還沒講完</span>
+    <span class="k">if</span> <span class="err">標準答案</span> <span class="o">&lt;</span> <span class="err">你猜的數字</span><span class="p">:</span>  <span class="c">#內容內縮4個空格(不成文規定, 慣用)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&quot;太大了，再猜一次 :)加油&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&quot;太小了，再猜一次 :)加油&quot;</span><span class="p">)</span>
+    <span class="err">你猜的數字</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">&quot;請輸入您所猜的整數:&quot;</span><span class="p">))</span>
+    <span class="err">猜測次數</span> <span class="o">+=</span> <span class="mi">1</span>  <span class="c">#簡寫 &quot;猜測次數 = 猜測次數 +1&quot; (記憶體位置推應)</span>
+</pre></div>
+
+
+<ul>
+<li>跳出迴圈, 列印 <code>"print("猜對了！總共猜了", 猜測次數, "次")"</code></li>
+<li>猜數字遊戲(電腦自猜)</li>
+</ul>
+<div class="highlight"><pre><span class="c">#coding: utf-8</span>
+<span class="c"># 猜數字遊戲(電腦自猜)</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="err">下限</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="err">上限</span> <span class="o">=</span> <span class="mi">10000</span>
+<span class="err">標準答案</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="err">下限</span><span class="p">,</span> <span class="err">上限</span><span class="p">)</span>
+<span class="n">pc猜的數字</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="err">下限</span><span class="p">,</span> <span class="err">上限</span><span class="p">)</span>
+<span class="c">#print(標準答案)</span>
+<span class="c">#你猜的數字 = int(input(&quot;請輸入您所猜的整數:&quot;))</span>
+<span class="err">猜測次數</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="err">標準答案</span> <span class="o">!=</span> <span class="n">pc猜的數字</span><span class="p">:</span>
+    <span class="k">if</span> <span class="err">標準答案</span> <span class="o">&lt;</span> <span class="n">pc猜的數字</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&quot;太大了，再猜一次 :)加油&quot;</span><span class="p">)</span>
+        <span class="err">上限</span> <span class="o">=</span> <span class="n">pc猜的數字</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">&quot;太小了，再猜一次 :)加油&quot;</span><span class="p">)</span>
+        <span class="err">下限</span> <span class="o">=</span> <span class="n">pc猜的數字</span>
+    <span class="n">pc猜的數字</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="err">下限</span><span class="p">,</span> <span class="err">上限</span><span class="p">)</span>
+    <span class="err">猜測次數</span> <span class="o">+=</span> <span class="mi">1</span>
+
+<span class="k">print</span><span class="p">(</span><span class="s">&quot;猜對了！總共猜了&quot;</span><span class="p">,</span> <span class="err">猜測次數</span><span class="p">,</span> <span class="s">&quot;次&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<ul>
+<li>猜數字遊戲(電腦自猜平均次數)</li>
+</ul>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">random</span>
+<span class="err">執行次數</span> <span class="o">=</span> <span class="mi">1000</span>
+<span class="err">總猜測次數</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="err">執行次數</span><span class="p">):</span>
+    <span class="err">下限</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="err">上限</span> <span class="o">=</span> <span class="mi">100</span>
+    <span class="err">標準答案</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="err">下限</span><span class="p">,</span> <span class="err">上限</span><span class="p">)</span>
+    <span class="n">pc猜的數字</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="err">下限</span><span class="p">,</span> <span class="err">上限</span><span class="p">)</span>
+    <span class="c">#print(標準答案)</span>
+    <span class="c">#你猜的數字 = int(input(&quot;請輸入您所猜的整數:&quot;))</span>
+    <span class="err">猜測次數</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">while</span> <span class="err">標準答案</span> <span class="o">!=</span> <span class="n">pc猜的數字</span><span class="p">:</span>
+        <span class="k">if</span> <span class="err">標準答案</span> <span class="o">&lt;</span> <span class="n">pc猜的數字</span><span class="p">:</span>
+            <span class="c">#print(&quot;太大了，再猜一次 :)加油&quot;)</span>
+            <span class="err">上限</span> <span class="o">=</span> <span class="n">pc猜的數字</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="c">#print(&quot;太小了，再猜一次 :)加油&quot;)</span>
+            <span class="err">下限</span> <span class="o">=</span> <span class="n">pc猜的數字</span>
+        <span class="n">pc猜的數字</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="err">下限</span><span class="p">,</span> <span class="err">上限</span><span class="p">)</span>
+        <span class="err">猜測次數</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="k">print</span><span class="p">(</span><span class="s">&quot;猜對了！總共猜了&quot;</span><span class="p">,</span> <span class="err">猜測次數</span><span class="p">,</span> <span class="s">&quot;次&quot;</span><span class="p">)</span>
+
+    <span class="err">總猜測次數</span> <span class="o">+=</span> <span class="err">猜測次數</span>
+<span class="err">平均猜測次數</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="err">總猜測次數</span><span class="o">/</span><span class="err">執行次數</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="s">&quot;平均次數&quot;</span><span class="p">,</span> <span class="err">平均猜測次數</span><span class="p">)</span>
+</pre></div>
+
+
+<ul>
+<li><strong>猜數字</strong>遊戲程式流程圖: <a href="http://wordpress-2015course.rhcloud.com/?p=4319" target="_blank">程式碼</a>
+     <img src="https://copy.com/DRy4qVbBJCyBkQox"></li>
+<li>
+<p><strong>猜顏色</strong>遊戲程式流程圖: <a href="http://wordpress-2015course.rhcloud.com/?p=4476#more-4476" target="_blank">程式碼</a>
+    <img src="https://copy.com/zQH30w4NSap9hTdG"></p>
+</li>
+<li>
+<p><strong>G10</strong>期末分組報告: <a href="http://2015fallhw.github.io/2015fallcpb/category/g10.html" target="_blank">2015fallcpb/G10</a></p>
+</li>
+</ul></div>
+    <footer>
+<p class="meta">
+  <span class="byline author vcard">
+    Posted by <span class="fn">
+        40123157
+    </span>
+  </span>
+<time datetime="2016-01-08T16:00:00+08:00" pubdate>週五 08 一月 2016</time>  <span class="categories">
+    <a class='category' href='./category/python.html'>Python</a>
+  </span>
+  <span class="categories">
+    <a class="category" href="./tag/pelican.html">pelican</a>,    <a class="category" href="./tag/publishing.html">publishing</a>  </span>
+</p><div class="sharing">
+</div>    </footer>
+  </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
+  </section>
+</div>
+<aside class="sidebar">
+  <section>
+    <h1>Recent Posts</h1>
+    <ul id="recent_posts">
+      <li class="post">
+          <a href="./2015cp_hw_w9.html">2015 計算機程式 作業九 (期末報告)</a>
+      </li>
+      <li class="post">
+          <a href="./2015cp_hw_w8.html">2015 計算機程式 作業八 (自我評量)</a>
+      </li>
+      <li class="post">
+          <a href="./2015cp_hw_w7.html">2015 計算機程式 作業七</a>
+      </li>
+      <li class="post">
+          <a href="./2015cp_hw_w6.html">2015 計算機程式 作業六</a>
+      </li>
+      <li class="post">
+          <a href="./2015cp_hw_w5.html">2015 計算機程式 作業五</a>
+      </li>
+    </ul>
+  </section>
+  <section>
+      
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="./category/python.html">Python</a></li>
+    </ul>
+  </section>
+ 
+
+  <section>
+  <h1>Tags</h1>
+    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
+
+
+    <section>
+        <h1>Social</h1>
+        <ul>
+            <li><a href="http://twitter.com/ametaireau" target="_blank">twitter</a></li>
+            <li><a href="http://github.com/ametaireau" target="_blank">github</a></li>
+        </ul>
+    </section>
+    <section>
+        <h1>Blogroll</h1>
+        <ul>
+            <li><a href="http://wordpress-2015course.rhcloud.com/" target="_blank">2015課程網頁</a></li>
+            <li><a href="http://python.org/" target="_blank">Python</a></li>
+            <li><a href="../../" target="_blank">2015作業主頁</a></li>
+            <li><a href="https://github.com/2015fallhw/2015fallcpb/tree/gh-pages" target="_blank">[github] 2015fallhw/2015fallcpb</a></li>
+            <li><a href="https://github.com/40123157" target="_blank">[github] 40123157</a></li>
+            <li><a href="https://vimeo.com/user25757242" target="_blank">[vimeo] 40123157</a></li>
+            <li><a href="http://2015fallhw.github.io/2015fallcpb/category/g10.html" target="_blank">2015fallcpb/G10 分組報告</a></li>
+            <li><a href="http://40123157.github.io/cpbw8/" target="_blank">40123157 個人網頁</a></li>
+        </ul>
+    </section>
+
+</aside>    </div>
+  </div>
+  <footer role="contentinfo"><p>
+    Copyright &copy;  2015&ndash;2016  40123157 &mdash;
+  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
+</p></footer>
+  <script src="./theme/js/modernizr-2.0.js"></script>
+  <script src="./theme/js/ender.js"></script>
+  <script src="./theme/js/octopress.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var disqus_shortname = '2015fall';
+    var disqus_identifier = '/2015cp_hw_w9.html';
+    var disqus_url = './2015cp_hw_w9.html';
+    var disqus_title = '2015 計算機程式 作業九 (期末報告)';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = "//" + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+     })();
+  </script>
+</body>
+</html>

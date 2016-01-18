@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423219 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T11:41:00+08:00</updated><entry><title>2015 計算機程式 HW15</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;Merry Christmas  &amp;amp;  Happy new year&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423219 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T11:41:00+08:00</updated><entry><title>2015 計算機程式 HW15</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;ALL PASS PLEASE!!&lt;/h3&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/40423219-w15.js"&gt;&lt;/script&gt;
@@ -268,7 +268,7 @@ brython(1);
 
 &lt;!-- 以下利用 Brython 程式執行繪圖 --&gt;
 
-&lt;canvas id="plotarea" width="400" height="400"&gt;&lt;/canvas&gt;
+&lt;canvas id="plotarea" width="200" height="200"&gt;&lt;/canvas&gt;
 
 &lt;script type="text/python3"&gt;
 # 導入 doc
@@ -324,24 +324,26 @@ brython(1);
 
 &lt;p&gt;&lt;a href="40423219_cp_w5_p.html" target="_blank"&gt;用班級reveal leo更改個人網頁 _投影片&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;用班級reveal leo更改個人網頁&lt;/h1&gt;
-&lt;p&gt;1.開啟start.bat
-2.點選cmd 小黑窗
-3.cd tmp
-4.git clone https://github.com/2015fallhw/2015fallcpb.git
-5.cd 2015fallcpb
-6.git checkout gh-pages
-7.用leo 打開班級的reveal.leo
-8.複製其中一個md檔案
-9.更改名子和內容後save
-10.點@學號再點上方user.pelican鈕
-11.git add -A
-12.git commit -m "6666update"
-13.git config --global user.email "自己的信箱@gm.nfu.edu.tw"
-14.git config --global user.name "自己的學號"
-15.git push origin gh-pages
-16.若衝突，輸入git pull origin gh-pages
-17.再git push origin gh-pages一次
-18.完成 &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;開啟start.bat&lt;/li&gt;
+&lt;li&gt;點選cmd 小黑窗&lt;/li&gt;
+&lt;li&gt;cd tmp&lt;/li&gt;
+&lt;li&gt;git clone https://github.com/2015fallhw/2015fallcpb.git&lt;/li&gt;
+&lt;li&gt;cd 2015fallcpb&lt;/li&gt;
+&lt;li&gt;git checkout gh-pages&lt;/li&gt;
+&lt;li&gt;用leo 打開班級的reveal.leo&lt;/li&gt;
+&lt;li&gt;複製其中一個md檔案&lt;/li&gt;
+&lt;li&gt;更改名子和內容後save&lt;/li&gt;
+&lt;li&gt;點@學號再點上方user.pelican鈕&lt;/li&gt;
+&lt;li&gt;git add -A&lt;/li&gt;
+&lt;li&gt;git commit -m "6666update"&lt;/li&gt;
+&lt;li&gt;git config --global user.email "自己的信箱@gm.nfu.edu.tw"&lt;/li&gt;
+&lt;li&gt;git config --global user.name "自己的學號"&lt;/li&gt;
+&lt;li&gt;git push origin gh-pages&lt;/li&gt;
+&lt;li&gt;若衝突，輸入git pull origin gh-pages&lt;/li&gt;
+&lt;li&gt;再git push origin gh-pages一次&lt;/li&gt;
+&lt;li&gt;完成 &lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;影片解說&lt;/h3&gt;
 &lt;iframe width="500" height="281" src="https://www.youtube.com/embed/aJNiEf6mquE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -352,25 +354,27 @@ brython(1);
 
 &lt;p&gt;&lt;a href="40423219_cp_w3_p.html" target="_blank"&gt;修改fix_leo-editor安裝_投影片&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;修改fix_leo-editor安裝&lt;/h1&gt;
-&lt;p&gt;1.進入2015fall課程
-2.下載 fix.zip
-3.解壓縮
-4.進入網頁 https://github.com/leo-editor
-5.進入leo-editor
-6.點選releases
-7.點broke-abbrev
-8.下載 Source code (zip)
-9.把壓縮檔直接放入fix資料夾內
-10.到 Ana3_lite2\data\SciTE 開啟SciTE
-11.用SciTE打開fix.bat
-12.在最後增加一行指令後儲存 copy leo-editor-broke-abbrev.zip C:\Ana3_2015\data\
-13.再用SciTE打開start.bat
-14.將第35行原指令 pip install http://140.130.17.17/public/leo-editor-master.zip 
+&lt;ol&gt;
+&lt;li&gt;進入2015fall課程&lt;/li&gt;
+&lt;li&gt;下載 fix.zip&lt;/li&gt;
+&lt;li&gt;解壓縮&lt;/li&gt;
+&lt;li&gt;進入網頁 https://github.com/leo-editor&lt;/li&gt;
+&lt;li&gt;進入leo-editor&lt;/li&gt;
+&lt;li&gt;點選releases&lt;/li&gt;
+&lt;li&gt;點broke-abbrev&lt;/li&gt;
+&lt;li&gt;下載 Source code (zip)&lt;/li&gt;
+&lt;li&gt;把壓縮檔直接放入fix資料夾內&lt;/li&gt;
+&lt;li&gt;到 Ana3_lite2\data\SciTE 開啟SciTE&lt;/li&gt;
+&lt;li&gt;用SciTE打開fix.bat&lt;/li&gt;
+&lt;li&gt;在最後增加一行指令後儲存 copy leo-editor-broke-abbrev.zip C:\Ana3_2015\data\&lt;/li&gt;
+&lt;li&gt;再用SciTE打開start.bat&lt;/li&gt;
+&lt;li&gt;將第35行原指令 pip install http://140.130.17.17/public/leo-editor-master.zip 
 更改為 pip install leo-editor-broke-abbrev.zip
-15.儲存
-16.點開fix.bat 螢幕跳一下
-17.點開Ana3_lite2資料夾裡的start.bat
-18.完成&lt;/p&gt;
+15.儲存&lt;/li&gt;
+&lt;li&gt;點開fix.bat 螢幕跳一下&lt;/li&gt;
+&lt;li&gt;點開Ana3_lite2資料夾裡的start.bat&lt;/li&gt;
+&lt;li&gt;完成&lt;/li&gt;
+&lt;/ol&gt;
 &lt;h3&gt;影片解說&lt;/h3&gt;
 &lt;iframe src="https://player.vimeo.com/video/152126135" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 

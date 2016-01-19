@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423219 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2015-12-25T11:41:00+08:00</updated><entry><title>2015 計算機程式 HW15</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;ALL PASS PLEASE!!&lt;/h3&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40423219 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/all.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-19T11:41:00+08:00</updated><entry><title>2015 計算機程式 HW16 (final)</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w16.html" rel="alternate"></link><updated>2016-01-19T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2016-01-19:reveal/2015cpb_hw_w16.html</id><summary type="html">&lt;h1&gt;期末作業&amp;amp;心得&lt;/h1&gt;
+&lt;iframe src="40423219_cp_w16_p.html" width="800" height="500"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40423219_cp_w16_p.html" target="_blank"&gt;期末心得_投影片&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;如何新建右下方個人網頁連結及更新其內容&lt;/h1&gt;
+&lt;h2&gt;一、完成作業主頁右下角連結&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;先完成作業主頁內容&lt;/li&gt;
+&lt;li&gt;點開個人leo或班級leo&lt;/li&gt;
+&lt;li&gt;點選網頁設定檔案&lt;/li&gt;
+&lt;li&gt;更改或新增自己的網頁名稱和連結&lt;/li&gt;
+&lt;li&gt;save後user-pelican按鈕&lt;/li&gt;
+&lt;li&gt;git add -A&lt;/li&gt;
+&lt;li&gt;git commit -m "自己的學號"&lt;/li&gt;
+&lt;li&gt;git push origin gh-pages&lt;/li&gt;
+&lt;li&gt;若衝突 git pull origin gh-pages&lt;/li&gt;
+&lt;li&gt;在push一次&lt;/li&gt;
+&lt;li&gt;完成主頁面設定                   &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;影片解說&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151888435" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151888435"&gt;建立個人倉儲 &lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;
+&lt;h2&gt;二、更新個人網頁內容&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;退出資料夾 cd ..&lt;/li&gt;
+&lt;li&gt;git clone 個人網頁資料夾網址&lt;/li&gt;
+&lt;li&gt;cd 個人網頁資料夾名稱&lt;/li&gt;
+&lt;li&gt;git checkout gh-pages&lt;/li&gt;
+&lt;li&gt;將要做的改動在個人leo檔儲存&lt;/li&gt;
+&lt;li&gt;在2015fallcpb內自己的資料夾中複製全部內容&lt;/li&gt;
+&lt;li&gt;取代個人資料夾內容&lt;/li&gt;
+&lt;li&gt;在個人網頁資料夾內git add -A&lt;/li&gt;
+&lt;li&gt;git commit -m "自己的學號"&lt;/li&gt;
+&lt;li&gt;git push origin gh-pages&lt;/li&gt;
+&lt;li&gt;若衝突 git pull origin gh-pages&lt;/li&gt;
+&lt;li&gt;在push一次&lt;/li&gt;
+&lt;li&gt;更新完成&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;影片解說&lt;/h2&gt;
+&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/151888436" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; &lt;p&gt;&lt;a href="https://vimeo.com/151888436"&gt;刪除倉儲&lt;/a&gt; from &lt;a href="https://vimeo.com/user47671379"&gt;林宏一&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 HW15</title><link href="http://coursemdetw.github.io/reveal/2015cpb_hw_w15.html" rel="alternate"></link><updated>2015-12-25T11:41:00+08:00</updated><author><name>40423219</name></author><id>tag:coursemdetw.github.io,2015-12-25:reveal/2015cpb_hw_w15.html</id><summary type="html">&lt;h3&gt;ALL PASS PLEASE!!&lt;/h3&gt;
 &lt;!-- 導入 brython.js --&gt;
 
 &lt;script type="text/javascript" src="js/40423219-w15.js"&gt;&lt;/script&gt;

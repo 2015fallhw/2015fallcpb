@@ -52,115 +52,297 @@
 <time datetime="2015-12-13T11:41:00+08:00" pubdate>週日 13 十二月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>以下為作業九內容</p>
-<h1>使用 H1 標題</h1>
-<p>文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料</p>
-<p>使用. <em>斜體文字</em>, <strong>黑體文字</strong>, 以及 <code>單線文字</code>. 表列資料可以寫為:</p>
-<ul>
-<li>第1項說明</li>
-<li>第2項說明</li>
-<li>第3項說明</li>
-</ul>
-<p>特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.</p>
-<blockquote>
-<p>引用的內容寫在這裡
-主要是以大於的符號開頭.</p>
-<p>其中也可以利用空白行隔開,
-整區都是引用內容的範圍.</p>
-</blockquote>
-<p>em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺</p>
-<h2>H2 標題</h2>
-<p>有數字的表列資料:</p>
-<ol>
-<li>第1項</li>
-<li>第2項</li>
-<li>第3項</li>
-</ol>
-<p>跟前面一樣, 文字從第四個欄位開始.</p>
-<p>程式碼的表達:</p>
-<div class="highlight"><pre># for 重複迴圈 ...
-for i in 1 .. 10 { 呼叫特定函式(i) }
+  <div class="entry-content"><p>以下為作業十三內容</p>
+<p>利用 iframe 嵌入投影片:</p>
+<iframe src="40423245_cp_w13.html" width="500" height="300"></iframe>
+
+<p><a href="40423245_cp_w13.html" target="_blank">作業十三投影片</a></p>
+<p>Jupyter notebook 檔案內容:</p>
+<p>學號-姓名
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">g10_number</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;40123210&quot;</span><span class="p">,</span><span class="s">&quot;40123157&quot;</span><span class="p">,</span><span class="s">&quot;40123254&quot;</span><span class="p">]</span>
+<span class="n">g10_name</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;蔡依靜&quot;</span><span class="p">,</span><span class="s">&quot;盧毅民&quot;</span><span class="p">,</span><span class="s">&quot;鍾文榮&quot;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">g10_number</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">g10_number</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">g10_name</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">sep</span> <span class="o">=</span> <span class="s">&quot;-&quot;</span><span class="p">)</span>
 </pre></div>
 
+</div>
+</div>
+</div>
 
-<p>這裡也是要空4個 space 鍵. </p>
-<p>除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:</p>
-<div class="highlight"><pre>define foobar() {
-    print(&quot;歡迎進入程式的世界!&quot;)
-}
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>40123210-蔡依靜
+40123157-盧毅民
+40123254-鍾文榮
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
 </pre></div>
 
+</div>
+</div>
+</div>
 
-<p>(這樣的表達比較容易用來複製程式碼內容).</p>
-<p>python 的程式碼, 可以寫成下列格式</p>
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">time</span>
-<span class="c"># 以下會從 0 數到 9</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-    <span class="c"># 稍微暫停一下</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</div>
+學號-姓名 空一行
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">g10_number</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;40123210&quot;</span><span class="p">,</span><span class="s">&quot;40123157&quot;</span><span class="p">,</span><span class="s">&quot;40123254&quot;</span><span class="p">]</span>
+<span class="n">g10_name</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;蔡依靜&quot;</span><span class="p">,</span><span class="s">&quot;盧毅民&quot;</span><span class="p">,</span><span class="s">&quot;鍾文榮&quot;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">g10_number</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">g10_number</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">g10_name</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">sep</span> <span class="o">=</span> <span class="s">&quot;-&quot;</span><span class="p">,</span><span class="n">end</span> <span class="o">=</span> <span class="s">&quot;</span><span class="se">\n\n</span><span class="s">&quot;</span><span class="p">)</span>
 </pre></div>
 
+</div>
+</div>
+</div>
 
-<p>以下為另外一種嵌入程式碼的方法:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5
-6</pre></div></td><td class="code"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">time</span>
-<span class="c"># 以下會從 0 數到 9</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-    <span class="c"># 稍微暫停一下</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</td></tr></table>
+<div class="output_wrapper">
+<div class="output">
 
-<h3>H3 標題</h3>
-<p>以下則為內嵌式的表列法t:</p>
-<ol>
-<li>
-<p>首先, 將完成下列元件的設計:</p>
-<ul>
-<li>轉向機構</li>
-<li>煞車系統</li>
-<li>踩踏機構</li>
-</ul>
-</li>
-<li>
-<p>接著連繫工業設計部門.</p>
-</li>
-<li>
-<p>確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:</p>
-<div class="highlight"><pre>各元件材質
-車蓋顏色
-機構調校流程
-需要熱處理的元件列表
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>40123210-蔡依靜
+
+40123157-盧毅民
+
+40123254-鍾文榮
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
 </pre></div>
 
+</div>
+</div>
+</div>
 
-<p>完成上述查驗後, 請通知品保部門, 以便接續處理.</p>
-</li>
-</ol>
-<p>特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.</p>
-<p>Markdown 的超文件連結寫法 <a href="http://www.google.com" target="_blank">連到 Google</a>, 也可以連到同目錄下的檔案 <a href="cadpbw1.html" target="_blank">cadpbw1.html</a>, 也能使用註腳 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.</p>
-<p>放入圖檔, 可以直接利用 html 的 img 標註:</p>
-<p><img src="images/spur.png" width="500" alt="正齒輪繪圖"></img></p>
+</div>
+第幾個字為蔡
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">name</span> <span class="o">=</span> <span class="s">&#39;蔡依靜&#39;</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">name</span><span class="p">)):</span>
+    <span class="k">if</span> <span class="n">name</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s">&quot;蔡&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;第&quot;</span><span class="p">,</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="s">&quot;個字元為蔡&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>第 1 個字元為蔡
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+有幾個姓蔡
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">cpb_number</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;40023215&#39;</span><span class="p">,</span> <span class="s">&#39;40123157&#39;</span><span class="p">,</span> <span class="s">&#39;40123210&#39;</span><span class="p">,</span> <span class="s">&#39;40123254&#39;</span><span class="p">,</span> <span class="s">&#39;40223252&#39;</span><span class="p">,</span> <span class="s">&#39;40423201&#39;</span><span class="p">,</span> <span class="s">&#39;40423202&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423203&#39;</span><span class="p">,</span> <span class="s">&#39;40423204&#39;</span><span class="p">,</span> <span class="s">&#39;40423205&#39;</span><span class="p">,</span> <span class="s">&#39;40423206&#39;</span><span class="p">,</span> <span class="s">&#39;40423207&#39;</span><span class="p">,</span> <span class="s">&#39;40423208&#39;</span><span class="p">,</span> <span class="s">&#39;40423209&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423210&#39;</span><span class="p">,</span> <span class="s">&#39;40423211&#39;</span><span class="p">,</span> <span class="s">&#39;40423212&#39;</span><span class="p">,</span> <span class="s">&#39;40423213&#39;</span><span class="p">,</span> <span class="s">&#39;40423214&#39;</span><span class="p">,</span> <span class="s">&#39;40423215&#39;</span><span class="p">,</span> <span class="s">&#39;40423216&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423217&#39;</span><span class="p">,</span> <span class="s">&#39;40423218&#39;</span><span class="p">,</span> <span class="s">&#39;40423219&#39;</span><span class="p">,</span> <span class="s">&#39;40423220&#39;</span><span class="p">,</span> <span class="s">&#39;40423221&#39;</span><span class="p">,</span> <span class="s">&#39;40423222&#39;</span><span class="p">,</span> <span class="s">&#39;40423223&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423224&#39;</span><span class="p">,</span> <span class="s">&#39;40423225&#39;</span><span class="p">,</span> <span class="s">&#39;40423226&#39;</span><span class="p">,</span> <span class="s">&#39;40423227&#39;</span><span class="p">,</span> <span class="s">&#39;40423228&#39;</span><span class="p">,</span> <span class="s">&#39;40423229&#39;</span><span class="p">,</span> <span class="s">&#39;40423230&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423231&#39;</span><span class="p">,</span> <span class="s">&#39;40423232&#39;</span><span class="p">,</span> <span class="s">&#39;40423233&#39;</span><span class="p">,</span> <span class="s">&#39;40423234&#39;</span><span class="p">,</span> <span class="s">&#39;40423235&#39;</span><span class="p">,</span> <span class="s">&#39;40423236&#39;</span><span class="p">,</span> <span class="s">&#39;40423237&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423238&#39;</span><span class="p">,</span> <span class="s">&#39;40423239&#39;</span><span class="p">,</span> <span class="s">&#39;40423240&#39;</span><span class="p">,</span> <span class="s">&#39;40423241&#39;</span><span class="p">,</span> <span class="s">&#39;40423242&#39;</span><span class="p">,</span> <span class="s">&#39;40423243&#39;</span><span class="p">,</span> <span class="s">&#39;40423244&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423245&#39;</span><span class="p">,</span> <span class="s">&#39;40423246&#39;</span><span class="p">,</span> <span class="s">&#39;40423247&#39;</span><span class="p">,</span> <span class="s">&#39;40423248&#39;</span><span class="p">,</span> <span class="s">&#39;40423249&#39;</span><span class="p">,</span> <span class="s">&#39;40423250&#39;</span><span class="p">,</span> <span class="s">&#39;40423251&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423252&#39;</span><span class="p">,</span> <span class="s">&#39;40423253&#39;</span><span class="p">,</span> <span class="s">&#39;40423254&#39;</span><span class="p">]</span>
+
+<span class="n">cpb_name</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;吳承融&#39;</span><span class="p">,</span> <span class="s">&#39;盧毅民&#39;</span><span class="p">,</span> <span class="s">&#39;蔡依靜&#39;</span><span class="p">,</span> <span class="s">&#39;鍾文榮&#39;</span><span class="p">,</span> <span class="s">&#39;羅竟豪&#39;</span><span class="p">,</span> <span class="s">&#39;黃上芸&#39;</span><span class="p">,</span> <span class="s">&#39;楊俐瑾&#39;</span><span class="p">,</span> <span class="s">&#39;鄭惟芯&#39;</span><span class="p">,</span> <span class="s">&#39;王子陽&#39;</span><span class="p">,</span>
+            <span class="s">&#39;王彥斌&#39;</span><span class="p">,</span> <span class="s">&#39;王驍捷&#39;</span><span class="p">,</span> <span class="s">&#39;朱修林&#39;</span><span class="p">,</span> <span class="s">&#39;江碩宸&#39;</span><span class="p">,</span> <span class="s">&#39;余柏諺&#39;</span><span class="p">,</span> <span class="s">&#39;吳丹邁&#39;</span><span class="p">,</span> <span class="s">&#39;吳東霖&#39;</span><span class="p">,</span> <span class="s">&#39;吳秉駿&#39;</span><span class="p">,</span> <span class="s">&#39;李世欽&#39;</span><span class="p">,</span>
+            <span class="s">&#39;李奇軒&#39;</span><span class="p">,</span> <span class="s">&#39;李泓毅&#39;</span><span class="p">,</span> <span class="s">&#39;李彥錞&#39;</span><span class="p">,</span> <span class="s">&#39;阮奕誠&#39;</span><span class="p">,</span> <span class="s">&#39;周政叡&#39;</span><span class="p">,</span> <span class="s">&#39;林宏一&#39;</span><span class="p">,</span> <span class="s">&#39;林易寬&#39;</span><span class="p">,</span> <span class="s">&#39;林建辰&#39;</span><span class="p">,</span> <span class="s">&#39;林稟儀&#39;</span><span class="p">,</span>
+            <span class="s">&#39;林德威&#39;</span><span class="p">,</span> <span class="s">&#39;林瀟俊&#39;</span><span class="p">,</span> <span class="s">&#39;洪嘉緯&#39;</span><span class="p">,</span> <span class="s">&#39;胡原愷&#39;</span><span class="p">,</span> <span class="s">&#39;徐英軒&#39;</span><span class="p">,</span> <span class="s">&#39;張育誠&#39;</span><span class="p">,</span> <span class="s">&#39;張祐瑜&#39;</span><span class="p">,</span> <span class="s">&#39;張竣皓&#39;</span><span class="p">,</span> <span class="s">&#39;連緒&#39;</span><span class="p">,</span>
+            <span class="s">&#39;郭金豪&#39;</span><span class="p">,</span> <span class="s">&#39;郭雲軒&#39;</span><span class="p">,</span> <span class="s">&#39;陳俊瑋&#39;</span><span class="p">,</span> <span class="s">&#39;陳威憲&#39;</span><span class="p">,</span> <span class="s">&#39;陳韋凡&#39;</span><span class="p">,</span> <span class="s">&#39;陳憲棠&#39;</span><span class="p">,</span> <span class="s">&#39;彭子旻&#39;</span><span class="p">,</span> <span class="s">&#39;游智文&#39;</span><span class="p">,</span> <span class="s">&#39;黃柏杰&#39;</span><span class="p">,</span>
+            <span class="s">&#39;黃鈺灃&#39;</span><span class="p">,</span> <span class="s">&#39;楊哲維&#39;</span><span class="p">,</span> <span class="s">&#39;楊錦鑫&#39;</span><span class="p">,</span> <span class="s">&#39;詹晏傑&#39;</span><span class="p">,</span> <span class="s">&#39;廖洪欽&#39;</span><span class="p">,</span> <span class="s">&#39;劉永駿&#39;</span><span class="p">,</span> <span class="s">&#39;劉俊成&#39;</span><span class="p">,</span> <span class="s">&#39;蔡昆傑&#39;</span><span class="p">,</span> <span class="s">&#39;蔡憲佳&#39;</span><span class="p">,</span>
+            <span class="s">&#39;鄭裕倫&#39;</span><span class="p">,</span> <span class="s">&#39;賴信穎&#39;</span><span class="p">,</span> <span class="s">&#39;謝孟哲&#39;</span><span class="p">,</span> <span class="s">&#39;簡嘉宏&#39;</span><span class="p">,</span> <span class="s">&#39;蘇柏丞&#39;</span><span class="p">]</span>
+
+<span class="c"># 碼表歸零</span>
+<span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="c"># 設法逐一列出成員姓名</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">cpb_name</span><span class="p">)):</span>
+    <span class="c"># 已經取得各成員姓名為 cpb_name</span>
+    <span class="c"># 因為只對姓進行檢查, 而姓為 cpb_name[i][0]</span>
+    <span class="c"># 利用 if 判斷姓是否為 &quot;蔡&quot;</span>
+    <span class="k">if</span> <span class="n">cpb_name</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s">&quot;蔡&quot;</span><span class="p">:</span>
+        <span class="n">count</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>3
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+點名
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="n">cpb_number</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;40023215&#39;</span><span class="p">,</span> <span class="s">&#39;40123157&#39;</span><span class="p">,</span> <span class="s">&#39;40123210&#39;</span><span class="p">,</span> <span class="s">&#39;40123254&#39;</span><span class="p">,</span> <span class="s">&#39;40223252&#39;</span><span class="p">,</span> <span class="s">&#39;40423201&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423202&#39;</span><span class="p">,</span> <span class="s">&#39;40423203&#39;</span><span class="p">,</span> <span class="s">&#39;40423204&#39;</span><span class="p">,</span> <span class="s">&#39;40423205&#39;</span><span class="p">,</span> <span class="s">&#39;40423206&#39;</span><span class="p">,</span> <span class="s">&#39;40423207&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423208&#39;</span><span class="p">,</span> <span class="s">&#39;40423209&#39;</span><span class="p">,</span> <span class="s">&#39;40423210&#39;</span><span class="p">,</span> <span class="s">&#39;40423211&#39;</span><span class="p">,</span> <span class="s">&#39;40423212&#39;</span><span class="p">,</span> <span class="s">&#39;40423213&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423214&#39;</span><span class="p">,</span> <span class="s">&#39;40423215&#39;</span><span class="p">,</span> <span class="s">&#39;40423216&#39;</span><span class="p">,</span> <span class="s">&#39;40423217&#39;</span><span class="p">,</span> <span class="s">&#39;40423218&#39;</span><span class="p">,</span> <span class="s">&#39;40423219&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423220&#39;</span><span class="p">,</span> <span class="s">&#39;40423221&#39;</span><span class="p">,</span> <span class="s">&#39;40423222&#39;</span><span class="p">,</span> <span class="s">&#39;40423223&#39;</span><span class="p">,</span> <span class="s">&#39;40423224&#39;</span><span class="p">,</span> <span class="s">&#39;40423225&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423226&#39;</span><span class="p">,</span> <span class="s">&#39;40423227&#39;</span><span class="p">,</span> <span class="s">&#39;40423228&#39;</span><span class="p">,</span> <span class="s">&#39;40423229&#39;</span><span class="p">,</span> <span class="s">&#39;40423230&#39;</span><span class="p">,</span> <span class="s">&#39;40423231&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423232&#39;</span><span class="p">,</span> <span class="s">&#39;40423233&#39;</span><span class="p">,</span> <span class="s">&#39;40423234&#39;</span><span class="p">,</span> <span class="s">&#39;40423235&#39;</span><span class="p">,</span> <span class="s">&#39;40423236&#39;</span><span class="p">,</span> <span class="s">&#39;40423237&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423238&#39;</span><span class="p">,</span> <span class="s">&#39;40423239&#39;</span><span class="p">,</span> <span class="s">&#39;40423240&#39;</span><span class="p">,</span> <span class="s">&#39;40423241&#39;</span><span class="p">,</span> <span class="s">&#39;40423242&#39;</span><span class="p">,</span> <span class="s">&#39;40423243&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423244&#39;</span><span class="p">,</span> <span class="s">&#39;40423245&#39;</span><span class="p">,</span> <span class="s">&#39;40423246&#39;</span><span class="p">,</span> <span class="s">&#39;40423247&#39;</span><span class="p">,</span> <span class="s">&#39;40423248&#39;</span><span class="p">,</span> <span class="s">&#39;40423249&#39;</span><span class="p">,</span>
+              <span class="s">&#39;40423250&#39;</span><span class="p">,</span> <span class="s">&#39;40423251&#39;</span><span class="p">,</span> <span class="s">&#39;40423252&#39;</span><span class="p">,</span> <span class="s">&#39;40423253&#39;</span><span class="p">,</span> <span class="s">&#39;40423254&#39;</span><span class="p">]</span>
+
+<span class="n">cpb_name</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;吳承融&#39;</span><span class="p">,</span> <span class="s">&#39;盧毅民&#39;</span><span class="p">,</span> <span class="s">&#39;蔡依靜&#39;</span><span class="p">,</span> <span class="s">&#39;鍾文榮&#39;</span><span class="p">,</span> <span class="s">&#39;羅竟豪&#39;</span><span class="p">,</span> <span class="s">&#39;黃上芸&#39;</span><span class="p">,</span> <span class="s">&#39;楊俐瑾&#39;</span><span class="p">,</span> <span class="s">&#39;鄭惟芯&#39;</span><span class="p">,</span>
+            <span class="s">&#39;王子陽&#39;</span><span class="p">,</span> <span class="s">&#39;王彥斌&#39;</span><span class="p">,</span> <span class="s">&#39;王驍捷&#39;</span><span class="p">,</span> <span class="s">&#39;朱修林&#39;</span><span class="p">,</span> <span class="s">&#39;江碩宸&#39;</span><span class="p">,</span> <span class="s">&#39;余柏諺&#39;</span><span class="p">,</span> <span class="s">&#39;吳丹邁&#39;</span><span class="p">,</span> <span class="s">&#39;吳東霖&#39;</span><span class="p">,</span>
+            <span class="s">&#39;吳秉駿&#39;</span><span class="p">,</span> <span class="s">&#39;李世欽&#39;</span><span class="p">,</span> <span class="s">&#39;李奇軒&#39;</span><span class="p">,</span> <span class="s">&#39;李泓毅&#39;</span><span class="p">,</span> <span class="s">&#39;李彥錞&#39;</span><span class="p">,</span> <span class="s">&#39;阮奕誠&#39;</span><span class="p">,</span> <span class="s">&#39;周政叡&#39;</span><span class="p">,</span> <span class="s">&#39;林宏一&#39;</span><span class="p">,</span>
+            <span class="s">&#39;林易寬&#39;</span><span class="p">,</span> <span class="s">&#39;林建辰&#39;</span><span class="p">,</span> <span class="s">&#39;林稟儀&#39;</span><span class="p">,</span> <span class="s">&#39;林德威&#39;</span><span class="p">,</span> <span class="s">&#39;林瀟俊&#39;</span><span class="p">,</span> <span class="s">&#39;洪嘉緯&#39;</span><span class="p">,</span> <span class="s">&#39;胡原愷&#39;</span><span class="p">,</span> <span class="s">&#39;徐英軒&#39;</span><span class="p">,</span>
+            <span class="s">&#39;張育誠&#39;</span><span class="p">,</span> <span class="s">&#39;張祐瑜&#39;</span><span class="p">,</span> <span class="s">&#39;張竣皓&#39;</span><span class="p">,</span> <span class="s">&#39;連緒&#39;</span><span class="p">,</span> <span class="s">&#39;郭金豪&#39;</span><span class="p">,</span> <span class="s">&#39;郭雲軒&#39;</span><span class="p">,</span> <span class="s">&#39;陳俊瑋&#39;</span><span class="p">,</span> <span class="s">&#39;陳威憲&#39;</span><span class="p">,</span>
+            <span class="s">&#39;陳韋凡&#39;</span><span class="p">,</span> <span class="s">&#39;陳憲棠&#39;</span><span class="p">,</span> <span class="s">&#39;彭子旻&#39;</span><span class="p">,</span> <span class="s">&#39;游智文&#39;</span><span class="p">,</span> <span class="s">&#39;黃柏杰&#39;</span><span class="p">,</span> <span class="s">&#39;黃鈺灃&#39;</span><span class="p">,</span> <span class="s">&#39;楊哲維&#39;</span><span class="p">,</span> <span class="s">&#39;楊錦鑫&#39;</span><span class="p">,</span>
+            <span class="s">&#39;詹晏傑&#39;</span><span class="p">,</span> <span class="s">&#39;廖洪欽&#39;</span><span class="p">,</span> <span class="s">&#39;劉永駿&#39;</span><span class="p">,</span> <span class="s">&#39;劉俊成&#39;</span><span class="p">,</span> <span class="s">&#39;蔡昆傑&#39;</span><span class="p">,</span> <span class="s">&#39;蔡憲佳&#39;</span><span class="p">,</span> <span class="s">&#39;鄭裕倫&#39;</span><span class="p">,</span> <span class="s">&#39;賴信穎&#39;</span><span class="p">,</span>
+            <span class="s">&#39;謝孟哲&#39;</span><span class="p">,</span> <span class="s">&#39;簡嘉宏&#39;</span><span class="p">,</span> <span class="s">&#39;蘇柏丞&#39;</span><span class="p">]</span>
+
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="n">roll_call_num</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s">&quot;how many roll calls?&quot;</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">roll_call_num</span><span class="p">):</span>
+    <span class="n">roll</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">cpb_number</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">cpb_number</span><span class="p">[</span><span class="n">roll</span><span class="p">],</span><span class="n">cpb_name</span><span class="p">[</span><span class="n">roll</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>how many roll calls?2
+40423247 劉俊成
+40423224 林瀟俊
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></p>
 <p>Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
 <iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<p><p><a href="https://vimeo.com/137724068">Welcome Speech</a> from <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程系 KMOL</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>註腳會連結到這裡.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div></div>
+<p><p><a href="https://vimeo.com/137724068">Welcome Speech</a> from <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程系 KMOL</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -187,6 +369,9 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
+          <a href="./2015cp_hw_w17.html">2015 計算機程式 作業十七</a>
+      </li>
+      <li class="post">
           <a href="./2015cp_hw_w15.html">2015 計算機程式 作業十五</a>
       </li>
       <li class="post">
@@ -197,9 +382,6 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
       </li>
       <li class="post">
           <a href="./2015cp_hw_w12.html">2015 計算機程式 作業十二</a>
-      </li>
-      <li class="post">
-          <a href="./2015cp_hw_w1.html">2015 計算機程式 作業一</a>
       </li>
     </ul>
   </section>
@@ -230,14 +412,14 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
             <li><a href="http://wordpress-2015course.rhcloud.com/" target="_blank">2015課程網頁</a></li>
             <li><a href="http://python.org/" target="_blank">Python</a></li>
             <li><a href="../../" target="_blank">2015作業主頁</a></li>
-            <li><a href="http://40423245.github.io/cpbw18/" target="_blank">40423245倉儲</a></li>
+            <li><a href="http://40423245.github.io/cpbw18/" target="_blank">40423245 個人網頁</a></li>
         </ul>
     </section>
 
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-    Copyright &copy;  2015  40423245 &mdash;
+    Copyright &copy;  2015&ndash;2016  40423245 &mdash;
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   <script src="./theme/js/modernizr-2.0.js"></script>

@@ -52,118 +52,174 @@
 <time datetime="2015-12-06T11:41:00+08:00" pubdate>週日 06 十二月 2015</time>    </p>
 </header>
 
-  <div class="entry-content"><p>以下作業八為內容</p>
-<iframe src="40423245_cp_w12_p.html" width="500" height="300"></iframe>
+  <div class="entry-content"><p>以下為作業十二內容</p>
+<p>利用 iframe 嵌入投影片:</p>
+<iframe src="40423245_cp_w12.html" width="500" height="300"></iframe>
 
-<p><a href="40423245_cp_w12_p.html" target="_blank">作業八投影片</a></p>
-<h1>使用 H1 標題</h1>
-<p>文字段落間若要跳行, 必須插入空白行, 否則將會被 Markdown 視為連續的資料</p>
-<p>使用. <em>斜體文字</em>, <strong>黑體文字</strong>, 以及 <code>單線文字</code>. 表列資料可以寫為:</p>
-<ul>
-<li>第1項說明</li>
-<li>第2項說明</li>
-<li>第3項說明</li>
-</ul>
-<p>特別注意 --- 不包括星號 --- 表列文字從第四欄位開始.</p>
-<blockquote>
-<p>引用的內容寫在這裡
-主要是以大於的符號開頭.</p>
-<p>其中也可以利用空白行隔開,
-整區都是引用內容的範圍.</p>
-</blockquote>
-<p>em-dash 符號是3個 dashes. 利用兩個 dashes 來連接開始與結束 (ex., "這個禮拜要閱讀章節 12--14"). 3個逗點 ... 則會被轉為 ellipsis.
-pelican 可以支援 unicode. ☺</p>
-<h2>H2 標題</h2>
-<p>有數字的表列資料:</p>
-<ol>
-<li>第1項</li>
-<li>第2項</li>
-<li>第3項</li>
-</ol>
-<p>跟前面一樣, 文字從第四個欄位開始.</p>
-<p>程式碼的表達:</p>
-<div class="highlight"><pre># for 重複迴圈 ...
-for i in 1 .. 10 { 呼叫特定函式(i) }
+<p><a href="40423245_cp_w12.html" target="_blank">作業十二投影片</a></p>
+<p>Jupyter notebook 檔案內容:</p>
+<p>猜顏色遊戲
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span class="kn">import</span> <span class="nn">random</span>
+<span class="c"># 產生標準答案</span>
+<span class="c"># 利用list數列資料型別建立顏色選項</span>
+<span class="c"># Red 紅色, White 白色, Yellow 黃色, Green 綠色, Blue 藍色, Purple 紫色, 假設顏色值不會重複</span>
+<span class="nb">print</span><span class="p">(</span><span class="s">&#39;&#39;&#39;遊戲規則說明: 可選顏色值, </span><span class="se">\n</span><span class="s">Red 紅色 , White 白色, Yellow 黃色, Green 綠色, Blue 藍色, Purple 紫色,  </span><span class="se">\n</span><span class="s">RWYGBP, </span><span class="se">\n</span><span class="s">X  表示顏色與位置都對, O 表示顏色對, 但是位置不對.</span>
+<span class="s">&#39;&#39;&#39;</span><span class="p">)</span>
+
+<span class="n">顏色選項</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;R&quot;</span><span class="p">,</span> <span class="s">&quot;W&quot;</span><span class="p">,</span> <span class="s">&quot;Y&quot;</span><span class="p">,</span> <span class="s">&quot;G&quot;</span><span class="p">,</span> <span class="s">&quot;B&quot;</span><span class="p">,</span> <span class="s">&quot;P&quot;</span><span class="p">]</span>
+<span class="n">標準答案</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">顏色選項</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">標準答案</span><span class="p">)</span>
+
+<span class="n">顏色字串</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+<span class="n">幾次決勝</span> <span class="o">=</span> <span class="mi">9</span>
+<span class="n">猜測次數</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">遊戲進行中</span> <span class="o">=</span> <span class="k">True</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s">&quot;總共有&quot;</span><span class="p">,</span> <span class="n">幾次決勝</span> <span class="o">-</span> <span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次機會,可以猜!&quot;</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">顏色選項</span><span class="p">)):</span>
+    <span class="n">顏色字串</span> <span class="o">+=</span> <span class="n">顏色選項</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+<span class="c"># print (顏色字串)</span>
+
+
+
+<span class="k">while</span> <span class="n">遊戲進行中</span><span class="p">:</span>
+    <span class="n">位置顏色都正確</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+    <span class="n">顏色對位置錯</span> <span class="o">=</span> <span class="s">&quot;&quot;</span>
+    <span class="c">#將使用者的輸入轉為大寫英文字母</span>
+    <span class="n">使用者猜測輸入</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;請從下列顏色值中選四個, &quot;</span><span class="o">+</span><span class="n">顏色字串</span><span class="o">+</span><span class="s">&quot;: &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+    <span class="n">猜測次數</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="c">#檢驗是否輸入四個顏色字母</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">使用者猜測輸入</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">標準答案</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">只能猜四個顏色, 請重猜!&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">剩下&quot;</span><span class="p">,</span> <span class="n">幾次決勝</span> <span class="o">-</span> <span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次機會,可以猜: &quot;</span><span class="p">)</span>
+        <span class="k">continue</span>
+    <span class="c">#檢驗是否重複選擇相同顏色</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">使用者猜測輸入</span><span class="p">)</span> <span class="o">&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">使用者猜測輸入</span><span class="p">)):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">顏色值不能重複!&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">剩下&quot;</span><span class="p">,</span> <span class="n">幾次決勝</span> <span class="o">-</span> <span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次機會,可以猜: &quot;</span><span class="p">)</span>
+        <span class="k">continue</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+        <span class="c">#判斷是否從顏色選項輸入</span>
+        <span class="k">if</span> <span class="n">使用者猜測輸入</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">顏色選項</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">只能從下列顏色選項中輸入!&quot;</span><span class="p">,</span> <span class="n">顏色選項</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">剩下&quot;</span><span class="p">,</span> <span class="n">幾次決勝</span><span class="o">-</span><span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次機會,可以猜: &quot;</span><span class="p">)</span>
+            <span class="k">continue</span>
+
+    <span class="k">if</span> <span class="n">位置顏色都正確</span> <span class="o">!=</span> <span class="s">&quot;XXXX&quot;</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">使用者猜測輸入</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">標準答案</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
+                <span class="n">位置顏色都正確</span> <span class="o">+=</span> <span class="s">&quot;X&quot;</span>
+            <span class="k">if</span> <span class="n">使用者猜測輸入</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">標準答案</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">and</span> <span class="n">使用者猜測輸入</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">in</span> <span class="n">標準答案</span><span class="p">:</span>
+                <span class="n">顏色對位置錯</span> <span class="o">+=</span> <span class="s">&quot;O&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">位置顏色都正確</span> <span class="o">+</span> <span class="n">顏色對位置錯</span> <span class="o">+</span> <span class="s">&quot;</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">位置顏色都正確</span> <span class="o">==</span> <span class="s">&quot;XXXX&quot;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">猜測次數</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;太神奇了, 1 次就猜對!&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;還不錯...總共猜了 &quot;</span> <span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">猜測次數</span><span class="p">)</span><span class="o">+</span> <span class="s">&quot;次, 終於猜對!&quot;</span><span class="p">)</span>
+        <span class="n">遊戲進行中</span> <span class="o">=</span> <span class="k">False</span>
+
+    <span class="k">if</span> <span class="n">猜測次數</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">猜測次數</span> <span class="o">&lt;</span> <span class="n">幾次決勝</span> <span class="ow">and</span> <span class="n">位置顏色都正確</span> <span class="o">!=</span> <span class="s">&quot;XXXX&quot;</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;剩下&quot;</span><span class="p">,</span> <span class="n">幾次決勝</span> <span class="o">-</span> <span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次機會, 可以再猜: &quot;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">猜測次數</span> <span class="o">&gt;=</span> <span class="n">幾次決勝</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s">&quot;沒有猜對! 答案顏色值為: &quot;</span> <span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">標準答案</span><span class="p">))</span>
+        <span class="n">遊戲進行中</span> <span class="o">=</span> <span class="k">False</span>
+
+    <span class="c"># 詢問要不要再玩</span>
+    <span class="k">while</span> <span class="n">遊戲進行中</span> <span class="o">==</span> <span class="k">False</span><span class="p">:</span>
+        <span class="n">遊戲結束詢問</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s">&quot;</span><span class="se">\n</span><span class="s">要不要再玩 (Y/N)?&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+        <span class="c"># 猜測次數歸零</span>
+        <span class="n">猜測次數</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">if</span> <span class="n">遊戲結束詢問</span> <span class="o">==</span> <span class="s">&quot;N&quot;</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;歡迎再回來玩!&quot;</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">遊戲結束詢問</span> <span class="o">==</span> <span class="s">&quot;Y&quot;</span><span class="p">:</span>
+            <span class="n">遊戲進行中</span> <span class="o">=</span> <span class="k">True</span>
+            <span class="c"># 重新產生標準答案</span>
+            <span class="n">標準答案</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="n">顏色選項</span><span class="p">,</span> <span class="mi">4</span><span class="p">)</span>
+            <span class="c"># print (標準答案)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;好, 在玩一次!&quot;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s">&quot;總共有 &quot;</span><span class="p">,</span> <span class="n">幾次決勝</span><span class="o">-</span><span class="n">猜測次數</span><span class="p">,</span> <span class="s">&quot;次機會, 可以猜!&quot;</span><span class="p">)</span>
 </pre></div>
 
+</div>
+</div>
+</div>
 
-<p>這裡也是要空4個 space 鍵. </p>
-<p>除了每一行空4個空白, 也可以使用 delimited 來界定程式碼範圍, 就像這樣:</p>
-<div class="highlight"><pre>define foobar() {
-    print(&quot;歡迎進入程式的世界!&quot;)
-}
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>遊戲規則說明: 可選顏色值, 
+Red 紅色 , White 白色, Yellow 黃色, Green 綠色, Blue 藍色, Purple 紫色,  
+RWYGBP, 
+X  表示顏色與位置都對, O 表示顏色對, 但是位置不對.
+
+[&apos;B&apos;, &apos;R&apos;, &apos;G&apos;, &apos;W&apos;]
+總共有 9 次機會,可以猜!
+請從下列顏色值中選四個, RWYGBP: RWYG
+OOO
+
+剩下 8 次機會, 可以再猜: 
+請從下列顏色值中選四個, RWYGBP: RWYB
+OOO
+
+剩下 7 次機會, 可以再猜: 
+請從下列顏色值中選四個, RWYGBP: RWYP
+OO
+
+剩下 6 次機會, 可以再猜: 
+請從下列顏色值中選四個, RWYGBP: WYGB
+XOO
+
+剩下 5 次機會, 可以再猜: 
+請從下列顏色值中選四個, RWYGBP: YGBR
+OOO
+
+剩下 4 次機會, 可以再猜: 
+請從下列顏色值中選四個, RWYGBP: WGBR
+OOOO
+
+剩下 3 次機會, 可以再猜: 
+請從下列顏色值中選四個, RWYGBP: BRGW
+XXXX
+
+還不錯...總共猜了 7次, 終於猜對!
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre> 
 </pre></div>
 
+</div>
+</div>
+</div>
 
-<p>(這樣的表達比較容易用來複製程式碼內容).</p>
-<p>python 的程式碼, 可以寫成下列格式</p>
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">time</span>
-<span class="c"># 以下會從 0 數到 9</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-    <span class="c"># 稍微暫停一下</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-
-
-<p>以下為另外一種嵌入程式碼的方法:</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3
-4
-5
-6</pre></div></td><td class="code"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">time</span>
-<span class="c"># 以下會從 0 數到 9</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">):</span>
-    <span class="c"># 稍微暫停一下</span>
-    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-</td></tr></table>
-
-<h3>H3 標題</h3>
-<p>以下則為內嵌式的表列法t:</p>
-<ol>
-<li>
-<p>首先, 將完成下列元件的設計:</p>
-<ul>
-<li>轉向機構</li>
-<li>煞車系統</li>
-<li>踩踏機構</li>
-</ul>
-</li>
-<li>
-<p>接著連繫工業設計部門.</p>
-</li>
-<li>
-<p>確定上述元件的各項設計與用料都符合原始設計規格的要求
-    查驗表:</p>
-<div class="highlight"><pre>各元件材質
-車蓋顏色
-機構調校流程
-需要熱處理的元件列表
-</pre></div>
-
-
-<p>完成上述查驗後, 請通知品保部門, 以便接續處理.</p>
-</li>
-</ol>
-<p>特別注意各階資料都以內縮4個空白鍵來加以區隔, 包含最後一行.</p>
-<p>Markdown 的超文件連結寫法 <a href="http://www.google.com" target="_blank">連到 Google</a>, 也可以連到同目錄下的檔案 <a href="cadpbw1.html" target="_blank">cadpbw1.html</a>, 也能使用註腳 <sup id="fnref:1"><a class="footnote-ref" href="#fn:1" rel="footnote">1</a></sup>.</p>
-<p>放入圖檔, 可以直接利用 html 的 img 標註:</p>
-<p><img src="images/spur.png" width="500" alt="正齒輪繪圖"></img></p>
+</div></p>
 <p>Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
 <iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<p><p><a href="https://vimeo.com/137724068">Welcome Speech</a> from <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程系 KMOL</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-<div class="footnote">
-<hr />
-<ol>
-<li id="fn:1">
-<p>註腳會連結到這裡.&#160;<a class="footnote-backref" href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-</ol>
-</div></div>
+<p><p><a href="https://vimeo.com/137724068">Welcome Speech</a> from <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程系 KMOL</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -190,6 +246,9 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
+          <a href="./2015cp_hw_w17.html">2015 計算機程式 作業十七</a>
+      </li>
+      <li class="post">
           <a href="./2015cp_hw_w15.html">2015 計算機程式 作業十五</a>
       </li>
       <li class="post">
@@ -200,9 +259,6 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
       </li>
       <li class="post">
           <a href="./2015cp_hw_w12.html">2015 計算機程式 作業十二</a>
-      </li>
-      <li class="post">
-          <a href="./2015cp_hw_w1.html">2015 計算機程式 作業一</a>
       </li>
     </ul>
   </section>
@@ -233,14 +289,14 @@ for i in 1 .. 10 { 呼叫特定函式(i) }
             <li><a href="http://wordpress-2015course.rhcloud.com/" target="_blank">2015課程網頁</a></li>
             <li><a href="http://python.org/" target="_blank">Python</a></li>
             <li><a href="../../" target="_blank">2015作業主頁</a></li>
-            <li><a href="http://40423245.github.io/cpbw18/" target="_blank">40423245倉儲</a></li>
+            <li><a href="http://40423245.github.io/cpbw18/" target="_blank">40423245 個人網頁</a></li>
         </ul>
     </section>
 
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-    Copyright &copy;  2015  40423245 &mdash;
+    Copyright &copy;  2015&ndash;2016  40423245 &mdash;
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   <script src="./theme/js/modernizr-2.0.js"></script>

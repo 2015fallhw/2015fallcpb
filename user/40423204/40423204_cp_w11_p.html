@@ -1,0 +1,99 @@
+<!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 <section></section> 標示
+且支援平行與垂直的投影片配置方法
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>40423212-7</title>
+<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/default.css" id="theme">	
+	<!--增加對於 IE 早期版本的支援 -->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+<body>
+<!-- 將整個投影片包在 "reveal" class 中 -->
+<div class="reveal">
+<!-- 將所有投影片包在 "slides" class 中 -->
+<div class="slides">
+<!-- 以下為投影片 -->
+<!-- 每一個 section 都代表一張投影片,  -->
+<!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
+<section>
+    <h1>zero to hero python教學</h1>
+    <p>40423212 四設一乙 吳秉駿</p>		
+</section>
+	
+<section id="hw-task-seven">
+<h2>if相關指令</h2>
+通常會搭配會有不同答案的指令，像input，random等使用，在輸入不同的指令可以輸出不同的答案
+</section>
+
+<section>
+<h2>我們做個簡單的示範</h2>
+<br />
+天數=input('一個禮拜有___天?')
+<br />
+if 天數>7:
+<br />
+　　print(太多了)
+<br />
+elif 天數<7:
+<br />
+　　print(太少了)
+<br />
+elif 天數==7
+<br />
+　　print(答對了)
+<br />
+else :
+<br />
+    print(輸入的不是數字)
+</section>
+<section>
+input在前面提到過，是個可以提出問題互動的字串
+<br />
+if=的條件如果符合，就可以觸發下面的子字串
+<br/>
+elif是else if的縮寫，銜接在if的下面，與if有相同的用法及用途
+<br/>
+else通常做為if字串的收尾，表示"上述條件以外"觸發下面的子字串
+</section>
+<section>
+也有一些在if指令中很實用的字元
+<br />
+true/false指令:
+<br />
+可以做為開關使用，字串=true來開，字串=false來關，可間接寫入開或關的時候觸發字串
+<br />
+.upper()指令:
+<br />
+接在input後面，可以把輸入的大小寫默認為大寫
+<br />
+輸入a或A都會讀成A
+</section>
+<section>
+if指令通常會出錯在子字串的設定，跟條件的不足/錯誤，錯誤會很難檢查，輸入的時候要注意
+</section>
+<section>
+<h2>心得與自評</h2>
+在上課與作業用這個指令不少次，雖然至今還是挺容易出錯的，但對這個不錯用的指令也有一些認識。
+<br />
+個人給自己70分
+</div>
+</div>
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+<script>
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+</script>
+	
+</body>
+

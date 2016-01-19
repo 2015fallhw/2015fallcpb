@@ -62,8 +62,171 @@
 <p>1.Python3 的近端程式開發系統如何建立? 如何啟動?</p>
 <p>2.目前已經熟悉的 Python3 指令及語法有哪些? 請舉例說明.</p>
 <p>3.請利用流程圖, 簡要說明近端猜數字遊戲與猜顏色遊戲程式碼如何設計與運作.</p>
-<p>4.請各組員利用 Brython, 分別在各分組的 pelican 網頁文章中, 繪製一個歡慶耶誕的 2D 圖形.
-Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
+<p>4.請各組員利用 Brython, 分別在各分組的 pelican 網頁文章中, 繪製一個歡慶耶誕的 2D 圖形.</p>
+<div class="entry-content"><p>以下利用 Brython 在網頁寫 Python 繪圖</p> 
+<!-- 導入 brython_dist.js -->
+
+<script type="text/javascript" src="js/Brython3.2.3-20151122-082712/brython.js"></script> 
+
+<!-- 啟動 brython() --> 
+
+<script> 
+window.onload=function(){ 
+brython(1); 
+} 
+</script> 
+
+<!-- 以下利用 Brython 程式執行繪圖 --> 
+
+<canvas id="plotarea" width="500" height="500"></canvas> 
+
+<script type="text/python3"> 
+# 導入 doc 
+from browser import document as doc 
+import math 
+
+# 準備繪圖畫布 
+canvas = doc["plotarea"] 
+ctx = canvas.getContext("2d") 
+
+# 開始畫直線 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(250, 0)
+ctx.lineTo(150, 100)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(150, 100)
+ctx.lineTo(200, 100)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(200, 100)
+ctx.lineTo(100, 200)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(100, 200)
+ctx.lineTo(200, 200)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(200, 200)
+ctx.lineTo(50, 300)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(50, 300)
+ctx.lineTo(200, 300)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(200, 300)
+ctx.lineTo(0, 400)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(0, 400)
+ctx.lineTo(200, 400)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(200, 400)
+ctx.lineTo(200, 500)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(250, 0)
+ctx.lineTo(350, 100)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(350, 100)
+ctx.lineTo(300, 100)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(300, 100)
+ctx.lineTo(400, 200)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(400, 200)
+ctx.lineTo(300, 200)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(300, 200)
+ctx.lineTo(450, 300)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(450, 300)
+ctx.lineTo(300, 300)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(300, 300)
+ctx.lineTo(500, 400)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(500, 400)
+ctx.lineTo(300, 400)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(300, 400)
+ctx.lineTo(300, 500)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+ctx.beginPath() 
+ctx.lineWidth = 1 
+ctx.moveTo(300, 500)
+ctx.lineTo(200, 500)
+ctx.strokeStyle = "#006000" 
+ctx.stroke() 
+
+</script></div>
+
+<p>Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
 <iframe src="https://player.vimeo.com/video/137724068" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 <p><p><a href="https://vimeo.com/137724068">Welcome Speech</a> from <a href="https://vimeo.com/user24079973">虎尾科大機械設計工程系 KMOL</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p></div>
@@ -102,10 +265,10 @@ Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
           <a href="./2015cp_hw_w14.html">2015 計算機程式 作業十四</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w10.html">2015 計算機程式 作業十</a>
+          <a href="./2015cp_hw_w13.html">2015 計算機程式 作業十三</a>
       </li>
       <li class="post">
-          <a href="./2015cp_hw_w9.html">2015 計算機程式 作業九</a>
+          <a href="./2015cp_hw_w12.html">2015 計算機程式 作業十二</a>
       </li>
     </ul>
   </section>
@@ -120,7 +283,7 @@ Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
 
   <section>
   <h1>Tags</h1>
-    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>  </section>
+    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/pelican.html">pelican</a>  </section>
 
 
     <section>
@@ -136,7 +299,7 @@ Vimeo 影片嵌入(直接從 Vimeo 影片上的 Share 複製 html 碼):</p>
             <li><a href="http://wordpress-2015course.rhcloud.com/" target="_blank">2015課程網頁</a></li>
             <li><a href="http://python.org/" target="_blank">Python</a></li>
             <li><a href="../../" target="_blank">2015作業主頁</a></li>
-            <li><a href="http://40423245.github.io/cpbw18/" target="_blank">40423245  個人網頁</a></li>
+            <li><a href="http://40423245.github.io/cpbw18/" target="_blank">40423245 個人網頁</a></li>
         </ul>
     </section>
 

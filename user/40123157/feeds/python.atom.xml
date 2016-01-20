@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40123157 CPB 作業</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-08T16:00:00+08:00</updated><entry><title>2015 計算機程式 作業九 (期末報告)</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w9.html" rel="alternate"></link><updated>2016-01-08T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2016-01-08:reveal/2015cp_hw_w9.html</id><summary type="html">&lt;ul&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>2015FALL 40123157 CPB 期末報告</title><link href="http://coursemdetw.github.io/reveal/" rel="alternate"></link><link href="http://coursemdetw.github.io/reveal/feeds/python.atom.xml" rel="self"></link><id>http://coursemdetw.github.io/reveal/</id><updated>2016-01-15T16:00:00+08:00</updated><entry><title>2015 計算機程式 期末報告 (重點整理)</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w18.html" rel="alternate"></link><updated>2016-01-15T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2016-01-15:reveal/2015cp_hw_w18.html</id><summary type="html">&lt;iframe src="40123157_cp_w18_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="40123157_cp_w18_p.html" target="_blank"&gt;期末報告重點整理投影片&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;fix.zip&lt;/strong&gt;: 系統修復 &lt;a href="http://wordpress-2015course.rhcloud.com/?page_id=3633" target="_blank"&gt;2015Fall 課程: 課程可攜檔案下載&lt;/a&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -134,7 +137,18 @@
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;G10&lt;/strong&gt;期末分組報告: &lt;a href="http://2015fallhw.github.io/2015fallcpb/category/g10.html" target="_blank"&gt;2015fallcpb/G10&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業八 (自我評量)</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w8.html" rel="alternate"></link><updated>2015-11-06T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2015-11-06:reveal/2015cp_hw_w8.html</id><summary type="html">&lt;iframe src="40123157_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;期末學習心得&lt;/strong&gt;:
+            自期中以後課程內容一再重複上半學期所學，除了加強大家的程式基本觀念之外，也導入了幾個有趣的小程式，有猜數字遊戲、猜顏色遊戲、Python繪圖、小球彈跳模擬，透過上述程式來了解程式語法、架構、邏輯等，讓我們對於Python程式有更進一步的了解，培養雲端協同整合之技能，相信在未來全球工業 4.0 的趨勢下，必定能學以致用發光發熱。感謝老師這學期的用心教導，獲益良多！在此獻上感恩與祝福，敬祝老師身體健康、心想事成、新年快樂！&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;自評成績&lt;/strong&gt;: 80分 (理想是永無止盡的追求)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;※播放須知&lt;/strong&gt;: 由於網頁嵌入式影片畫質較低, 建議直接點案影片視窗右下角前往Vimeo瀏覽!&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/152390250" width="500" height="266" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;a href="https://vimeo.com/152390250"&gt;40123157_2015cpbw10~18&lt;/a&gt; from &lt;a href="https://vimeo.com/user25757242"&gt;盧毅民&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="pelican"></category><category term="publishing"></category></entry><entry><title>2015 計算機程式 作業八 (自我評量)</title><link href="http://coursemdetw.github.io/reveal/2015cp_hw_w8.html" rel="alternate"></link><updated>2015-11-06T16:00:00+08:00</updated><author><name>40123157</name></author><id>tag:coursemdetw.github.io,2015-11-06:reveal/2015cp_hw_w8.html</id><summary type="html">&lt;iframe src="40123157_cp_w8_p.html" width="500" height="300"&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;a href="40123157_cp_w8_p.html" target="_blank"&gt;作業八投影片&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;

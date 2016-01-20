@@ -4,8 +4,8 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>g10_w15_期末分組報告 &mdash; 2015FALL 40423240 CPB 作業</title>
-  <meta name="author" content="40423240">
+  <title>g10_w15_期末分組報告 &mdash; 2015FALL 40123157 CPB 期末報告</title>
+  <meta name="author" content="40123157">
 
 
 
@@ -31,7 +31,7 @@
 
 <body>
   <header role="banner"><hgroup>
-  <h1><a href="./">2015FALL 40423240 CPB 作業</a></h1>
+  <h1><a href="./">2015FALL 40123157 CPB 期末報告</a></h1>
 </hgroup></header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss">
 </ul>
@@ -237,72 +237,7 @@ ctx.lineTo(362, 105)
 ctx.strokeStyle = "rgb(0, 255, 0)"
 ctx.stroke()
 
-</script>
-
-<p>----------------------------------- 我是分隔線 -----------------------------------</p>
-<p>要提交推送之前, 先檢查 md 檔案有無唯一性, 因為若無唯一性, 怕會與其他組的 md 檔案彼此覆蓋.</p>
-<ul>
-<li>
-<p>因為 md 檔名為 g10_w15.md, 有冠上組別與週次, 所以不會與他組的 md 檔案衝突, 所有應該 ok</p>
-</li>
-<li>
-<p>slug 設為 g10_w15, 所以 pelican 轉檔後, 會位於班上網誌根目錄,  而且檔案名稱為 g10_w15.html, 所以也沒有問題</p>
-</li>
-<li>
-<p>檢查 Date, 確定為今天的日期與製作時間, 且 Category 為 g10</p>
-</li>
-<li>
-<p>開始利用 @button admin pelican 轉檔, 然後在近端先檢查, 若沒有問題, 推送到遠端</p>
-</li>
-<li>
-<p>另外, 在近端檢查內容時, 採用 Firefox 開啟, 顯示的速度會比 Chrome 快,  切記!!!</p>
-</li>
-</ul>
-<p>提交與推送步驟:</p>
-<ul>
-<li>git add -A</li>
-<li>git commit -m "w15 report from g10"</li>
-<li>git push origin gh-pages</li>
-<li>輸入帳號與密碼後, 推送到遠端</li>
-</ul>
-<h1>這裡進行 W15 第一次提交推送</h1>
-<p>推送過程, 因為距離上次 git clone 到推送期間, 已經有其他組推送新的資料, 此時 g10 近端並沒有遠端上其他組已經完成推送的資料, 因此要透過 git pull, 取回這些新的版本資料, 然後再利用 @button admin pelican 重新要求 pelican 再轉一次檔案 (why? 有誰知道?)
-並且在近端, 利用 Firefox 確定一切資料都正確無誤後, 再次提交推送.</p>
-<p>接下來, g10 想要利用 Jupyter, 讓處於同一區域網路的組員可以同步編寫報告, 所以就必須確認以下幾件準備工作:</p>
-<ul>
-<li>我們該如何啟動 Jupyter?, 在哪裡啟動 , 各組的 ipython notebook 才不會彼此覆蓋?</li>
-<li>啟動後, 各組員要如何編寫?</li>
-<li>各組員在正確的位置建立 ipython notebook 後, 組長又該如何將這些資料引入報告中?</li>
-</ul>
-<p>首先看一下 start.bat 中, 我們如何啟動 Jupyter :</p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
-2
-3</pre></div></td><td class="code"><div class="highlight"><pre><span class="k">cd</span> tmp
-start <span class="nv">%Disk%</span>:\Anaconda<span class="m">3</span>\python.exe <span class="s2">&quot;%Disk%:\Anaconda3\Scripts\ipython-script.py&quot;</span> \ 
-notebook --ip<span class="o">=</span><span class="nv">%thisip%</span> --certfile<span class="o">=</span><span class="nv">%Disk%</span>:\home\ssl_cert.pem --profile<span class="o">=</span>nbserver
-</pre></div>
-</td></tr></table>
-
-<p>很顯然, 根據第 1 行, 我們是在 tmp 目錄下啟動 Jupyter, 而且我們也把全班倉儲放在 tmp 目錄下, 所以一旦各組員透過瀏覽器, 連線到組長所開啟的 Jupyter, 就可以在全班倉儲下的 ipython notebook 對應目錄下建立檔案, 但是所謂 pelican 內建的所謂 ipython notebook 對應目錄在哪???</p>
-<p>就在 2015fallcpb/content/notebook 目錄下!!!</p>
-<p>所以現在假設 g10 共有三位組員, 希望透過 Jupyter 來同步編寫報告, 所以就必須到 2015fallcpb/content/notebook 目錄下, 建立g10 目錄, 然後兩位組員再將 ipython notebook 存在這個目錄, 那麼, 組員就可以利用 pelican liquid_tags 的語法, 將這些組員所建立的 ipython notebook 給整合到分組報告中.</p>
-<p>所以, 要使用 Jupyter 建立分組報告的步驟:</p>
-<ul>
-<li>在組長的  y:\tmp\2015fallcpb/content/notebook 目錄下, 建立 g10 子目錄 (必須在操作系統執行)</li>
-<li>各組員設法在 g10 目錄下編寫 ipython notebook, 然後用下列語法將這些 notebook 內容導進分組報告</li>
-</ul>
-<p>以下導入位於組長電腦 y:\tmp\2015fallcpb\content\notebook\g10 目錄下的 40123157_w15.ipynb 檔案:</p>
-<p>{% notebook g10/40123157_w15.ipynb %}</p>
-<p>當然是測試看看, 能否正確導入 40123157 組員所編寫的 40123157_w15 ipython notebook 內容.</p>
-<h1>經過測試無誤後, 再次提交推送</h1>
-<p>提交推送過程, 有發現遠端有新的版本 ,所以又執行 git pull, 拉回遠端的新資料後, 再 @button admin pelican 後, 檢查近端資料, 正確無誤後再行提交推送.</p>
-<h1>接下來由 40123210 組員利用 notebook 貢獻一張圖</h1>
-<p>{% notebook g10/40123210_w15.ipynb %}</p>
-<p>測試看看, 上面有沒有顯示一面國旗???</p>
-<h1>答案是有, 那麼各組員就可以利用相同的架構, 把耶誕卡繪圖整合進分組報告了</h1>
-<p>接下來要整合 40123254 的報告內容:</p>
-<p>{% notebook g10/40123254_w15.ipynb %}</p>
-<h1>在推送 40123254 資料時, 又碰到必須 pull, regenerage pelican</h1></div>
+</script></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
@@ -367,7 +302,11 @@ notebook --ip<span class="o">=</span><span class="nv">%thisip%</span> --certfile
 
   <section>
   <h1>Tags</h1>
+<<<<<<< HEAD
     <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/w17.html">w17</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/qi-mo-ping-fen.html">期末評分</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/w15.html">w15</a>  </section>
+=======
+    <a href="./tag/w17.html">w17</a>,    <a href="./tag/brython.html">Brython</a>,    <a href="./tag/w14.html">w14</a>,    <a href="./tag/jupyter.html">Jupyter</a>,    <a href="./tag/qi-mo-ping-fen.html">期末評分</a>,    <a href="./tag/publishing.html">publishing</a>,    <a href="./tag/ipython.html">IPython</a>,    <a href="./tag/pelican.html">pelican</a>,    <a href="./tag/w15.html">w15</a>  </section>
+>>>>>>> adfe28836110234925ef30dfed9a096a9ad1e8bc
 
 
     <section>
@@ -383,14 +322,18 @@ notebook --ip<span class="o">=</span><span class="nv">%thisip%</span> --certfile
             <li><a href="http://wordpress-2015course.rhcloud.com/" target="_blank">2015課程網頁</a></li>
             <li><a href="http://python.org/" target="_blank">Python</a></li>
             <li><a href="../../" target="_blank">2015作業主頁</a></li>
-            <li><a href="http://40423240.github.io/cpbtest2/" target="_blank">40423240 個人網頁</a></li>
+            <li><a href="https://github.com/2015fallhw/2015fallcpb/tree/gh-pages" target="_blank">[github] 2015fallhw/2015fallcpb</a></li>
+            <li><a href="https://github.com/40123157" target="_blank">[github] 40123157</a></li>
+            <li><a href="https://vimeo.com/user25757242" target="_blank">[vimeo] 40123157</a></li>
+            <li><a href="http://2015fallhw.github.io/2015fallcpb/category/g10.html" target="_blank">2015fallcpb/G10 分組報告</a></li>
+            <li><a href="http://40123157.github.io/cpbw8/" target="_blank">40123157 個人網頁</a></li>
         </ul>
     </section>
 
 </aside>    </div>
   </div>
   <footer role="contentinfo"><p>
-    Copyright &copy;  2015&ndash;2016  40423240 &mdash;
+    Copyright &copy;  2015&ndash;2016  40123157 &mdash;
   <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
 </p></footer>
   <script src="./theme/js/modernizr-2.0.js"></script>

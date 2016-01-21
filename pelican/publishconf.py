@@ -7,8 +7,8 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = '40123157'
-SITENAME = '2015FALL 40123157 CPB 期末報告'
+AUTHOR = 'kmol'
+SITENAME = '2015FALL CPB 協同作業主頁面 (課程已經結束)'
 SITEURL = ''
 
 PATH = 'content'
@@ -25,7 +25,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'), ('Python', 'http://python.org/'),  ('2015作業主頁', '../../'), ('[github] 2015fallhw/2015fallcpb', 'https://github.com/2015fallhw/2015fallcpb/tree/gh-pages'), ('[github] 40123157', 'https://github.com/40123157'), ('[vimeo] 40123157', 'https://vimeo.com/user25757242'), ('2015fallcpb/G10 分組報告', 'http://2015fallhw.github.io/2015fallcpb/category/g10.html'), ('40123157 個人網頁', 'http://40123157.github.io/cpbw8/'))
+LINKS = (('2015課程網頁', 'http://wordpress-2015course.rhcloud.com/'),
+         ('Python', 'http://python.org/'),('2015作業主頁', '../../'))
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/ametaireau'),
@@ -48,7 +49,7 @@ DISQUS_SITENAME = "2015fall"
 #GOOGLE_ANALYTICS = ""
 
 # 必須絕對目錄或相對於設定檔案所在目錄
-PLUGIN_PATHS = ['./../../../plugin']
+PLUGIN_PATHS = ['./../plugin']
 PLUGINS = ['liquid_tags.notebook']
 # 目錄設定相對於 reveal 下的 content 目錄
 NOTEBOOK_DIR = 'notebook'

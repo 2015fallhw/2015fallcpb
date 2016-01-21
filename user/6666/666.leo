@@ -27,6 +27,9 @@
 <v t="amd.20160111170057.1"><vh>@edit g4_w14_3.md</vh></v>
 <v t="leo.20160115140930.1"><vh>@edit 40423218_cp_w1.md</vh></v>
 <v t="leo.20160115141040.1"><vh>@edit g1_w16.md</vh></v>
+<v t="amd.20160121193523.1"><vh>@edit 9999_final_note.md</vh></v>
+<v t="amd.20160121193702.1"><vh>@edit g9_w15.md</vh></v>
+<v t="amd.20160121193732.1"><vh>@edit G6_w15_1.md</vh></v>
 </v>
 </v>
 </v>
